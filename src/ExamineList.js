@@ -1,14 +1,12 @@
 import React from 'react';
+import ExpandableListRow from './ExpandableListRow';
 
 class ExamineList extends React.Component {
     render() {
         let sinsdb = this.props.sinsdb;
 
         let elements = sinsdb.commandments.map( c =>
-            <div>
-                <h3>{c.title}</h3>
-                <p>{c.text}</p>
-            </div>
+            <ExpandableListRow title={c.title} text={c.text} key={c.title} />
         );
 
         return <div>
