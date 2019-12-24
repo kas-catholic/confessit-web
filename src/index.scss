@@ -4,6 +4,9 @@ $body-bg: #eee;
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 
+// Import Swiper
+@import 'swiper/swiper.scss';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

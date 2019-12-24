@@ -7,6 +7,7 @@ import sinsdb from './data/sinsdb_en';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Swiper from 'react-id-swiper';
 
 function App() {
 
@@ -14,14 +15,12 @@ function App() {
     <div className="App">
       <Container>
         <Row>
-          <Col lg="4">
-            <ExamineList sinsdb={sinsdb} />
-          </Col>
-          <Col lg="4">
-            <SinsList />
-          </Col>
-          <Col lg="4">
-            <Walkthrough />
+          <Col xs="12">
+            <Swiper>
+              <div><ExamineList sinsdb={sinsdb} /></div>
+              <div><SinsList /></div>
+              <div><Walkthrough /></div>
+            </Swiper>
           </Col>
         </Row>
       </Container>
