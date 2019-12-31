@@ -11,7 +11,15 @@ class ExamineList extends React.Component {
         obj[sin.commandment_id] = [];
       }
 
-      obj[sin.commandment_id].push(<ExamineItem text={sin.text} key={sin.sin_id} />);
+      obj[sin.commandment_id].push(
+        <ExamineItem
+          sinId={sin.sin_id}
+          text={sin.text}
+          key={sin.sin_id}
+          onAddSinId={this.props.onAddSinId}
+          onRemoveSinId={this.props.onRemoveSinId}
+        />
+      );
 
       return obj;
     }, {});

@@ -18,6 +18,10 @@ class App extends React.Component {
     this.sinsById = new Map(sinsdb.sins.map(s =>
       [s.sin_id, s]
     ));
+
+    // This binding is necessary to make `this` work in the callback
+    this.addSinId = this.addSinId.bind(this);
+    this.removeSinId = this.removeSinId.bind(this);
   }
 
   buildSinsList() {
@@ -26,6 +30,18 @@ class App extends React.Component {
     return sinIds.map(id =>
       this.sinsById.get(id).text_did
     );
+  }
+
+  addSinId(id) {
+    this.setState(state => ({
+      selectedSinIds: state.selectedSinIds.concat([id])
+    }));
+  }
+
+  removeSinId(id) {
+    this.setState(state => ({
+      selectedSinIds: state.selectedSinIds.filter(s => s !== id)
+    }));
   }
 
   render() {
@@ -37,7 +53,14 @@ class App extends React.Component {
           <Row>
             <Col xs="12">
               <Swiper>
-                <div><ExamineList sinsdb={sinsdb} selectedSinIds={this.state.selectedSinIds} /></div>
+                <div>
+                  <ExamineList
+                    sinsdb={sinsdb}
+                    selectedSinIds={this.state.selectedSinIds}
+                    onAddSinId={this.addSinId}
+                    onRemoveSinId={this.removeSinId}
+                  />
+                </div>
                 <div><SinsList sinsList={sinsList} /></div>
                 <div><Walkthrough sinsList={sinsList} /></div>
               </Swiper>
