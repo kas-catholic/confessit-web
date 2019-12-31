@@ -1,6 +1,6 @@
 import React from 'react';
 import CommandmentGroup from './CommandmentGroup';
-import SinItem from './SinItem';
+import ExamineItem from './ExamineItem';
 
 class ExamineList extends React.Component {
   render() {
@@ -11,7 +11,7 @@ class ExamineList extends React.Component {
         obj[sin.commandment_id] = [];
       }
 
-      obj[sin.commandment_id].push(<SinItem text={sin.text} key={sin.sin_id} />);
+      obj[sin.commandment_id].push(<ExamineItem text={sin.text} key={sin.sin_id} />);
 
       return obj;
     }, {});
