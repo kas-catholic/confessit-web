@@ -17,16 +17,27 @@ class CommandmentGroup extends React.Component {
     ));
   }
 
+  getClassName() {
+    return this.state.open ?
+      "fa fa-angle-up" :
+      "fa fa-angle-down";
+  }
+
+  getCollapseId() {
+    return `cmd-collapse-${this.props.cmdId}`
+  }
+
   render() {
     return <Card>
-      <Card.Header id="headingOne">
-        <Button onClick={this.handleClick} aria-controls="collapse-text">
-          <h2>{this.props.title}</h2>
-        </Button>
+      <Card.Header>
+          <h3>{this.props.title}</h3>
           <p>{this.props.text}</p>
+          <Button onClick={this.handleClick} aria-controls={this.getCollapseId()}>
+            <i className={this.getClassName()}></i>
+          </Button>
       </Card.Header>
   
-      <Collapse in={this.state.open} id="collapse-text">
+      <Collapse in={this.state.open} id={this.getCollapseId()}>
         {this.props.children}
       </Collapse>
     </Card>

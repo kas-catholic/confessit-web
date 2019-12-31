@@ -10,6 +10,17 @@ import Col from 'react-bootstrap/Col';
 import Swiper from 'react-id-swiper';
 
 class App extends React.Component {
+  swiperParams = {
+    slidesPerView: 1,
+    spaceBetween: 5,
+    breakpoints: {
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 10
+      }
+    }
+  };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -52,7 +63,7 @@ class App extends React.Component {
         <Container>
           <Row>
             <Col xs="12">
-              <Swiper>
+              <Swiper {...this.swiperParams}>
                 <div>
                   <ExamineList
                     sinsdb={sinsdb}

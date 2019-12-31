@@ -25,7 +25,7 @@ class ExamineList extends React.Component {
     }, {});
       
     let elements = sinsdb.commandments.map( c =>
-      <CommandmentGroup title={c.title} text={c.text} key={c.commandment_id}>
+      <CommandmentGroup title={c.title} text={c.text} cmdId={c.commandment_id} key={c.commandment_id}>
         <div>
           {sins[c.commandment_id]}
         </div>
