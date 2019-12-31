@@ -1,4 +1,5 @@
 import React from 'react';
+import './CommandmentGroup.scss';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Collapse from 'react-bootstrap/Collapse';

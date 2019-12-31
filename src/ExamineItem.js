@@ -1,5 +1,6 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card'
+import './ExamineItem.scss';
+import Card from 'react-bootstrap/Card';
 
 class ExamineItem extends React.Component {
   constructor(props) {
@@ -20,9 +21,10 @@ class ExamineItem extends React.Component {
   render() {
     return <Card>
       {this.props.text}
-      <label>
-        <input type="checkbox" onClick={this.handleClick} />
+      <label className="examine-check-container">
         Yes
+        <input type="checkbox" onClick={this.handleClick} />
+        <span class="examine-checkmark"></span>
       </label>
     </Card>
   }
