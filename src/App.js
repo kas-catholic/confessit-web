@@ -60,7 +60,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <Container>
+        <Container fluid={true}>
           <Row>
             <Col xs="12">
               <h1>ConfessIt</h1>
