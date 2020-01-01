@@ -33,7 +33,7 @@ class ExamineList extends React.Component {
     );
 
     return <div>
-      <h2>Examine List</h2>
+      <h2>Examine</h2>
       {elements}
     </div>;
   }

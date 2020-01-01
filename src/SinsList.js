@@ -11,7 +11,7 @@ class SinsList extends React.Component {
 
     return (
       <div>
-        <h2>Sins List</h2>
+        <h2>Review</h2>
         {sinCards}
       </div>
     );

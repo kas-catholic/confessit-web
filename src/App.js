@@ -24,7 +24,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedSinIds: [1, 2, 3]
+      selectedSinIds: []
     };
     this.sinsById = new Map(sinsdb.sins.map(s =>
       [s.sin_id, s]
@@ -61,6 +61,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <Container>
+          <Row>
+            <Col xs="12">
+              <h1>ConfessIt</h1>
+            </Col>
+          </Row>
           <Row>
             <Col xs="12">
               <Swiper {...this.swiperParams}>
