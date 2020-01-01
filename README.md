@@ -1,7 +1,6 @@
 # ConfessIt README
 
-The deployed website is available at <http://confessit.app.s3-website.us-east-1.amazonaws.com/>.
-(And soon at <https://confessit.app>.)
+The deployed website is available at <https://confessit.app>.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -55,7 +54,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-We're also using [Swiper](https://swiperjs.com/) via [react-id-swiper](https://github.com/kidjp85/react-id-swiper).
+We're using [Swiper](https://swiperjs.com/) via [react-id-swiper](https://github.com/kidjp85/react-id-swiper) for the swipable columns.
+
+The app is deployed to <https://confessit.app>, hosted on AWS S3 and CloudFront, configured with Route53.
 
 ### Code Splitting
 
