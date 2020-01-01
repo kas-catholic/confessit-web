@@ -1,3 +1,8 @@
+# ConfessIt README
+
+The deployed website is available at <http://confessit.app.s3-website.us-east-1.amazonaws.com/>.
+(And soon at <https://confessit.app>.)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -26,6 +31,13 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn deploy`
+
+Deploys the built website to AWS S3 using the AWS CLI.
+
+You must have the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) installed and authenticated for this to work correctly.
+The easiest way to install it is probably `pip3 install awscli --upgrade --user`. You'll need to run `aws configure` after installing.
 
 ### `yarn eject`
 
