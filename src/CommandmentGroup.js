@@ -29,8 +29,8 @@ class CommandmentGroup extends React.Component {
   }
 
   render() {
-    return <Card>
-      <Card.Header>
+    return <Card className="examine-group">
+      <Card.Header className="examine-header">
           <h3>{this.props.title}</h3>
           <p>{this.props.text}</p>
           <Button onClick={this.handleClick} aria-controls={this.getCollapseId()}>

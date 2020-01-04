@@ -19,7 +19,7 @@ class ExamineItem extends React.Component {
   }
 
   render() {
-    return <Card>
+    return <Card className="examine-item">
       {this.props.text}
       <label className="examine-check-container">
         Yes
