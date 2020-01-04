@@ -1,4 +1,5 @@
 import React from 'react';
+import './Walkthrough.scss';
 import PriestBubble from './PriestBubble';
 import UserBubble from './UserBubble';
 
