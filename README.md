@@ -31,13 +31,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn deploy`
-
-Deploys the built website to AWS S3 using the AWS CLI.
-
-You must have the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) installed and authenticated for this to work correctly.
-The easiest way to install it is probably `pip3 install awscli --upgrade --user`. You'll need to run `aws configure` after installing.
-
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
@@ -56,7 +49,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 We're using [Swiper](https://swiperjs.com/) via [react-id-swiper](https://github.com/kidjp85/react-id-swiper) for the swipable columns.
 
-The app is deployed to <https://confessit.app>, hosted on AWS S3 and CloudFront, configured with Route53.
+The app is deployed to <https://confessit.app>, hosted on AWS Amplify. See <amplify.yml> for build configuration.
 
 ### Code Splitting
 
