@@ -11,6 +11,7 @@ import Swiper from 'react-id-swiper';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import About from './About';
 
 class App extends React.Component {
   swiperParams = {
@@ -64,15 +65,15 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <Navbar sticky="top" bg="primary" expand="lg">
-            <Navbar.Brand className="text-white" href="#home"><h1>ConfessIt</h1></Navbar.Brand>
-            {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar sticky="top" variant="dark" bg="primary" expand="lg">
+            <Navbar.Brand href="/"><h1>ConfessIt</h1></Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
+              <Nav className="ml-auto text-white">
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
               </Nav>
-            </Navbar.Collapse> */}
+            </Navbar.Collapse>
           </Navbar>
           <Switch>
             <Route exact path="/">
@@ -100,7 +101,7 @@ class App extends React.Component {
               </Container>
             </Route>
             <Route path="/about">
-              <p>About</p>
+              <About />
             </Route>
           </Switch>
         </div>

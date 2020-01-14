@@ -10,6 +10,15 @@
   }
 }
 
+.navbar-dark {
+  .navbar-nav {
+    .nav-link {
+      color: white;
+      font-size: 1.4rem;
+    }
+  }
+}
+
 /* Make the container fill the window vertically, less the navbar. */
 .navbar {
   height: 4rem;
