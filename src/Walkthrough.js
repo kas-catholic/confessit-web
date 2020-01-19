@@ -6,7 +6,7 @@ import UserBubble from './UserBubble';
 class Walkthrough extends React.Component {
   render() {
     let sinCards = this.props.sinsList.map((text, index) =>
-      <UserBubble text={text} key={index} />
+      <UserBubble key={index}>{text}</UserBubble>
     );
 
     return (
