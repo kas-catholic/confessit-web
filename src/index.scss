@@ -1,6 +1,7 @@
 // Override default variables before the import
 $body-bg: #cea990;
 $body-color: #4c1e00;
+$primary: #800080;
 $theme-colors: (
   "primary": #800080
 );
@@ -27,4 +28,16 @@ code {
 
 h2, h3 {
   font-family: serif;
+}
+
+@include media-breakpoint-down(md) {
+  .nav-link {
+    background-color: $primary;
+    border-top: 2px solid $white;
+  }
+
+  .navbar-nav {
+    border: 4px solid $white;
+    border-top: 2px solid $white;
+  }
 }
