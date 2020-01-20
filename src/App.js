@@ -12,6 +12,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import About from './About';
+import AddButton from './AddButton';
 
 class App extends React.Component {
   swiperParams = {
@@ -28,7 +29,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedSinIds: []
+      selectedSinIds: [],
+      customSins: []
     };
     this.sinsById = new Map(sinsdb.sins.map(s =>
       [s.sin_id, s]
@@ -37,14 +39,17 @@ class App extends React.Component {
     // This binding is necessary to make `this` work in the callback
     this.addSinId = this.addSinId.bind(this);
     this.removeSinId = this.removeSinId.bind(this);
+    this.addCustomSin = this.addCustomSin.bind(this);
+    this.removeCustomSin = this.removeCustomSin.bind(this);
   }
 
   buildSinsList() {
     let sinIds = this.state.selectedSinIds;
     sinIds.sort();
+
     return sinIds.map(id =>
       this.sinsById.get(id).text_did
-    );
+    ).concat(this.state.customSins);
   }
 
   addSinId(id) {
@@ -56,6 +61,18 @@ class App extends React.Component {
   removeSinId(id) {
     this.setState(state => ({
       selectedSinIds: state.selectedSinIds.filter(s => s !== id)
+    }));
+  }
+
+  addCustomSin(text) {
+    this.setState(state => ({
+      customSins: state.customSins.concat([text])
+    }));
+  }
+
+  removeCustomSin(text) {
+    this.setState(state => ({
+      customSins: state.customSins.filter(s => s !== text)
     }));
   }
 
@@ -87,6 +104,8 @@ class App extends React.Component {
                           selectedSinIds={this.state.selectedSinIds}
                           onAddSinId={this.addSinId}
                           onRemoveSinId={this.removeSinId}
+                          customSins={this.state.customSins}
+                          onRemoveCustomSin={this.removeCustomSin}
                         />
                       </div>
                       <div className="col-scroll">
@@ -98,6 +117,7 @@ class App extends React.Component {
                     </Swiper>
                   </Col>
                 </Row>
+                <AddButton addCustomSin={this.addCustomSin} />
               </Container>
             </Route>
             <Route path="/about">
