@@ -21,11 +21,10 @@ class ExamineItem extends React.Component {
   render() {
     return <Card className="examine-item">
       {this.props.text}
-      <label className="examine-check-container">
-        Yes
-        <input type="checkbox" onClick={this.handleClick} />
-        <span class="examine-checkmark"></span>
-      </label>
+      <div class="md-checkbox">
+        <input id={"checkitem:" + this.props.sinId} type="checkbox" onClick={this.handleClick} />
+        <label for={"checkitem:" + this.props.sinId}>Yes</label>
+      </div>
     </Card>
   }
 }
