@@ -4,6 +4,17 @@ The deployed website is available at <https://confessit.app>.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Development
+
+Use `yarn start` as described [below](#yarn-start).
+
+## Production Deployment
+
+When you push to master, AWS Amplify automatically deploys. *Be careful what you push to master!!!*
+
+
+Below, you'll find the instructions for **Create React App**:
+
 ## Available Scripts
 
 In the project directory, you can run:
