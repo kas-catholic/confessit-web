@@ -95,7 +95,7 @@ class App extends React.Component {
       <BrowserRouter>
         <div className="App">
           <Navbar sticky="top" variant="dark" bg="primary" expand="lg">
-            <Navbar.Brand href="/"><h1>ConfessIt</h1></Navbar.Brand>
+            <Navbar.Brand href="/"><h1>ConfessIt (Beta)</h1></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto text-white">

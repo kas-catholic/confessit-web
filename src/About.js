@@ -4,6 +4,12 @@ import Container from 'react-bootstrap/Container';
 class About extends React.Component {
   render() {
     return <Container className="text-left">
+      <h2><strong>Beta</strong></h2>
+
+      <p><a href="https://confessit.app">ConfessIt.app</a> is currently in beta! While many features will work, you might notice some minor bugs. Importantly, it doesn't persist your data anywhere yet, so you'll lose your work if you close the tab.</p>
+
+      <p>This website, <a href="https://confessit.app">ConfessIt.app</a>, is based on the <a href="https://play.google.com/store/apps/details?id=com.mikekasberg.confessit">ConfessIt Android App</a> (created in 2012 by the same developer). While it's not (yet) a complete reproduction, it aims to make the app available to a wider range of users on a broader range of devices - including on the web and all mobile platforms!</p>
+
       <h2>About Confession</h2>
 
       <p>
