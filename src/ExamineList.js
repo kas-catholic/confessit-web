@@ -13,11 +13,12 @@ class ExamineList extends React.Component {
 
       obj[sin.commandment_id].push(
         <ExamineItem
+          selected={this.props.selectedSinIds.includes(sin.sin_id)}
           sinId={sin.sin_id}
           text={sin.text}
           key={sin.sin_id}
           onAddSinId={this.props.onAddSinId}
-          onRemoveSinId={this.props.onRemoveSinId}
+          onRemoveSinItem={this.props.onRemoveSinItem}
         />
       );
 

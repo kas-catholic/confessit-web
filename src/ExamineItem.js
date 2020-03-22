@@ -14,7 +14,7 @@ class ExamineItem extends React.Component {
     if (e.target.checked) {
       this.props.onAddSinId(this.props.sinId);
     } else {
-      this.props.onRemoveSinId(this.props.sinId);
+      this.props.onRemoveSinItem(({id: this.props.sinId}));
     }
   }
 
@@ -22,7 +22,7 @@ class ExamineItem extends React.Component {
     return <Card className="examine-item">
       {this.props.text}
       <div className="md-checkbox">
-        <input id={"checkitem:" + this.props.sinId} type="checkbox" onClick={this.handleClick} />
+        <input id={"checkitem:" + this.props.sinId} type="checkbox" checked={this.props.selected} onChange={this.handleClick} />
         <label htmlFor={"checkitem:" + this.props.sinId}>Yes</label>
       </div>
     </Card>

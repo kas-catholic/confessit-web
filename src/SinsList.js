@@ -1,13 +1,15 @@
 import React from 'react';
 import './SinsList.scss';
-import Card from 'react-bootstrap/Card';
+import SinListItem from './SinListItem';
 
 class SinsList extends React.Component {
   render() {
-    let sinCards = this.props.sinsList.map((text, index) =>
-      <Card key={index} className="sin-list-item">
-        {text}
-      </Card>
+    let sinCards = this.props.sinsList.map((sinItem, index) =>
+      <SinListItem
+        key = {index}
+        sinItem = {sinItem}
+        onRemoveSinItem = {this.props.onRemoveSinItem}
+      />
     );
 
     return (

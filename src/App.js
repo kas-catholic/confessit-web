@@ -38,7 +38,7 @@ class App extends React.Component {
 
     // This binding is necessary to make `this` work in the callback
     this.addSinId = this.addSinId.bind(this);
-    this.removeSinId = this.removeSinId.bind(this);
+    this.removeSinItem = this.removeSinItem.bind(this);
     this.addCustomSin = this.addCustomSin.bind(this);
     this.removeCustomSin = this.removeCustomSin.bind(this);
   }
@@ -47,8 +47,17 @@ class App extends React.Component {
     let sinIds = this.state.selectedSinIds;
 
     return sinIds.map(id =>
-      this.sinsById.get(id).text_did
-    ).concat(this.state.customSins);
+      ({
+        id: id,
+        text: this.sinsById.get(id).text_did
+      })
+    ).concat(
+      this.state.customSins.map(text =>
+        ({
+          text: text
+        })
+      )
+    );
   }
 
   addSinId(id) {
@@ -57,10 +66,14 @@ class App extends React.Component {
     }));
   }
 
-  removeSinId(id) {
-    this.setState(state => ({
-      selectedSinIds: state.selectedSinIds.filter(s => s !== id)
-    }));
+  removeSinItem(sinItem) {
+    if (sinItem["id"] !== null) {
+      this.setState(state => ({
+        selectedSinIds: state.selectedSinIds.filter(s => s !== sinItem.id)
+      }));
+    } else {
+      this.removeCustomSin(sinItem.text);
+    }
   }
 
   addCustomSin(text) {
@@ -102,13 +115,16 @@ class App extends React.Component {
                           sinsdb={sinsdb}
                           selectedSinIds={this.state.selectedSinIds}
                           onAddSinId={this.addSinId}
-                          onRemoveSinId={this.removeSinId}
+                          onRemoveSinItem={this.removeSinItem}
                           customSins={this.state.customSins}
                           onRemoveCustomSin={this.removeCustomSin}
                         />
                       </div>
                       <div className="col-scroll">
-                        <SinsList sinsList={sinsList} />
+                        <SinsList
+                          sinsList={sinsList}
+                          onRemoveSinItem={this.removeSinItem}
+                        />
                       </div>
                       <div className="col-scroll">
                         <Walkthrough sinsList={sinsList} />
