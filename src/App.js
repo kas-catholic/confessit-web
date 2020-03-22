@@ -45,7 +45,6 @@ class App extends React.Component {
 
   buildSinsList() {
     let sinIds = this.state.selectedSinIds;
-    sinIds.sort();
 
     return sinIds.map(id =>
       this.sinsById.get(id).text_did
