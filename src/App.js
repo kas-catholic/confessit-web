@@ -67,7 +67,7 @@ class App extends React.Component {
   }
 
   removeSinItem(sinItem) {
-    if (sinItem["id"] !== null) {
+    if (sinItem.hasOwnProperty("id") && sinItem.id !== null) {
       this.setState(state => ({
         selectedSinIds: state.selectedSinIds.filter(s => s !== sinItem.id)
       }));
