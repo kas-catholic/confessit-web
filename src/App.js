@@ -28,10 +28,17 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {
-      selectedSinIds: [],
-      customSins: []
-    };
+
+    let storedState = localStorage.getItem('state');
+    if (storedState != null) {
+      this.state = JSON.parse(storedState);
+    } else {
+      this.state = {
+        selectedSinIds: [],
+        customSins: []
+      };
+    }
+
     this.sinsById = new Map(sinsdb.sins.map(s =>
       [s.sin_id, s]
     ));
@@ -42,6 +49,7 @@ class App extends React.Component {
     this.addCustomSin = this.addCustomSin.bind(this);
     this.removeCustomSin = this.removeCustomSin.bind(this);
     this.clearAll = this.clearAll.bind(this);
+    this.persistData = this.persistData.bind(this);
   }
 
   buildSinsList() {
@@ -61,17 +69,22 @@ class App extends React.Component {
     );
   }
 
+  persistData() {
+    // Yes, this is quick & dirty. But it works and it's simple.
+    localStorage.setItem('state', JSON.stringify(this.state));
+  }
+
   addSinId(id) {
     this.setState(state => ({
       selectedSinIds: state.selectedSinIds.concat([id])
-    }));
+    }), this.persistData);
   }
 
   removeSinItem(sinItem) {
     if (sinItem.hasOwnProperty("id") && sinItem.id !== null) {
       this.setState(state => ({
         selectedSinIds: state.selectedSinIds.filter(s => s !== sinItem.id)
-      }));
+      }), this.persistData);
     } else {
       this.removeCustomSin(sinItem.text);
     }
@@ -80,20 +93,20 @@ class App extends React.Component {
   addCustomSin(text) {
     this.setState(state => ({
       customSins: state.customSins.concat([text])
-    }));
+    }), this.persistData);
   }
 
   removeCustomSin(text) {
     this.setState(state => ({
       customSins: state.customSins.filter(s => s !== text)
-    }));
+    }), this.persistData);
   }
 
   clearAll() {
     this.setState(_ => ({
       selectedSinIds: [],
       customSins: []
-    }))
+    }), this.persistData);
   }
 
   render() {
