@@ -41,6 +41,7 @@ class App extends React.Component {
     this.removeSinItem = this.removeSinItem.bind(this);
     this.addCustomSin = this.addCustomSin.bind(this);
     this.removeCustomSin = this.removeCustomSin.bind(this);
+    this.clearAll = this.clearAll.bind(this);
   }
 
   buildSinsList() {
@@ -88,6 +89,13 @@ class App extends React.Component {
     }));
   }
 
+  clearAll() {
+    this.setState(_ => ({
+      selectedSinIds: [],
+      customSins: []
+    }))
+  }
+
   render() {
     let sinsList = this.buildSinsList();
 
@@ -101,6 +109,7 @@ class App extends React.Component {
               <Nav className="ml-auto text-white">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link onClick={this.clearAll}>Clear</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
