@@ -42,6 +42,16 @@ class About extends React.Component {
           If you do use this app inside your church or during confession, please ensure your phone is in silent mode.
           </p>
 
+          <h3>About the Developer</h3>
+          <p><a href="https://www.mikekasberg.com">Mike Kasberg</a> develops ConfessIt in his free time, as a way of giving back to the church. He is also involved in a couple other small projects to support Catholic organizations with technology.</p>
+
+          <h3>How Can I Help?</h3>
+
+          <p>The easiest way you can help is by sharing this app with your friends and family. Consider telling people about it on Facebook, Reddit, or Twitter, at your church, or in your Bible study group.</p>
+
+          <h4>Can I help write code?</h4>
+          <p><a href="https://confessit.app">ConfessIt.app</a> is a <a href="https://create-react-app.dev/docs/making-a-progressive-web-app/">progressive web app</a> written in <a href="https://reactjs.org">React</a> with <a href="https://react-bootstrap.github.io/">React Bootstrap</a>. If you're comfortable with these technologies and you'd like to contribute, please <a href="mailto:mike+confessitweb@mikekasberg.com">get in touch</a> and let me know what you're interested in helping with. I could use the most help improving the design of the site or cleaning up and organizing the codebase.</p>
+
           <h2>Privacy</h2>
 
           <p>
