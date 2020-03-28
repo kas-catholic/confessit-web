@@ -12,6 +12,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import About from './About';
+import Help from './Help';
 import AddButton from './AddButton';
 
 class App extends React.Component {
@@ -118,12 +119,12 @@ class App extends React.Component {
           <Navbar sticky="top" variant="dark" bg="primary" expand="lg">
             <Navbar.Brand href="/"><h1>ConfessIt (Beta)</h1></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="ml-auto text-white">
-                <Nav.Link href="/">Home</Nav.Link>
+            <Navbar.Collapse id="basic-navbar-nav text-white">
+              <Nav className="mr-auto text-white">
+                <Nav.Link href="/help">Help</Nav.Link>
                 <Nav.Link href="/about">About</Nav.Link>
-                <Nav.Link onClick={this.clearAll}>Clear</Nav.Link>
               </Nav>
+              <Nav.Link onClick={this.clearAll}><i class="fa fa-ban"></i> Clear</Nav.Link>
             </Navbar.Collapse>
           </Navbar>
           <Switch>
@@ -156,6 +157,9 @@ class App extends React.Component {
                 </Row>
                 <AddButton addCustomSin={this.addCustomSin} />
               </Container>
+            </Route>
+            <Route path="/help">
+              <Help />
             </Route>
             <Route path="/about">
               <About />
