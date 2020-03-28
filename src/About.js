@@ -55,7 +55,7 @@ class About extends React.Component {
           <h2>Privacy</h2>
 
           <p>
-          Information you enter into this app is only stored on your device. It is not sent over the internet. We are able to do this using a technology provided by your web browser called <a href="https://en.wikipedia.org/wiki/Web_storage">local stroage</a>. We do not run Google Analytics or any other data collection mechanism on this site.
+          Information you enter into this app is only stored on your device. It is not sent over the internet. We are able to do this using a technology provided by your web browser called <a href="https://en.wikipedia.org/wiki/Web_storage">local stroage</a>. We do not run Google Analytics or any other data collection mechanism on this site. Data you enter will be saved on your device until you hit <code>Clear</code> even if you close the window or refresh the page.
           </p>
 
           <hr />

@@ -1,19 +1,20 @@
 .fab {
-  width: 70px;
-  height: 70px;
+  width: 3.6rem;
+  height: 3.6rem;
   background-color: #aa0000;
   border-radius: 50%;
   box-shadow: 0 6px 10px 0 #666;
   transition: all 0.1s ease-in-out;
 
-  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
   color: white;
   text-align: center;
-  line-height: 70px;
+  line-height: 3.5rem;
 
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  right: 1rem;
+  bottom: 1rem;
 
   cursor: pointer;
 

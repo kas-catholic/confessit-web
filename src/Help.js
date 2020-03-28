@@ -18,6 +18,11 @@ class Help extends React.Component {
             <li>If you're unsure what to say in confession, swipe to the next tab, <code>Walkthrough</code>, to see roughly what you and the priest will say to each other in confession. You can review this during confession if you wish.</li>
             <li>After you've gone to confession, use the <code>Clear</code> button to clear all the sins you've marked.</li>
           </ol>
+
+          <h2>Data Persistence</h2>
+
+          <p>Data you enter is stored on your device (never sent over the internet). Data you enter will be saved until you hit <code>Clear</code>, even if you close the window or refresh the page. Be sure to clear your data when you're done if people who use this device!</p>
+          
         </Col>
       </Row>
     </Container>;
