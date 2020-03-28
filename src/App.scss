@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+}
+.full-screen-app {
   height: 100vh;
 }
 
@@ -34,7 +36,7 @@
   height: 4rem;
   font-family: "Open Sans", sans-serif;
 }
-.container-fluid {
+.container, .container-fluid {
   height: calc(100% - 4rem);
 }
 
