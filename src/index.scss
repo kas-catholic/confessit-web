@@ -14,11 +14,13 @@ $theme-colors: (
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "EB Garamond", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.2rem;
+}
+b {
+  font-weight: 600;
 }
 
 code {
@@ -26,8 +28,11 @@ code {
     monospace;
 }
 
-h2, h3 {
-  font-family: serif;
+h1, h2 {
+  font-weight: 800;
+}
+h3 {
+  font-weight: 600;
 }
 
 @include media-breakpoint-down(md) {

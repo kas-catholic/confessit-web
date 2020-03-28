@@ -31,23 +31,23 @@ $md-checkbox-border-color: rgba(0, 0, 0, 0.54);
 $md-checkbox-border-color-disabled: rgba(0, 0, 0, 0.26);
 $md-checkbox-checked-color-disabled: rgba(0, 0, 0, 0.26);
 
-$md-checkbox-margin: 1em 0;
-$md-checkbox-size: 1.25em;
-$md-checkbox-padding: .25em;
+$md-checkbox-margin: 0.5rem 0 0 0;
+$md-checkbox-size: 1.25rem;
+$md-checkbox-padding: .25rem;
 $md-checkbox-border-width: 2px;
-$md-checkbox-border-radius: 0.125em;
-$md-checkmark-width: 0.125em;
+$md-checkbox-border-radius: 0.125rem;
+$md-checkmark-width: 0.125rem;
 $md-checkmark-color: #ffffff;
-$md-checkbox-label-padding: .75em;
+$md-checkbox-label-padding: .75rem;
 
 .md-checkbox {
-position: relative;
-margin: $md-checkbox-margin;
-text-align: left;
+  position: relative;
+  margin: $md-checkbox-margin;
+  text-align: left;
 
-&.md-checkbox-inline {
-  display: inline-block;
-}
+  &.md-checkbox-inline {
+    display: inline-block;
+  }
   
   label {
     cursor: pointer;

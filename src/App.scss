@@ -3,9 +3,14 @@
   height: 100vh;
 }
 
+.btn {
+  font-family: "Open Sans", sans-serif;
+}
+
 .navbar-brand {
   h1 {
     font-size: 2rem;
+    font-family: "EB Garamond", serif;
     margin-bottom: 0;
   }
 }
@@ -22,6 +27,7 @@
 /* Make the container fill the window vertically, less the navbar. */
 .navbar {
   height: 4rem;
+  font-family: "Open Sans", sans-serif;
 }
 .container-fluid {
   height: calc(100% - 4rem);
