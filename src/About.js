@@ -10,10 +10,6 @@ class About extends React.Component {
         <Col lg={{span: 8, offset: 2}} md={12}>
           <h1>About ConfessIt</h1>
 
-          <h2><strong>Beta</strong></h2>
-
-          <p><a href="https://confessit.app">ConfessIt.app</a> is currently in beta! While many features will work, you might notice some minor bugs.</p>
-
           <p>This website, <a href="https://confessit.app">ConfessIt.app</a>, is based on the <a href="https://play.google.com/store/apps/details?id=com.mikekasberg.confessit">ConfessIt Android App</a> (created in 2012 by the same developer). While it's not (yet) a complete reproduction, it aims to make the app available to a wider range of users on a broader range of devices. (This site works on iOS, Android, tablets, and computers!)</p>
 
           <h2>About Confession</h2>

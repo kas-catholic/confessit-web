@@ -123,7 +123,7 @@ class App extends React.Component {
       <BrowserRouter>
         <div className={appClass}>
           <Navbar sticky="top" variant="dark" bg="primary" expand="lg">
-            <Navbar.Brand href="/"><h1>ConfessIt (Beta)</h1></Navbar.Brand>
+            <Navbar.Brand href="/"><h1>ConfessIt</h1></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav text-white">
               <Nav className="mr-auto text-white">
