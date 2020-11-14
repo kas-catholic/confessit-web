@@ -21,7 +21,7 @@ class Help extends React.Component {
 
           <h2>Data Persistence</h2>
 
-          <p>Data you enter is stored on your device (never sent over the internet). Data you enter will be saved until you hit <code>Clear</code>, even if you close the window or refresh the page. Be sure to clear your data when you're done if people who use this device!</p>
+          <p>Data you enter is stored on your device (never sent over the internet). Data you enter will be saved until you hit <code>Clear</code>, even if you close the window or refresh the page. Be sure to clear your data when you're done if you don't want other people who use this device to see your data!</p>
           
         </Col>
       </Row>
