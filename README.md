@@ -1,19 +1,23 @@
 # ConfessIt README
 
-The deployed website is available at <https://confessit.app>.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The website is available at <https://confessit.app>.
 
 ## Development
 
-Use `yarn start` as described [below](#yarn-start).
+1. We highly recommend using [nvm](https://github.com/nvm-sh/nvm) to manage your Node installation. See the [nvm Installation Instructions](https://github.com/nvm-sh/nvm#install--update-script). We have a `.nvmrc` checked in, so running `nvm install` in this project directory after setting up nvm will ensure the correct Node version is installed.
+2. We use [yarn](https://yarnpkg.com/) to manage our dependencies. You need to have Yarn installed globally in your Node environment with `npm install -g yarn`.
+3. Install the dependencies with `yarn install`.
+4. Run `yarn start` as described [below](#yarn-start) to build the project and run the development server. You can kill the server with `CTRL-C` and restart it any time with `yarn start` again.
+
+This project is a React app and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Reading the [React](https://reactjs.org/docs/getting-started.html) and Create React App docs will help you get started if you're not already familiar with these frameworks.
 
 ## Production Deployment
 
-When you push to master, AWS Amplify automatically deploys. *Be careful what you push to master!!!*
+Our `master` branch is continuously deployed to GitHub pages. Simply merge to master and the stie will be udpated.
 
+----
 
-Below, you'll find the instructions for **Create React App**:
+Below, you'll find the README provided by **Create React App**:
 
 ## Available Scripts
 
@@ -58,9 +62,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-We're using [Swiper](https://swiperjs.com/) via [react-id-swiper](https://github.com/kidjp85/react-id-swiper) for the swipable columns.
+We're also using [Swiper](https://swiperjs.com/) via [react-id-swiper](https://github.com/kidjp85/react-id-swiper) for the swipable columns.
 
-The app is deployed to <https://confessit.app>, hosted on AWS Amplify. See <amplify.yml> for build configuration.
+The app is deployed to <https://confessit.app>, hosted on GitHub pages.
 
 ### Code Splitting
 
