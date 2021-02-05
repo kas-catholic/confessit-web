@@ -13,7 +13,7 @@ This project is a React app and was bootstrapped with [Create React App](https:/
 
 ## Production Deployment
 
-Our `master` branch is continuously deployed to GitHub pages. Simply merge to master and the stie will be udpated.
+Our `master` branch is continuously deployed via [AWS Amplify](https://aws.amazon.com/amplify/). Simply merge to master and the site will be updated.
 
 ----
 
@@ -64,7 +64,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 We're also using [Swiper](https://swiperjs.com/) via [react-id-swiper](https://github.com/kidjp85/react-id-swiper) for the swipable columns.
 
-The app is deployed to <https://confessit.app>, hosted on GitHub pages.
+The app is deployed to <https://confessit.app>, hosted on AWS Amplify.
 
 ### Code Splitting
 
