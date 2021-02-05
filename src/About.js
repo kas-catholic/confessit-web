@@ -46,7 +46,7 @@ class About extends React.Component {
           <p>The easiest way you can help is by sharing this app with your friends and family. Consider telling people about it on Facebook, Reddit, or Twitter, at your church, or in your Bible study group.</p>
 
           <h4>Can I help write code?</h4>
-          <p><a href="https://confessit.app">ConfessIt.app</a> is a <a href="https://create-react-app.dev/docs/making-a-progressive-web-app/">progressive web app</a> written in <a href="https://reactjs.org">React</a> with <a href="https://react-bootstrap.github.io/">React Bootstrap</a>. If you're comfortable with these technologies and you'd like to contribute, com find us on the <a href="https://www.opensourcecatholic.com/chat">Open Source Catholic</a> Slack channel. I could use the most help improving the design of the site or cleaning up and organizing the codebase.</p>
+          <p><a href="https://confessit.app">ConfessIt.app</a> is a <a href="https://create-react-app.dev/docs/making-a-progressive-web-app/">progressive web app</a> written in <a href="https://reactjs.org">React</a> with <a href="https://react-bootstrap.github.io/">React Bootstrap</a>. We develop the app on <a href="https://github.com/kas-catholic/confessit-web">GitHub</a> and welcome new contributors. We also collaborate on the <a href="https://www.opensourcecatholic.com/chat">Open Source Catholic</a> Slack channel.</p>
 
           <h2>Privacy</h2>
 
