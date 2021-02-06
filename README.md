@@ -1,23 +1,23 @@
 # ConfessIt README
 
-The website is available at <https://confessit.app>.
+This repository contains the source code for <https://confessit.app>.
+
+We welcome anyone who would like to contribute to this project. Please see our [code of conduct](./code_of_conduct.md) for more information. And feel free to get in touch by starting a [discussion](https://github.com/kas-catholic/confessit-web/discussions) or commenting on an [issue](https://github.com/kas-catholic/confessit-web/issues) here on GitHub.
 
 ## Development
 
 1. We highly recommend using [nvm](https://github.com/nvm-sh/nvm) to manage your Node installation. See the [nvm Installation Instructions](https://github.com/nvm-sh/nvm#install--update-script). We have a `.nvmrc` checked in, so running `nvm install` in this project directory after setting up nvm will ensure the correct Node version is installed.
 2. We use [yarn](https://yarnpkg.com/) to manage our dependencies. You need to have Yarn installed globally in your Node environment with `npm install -g yarn`.
-3. Install the dependencies with `yarn install`.
+3. Install the project dependencies with `yarn install`.
 4. Run `yarn start` as described [below](#yarn-start) to build the project and run the development server. You can kill the server with `CTRL-C` and restart it any time with `yarn start` again.
 
-This project is a React app and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Reading the [React](https://reactjs.org/docs/getting-started.html) and Create React App docs will help you get started if you're not already familiar with these frameworks.
+This project is a React app and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Reading the [React](https://reactjs.org/docs/getting-started.html) and [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) docs will help you get started if you're not already familiar with these frameworks.
 
 ## Production Deployment
 
-Our `master` branch is continuously deployed via [AWS Amplify](https://aws.amazon.com/amplify/). Simply merge to master and the site will be updated.
+Our `main` branch is continuously deployed via [AWS Amplify](https://aws.amazon.com/amplify/). Simply merge to main and the site will be updated.
 
 ----
-
-Below, you'll find the README provided by **Create React App**:
 
 ## Available Scripts
 
@@ -33,6 +33,8 @@ You will also see any lint errors in the console.
 
 ### `yarn test`
 
+> We don't have any tests yet, but we plan to add some soon.
+
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
@@ -46,16 +48,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -65,27 +57,3 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 We're also using [Swiper](https://swiperjs.com/) via [react-id-swiper](https://github.com/kidjp85/react-id-swiper) for the swipable columns.
 
 The app is deployed to <https://confessit.app>, hosted on AWS Amplify.
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
