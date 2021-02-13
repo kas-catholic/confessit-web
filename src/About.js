@@ -23,7 +23,7 @@ class About extends React.Component {
             It is called the sacrament of Penance, since it consecrates the Christian sinner's personal and ecclesial steps of conversion, penance, and satisfaction. 
             It is called the sacrament of confession, since the disclosure or confession of sins to a priest is an essential element of this sacrament. In a profound sense it is also a "confession" - acknowledgment and praise - of the holiness of God and of his mercy toward sinful man. 
             It is called the sacrament of forgiveness, since by the priest's sacramental absolution God grants the penitent "pardon and peace" (Ordo paenitantiae 46 formula of absolution). 
-            It is called the sacrament of Reconciliation, because it imparts to the sinner the live of God who reconciles: "Be reconciled to God" (2 Cor 5:20). He who lives by God's merciful love is ready to respond to the Lord's call: "Go; first be reconciled to your brother" (Mt 5:24). 
+            It is called the sacrament of Reconciliation, because it imparts to the sinner the love of God who reconciles: "Be reconciled to God" (2 Cor 5:20). He who lives by God's merciful love is ready to respond to the Lord's call: "Go; first be reconciled to your brother" (Mt 5:24). 
             </p>
             <p>
             Conversion to Christ, the new birth of Baptism, the gift of the Holy Spirit and the Body and Blood of Christ received as food have made us "holy and without blemish," 
