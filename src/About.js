@@ -18,13 +18,12 @@ class About extends React.Component {
           Confession is the holy sacrament by which Catholics obtain pardon from God's mercy for their sins, and are thus reconciled with the Church, the community of believers, the Body of Christ.
           </p>
           <blockquote>
-            <p>
-            It is called the sacrament of conversion because it makes sacramentally present Jesus' call to conversion, the first step in returning to the Father (Cf. Mk 1:15; Lk 15:18) from whom one has strayed by sin. 
-            It is called the sacrament of Penance, since it consecrates the Christian sinner's personal and ecclesial steps of conversion, penance, and satisfaction. 
-            It is called the sacrament of confession, since the disclosure or confession of sins to a priest is an essential element of this sacrament. In a profound sense it is also a "confession" - acknowledgment and praise - of the holiness of God and of his mercy toward sinful man. 
-            It is called the sacrament of forgiveness, since by the priest's sacramental absolution God grants the penitent "pardon and peace" (Ordo paenitantiae 46 formula of absolution). 
-            It is called the sacrament of Reconciliation, because it imparts to the sinner the love of God who reconciles: "Be reconciled to God" (2 Cor 5:20). He who lives by God's merciful love is ready to respond to the Lord's call: "Go; first be reconciled to your brother" (Mt 5:24). 
-            </p>
+            <p>It is called the sacrament of conversion because it makes sacramentally present Jesus' call to conversion, the first step in returning to the Father (Cf. Mk 1:15; Lk 15:18) from whom one has strayed by sin.</p>
+            <p>It is called the sacrament of Penance, since it consecrates the Christian sinner's personal and ecclesial steps of conversion, penance, and satisfaction.</p>
+            <p>It is called the sacrament of confession, since the disclosure or confession of sins to a priest is an essential element of this sacrament. In a profound sense it is also a "confession" - acknowledgment and praise - of the holiness of God and of his mercy toward sinful man.</p>
+            <p>It is called the sacrament of forgiveness, since by the priest's sacramental absolution God grants the penitent "pardon and peace" (Ordo paenitantiae 46 formula of absolution).</p>
+            <p>It is called the sacrament of Reconciliation, because it imparts to the sinner the love of God who reconciles: "Be reconciled to God" (2 Cor 5:20). He who lives by God's merciful love is ready to respond to the Lord's call: "Go; first be reconciled to your brother" (Mt 5:24).</p>
+            
             <p>
             Conversion to Christ, the new birth of Baptism, the gift of the Holy Spirit and the Body and Blood of Christ received as food have made us "holy and without blemish," 
             just as the Church herself, the Bride of Christ, is "holy and without blemish" (Eph 1:4; 5:27). 
@@ -40,7 +39,7 @@ class About extends React.Component {
             It is the movement of a "contrite heart," drawn and moved by grace to respond to the merciful love of God who loved us first (Ps 51:17; Jn 6:44; 12:32; 1 Jn 4:10). 
             St. Ambrose says of the two conversions that, in the Church, "there are water and tears: the water of Baptism and the tears of repentance" (epistle 41).
             </p>
-            <footer>Catechism of the Catholic Church 1423-1424,1426; cf. 1427-1429</footer>
+            <footer>— Catechism of the Catholic Church 1423-1424,1426; cf. 1427-1429</footer>
           </blockquote>
           <p>
           Confession times are listed in your local parish bulletin, and you can find them online at your parish website or at <a href="https://masstimes.org/">masstimes.org</a>. You can also schedule a confession at any time you'd like by contacting your local parish.

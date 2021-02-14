@@ -35,6 +35,10 @@ h3 {
   font-weight: 600;
 }
 
+blockquote {
+  margin-left: 4rem;
+}
+
 @include media-breakpoint-down(md) {
   .nav-link {
     background-color: $primary;
