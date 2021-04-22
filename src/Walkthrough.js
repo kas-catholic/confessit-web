@@ -16,12 +16,12 @@ class Walkthrough extends React.Component {
         <UserBubble>
           Bless me father, for I have sinned. It has been ____ since my last confession, and these are my sins:
         </UserBubble>
-        <UserBubble>
-          These are my sins, and I am sorry for them with all my heart.
-        </UserBubble>
 
         {sinCards}
 
+        <UserBubble>
+          These are my sins, and I am sorry for them with all my heart.
+        </UserBubble>
         <PriestBubble text="(Your confessor may offer you some advice or have a short conversation with you." />
         <PriestBubble text="(Your confessor will assign you penance.) Now pray the act of contrition." />
         <UserBubble>
