@@ -14,7 +14,7 @@ class SinsList extends React.Component {
 
     return (
       <div>
-        <h2>Review</h2>
+        <h2>{this.props.translator.translate('app.navigation.review', this.props.locale)}</h2>
         {sinCards}
       </div>
     );

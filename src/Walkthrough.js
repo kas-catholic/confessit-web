@@ -5,22 +5,25 @@ import UserBubble from './UserBubble';
 
 class Walkthrough extends React.Component {
   render() {
+    const  {translator} = this.props;
     let sinCards = this.props.sinsList.map((sinItem, index) =>
       <UserBubble key={index}>{sinItem.text}</UserBubble>
     );
 
     return (
       <div>
-        <h2>Walkthrough</h2>
-        <PriestBubble text="In the name of the Father, and of the Son, and of the Holy Spirit. Amen." />
+        <h2>{translator.translate('app.navigation.walkthrough', this.props.locale)}</h2>
+        <PriestBubble
+            text={translator.translate('app.walkthrough.priest.introductory_prayer', this.props.locale)}
+        />
         <UserBubble>
-          Bless me father, for I have sinned. It has been ____ since my last confession, and these are my sins:
+            {translator.translate('app.walkthrough.penitant.bless_me_father', this.props.locale)}
         </UserBubble>
 
         {sinCards}
 
         <UserBubble>
-          These are my sins, and I am sorry for them with all my heart.
+            {translator.translate('app.walkthrough.penitant.these_are_my_sins', this.props.locale)}
         </UserBubble>
         <PriestBubble text="(Your confessor may offer you some advice or have a short conversation with you." />
         <PriestBubble text="(Your confessor will assign you penance.) Now pray the act of contrition." />

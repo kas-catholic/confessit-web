@@ -3,7 +3,7 @@ import './App.scss';
 import ExamineList from './ExamineList';
 import SinsList from './SinsList';
 import Walkthrough from './Walkthrough';
-import sinsdb from './data/sinsdb_en';
+import {createSinsDb} from './data/sinsdb_en';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,6 +15,10 @@ import About from './About';
 import Help from './Help';
 import Prayers from './Prayers';
 import AddButton from './AddButton';
+import Translator from './service/translation/Translator';
+import {enTranslations} from './data/translations/en';
+import {deTranslations} from './data/translations/de';
+import {elTranslations} from './data/translations/el';
 
 class App extends React.Component {
   swiperParams = {
@@ -31,17 +35,28 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
+
     let storedState = localStorage.getItem('state');
     if (storedState != null) {
       this.state = JSON.parse(storedState);
     } else {
       this.state = {
         selectedSinIds: [],
-        customSins: []
+        customSins: [],
       };
     }
 
-    this.sinsById = new Map(sinsdb.sins.map(s =>
+    if (!this.state.locale) {
+      this.state.locale = 'en';
+    }
+
+    this.translator = new Translator();
+    this.translator.addTranslationSet('en', enTranslations);
+    this.translator.addTranslationSet('de', deTranslations);
+    this.translator.addTranslationSet('el', elTranslations);
+    this.sinsDb = createSinsDb(this.translator, this.state.locale);
+
+    this.sinsById = new Map(this.sinsDb.sins.map(s =>
       [s.sin_id, s]
     ));
 
@@ -69,6 +84,17 @@ class App extends React.Component {
         })
       )
     );
+  }
+
+  componentDidUpdate(prevProps, prevState)
+  {
+    if (prevState.locale !== this.state.locale) {
+      this.sinsDb = createSinsDb(this.translator, this.state.locale);
+      this.sinsById = new Map(this.sinsDb.sins.map(s =>
+          [s.sin_id, s]
+      ));
+      this.forceUpdate();
+    }
   }
 
   persistData() {
@@ -127,10 +153,21 @@ class App extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav text-white">
               <Nav className="mr-auto text-white">
-                <Nav.Link href="/prayers">Prayers</Nav.Link>
-                <Nav.Link href="/help">Help</Nav.Link>
-                <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link href="/prayers">{this.translator.translate('app.navigation.prayers', this.state.locale)}</Nav.Link>
+                <Nav.Link href="/help">{this.translator.translate('app.navigation.help', this.state.locale)}</Nav.Link>
+                <Nav.Link href="/about">{this.translator.translate('app.navigation.about', this.state.locale)}</Nav.Link>
               </Nav>
+              <select value={this.state.locale} onChange={(e) => {
+                  e.persist();
+                  this.setState(state => ({
+                    ...state,
+                  locale: e.target.value
+                }), this.persistData);
+              }}>
+                <option value="en">{this.translator.translate('app.languages.english', this.state.locale)}</option>
+                <option value="de">{this.translator.translate('app.languages.german', this.state.locale)}</option>
+                <option value="el">{this.translator.translate('app.languages.greek', this.state.locale)}</option>
+              </select>
               <Nav.Link onClick={this.clearAll}><i className="fa fa-ban"></i> Clear</Nav.Link>
             </Navbar.Collapse>
           </Navbar>
@@ -142,7 +179,9 @@ class App extends React.Component {
                     <Swiper {...this.swiperParams}>
                       <div className="col-scroll">
                         <ExamineList
-                          sinsdb={sinsdb}
+                          translator={this.translator}
+                          locale={this.state.locale}
+                          sinsdb={this.sinsDb}
                           selectedSinIds={this.state.selectedSinIds}
                           onAddSinId={this.addSinId}
                           onRemoveSinItem={this.removeSinItem}
@@ -154,10 +193,16 @@ class App extends React.Component {
                         <SinsList
                           sinsList={sinsList}
                           onRemoveSinItem={this.removeSinItem}
+                          translator={this.translator}
+                          locale={this.state.locale}
                         />
                       </div>
                       <div className="col-scroll">
-                        <Walkthrough sinsList={sinsList} />
+                        <Walkthrough
+                            sinsList={sinsList}
+                            translator={this.translator}
+                            locale={this.state.locale}
+                        />
                       </div>
                     </Swiper>
                   </Col>

@@ -24,7 +24,7 @@ class ExamineList extends React.Component {
 
       return obj;
     }, {});
-      
+
     let elements = sinsdb.commandments.map( c =>
       <CommandmentGroup title={c.title} text={c.text} cmdId={c.commandment_id} key={c.commandment_id}>
         <div>
@@ -34,7 +34,7 @@ class ExamineList extends React.Component {
     );
 
     return <div>
-      <h2>Examine</h2>
+      <h2>{this.props.translator.translate('app.navigation.examine', this.props.locale)}</h2>
       {elements}
     </div>;
   }
