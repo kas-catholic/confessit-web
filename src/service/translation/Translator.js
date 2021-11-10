@@ -46,7 +46,7 @@ export default class Translator
         let newTranslation = translation;
         if (dataToReplace && Object.keys(dataToReplace).length) {
             for (let replaceEntry in dataToReplace) {
-                newTranslation = newTranslation.replace(`{{${replaceEntry}}`, dataToReplace[replaceEntry]);
+                newTranslation = newTranslation.replace(`{{${replaceEntry}}}`, dataToReplace[replaceEntry]);
             }
         }
 

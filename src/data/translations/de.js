@@ -1,4 +1,5 @@
 export const deTranslations = {
+    'app.basic.yes': 'Ja',
     'commandments.first.name': 'Erste Gebote',
     'commandments.first.description': 'Du sollst keine andere Götter haben vor mir. (2. Mose 20:3)',
     'commandments.second.name': 'Zweite Gebote',
@@ -11,6 +12,7 @@ export const deTranslations = {
     'commandments.eighth.name': 'Achte Gebote',
     'commandments.ninth.name': 'Neunte Gebote',
     'commandments.tenth.name': 'Zehnte Gebote',
+    'app.languages.spanish': 'Spanisch',
     'app.languages.greek': 'Griechisch',
     'app.languages.english': 'Englisch',
     'app.languages.german': 'Deutsch',

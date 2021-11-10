@@ -1,6 +1,7 @@
 import React from 'react';
 import './ExamineItem.scss';
 import Card from 'react-bootstrap/Card';
+import {TranslatedText} from './TranslatedText';
 
 class ExamineItem extends React.Component {
   constructor(props) {
@@ -23,7 +24,7 @@ class ExamineItem extends React.Component {
       {this.props.text}
       <div className="md-checkbox">
         <input id={"checkitem:" + this.props.sinId} type="checkbox" checked={this.props.selected} onChange={this.handleClick} />
-        <label htmlFor={"checkitem:" + this.props.sinId}>Yes</label>
+        <label htmlFor={"checkitem:" + this.props.sinId}><TranslatedText text={'app.basic.yes'} locale={this.props.locale}/></label>
       </div>
     </Card>
   }

@@ -1,4 +1,5 @@
 export const elTranslations = {
+    'app.basic.yes': 'ναι',
     'commandments.first.name': 'Πρώτη εντολή',
     'commandments.first.description': 'Δεν θα έχεις άλλους θεούς μπροστά μου. (Εξ 20:3)',
     'commandments.second.name': 'Δεύτερη εντολή',
@@ -11,6 +12,7 @@ export const elTranslations = {
     'commandments.eighth.name': 'Όγδοη εντολή',
     'commandments.ninth.name': 'Ένατη Εντολή',
     'commandments.tenth.name': 'Δέκατη εντολή',
+    'app.languages.spanish': 'Ισπανικά',
     'app.languages.greek': 'Ελληνική',
     'app.languages.english': 'Αγγλικά',
     'app.languages.german': 'Γερμανικά',

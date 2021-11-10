@@ -3,7 +3,7 @@ import './App.scss';
 import ExamineList from './ExamineList';
 import SinsList from './SinsList';
 import Walkthrough from './Walkthrough';
-import {createSinsDb} from './data/sinsdb_en';
+import {sinsDb} from './data/sinsdb_en';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,10 +15,9 @@ import About from './About';
 import Help from './Help';
 import Prayers from './Prayers';
 import AddButton from './AddButton';
-import Translator from './service/translation/Translator';
-import {enTranslations} from './data/translations/en';
-import {deTranslations} from './data/translations/de';
-import {elTranslations} from './data/translations/el';
+import ResolveFallbackLocale from './service/translation/ResolveFallbackLocale';
+import translator from './service/translation/translatorInstance';
+import {TranslatedText} from './TranslatedText';
 
 class App extends React.Component {
   swiperParams = {
@@ -47,16 +46,13 @@ class App extends React.Component {
     }
 
     if (!this.state.locale) {
-      this.state.locale = 'en';
+      const preferredLocaleResolver = new ResolveFallbackLocale();
+      this.state.locale = preferredLocaleResolver.resolve();
     }
 
-    this.translator = new Translator();
-    this.translator.addTranslationSet('en', enTranslations);
-    this.translator.addTranslationSet('de', deTranslations);
-    this.translator.addTranslationSet('el', elTranslations);
-    this.sinsDb = createSinsDb(this.translator, this.state.locale);
+    this.translator = translator;
 
-    this.sinsById = new Map(this.sinsDb.sins.map(s =>
+    this.sinsById = new Map(sinsDb.sins.map(s =>
       [s.sin_id, s]
     ));
 
@@ -84,17 +80,6 @@ class App extends React.Component {
         })
       )
     );
-  }
-
-  componentDidUpdate(prevProps, prevState)
-  {
-    if (prevState.locale !== this.state.locale) {
-      this.sinsDb = createSinsDb(this.translator, this.state.locale);
-      this.sinsById = new Map(this.sinsDb.sins.map(s =>
-          [s.sin_id, s]
-      ));
-      this.forceUpdate();
-    }
   }
 
   persistData() {
@@ -153,9 +138,9 @@ class App extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav text-white">
               <Nav className="mr-auto text-white">
-                <Nav.Link href="/prayers">{this.translator.translate('app.navigation.prayers', this.state.locale)}</Nav.Link>
-                <Nav.Link href="/help">{this.translator.translate('app.navigation.help', this.state.locale)}</Nav.Link>
-                <Nav.Link href="/about">{this.translator.translate('app.navigation.about', this.state.locale)}</Nav.Link>
+                <Nav.Link href="/prayers"><TranslatedText text="app.navigation.prayers" locale={this.state.locale}/></Nav.Link>
+                <Nav.Link href="/help"><TranslatedText text="app.navigation.help" locale={this.state.locale}/></Nav.Link>
+                <Nav.Link href="/about"><TranslatedText text="app.navigation.about" locale={this.state.locale}/></Nav.Link>
               </Nav>
               <select value={this.state.locale} onChange={(e) => {
                   e.persist();
@@ -166,6 +151,7 @@ class App extends React.Component {
               }}>
                 <option value="en">{this.translator.translate('app.languages.english', this.state.locale)}</option>
                 <option value="de">{this.translator.translate('app.languages.german', this.state.locale)}</option>
+                <option value="es">{this.translator.translate('app.languages.spanish', this.state.locale)}</option>
                 <option value="el">{this.translator.translate('app.languages.greek', this.state.locale)}</option>
               </select>
               <Nav.Link onClick={this.clearAll}><i className="fa fa-ban"></i> Clear</Nav.Link>
@@ -179,9 +165,8 @@ class App extends React.Component {
                     <Swiper {...this.swiperParams}>
                       <div className="col-scroll">
                         <ExamineList
-                          translator={this.translator}
                           locale={this.state.locale}
-                          sinsdb={this.sinsDb}
+                          sinsdb={sinsDb}
                           selectedSinIds={this.state.selectedSinIds}
                           onAddSinId={this.addSinId}
                           onRemoveSinItem={this.removeSinItem}
@@ -193,7 +178,6 @@ class App extends React.Component {
                         <SinsList
                           sinsList={sinsList}
                           onRemoveSinItem={this.removeSinItem}
-                          translator={this.translator}
                           locale={this.state.locale}
                         />
                       </div>

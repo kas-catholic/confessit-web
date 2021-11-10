@@ -2,50 +2,50 @@
  * @param {Translator} translator
  * @param {string} languageKey
  */
-export const createSinsDb = (translator, languageKey) => ({
+export const sinsDb  = {
     "commandments": [{
         "commandment_id": 1,
-        "title": translator.translate('commandments.first.name', languageKey),
-        "text": translator.translate('commandments.first.description', languageKey),
+        "title": 'commandments.first.name',
+        "text": 'commandments.first.description',
         "description": "I am the Lord your God, who brought you out of the land of Egypt, out of the house of bondage. You shall have no other gods before me... you shall not bow down to them or serve them; for I the Lord your God am a jealous God... showing steadfast love to thousands of those who love me and keep my commandments. (Ex 20:2-6) The capital sins of pride and gluttony are often considered to break this commandment."
     }, {
         "commandment_id": 2,
-        "title": translator.translate('commandments.second.name', languageKey),
-        "text": translator.translate('commandments.first.description', languageKey),
+        "title": 'commandments.second.name',
+        "text": 'commandments.first.description',
         "description": "You shall not take the name of the Lord your God in vain; for the Lord will not hold him guiltless who takes his name in vain. (Ex 20:7)"
     }, {
         "commandment_id": 3,
-        "title": translator.translate('commandments.third.name', languageKey),
+        "title": 'commandments.third.name',
         "text": "Remember the sabbath day, to keep it holy. (Ex 20:8)",
         "description": "Remember the sabbath day, to keep it holy. Six days you shall labor, and do all your work; but the seventh day is a sabbath to the Lord your God; in it you shall not do any work... For in six days the Lord made heaven and earth, the sea, and all that is in them, and rested the seventh day; therefore the Lord blessed the sabbath day and hallowed it. (Ex 20:8-11)"
     }, {
         "commandment_id": 4,
-        "title": translator.translate('commandments.fourth.name', languageKey),
+        "title": 'commandments.fourth.name',
         "text": "Honor your father and your mother. (Ex 20:12)",
         "description": "Honor your father and mother, that your days may be long in the land which the Lord your God gives you. (Ex 20:12)"
     }, {
         "commandment_id": 5,
-        "title": translator.translate('commandments.fifth.name', languageKey),
+        "title": 'commandments.fifth.name',
         "text": "You shall not kill. (Ex 20:13)",
         "description": "You shall not kill. (Ex 20:13) The capital sin of anger is often associated with this commandment."
     }, {
         "commandment_id": 6,
-        "title": translator.translate('commandments.sixth.name', languageKey),
+        "title": 'commandments.sixth.name',
         "text": "You shall not commit adultery. (Ex 20:14)",
         "description": "You shall not commit adultery. (Ex 20:14) The capital sin of lust breaks this commandment."
     }, {
         "commandment_id": 7,
-        "title": translator.translate('commandments.seventh.name', languageKey),
+        "title": 'commandments.seventh.name',
         "text": "You shall not steal. (Ex 20:15)",
         "description": "You shall not steal. (Ex 20:15) The capital sins of greed and sloth are often considered to break this commandment."
     }, {
         "commandment_id": 8,
-        "title": translator.translate('commandments.eighth.name', languageKey),
+        "title": 'commandments.eighth.name',
         "text": "You shall not bear false witness against your neighbor. (Ex 20:16)",
         "description": "You shall not bear false witness against your neighbor. (Ex 20:16)"
     }, {
         "commandment_id": 9,
-        "title": translator.translate('commandments.ninth.name', languageKey),
+        "title": 'commandments.ninth.name',
         "text": "You shall not covet your neighbor's wife. (Ex 20:17)",
         "description": "You shall not covet your neighbor's wife. (Ex 20:17) The capital sin of jealousy can break this commandment."
     }, {
@@ -64,8 +64,8 @@ export const createSinsDb = (translator, languageKey) => ({
         "common": false,
         "sin_id": 1,
         "commandment_id": 1,
-        "text": translator.translate('app.sins.refuse_to_believe_catholic_teaching', languageKey),
-        "text_did": translator.translate('app.sins.refuse_to_believe_catholic_teaching_did', languageKey),
+        "text": 'app.sins.refuse_to_believe_catholic_teaching',
+        "text_did": 'app.sins.refuse_to_believe_catholic_teaching_did',
         "detail": "To obey in faith is to submit freely to the word that has been heard, because its truth is guaranteed by God, who is Truth itself (CCC 144). It is important to believe in all of the teachings of the church.",
         "mortal": false,
         "adult": true,
@@ -744,4 +744,4 @@ export const createSinsDb = (translator, languageKey) => ({
         "teen": true,
         "child": true
     }]
-});
+};

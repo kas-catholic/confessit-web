@@ -2,12 +2,13 @@ import React from 'react';
 import './Walkthrough.scss';
 import PriestBubble from './PriestBubble';
 import UserBubble from './UserBubble';
+import {TranslatedText} from './TranslatedText';
 
 class Walkthrough extends React.Component {
   render() {
     const  {translator} = this.props;
     let sinCards = this.props.sinsList.map((sinItem, index) =>
-      <UserBubble key={index}>{sinItem.text}</UserBubble>
+      <UserBubble key={index}><TranslatedText locale={this.props.locale} text={sinItem.text}/></UserBubble>
     );
 
     return (
