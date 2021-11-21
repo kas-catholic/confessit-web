@@ -15,8 +15,9 @@ import About from './About';
 import Help from './Help';
 import Prayers from './Prayers';
 import AddButton from './AddButton';
+import { withTranslation } from 'react-i18next';
 
-class App extends React.Component {
+class AppComponent extends React.Component {
   swiperParams = {
     slidesPerView: 1,
     spaceBetween: 5,
@@ -112,6 +113,7 @@ class App extends React.Component {
   }
 
   render() {
+    const { t } = this.props;
     let sinsList = this.buildSinsList();
 
     let appClass = "App full-screen-app";
@@ -127,9 +129,9 @@ class App extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav text-white">
               <Nav className="mr-auto text-white">
-                <Nav.Link href="/prayers">Prayers</Nav.Link>
-                <Nav.Link href="/help">Help</Nav.Link>
-                <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link href="/prayers">{t('navbar.prayers')}</Nav.Link>
+                <Nav.Link href="/help">{t('navbar.help')}</Nav.Link>
+                <Nav.Link href="/about">{t('navbar.about')}</Nav.Link>
               </Nav>
               <Nav.Link onClick={this.clearAll}><i className="fa fa-ban"></i> Clear</Nav.Link>
             </Navbar.Collapse>
@@ -181,4 +183,5 @@ class App extends React.Component {
   }
 }
 
+const App = withTranslation()(AppComponent);
 export default App;

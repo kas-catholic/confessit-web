@@ -1510,6 +1510,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.14.6":
+  version: 7.16.3
+  resolution: "@babel/runtime@npm:7.16.3"
+  dependencies:
+    regenerator-runtime: ^0.13.4
+  checksum: ee47a2b6edf56ec25437b34407a98439eb0b71149675e7b2781e5d1b2b6d858772120f590349fd9adbb0f2a186d2eb584b2b3a1819ca673b60dd5959bb02839f
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.10.4, @babel/template@npm:^7.12.13, @babel/template@npm:^7.3.3":
   version: 7.12.13
   resolution: "@babel/template@npm:7.12.13"
@@ -4544,9 +4553,12 @@ __metadata:
   dependencies:
     bootstrap: ^4.4.1
     font-awesome: ^4.7.0
+    i18next: ^21.5.2
+    i18next-browser-languagedetector: ^6.1.2
     react: ^16.12.0
     react-bootstrap: ^1.0.0-beta.16
     react-dom: ^16.12.0
+    react-i18next: ^11.14.2
     react-id-swiper: ^4.0.0
     react-router-dom: ^5.1.2
     react-scripts: 4.0.3
@@ -7370,6 +7382,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"html-parse-stringify@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "html-parse-stringify@npm:3.0.1"
+  dependencies:
+    void-elements: 3.1.0
+  checksum: 26de837d271ef79e8c54fc50c17ab1f870b539202d2a593905d3933484bd5b9c30afe57d23a7e0468ef370573e6c0e83b8d8e81bd803858a27ff5acbaa1d9032
+  languageName: node
+  linkType: hard
+
 "html-webpack-plugin@npm:4.5.0":
   version: 4.5.0
   resolution: "html-webpack-plugin@npm:4.5.0"
@@ -7500,6 +7521,24 @@ fsevents@^1.2.7:
   version: 1.1.1
   resolution: "human-signals@npm:1.1.1"
   checksum: cac115f635090055427bbd9d066781b17de3a2d8bbf839d920ae2fa52c3eab4efc63b4c8abc10e9a8b979233fa932c43a83a48864003a8c684ed9fb78135dd45
+  languageName: node
+  linkType: hard
+
+"i18next-browser-languagedetector@npm:^6.1.2":
+  version: 6.1.2
+  resolution: "i18next-browser-languagedetector@npm:6.1.2"
+  dependencies:
+    "@babel/runtime": ^7.14.6
+  checksum: b5e8b79040e92cf767aa98375b45e9534feb32f7794ef3c572659abafde571f51c77115a1db7fa9a0707601d393a52bffd686e0b0df1c84332f90525ee7a30d6
+  languageName: node
+  linkType: hard
+
+"i18next@npm:^21.5.2":
+  version: 21.5.2
+  resolution: "i18next@npm:21.5.2"
+  dependencies:
+    "@babel/runtime": ^7.12.0
+  checksum: 5d243d61cfc154078548d90ac4c8b001e0273fe5765c1c1ffff967e539e3af612b373ed0818662d8442c0cd2dc4337b127cd4d55945e5d6a1dfeb0083a2b1a6c
   languageName: node
   linkType: hard
 
@@ -12001,6 +12040,19 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"react-i18next@npm:^11.14.2":
+  version: 11.14.2
+  resolution: "react-i18next@npm:11.14.2"
+  dependencies:
+    "@babel/runtime": ^7.14.5
+    html-parse-stringify: ^3.0.1
+  peerDependencies:
+    i18next: ">= 19.0.0"
+    react: ">= 16.8.0"
+  checksum: 738c9346ba7e101c3fc4586cac5307135bb32ad9203aac8c1ea1248618b383ada710e6185a6a2f7cd0dd6db10d695d4336e7b5f50ebb42857c4487149c07a8d0
+  languageName: node
+  linkType: hard
+
 "react-id-swiper@npm:^4.0.0":
   version: 4.0.0
   resolution: "react-id-swiper@npm:4.0.0"
@@ -14739,6 +14791,13 @@ resolve@1.18.1:
   version: 1.1.2
   resolution: "vm-browserify@npm:1.1.2"
   checksum: fc571a62d2cf797ae8773ebb3cb0d2bea50ed02059e128dd9087975929fce4c80a6485ce1aaf7d44ef69db99dfdcde50b6be5d5eb73b296660d761c32fb544fe
+  languageName: node
+  linkType: hard
+
+"void-elements@npm:3.1.0":
+  version: 3.1.0
+  resolution: "void-elements@npm:3.1.0"
+  checksum: ed0f78f1434f4a5588078861815b3ebdbb0913e5129c3f1b37a3408a9f7c772d28702846316734e758ba40cad4e85371e50160d92d7968b86f12bf7227a1c6c9
   languageName: node
   linkType: hard
 
