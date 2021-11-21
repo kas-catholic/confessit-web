@@ -26,6 +26,17 @@ i18n
             about: 'About'
           }
         }
+      },
+      es: {
+        translation: {
+          // Translations below
+          navbar: {
+            prayers: 'Oraciones',
+            help: 'Ayuda',
+            about: 'Acerca de'
+          }
+
+        }
       }
     }
   });
