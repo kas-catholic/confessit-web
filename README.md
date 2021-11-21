@@ -7,7 +7,7 @@ We welcome anyone who would like to contribute to this project. Please see our [
 ## Development
 
 1. We highly recommend using [nvm](https://github.com/nvm-sh/nvm) to manage your Node installation. See the [nvm Installation Instructions](https://github.com/nvm-sh/nvm#install--update-script). We have a `.nvmrc` checked in, so running `nvm install` in this project directory after setting up nvm will ensure the correct Node version is installed.
-2. We use [yarn](https://yarnpkg.com/) to manage our dependencies. You need to have Yarn installed globally in your Node environment with `npm install -g yarn`.
+2. We use [Yarn 2](https://yarnpkg.com/) to manage our dependencies. The [Yarn Installation Instructions](https://yarnpkg.com/getting-started/install) recommend running `corepack enable` to install Yarn.
 3. Install the project dependencies with `yarn install`.
 4. Run `yarn start` as described [below](#yarn-start) to build the project and run the development server. You can kill the server with `CTRL-C` and restart it any time with `yarn start` again.
 
