@@ -2,45 +2,50 @@ import React from 'react';
 import './Walkthrough.scss';
 import PriestBubble from './PriestBubble';
 import UserBubble from './UserBubble';
+import { Trans, withTranslation } from 'react-i18next';
 
-class Walkthrough extends React.Component {
+class WalkthroughComponent extends React.Component {
   render() {
+    const { t } = this.props;
     let sinCards = this.props.sinsList.map((sinItem, index) =>
       <UserBubble key={index}>{sinItem.text}</UserBubble>
     );
 
     return (
       <div>
-        <h2>Walkthrough</h2>
-        <PriestBubble text="In the name of the Father, and of the Son, and of the Holy Spirit. Amen." />
+        <h2>{t('walkthrough.walkthrough')}</h2>
+        <PriestBubble text={t('walkthrough.in_the_name_of')} />
         <UserBubble>
-          Bless me father, for I have sinned. It has been ____ since my last confession, and these are my sins:
+          {t('walkthrough.bless_me_father')}
         </UserBubble>
 
         {sinCards}
 
         <UserBubble>
-          These are my sins, and I am sorry for them with all my heart.
+          {t('walkthrough.these_are_my_sins')}
         </UserBubble>
-        <PriestBubble text="(Your confessor may offer you some advice or have a short conversation with you." />
-        <PriestBubble text="(Your confessor will assign you penance.) Now pray the act of contrition." />
+        <PriestBubble text={t('walkthrough.your_confessor_may_offer')} />
+        <PriestBubble text={t('walkthrough.your_confessor_will_assign')} />
         <UserBubble>
-          <p>My God, I am sorry for my sins with all my heart.</p>
-          <p>In choosing to do wrong and failing to do good, I have sinned against You, whom I should love above all things.</p>
-          <p>I firmly intend with Your help to do penance, to sin no more, and to avoid whatever leads me to sin.</p>
-          <p>Jesus Christ suffered and died for us. In His name, my God, have mercy.</p>
+          <Trans t={t} i18nKey="walkthrough.act_of_contrition">
+            <p>My God, I am sorry for my sins with all my heart.</p>
+            <p>In choosing to do wrong and failing to do good, I have sinned against You, whom I should love above all things.</p>
+            <p>I firmly intend with Your help to do penance, to sin no more, and to avoid whatever leads me to sin.</p>
+            <p>Jesus Christ suffered and died for us. In His name, my God, have mercy.</p>
+          </Trans>
         </UserBubble>
-        <PriestBubble text="God, the Father of mercies..." />
+        <PriestBubble text={t('walkthrough.god_the_father_of_mercies')} />
         <UserBubble>
-          Amen.
+          {t('walkthrough.amen')}
         </UserBubble>
-        <PriestBubble text="The Lord has freed you from sin. Go in peace." />
+        <PriestBubble text={t('walkthrough.the_lord_has_freed_you')} />
         <UserBubble>
-          Thanks be to God.
+          {t('walkthrough.thanks_be_to_god')}
         </UserBubble>
       </div>
     );
   }
 }
 
+const Walkthrough = withTranslation()(WalkthroughComponent);
 export default Walkthrough;

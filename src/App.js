@@ -135,7 +135,7 @@ class AppComponent extends React.Component {
                 <Nav.Link href="/help">{t('navbar.help')}</Nav.Link>
                 <Nav.Link href="/about">{t('navbar.about')}</Nav.Link>
               </Nav>
-              <Nav.Link onClick={this.clearAll}><i className="fa fa-ban"></i> Clear</Nav.Link>
+              <Nav.Link onClick={this.clearAll}><i className="fa fa-ban"></i> {t('navbar.clear')}</Nav.Link>
             </Navbar.Collapse>
           </Navbar>
           <Switch>

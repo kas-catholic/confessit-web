@@ -1,9 +1,12 @@
 import React from 'react';
 import './SinsList.scss';
 import SinListItem from './SinListItem';
+import { withTranslation } from 'react-i18next';
 
-class SinsList extends React.Component {
+class SinsListComponent extends React.Component {
   render() {
+    const { t } = this.props;
+
     let sinCards = this.props.sinsList.map((sinItem, index) =>
       <SinListItem
         key = {index}
@@ -14,11 +17,12 @@ class SinsList extends React.Component {
 
     return (
       <div>
-        <h2>Review</h2>
+        <h2>{t('sins_list.review')}</h2>
         {sinCards}
       </div>
     );
   }
 }
 
+const SinsList = withTranslation()(SinsListComponent);
 export default SinsList;
