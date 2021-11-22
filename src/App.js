@@ -57,12 +57,13 @@ class AppComponent extends React.Component {
   }
 
   buildSinsList() {
+    const { t } = this.props;
     let sinIds = this.state.selectedSinIds;
 
     return sinIds.map(id =>
       ({
         id: id,
-        text: this.sinsById.get(id).text_did
+        text: t(`sins.${id}.text_past`)
       })
     ).concat(
       this.state.customSins.map(text =>

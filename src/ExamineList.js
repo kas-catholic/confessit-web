@@ -16,7 +16,7 @@ class ExamineListComponent extends React.Component {
         <ExamineItem
           selected={this.props.selectedSinIds.includes(sin.sin_id)}
           sinId={sin.sin_id}
-          text={sin.text}
+          text={t(`sins.${sin.sin_id}.text`)}
           key={sin.sin_id}
           onAddSinId={this.props.onAddSinId}
           onRemoveSinItem={this.props.onRemoveSinItem}
