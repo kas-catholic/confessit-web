@@ -3,7 +3,7 @@ import './App.scss';
 import ExamineList from './ExamineList';
 import SinsList from './SinsList';
 import Walkthrough from './Walkthrough';
-import sinsdb from './data/sinsdb_en';
+import sinsdb from './data/sinsdb';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';

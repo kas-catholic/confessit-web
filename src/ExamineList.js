@@ -1,10 +1,11 @@
 import React from 'react';
 import CommandmentGroup from './CommandmentGroup';
 import ExamineItem from './ExamineItem';
+import { withTranslation } from 'react-i18next';
 
-class ExamineList extends React.Component {
+class ExamineListComponent extends React.Component {
   render() {
-    let sinsdb = this.props.sinsdb;
+    const { t, sinsdb } = this.props;
 
     let sins = sinsdb.sins.reduce((obj, sin) => {
       if (!obj.hasOwnProperty(sin.commandment_id)) {
@@ -25,13 +26,16 @@ class ExamineList extends React.Component {
       return obj;
     }, {});
       
-    let elements = sinsdb.commandments.map( c =>
-      <CommandmentGroup title={c.title} text={c.text} cmdId={c.commandment_id} key={c.commandment_id}>
+    let elements = sinsdb.commandments.map( c => {
+      let title = t(`commandments.${c.commandment_id}.title`);
+      let text = t(`commandments.${c.commandment_id}.text`);
+
+      return <CommandmentGroup title={title} text={text} cmdId={c.commandment_id} key={c.commandment_id}>
         <div>
           {sins[c.commandment_id]}
         </div>
       </CommandmentGroup>
-    );
+    });
 
     return <div>
       <h2>Examine</h2>
@@ -40,4 +44,5 @@ class ExamineList extends React.Component {
   }
 }
 
+const ExamineList = withTranslation()(ExamineListComponent);
 export default ExamineList;

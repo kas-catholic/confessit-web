@@ -1,60 +1,39 @@
 {
-    "commandments": [{
-        "commandment_id": 1,
-        "title": "First Commandment",
-        "text": "You shall have no other gods before Me. (Ex 20:3)",
-        "description": "I am the Lord your God, who brought you out of the land of Egypt, out of the house of bondage. You shall have no other gods before me... you shall not bow down to them or serve them; for I the Lord your God am a jealous God... showing steadfast love to thousands of those who love me and keep my commandments. (Ex 20:2-6) The capital sins of pride and gluttony are often considered to break this commandment."
-    }, {
-        "commandment_id": 2,
-        "title": "Second Commandment",
-        "text": "You shall not take the name of the Lord your God in vain. (Ex 20:7)",
-        "description": "You shall not take the name of the Lord your God in vain; for the Lord will not hold him guiltless who takes his name in vain. (Ex 20:7)"
-    }, {
-        "commandment_id": 3,
-        "title": "Third Commandment",
-        "text": "Remember the sabbath day, to keep it holy. (Ex 20:8)",
-        "description": "Remember the sabbath day, to keep it holy. Six days you shall labor, and do all your work; but the seventh day is a sabbath to the Lord your God; in it you shall not do any work... For in six days the Lord made heaven and earth, the sea, and all that is in them, and rested the seventh day; therefore the Lord blessed the sabbath day and hallowed it. (Ex 20:8-11)"
-    }, {
-        "commandment_id": 4,
-        "title": "Fourth Commandment",
-        "text": "Honor your father and your mother. (Ex 20:12)",
-        "description": "Honor your father and mother, that your days may be long in the land which the Lord your God gives you. (Ex 20:12)"
-    }, {
-        "commandment_id": 5,
-        "title": "Fifth Commandment",
-        "text": "You shall not kill. (Ex 20:13)",
-        "description": "You shall not kill. (Ex 20:13) The capital sin of anger is often associated with this commandment."
-    }, {
-        "commandment_id": 6,
-        "title": "Sixth Commandment",
-        "text": "You shall not commit adultery. (Ex 20:14)",
-        "description": "You shall not commit adultery. (Ex 20:14) The capital sin of lust breaks this commandment."
-    }, {
-        "commandment_id": 7,
-        "title": "Seventh Commandment",
-        "text": "You shall not steal. (Ex 20:15)",
-        "description": "You shall not steal. (Ex 20:15) The capital sins of greed and sloth are often considered to break this commandment."
-    }, {
-        "commandment_id": 8,
-        "title": "Eighth Commandment",
-        "text": "You shall not bear false witness against your neighbor. (Ex 20:16)",
-        "description": "You shall not bear false witness against your neighbor. (Ex 20:16)"
-    }, {
-        "commandment_id": 9,
-        "title": "Ninth Commandment",
-        "text": "You shall not covet your neighbor's wife. (Ex 20:17)",
-        "description": "You shall not covet your neighbor's wife. (Ex 20:17) The capital sin of jealousy can break this commandment."
-    }, {
-        "commandment_id": 10,
-        "title": "Tenth Commandment",
-        "text": "You shall not covet your neighbor's goods. (Ex 20:17)",
-        "description": "You shall not covet your neighbor's house... or his manservant, or his maidservant, or his ox, or his ass, or anything that is your neighbor's. (Ex 20:17) The capital sin of jealousy can break this commandment."
-    }, {
-        "commandment_id": 11,
-        "title": "Precepts of the Church",
-        "text": "The precepts of the Catholic Church are the minimum requirements that all Catholics should fulfill.",
-        "description": "The precepts of the Church are set in the context of a moral life bound to and nourished by liturgical life. The obligatory character of these positive laws decreed by the pastoral authorities is meant to guarantee to the faithful the very necessary minimum in the spirit of prayer and moral effort, in the growth in love of God and neighbor (CCC 2041)."
-    }],
+    "commandments": [
+        {
+            "commandment_id": 1
+        },
+        {
+            "commandment_id": 2
+        },
+        {
+            "commandment_id": 3
+        },
+        {
+            "commandment_id": 4
+        },
+        {
+            "commandment_id": 5
+        },
+        {
+            "commandment_id": 6
+        },
+        {
+            "commandment_id": 7
+        },
+        {
+            "commandment_id": 8
+        },
+        {
+            "commandment_id": 9
+        },
+        {
+            "commandment_id": 10
+        },
+        {
+            "commandment_id": 11
+        }
+    ],
     "sins": [{
         "married": true,
         "common": false,
