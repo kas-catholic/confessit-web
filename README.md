@@ -13,6 +13,12 @@ We welcome anyone who would like to contribute to this project. Please see our [
 
 This project is a React app and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Reading the [React](https://reactjs.org/docs/getting-started.html) and [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) docs will help you get started if you're not already familiar with these frameworks.
 
+See [CONTRIBUTING](CONTRIBUTING.md) for more information about how to contribute to the development of ConfessIt.
+
+## Translations
+
+**We want to support more languages, and welcome translation additions and improvements!** See [CONTRIBUTING](CONTRIBUTING.md) for more information about how to add or improve a translation to a different language.
+
 ## Production Deployment
 
 Our `main` branch is continuously deployed via [AWS Amplify](https://aws.amazon.com/amplify/). Simply merge to main and the site will be updated.
