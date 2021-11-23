@@ -11,7 +11,7 @@ We welcome anyone who would like to contribute to this project. Please see our [
 3. Install the project dependencies with `yarn install`.
 4. Run `yarn start` as described [below](#yarn-start) to build the project and run the development server. You can kill the server with `CTRL-C` and restart it any time with `yarn start` again.
 
-This project is a React app and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Reading the [React](https://reactjs.org/docs/getting-started.html) and [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) docs will help you get started if you're not already familiar with these frameworks.
+This project is a [progressive web app](https://create-react-app.dev/docs/making-a-progressive-web-app/) React app and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Reading the [React](https://reactjs.org/docs/getting-started.html) and [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) docs will help you get started if you're not already familiar with these frameworks. We use [React Bootstrap](https://react-bootstrap.github.io/) as our CSS framework and [react-i18next](https://react.i18next.com/) for translations.
 
 See [CONTRIBUTING](CONTRIBUTING.md) for more information about how to contribute to the development of ConfessIt.
 
