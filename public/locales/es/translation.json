@@ -1,7 +1,73 @@
 {
-  "navbar": {
-    "prayers": "Oraciones",
-    "help": "Ayuda",
-    "about": "Acerca de"
-  }
+    "navbar": {
+        "prayers": "Oraciones",
+        "help": "Ayuda",
+        "about": "Acerca de",
+        "clear": "Vacíe"
+    },
+    "walkthrough": {
+        "bless_me_father": "Bendíceme, Padre, porque he pecado. Ha pasado ____ desde mi última confesión. Estos son mis pecados:",
+        "act_of_contrition": "<p>Oh Dios mío, lamento mis pecados con todo mi corazón.</p><p>Al elegir hacer el mal y fallando en hacer el bien, he pecado contra ti, a quien amaría sobre todas las cosas.</p><p>Tengo la firme intención, con tu ayuda, hacer penitencia, no pecar más, y evitar todo lo que me lleve al pecado.</p><p>Nuestro Salvador Jesucristo sufrió y murió por nosotros. En su nombre, Dios mío, ten piedad. Amén.</p>",
+        "walkthrough": "Confese",
+        "in_the_name_of": "En el nombre del Padre, y del Hijo, y del Espiritu Santo. Amen.",
+        "these_are_my_sins": "Estos son mis pecados y los siento de todo corazón.",
+        "your_confessor_may_offer": "(El sacerdote podría ofrecerle algún consejo o tener una breve conversación con usted.)",
+        "your_confessor_will_assign": "(El sacerdote asignará una penitencia). Ahora reze el acto de contrición.",
+        "god_the_father_of_mercies": "Dios, Padre misericordioso…",
+        "amen": "Amen.",
+        "the_lord_has_freed_you": "El Señor los ha librado de sus pecados. Ve en paz.",
+        "thanks_be_to_god": "Gracias a Dios."
+    },
+    "prayers": {
+        "prayer_before_confession_text": "<p>Oh, Espíritu Santo, fuente de toda luz, ven en mi auxilio y permíteme hacer una buena confesión.<br />Trae a mi mente todo lo malo que he hecho y lo bueno que he dejado de hacer.<br />Concédeme, además, una verdadera pena por mis pecados y la gracia de una sincera confesión.<br />María, Madre mía, ayúdame a hacer una buena confesión.<br />Amen.</p>",
+        "act_of_contrition_text": "<p>Dios mío,<br />me arrepiento de todo corazón de todos mis pecados y los aborrezco, porque al pecar, no sólo merezco las penas establecidas por ti justamente,<br />sino principalmente porque te ofendí, a ti sumo Bien y digno de amor por encima de todas las cosas.<br />Por eso propongo firmemente, con ayuda de tu gracia, no pecar más en adelante y huir de toda ocasión de pecado.<br />Amén.</p>",
+        "our_father_text": "<p>Padre nuestro que estás en el cielo, santificado sea tu Nombre;<br />venga a nosotros tu Reino;<br />hágase tu voluntad en la tierra como en el cielo.<br />Danos hoy nuestro pan de cada día;<br />perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden;<br />no nos dejes caer en la tentación, y líbranos del mal.<br />Amén.</p>",
+        "hail_mary_text": "<p>Dios te salve, María, llena eres de gracia;<br />el Señor es contigo.<br />Bendita Tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.<br />Santa María, Madre de Dios,<br />ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte.<br />Amén.</p>",
+        "hail_holy_queen_text": "<p>Dios te salve, Reina y Madre de misericordia,<br />vida, dulzura y esperanza nuestra; Dios te salve.<br />A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando en este valle de lágrimas.<br />Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos; y después de este destierro, muéstranos a Jesús, fruto bendito de tu vientre.<br />¡Oh, clementísima, oh piadosa, oh dulce Virgen María! Ruega por nosotros, Santa Madre de Dios, para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo.<br />Amen.</p>",
+        "prayers": "Oraciones",
+        "prayer_before_confession": "Oración antes de la confesión",
+        "act_of_contrition": "Acto de contrición",
+        "another_act_of_contrition": "Otro acto de contrición",
+        "thanksgiving_after_confession": "Acción de gracias después de la confesión",
+        "our_father": "Padre Nuestro",
+        "hail_mary": "Dios te salve María",
+        "hail_holy_queen": "Dios te salve Reina",
+        "another_act_of_contrition_text": "<p>¡Señor mío, Jesucristo!<br />Dios y Hombre verdadero, Creador, Padre y Redentor mío; por ser Vos quien sois, Bondad infinita, y porque os amo sobre todas las cosas, me pesa de todo corazón de haberos ofendido;<br />también me pesa porque podéis castigarme con las penas del infierno.<br />Ayudado de vuestra divina gracia propongo firmemente nunca más pecar, confesarme y cumplir la penitencia que me fuere impuesta.<br />Amén.</p>",
+        "thanksgiving_after_confession_text": "<p>Te agradezco, Señor, el haberme perdonado mis faltas;<br />haz que te ame cada día más y que siempre haga tu Santísima Voluntad.<br />Virgen Santísima, intercede por mí y guárdame en la gracia de Dios, como estoy en estos momentos.<br />Cuida mis sentidos y mi corazón hasta mi muerte.<br />Amén.</p>"
+    },
+    "about": {
+        "ccc_quote": "<p>Se le denomina sacramento de conversión porque realiza sacramentalmente la llamada de Jesús a la conversión (cf Mc 1,15), la vuelta al Padre (cf Lc 15,18) del que el hombre se había alejado por el pecado.</p><p>Se denomina sacramento de la penitencia porque consagra un proceso personal y eclesial de conversión, de arrepentimiento y de reparación por parte del cristiano pecador.</p><p>Se le denomina sacramento de la confesión porque la declaración o manifestación, la confesión de los pecados ante el sacerdote, es un elemento esencial de este sacramento. En un sentido profundo este sacramento es también una \"confesión\", reconocimiento y alabanza de la santidad de Dios y de su misericordia para con el hombre pecador.</p><p>Se le denomina sacramento del perdón porque, por la absolución sacramental del sacerdote, Dios concede al penitente \"el perdón y la paz\" (Ritual de la Penitencia, 46, 55).</p><p>Se le denomina sacramento de reconciliación porque otorga al pecador el amor de Dios que reconcilia: \"Dejaos reconciliar con Dios\" (2 Co 5,20). El que vive del amor misericordioso de Dios está pronto a responder a la llamada del Señor: \"Ve primero a reconciliarte con tu hermano\" (Mt 5,24).</p><p>La conversión a Cristo, el nuevo nacimiento por el Bautismo, el don del Espíritu Santo, el Cuerpo y la Sangre de Cristo recibidos como alimento nos han hecho \"santos e inmaculados ante Él\" (Ef 1,4), como la Iglesia misma, esposa de Cristo, es \"santa e inmaculada ante Él\" (Ef 5,27). Sin embargo, la vida nueva recibida en la iniciación cristiana no suprimió la fragilidad y la debilidad de la naturaleza humana, ni la inclinación al pecado que la tradición llama concupiscencia, y que permanece en los bautizados a fin de que sirva de prueba en ellos en el combate de la vida cristiana ayudados por la gracia de Dios (cf DS 1515). Esta lucha es la de la conversión con miras a la santidad y la vida eterna a la que el Señor no cesa de llamarnos (cf DS 1545; LG 40).</p><p>Jesús llama a la conversión. Esta llamada es una parte esencial del anuncio del Reino: \"El tiempo se ha cumplido y el Reino de Dios está cerca; convertíos y creed en la Buena Nueva\" (Mc 1,15). El Bautismo es el lugar principal de la conversión primera y fundamental, pues la llamada de Cristo a la conversión sigue resonando en la vida de los cristianos. Esta segunda conversión es una tarea ininterrumpida para toda la Iglesia que \"recibe en su propio seno a los pecadores\" y que siendo \"santa al mismo tiempo que necesitada de purificación constante, busca sin cesar la penitencia y la renovación\" (LG 8). Este esfuerzo de conversión no es sólo una obra humana. Es el movimiento del \"corazón contrito\" (Sal 51,19), atraído y movido por la gracia (cf Jn 6,44; 12,32) a responder al amor misericordioso de Dios que nos ha amado primero (cf 1 Jn 4,10). San Ambrosio dice acerca de las dos conversiones que, «en la Iglesia, existen el agua y las lágrimas: el agua del Bautismo y las lágrimas de la Penitencia» (Epistula extra collectionem 1 [41], 12).</p><7>— Catecismo de la Iglesia Católica 1423-1424,1426; cf. 1427-1429</7>",
+        "if_you_find": "Si encuentra útil esta aplicación, considere <strong>compartirla</strong> con sus amigos y familiares. ¡Cuénte a la gente en Facebook, Reddit, Twitter, en su iglesia o en su grupo de estudio bíblico para ayudar a difundir el mensaje!",
+        "information_you_enter": "La información que ingresa en esta aplicación solo se almacena en su dispositivo. No se envía por Internet. Podemos hacer esto usando una tecnología proporcionada por su navegador web llamada <1>trazo local</1>. No ejecutamos Google Analytics ni ningún otro mecanismo de recopilación de datos en este sitio. Los datos que ingrese se guardarán en su dispositivo hasta que presione <3>Borrar</3> incluso si cierra la ventana o actualiza la página.",
+        "confessit_is_translated": "ConfessIt está traducido a varios idiomas. Si desea ayudar con este esfuerzo agregando una nueva traducción o mejorando una traducción existente, lea cómo hacerlo en <1>GitHub</1> o comuníquese con nosotros en <3>Open Source Catholic</3> en Slack.",
+        "about_confessit": "Acerca de ConfessIt",
+        "about_confessit_text": "ConfessIt es un examen de conciencia <1>católico romano</1> para computadoras, tabletas y teléfonos. Está diseñado para ser simple y fácil de usar, y puede ayudarle a recordar sus pecados cuando se confiese. También hay un tutorial de confesión que le dice exactamente lo que dirá el sacerdote y cómo debe responder, ¡un gran recurso si no se ha confesado en un tiempo! El examen de conciencia se basa en las enseñanzas fundamentales de la iglesia católica, es fácil de entender y es relevante para los católicos modernos.",
+        "about_confession": "Acerca de la confesión",
+        "about_confession_intro": "La confesión es el sacramento con el cual los Católicos obtienen de la misericordia de Dios el perdón de los pecados cometidos contra El y, al mismo tiempo, se reconcilian con la Iglesia, a la que ofendieron con sus pecados. Ella les mueve a conversión con su amor, su ejemplo y sus oraciones.",
+        "where_to_find": "Los horarios de confesión se enumeran en el boletín de su parroquia local, y puede encontrarlos en línea en el sitio web de su parroquia o en el sitio <1> masstimes.org</1> (Estados Unidos). También puede programar una confesión en cualquier momento que desee poniéndose en contacto con su parroquia local.",
+        "about_confession_end": "Cuando usted va a la confesión, por lo general, tendrá la opción de arrodillarse de forma anónima detrás de una pantalla, o sentarse cara a cara con el sacerdote. ¡No se ponga nervioso por ir a la confesión! Cualquier cosa que usted confiese, el sacerdote lo ha oído ya. Recuerde, él está ahí para ayudarlo.",
+        "about_this_app": "Acerca de esta App",
+        "this_app_is_designed": "Esta aplicación está diseñada para ayudar a los católicos a prepararse para el sacramento de la confesión examinando su conciencia. <strong>NO</strong> es un sustituto de la confesión.",
+        "please_be_respectful": "Sea respetuoso con quienes le rodean cuando utilice esta aplicación. Se recomienda que apague su teléfono cuando esté dentro de su iglesia y use esta aplicación antes de llegar. Si usa esta aplicación dentro de su iglesia o durante la confesión, asegúrese de que su teléfono esté en modo silencioso.",
+        "this_website": "Este sitio web, <1>ConfessIt.app</1>, se basa en la <3>Aplicación ConfessIt para Android</3> (creada en 2012 por el mismo desarrollador). Si bien no es (todavía) una reproducción completa, su objetivo es hacer que la aplicación esté disponible para una gama más amplia de usuarios en una gama más amplia de dispositivos. (¡Este sitio funciona en iOS, Android, tabletas y computadoras!)",
+        "privacy": "Privacidad",
+        "open_source": "Fuente Abierta",
+        "confessit_is_open_source": "ConfessIt es de código abierto. Desarrollamos la aplicación en <1></1> <3>GitHub</3> y colaboramos en la comunidad <5>Open Source Catholic</5> en Slack.",
+        "can_i_help_with_translations": "¿Puedo ayudar con las traducciones?",
+        "can_i_help_write_code": "¿Puedo ayudar a escribir código?",
+        "we_welcome_new_contributions": "Damos la bienvenida a nuevas contribuciones. Si desea contribuir a ConfessIt, la mejor manera de comenzar es leyer cómo hacerlo en <1>GitHub</1>.",
+        "about_the_developer": "Acerca de el Desarrollador",
+        "mike_kasberg": "<0>Mike Kasberg</0> desarrolla ConfessIt en su tiempo libre, como una forma de retribuir a la iglesia. También está involucrado en algunos otros proyectos pequeños para apoyar a las organizaciones católicas con tecnología.",
+        "information": "La información de esta aplicación proviene de la Versión Estándar Revisada de la Santa Biblia, Segunda Edición Católica. También se utilizó información del Catecismo de la Iglesia Católica."
+    },
+    "examine_list": {
+        "examine": "Examine"
+    },
+    "sins_list": {
+        "review": "Revise"
+    },
+    "help": {
+        "confessit_help": "Ayuda para ConfessIt",
+        "basic_usage": "Uso básico"
+    }
 }
