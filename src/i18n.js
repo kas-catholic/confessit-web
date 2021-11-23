@@ -16,8 +16,12 @@ i18n
   // init i18next
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
-    debug: true,
+    // debug: true,
     fallbackLng: "en",
+    supportedLngs: ["en", "de", "es", "it"],
+    // allow an empty value to count as invalid
+    // https://www.i18next.com/principles/fallback#missing-values-for-existing-keys
+    returnEmptyString: false,
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
