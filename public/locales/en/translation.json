@@ -66,6 +66,16 @@
     "mike_kasberg": "<0>Mike Kasberg</0> develops ConfessIt in his free time, as a way of giving back to the church. He is also involved in a few other small projects to support Catholic organizations with technology.",
     "information": "Information in this app comes from the Revised Standard Version of the Holy Bible, Second Catholic Edition. Information from the Catechism of the Catholic Church was also used."
   },
+  "help": {
+    "confessit_help": "ConfessIt Help",
+    "basic_usage": "Basic Usage",
+    "step_1": "In the <strong>Examination</strong> tab, mark <strong>Yes</strong> next to all the sins you want to remember to confess.",
+    "step_2": "Swipe to the next tab, <strong>Sins</strong>, to see a list of sins you've marked. You can review this list before or during confession if you wish.",
+    "step_3": "If you're unsure what to say in confession, swipe to the next tab, <strong>Walkthrough</strong>, to see roughly what you and the priest will say to each other in confession. You can review this during confession if you wish.",
+    "step_4": "After you've gone to confession, use the <strong>Clear</strong> button to clear all the sins you've marked.",
+    "data_persistence": "Data Persistence",
+    "data_persistence_text": "Data you enter is stored on your device (never sent over the internet). Data you enter will be saved until you hit <strong>Clear</strong>, even if you close the window or refresh the page. Be sure to clear your data when you're done if you don't want other people who use this device to see your data!"
+  },
   "commandments": {
     "1": {
       "title": "First Commandment",
