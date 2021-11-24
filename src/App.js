@@ -16,7 +16,7 @@ import Help from './Help';
 import Prayers from './Prayers';
 import AddButton from './AddButton';
 import { withTranslation } from 'react-i18next';
-import { Suspense } from 'react';
+import LoadingComponent from './LoadingComponent';
 
 class AppComponent extends React.Component {
   swiperParams = {
@@ -190,8 +190,8 @@ const App = withTranslation()(AppComponent);
 // App catches the suspense from page in case translations are not yet loaded.
 export default function WrappedApp() {
   return (
-    <Suspense fallback="ConfessIt is loading...">
+    <React.Suspense fallback={<LoadingComponent />}>
       <App />
-    </Suspense>
+    </React.Suspense>
   );
 }
