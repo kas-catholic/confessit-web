@@ -14,3 +14,6 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
+
+# Don't forget to configure the build image in the AWS Amplify UI.
+# Current build image: node:16.13
