@@ -21,7 +21,7 @@ See [CONTRIBUTING](CONTRIBUTING.md) for more information about how to contribute
 
 ## Production Deployment
 
-Our `main` branch is continuously deployed via [AWS Amplify](https://aws.amazon.com/amplify/). Simply merge to main and the site will be updated.
+Our `main` branch is continuously deployed via [Netlify](https://www.netlify.com/). Simply merge to main and the site will be updated.
 
 ----
 
@@ -62,4 +62,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 We're also using [Swiper](https://swiperjs.com/) via [react-id-swiper](https://github.com/kidjp85/react-id-swiper) for the swipable columns.
 
-The app is deployed to <https://confessit.app>, hosted on AWS Amplify.
+The app is deployed to <https://confessit.app>, hosted on Netlify.
