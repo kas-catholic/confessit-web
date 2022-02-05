@@ -62,4 +62,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 We're also using [Swiper](https://swiperjs.com/) via [react-id-swiper](https://github.com/kidjp85/react-id-swiper) for the swipable columns.
 
-The app is deployed to <https://confessit.app>, hosted on AWS Amplify.
+The app is deployed to <https://confessit.app>, hosted on Netlify.
