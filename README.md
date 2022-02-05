@@ -21,7 +21,7 @@ See [CONTRIBUTING](CONTRIBUTING.md) for more information about how to contribute
 
 ## Production Deployment
 
-Our `main` branch is continuously deployed via [AWS Amplify](https://aws.amazon.com/amplify/). Simply merge to main and the site will be updated.
+Our `main` branch is continuously deployed via [Netlify](https://www.netlify.com/). Simply merge to main and the site will be updated.
 
 ----
 
