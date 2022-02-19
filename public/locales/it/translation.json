@@ -2,7 +2,7 @@
     "navbar": {
         "prayers": "Preghiere",
         "help": "Aiuto",
-        "about": "",
+        "about": "Su questa app",
         "clear": "Svuota"
     },
     "examine_list": {
@@ -69,17 +69,17 @@
     "help": {
         "confessit_help": "ConfessaLo Assistenza",
         "basic_usage": "Utilizzo di base",
-        "step_1": "",
-        "step_2": "",
-        "step_3": "",
-        "step_4": "",
-        "data_persistence": "",
-        "data_persistence_text": ""
+        "step_1": "Nella scheda <strong>Esamina</strong>, spunta <strong>Sì</strong> accanto ai peccati di cui vuoi fare una promemoria per la confessione.",
+        "step_2": "Scorri alla prossima scheda, <strong>Peccati</strong>, per vedere la lista dei peccati che hai segnato. Puoi anche revisionare ancora la lista prima o durante la confessione.",
+        "step_3": "Se non sei sicuro di cosa dire durante la confessione, scorri alla scheda successiva, <strong>Procedura dettagliata</strong>, dove puoi visionare per sommi capi il dialogo che avviene tra sacerdote e penitente durante la confessione. Puoi anche riguardarti questa sezione durante la confessione se ti è di aiuto.",
+        "step_4": "Una volta che ti sei confessato, puoi usare il pulsante <strong>Svuota</strong> per eliminare tutti i peccati segnati.",
+        "data_persistence": "Persistenza dei dati",
+        "data_persistence_text": "I dati inseriti sono memorizzati direttamente sul dispositivo (mai inviati su Internet). I dati inseriti rimangono fintanto che non premi il pulsante <strong>Svuota</strong>, e persistono anche se chiudi la finestra o aggiorni la pagina. Assicùrati pertanto di cancellare i dati quando hai finito, se non vuoi che altre persone che usano questo dispositivo vedano i tuoi dati!"
     },
     "commandments": {
         "1": {
-            "title": "",
-            "text": "",
+            "title": "Primo Comandamento",
+            "text": "Non avrai altri dèi di fronte a me (Es 20,3)",
             "description": ""
         },
         "2": {
