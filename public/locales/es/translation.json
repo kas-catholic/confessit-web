@@ -68,6 +68,17 @@
     },
     "help": {
         "confessit_help": "Ayuda para ConfessIt",
-        "basic_usage": "Uso básico"
+        "basic_usage": "Uso básico",
+        "data_persistence": "Persistencia de los datos",
+        "step_4": "Despues de la confesión, usa el boton <strong>Borrar</strong> para vaciar todos los pecados demarcados.",
+        "step_2": "Desliza a la siguiente pestaña, <strong>Pecados</strong>, para ver la lista de los pecados que has marcado. Puedes revisar esta lista antes o durante la confesión si lo deseas.",
+        "step_3": "Si no estas seguro de lo qué vas a decir en la confesión, pasa a la siguiente pestaña, <strong>Tutorial </strong>, para ver aproximadamente lo que tu y el sacerdote se dirán en la confesión. Puedes revisar esto durante la confesión si lo deseas.",
+        "data_persistence_text": "Los datos que vas ad ingresar se almacenan en tu dispositivo (nunca se envían a través de Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong>, incluso si cierras la ventana o actualizas la página. ¡Asegúrete de borrar tus datos cuando haya terminado si no deseas que otras personas que usan este dispositivo vean tus datos!"
+    },
+    "commandments": {
+        "1": {
+            "title": "Primer Mandamiento",
+            "text": "Yo soy el Señor tu Dios. No habrá para ti otros dioses delante de mí. (Éx 20,3)"
+        }
     }
 }
