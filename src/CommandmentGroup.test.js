@@ -43,7 +43,7 @@ describe('commandmentGroup', () => {
   describe('getCollapseId', () => {
     it('should return the id', () => {
       const result = instance.getCollapseId();
-      
+
       expect(result).toEqual('cmd-collapse-1');
     });
   });
