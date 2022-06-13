@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "font-awesome": "^4.7.0",
     "i18next": "^21.5.2",
     "i18next-browser-languagedetector": "^6.1.2",
