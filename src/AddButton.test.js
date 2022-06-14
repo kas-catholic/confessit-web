@@ -5,7 +5,7 @@ import * as Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter.default() });
 
-describe('addButton', () => {
+describe('AddButton', () => {
   const addCustomSinMock = jest.fn();
   const wrapper = shallow(<AddButton addCustomSin={addCustomSinMock} />);
   const instance = wrapper.instance();

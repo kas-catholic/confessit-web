@@ -5,7 +5,7 @@ import * as Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter.default() });
 
-describe('commandmentGroup', () => {
+describe('CommandmentGroup', () => {
   const wrapper = shallow(<CommandmentGroup cmdId={1} />);
   const instance = wrapper.instance();
 
