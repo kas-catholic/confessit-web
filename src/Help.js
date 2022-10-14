@@ -7,7 +7,7 @@ import { Trans, withTranslation } from 'react-i18next';
 class HelpComponent extends React.Component {
   render() {
     const { t } = this.props;
-    return <Container className="text-justify mt-4">
+    return <Container className="text-start mt-4">
       <Row>
         <Col lg={{span: 8, offset: 2}} md={12}>
           <h1>{t('help.confessit_help')}</h1>
@@ -25,7 +25,7 @@ class HelpComponent extends React.Component {
 
           <p>
             <Trans t={t} i18nKey="help.data_persistence_text">
-              Data you enter is stored on your device (never sent over the internet). Data you enter will be saved until you hit <strong>Clear</strong>, even if you close the window or refresh the page. Be sure to clear your data when you're done if you don't want other people who use this device to see your data!
+              Data you enter is stored on your device (never sent over the Internet). Data you enter will be saved until you hit <strong>Clear</strong>, even if you close the window or refresh the page. Be sure to clear your data when you're done if you don't want other people who use this device to see your data!
             </Trans>
           </p>
           

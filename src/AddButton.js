@@ -2,6 +2,7 @@ import React from 'react';
 import './AddButton.scss';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import { FormControl } from 'react-bootstrap';
 
 class AddButton extends React.Component {
   constructor(props) {
@@ -40,10 +41,11 @@ class AddButton extends React.Component {
           <Modal.Title>Add Custom Sin</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <textarea
+        <FormControl
+            as="textarea" 
+            rows={3}
             id="add-sin-input"
             onInput={e => this.setState({inputValue: e.target.value})}
-            className="form-control"
             placeholder="I sinned by..."
           />
         </Modal.Body>

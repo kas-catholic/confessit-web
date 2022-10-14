@@ -31,15 +31,6 @@
   }
 }
 
-/* Make the container fill the window vertically, less the navbar. */
-.navbar {
-  height: 4rem;
-  font-family: "Open Sans", sans-serif;
-}
-.container, .container-fluid {
-  height: calc(100% - 4rem);
-}
-
 /* 100% height to fill vertically so we can scroll columns. */
 .swiper-container {
   height: 100%;

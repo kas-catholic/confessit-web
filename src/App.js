@@ -127,16 +127,18 @@ class AppComponent extends React.Component {
       <BrowserRouter>
         <div className={appClass}>
           <Navbar sticky="top" variant="dark" bg="primary" expand="lg">
+            <Container fluid>
             <Navbar.Brand href="/"><h1>ConfessIt</h1></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav text-white">
-              <Nav className="mr-auto text-white">
+              <Nav className="me-auto text-white">
                 <Nav.Link href="/prayers">{t('navbar.prayers')}</Nav.Link>
                 <Nav.Link href="/help">{t('navbar.help')}</Nav.Link>
                 <Nav.Link href="/about">{t('navbar.about')}</Nav.Link>
               </Nav>
               <Nav.Link onClick={this.clearAll}><i className="fa fa-ban"></i> {t('navbar.clear')}</Nav.Link>
             </Navbar.Collapse>
+            </Container>
           </Navbar>
           <Switch>
             <Route exact path="/">
