@@ -2,9 +2,7 @@
 $body-bg: #cea990;
 $body-color: #4c1e00;
 $primary: #800080;
-$theme-colors: (
-  "primary": #800080
-);
+$font-size-root: 18px;
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
@@ -53,4 +51,11 @@ blockquote {
 
 .anchor-pad {
   padding-top: 4rem;
+}
+
+textarea.form-control {
+  background-color: #fff;
+  &:focus {
+    background-color: #fff;
+  }
 }

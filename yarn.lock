@@ -1453,7 +1453,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.8, @babel/runtime@npm:^7.14.0, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.2, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.19.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7":
+"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.2, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.19.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7":
   version: 7.19.4
   resolution: "@babel/runtime@npm:7.19.4"
   dependencies:
@@ -2166,23 +2166,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@popperjs/core@npm:^2.11.6":
+"@popperjs/core@npm:^2.11.5":
   version: 2.11.6
   resolution: "@popperjs/core@npm:2.11.6"
   checksum: 10acbe5f2f5da384063f057a3c9d3f9166c24f93603ddf4141e1fb231e42a9a64c647785733769dba41ee31c008ae9903541ee03f20c03c7b68122933b2875cc
   languageName: node
   linkType: hard
 
-"@restart/context@npm:^2.1.4":
-  version: 2.1.4
-  resolution: "@restart/context@npm:2.1.4"
+"@react-aria/ssr@npm:^3.2.0":
+  version: 3.3.0
+  resolution: "@react-aria/ssr@npm:3.3.0"
+  dependencies:
+    "@babel/runtime": ^7.6.2
   peerDependencies:
-    react: ">=16.3.2"
-  checksum: f9dd1416c16988b5bd66d3306dedfc9b95665d3af2c5b88cd2040b0825dfcf778eb9bd992c6e810c62187f981a78ea34923fb582a023f896079634edb3b1bc2c
+    react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+  checksum: 07fac50d4fdd067380eabb24aba08a053e9ab7eb7d23ed3eeafaaeafb69d74be7c3db108584a526db38d6fd96873fc7ccc8bc9223f05a78bd9947356156e741e
   languageName: node
   linkType: hard
 
-"@restart/hooks@npm:^0.4.7":
+"@restart/hooks@npm:^0.4.6, @restart/hooks@npm:^0.4.7":
   version: 0.4.7
   resolution: "@restart/hooks@npm:0.4.7"
   dependencies:
@@ -2190,6 +2192,26 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
   checksum: 35fd8f2733dff11d86c923458a443680e3812d9621a74543a7fe1614a1c027fcb72be06b98c69f590fc271427931efa08eb9c51fd2198fffd20f5a14853287a5
+  languageName: node
+  linkType: hard
+
+"@restart/ui@npm:^1.3.1":
+  version: 1.4.0
+  resolution: "@restart/ui@npm:1.4.0"
+  dependencies:
+    "@babel/runtime": ^7.18.3
+    "@popperjs/core": ^2.11.5
+    "@react-aria/ssr": ^3.2.0
+    "@restart/hooks": ^0.4.7
+    "@types/warning": ^3.0.0
+    dequal: ^2.0.2
+    dom-helpers: ^5.2.0
+    uncontrollable: ^7.2.1
+    warning: ^4.0.3
+  peerDependencies:
+    react: ">=16.14.0"
+    react-dom: ">=16.14.0"
+  checksum: bbc074d3691af5f0a2267bf47b6e1e8f4410e9e9242adce16651aebc58236d2679a6898c0693e80b51c882c90006406a057f1f79abf81ff5a25972549fb4922c
   languageName: node
   linkType: hard
 
@@ -2615,13 +2637,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/invariant@npm:^2.2.33":
-  version: 2.2.35
-  resolution: "@types/invariant@npm:2.2.35"
-  checksum: f5e62c24508817e7f95ada0bde57aaa034e091cde4cbe7c0901a7adc1c2680a444cf12ba32f49347a387c95cd19bd53e9d6cf7f6bd94102fbb9bb3b8c78b4844
-  languageName: node
-  linkType: hard
-
 "@types/istanbul-lib-coverage@npm:*, @types/istanbul-lib-coverage@npm:^2.0.0, @types/istanbul-lib-coverage@npm:^2.0.1":
   version: 2.0.4
   resolution: "@types/istanbul-lib-coverage@npm:2.0.4"
@@ -2669,9 +2684,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.8.5
-  resolution: "@types/node@npm:18.8.5"
-  checksum: 3756fb26c9316c6e9da6f653a90caad40b5cfb42a3e25aa5a3248b647203b5103bd9af9850fcb0f0febc0edc4108dde8ab124c94090500d8ecc19bf2253a8e2a
+  version: 18.11.0
+  resolution: "@types/node@npm:18.11.0"
+  checksum: 43f7b00c1360303374ff00f1d08a491311703443984df6fd9c0fc5a5b8d7475afe0ccad9b17ea43e26ff90e27587687f09cd4eeea837bb6e69e275ba78d0e5aa
   languageName: node
   linkType: hard
 
@@ -2689,7 +2704,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prop-types@npm:*, @types/prop-types@npm:^15.7.3":
+"@types/prop-types@npm:*":
   version: 15.7.5
   resolution: "@types/prop-types@npm:15.7.5"
   checksum: 16d1169b25d6847ee316bf7dfb764e31f63cdb39c5c9f1af99ef28859b82bcbd1b756a822e8314b01159b2c90cc267d5c17f9505f61ac1dc1c45724e23802257
@@ -2717,7 +2732,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-transition-group@npm:^4.4.1":
+"@types/react-transition-group@npm:^4.4.4":
   version: 4.4.5
   resolution: "@types/react-transition-group@npm:4.4.5"
   dependencies:
@@ -2726,7 +2741,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:>=16.14.8, @types/react@npm:>=16.9.11":
+"@types/react@npm:*, @types/react@npm:>=16.9.11":
   version: 18.0.21
   resolution: "@types/react@npm:18.0.21"
   dependencies:
@@ -3903,13 +3918,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap@npm:^4.4.1":
-  version: 4.6.2
-  resolution: "bootstrap@npm:4.6.2"
+"bootstrap@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "bootstrap@npm:5.2.2"
   peerDependencies:
-    jquery: 1.9.1 - 3
-    popper.js: ^1.16.1
-  checksum: 2f93c502edbdee6e962f18f3a4d6e1190849638d1a5d651f8035d4206d710c2eb4fb94e11b349a9f32f47c6934379fbc03d1758d04dac85cb546a9f553719ef0
+    "@popperjs/core": ^2.11.6
+  checksum: 87354c42867be299375c83e236c78665b73d6daf5d970be2826b449c6f8402c59e93b3f09e71c4a4f9b472ba29f4b300152db420555a4ffdf1a2482511b25acd
   languageName: node
   linkType: hard
 
@@ -4086,9 +4100,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001332, caniuse-lite@npm:^1.0.30001400":
-  version: 1.0.30001419
-  resolution: "caniuse-lite@npm:1.0.30001419"
-  checksum: 0ecc82c947a9a323ff1b010acf19e9808a8bac70394f66155dfd2f72586186ebb5170c70fd01876502555d9b8a591ab5041433c60912a077ce73af95aa0674d8
+  version: 1.0.30001420
+  resolution: "caniuse-lite@npm:1.0.30001420"
+  checksum: 33a492dc1709cf8c5513f90dfc667b4a3b34cdc3021661dd4316944698979119c5656ab45c9ef643f4d4a7b5915c24af555a3bdf9b735e4bc09ba9207b1d1e57
   languageName: node
   linkType: hard
 
@@ -4417,16 +4431,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "confessit-web@workspace:."
   dependencies:
-    bootstrap: ^4.4.1
+    bootstrap: ^5.2.2
     enzyme: ^3.11.0
     enzyme-adapter-react-16: ^1.15.6
     font-awesome: ^4.7.0
     i18next: ^21.5.2
     i18next-browser-languagedetector: ^6.1.2
     i18next-http-backend: ^1.3.1
-    react: ^16.12.0
-    react-bootstrap: ^1.0.0-beta.16
-    react-dom: ^16.12.0
+    react: ^16.14.0
+    react-bootstrap: ^2.5.0
+    react-dom: ^16.14.0
     react-i18next: ^11.14.2
     react-id-swiper: ^4.0.0
     react-router-dom: ^5.1.2
@@ -5306,9 +5320,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.251":
-  version: 1.4.282
-  resolution: "electron-to-chromium@npm:1.4.282"
-  checksum: 578aa52ca0795a09d7c9727a6536ada11c61db8928e4c665ca8d9dabc6dd9b4fead3106bda11067372557969eb115a0d15b4ab5ba3ea6fff3461c9ab4609f4b5
+  version: 1.4.283
+  resolution: "electron-to-chromium@npm:1.4.283"
+  checksum: 9726b22169398572cc49b814c54e41912b4df6fa65f9b5da5116a6998f645062fa537eb3ea1c590f0969f9254df52a7a39f8f4774b7bd12ebcf04cec045c408c
   languageName: node
   linkType: hard
 
@@ -10552,31 +10566,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-bootstrap@npm:^1.0.0-beta.16":
-  version: 1.6.6
-  resolution: "react-bootstrap@npm:1.6.6"
+"react-bootstrap@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "react-bootstrap@npm:2.5.0"
   dependencies:
-    "@babel/runtime": ^7.14.0
-    "@restart/context": ^2.1.4
-    "@restart/hooks": ^0.4.7
-    "@types/invariant": ^2.2.33
-    "@types/prop-types": ^15.7.3
-    "@types/react": ">=16.14.8"
-    "@types/react-transition-group": ^4.4.1
-    "@types/warning": ^3.0.0
+    "@babel/runtime": ^7.17.2
+    "@restart/hooks": ^0.4.6
+    "@restart/ui": ^1.3.1
+    "@types/react-transition-group": ^4.4.4
     classnames: ^2.3.1
     dom-helpers: ^5.2.1
     invariant: ^2.2.4
-    prop-types: ^15.7.2
+    prop-types: ^15.8.1
     prop-types-extra: ^1.1.0
-    react-overlays: ^5.1.2
-    react-transition-group: ^4.4.1
+    react-transition-group: ^4.4.2
     uncontrollable: ^7.2.1
     warning: ^4.0.3
   peerDependencies:
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-  checksum: 4ad891178d46e817f15e86b8470997e9303f450554bc09b37092127d42a9413f8e567ddf6420e09342ad2a9624ff85bb70d1741975c2b518723fa16fe25e1072
+    "@types/react": ">=16.14.8"
+    react: ">=16.14.0"
+    react-dom: ">=16.14.0"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 8a3d095683826c2ecd845a01c6fc512ce1a027dd76c9dc468330d8a1fe511994d6c878ae1e5ea61fbeef19c14785125cc52762455117d76afda539f9cbfc27ca
   languageName: node
   linkType: hard
 
@@ -10612,7 +10625,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.12.0":
+"react-dom@npm:^16.14.0":
   version: 16.14.0
   resolution: "react-dom@npm:16.14.0"
   dependencies:
@@ -10689,25 +10702,6 @@ __metadata:
   version: 3.0.4
   resolution: "react-lifecycles-compat@npm:3.0.4"
   checksum: 82176a55ef7526414d770d5e07dc1d28b4c7f20281f22c6f53f3a98df9dbbb5d70c94bebee57b4ea8ccc2eee430b907ca7b564a42fbdd0ed21e7c43bfee35404
-  languageName: node
-  linkType: hard
-
-"react-overlays@npm:^5.1.2":
-  version: 5.2.1
-  resolution: "react-overlays@npm:5.2.1"
-  dependencies:
-    "@babel/runtime": ^7.13.8
-    "@popperjs/core": ^2.11.6
-    "@restart/hooks": ^0.4.7
-    "@types/warning": ^3.0.0
-    dom-helpers: ^5.2.0
-    prop-types: ^15.7.2
-    uncontrollable: ^7.2.1
-    warning: ^4.0.3
-  peerDependencies:
-    react: ">=16.3.0"
-    react-dom: ">=16.3.0"
-  checksum: cdab9d9f37ff43d7cca2b1c1c196375803592b666f75b8b46a4fe9dd2991df43f9cac0ca4dcecaf35e5271e7555d01b64a9f4095e219e92aa996b284a9d2faca
   languageName: node
   linkType: hard
 
@@ -10835,7 +10829,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-transition-group@npm:^4.4.1":
+"react-transition-group@npm:^4.4.2":
   version: 4.4.5
   resolution: "react-transition-group@npm:4.4.5"
   dependencies:
@@ -10850,7 +10844,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^16.12.0":
+"react@npm:^16.14.0":
   version: 16.14.0
   resolution: "react@npm:16.14.0"
   dependencies:

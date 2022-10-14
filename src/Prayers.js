@@ -8,7 +8,7 @@ class PrayersComponent extends React.Component {
   render() {
     const { t } = this.props;
 
-    return <Container className="text-justify mt-4">
+    return <Container className="text-start mt-4">
       <Row>
         <Col lg={{span: 8, offset: 2}} md={12}>
           <h1>{t('prayers.prayers')}</h1>
