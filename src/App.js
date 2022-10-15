@@ -17,6 +17,7 @@ import Prayers from './Prayers';
 import AddButton from './AddButton';
 import { withTranslation } from 'react-i18next';
 import LoadingComponent from './LoadingComponent';
+import WelcomeModal from './WelcomeModal';
 
 class AppComponent extends React.Component {
   swiperParams = {
@@ -181,6 +182,7 @@ class AppComponent extends React.Component {
               <About />
             </Route>
           </Switch>
+          <WelcomeModal />
         </div>
       </BrowserRouter>
     );
