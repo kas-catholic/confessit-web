@@ -76,6 +76,9 @@
         "data_persistence": "Persistenza dei dati",
         "data_persistence_text": "I dati inseriti sono memorizzati direttamente sul dispositivo (mai inviati su Internet). I dati inseriti rimangono fintanto che non premi il pulsante <strong>Svuota</strong>, e persistono anche se chiudi la finestra o aggiorni la pagina. Assicùrati pertanto di cancellare i dati quando hai finito, se non vuoi che altre persone che usano questo dispositivo vedano i tuoi dati!"
     },
+    "welcome": {
+        "title": "Benvenuto!"
+    },
     "commandments": {
         "1": {
             "title": "Primo Comandamento",
