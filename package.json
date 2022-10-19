@@ -29,7 +29,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "yarn build && aws s3 sync build/ s3://confessit.app --delete",
-    "lint": "node_modules/.bin/eslint --ext js src"
+    "lint": "node_modules/.bin/eslint --ext js src",
+    "postinstall": "husky install"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,6 +48,11 @@
     ]
   },
   "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "2.7.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
