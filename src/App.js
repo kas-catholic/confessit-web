@@ -158,7 +158,7 @@ class AppComponent extends React.Component {
           </Navbar>
           <Switch>
             <Route exact path="/">
-              <Container fluid={true}>
+              <Container fluid={true} className="column-container">
                 <Row className="h-100">
                   <Col xs="12" className="h-100">
                     <Swiper {...this.swiperParams}>
