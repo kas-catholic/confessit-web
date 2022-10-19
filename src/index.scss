@@ -5,10 +5,10 @@ $primary: #800080;
 $font-size-root: 18px;
 
 // Import Bootstrap and its default variables
-@import '~bootstrap/scss/bootstrap.scss';
+@import "~bootstrap/scss/bootstrap.scss";
 
 // Import Swiper
-@import 'swiper/swiper.scss';
+@import "swiper/swiper.scss";
 
 body {
   margin: 0;
@@ -26,7 +26,8 @@ code {
     monospace;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 800;
 }
 h3 {

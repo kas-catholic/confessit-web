@@ -1,4 +1,3 @@
-
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
@@ -18,23 +17,23 @@ diverse, inclusive, and healthy community.
 Examples of behavior that contributes to a positive environment for our
 community include:
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
+- Demonstrating empathy and kindness toward other people
+- Being respectful of differing opinions, viewpoints, and experiences
+- Giving and gracefully accepting constructive feedback
+- Accepting responsibility and apologizing to those affected by our mistakes,
   and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the
+- Focusing on what is best not just for us as individuals, but for the
   overall community
 
 Examples of unacceptable behavior include:
 
-* The use of sexualized language or imagery, and sexual attention or
+- The use of sexualized language or imagery, and sexual attention or
   advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email
+- Trolling, insulting or derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information, such as a physical or email
   address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
+- Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
 ## Enforcement Responsibilities
@@ -107,7 +106,7 @@ Violating these terms may lead to a permanent ban.
 ### 4. Permanent Ban
 
 **Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior,  harassment of an
+standards, including sustained inappropriate behavior, harassment of an
 individual, or aggression toward or disparagement of classes of individuals.
 
 **Consequence**: A permanent ban from any sort of public interaction within
@@ -119,11 +118,11 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage],
 version 2.0, available at
 [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html][v2.0].
 
-Community Impact Guidelines were inspired by 
-[Mozilla's code of conduct enforcement ladder][Mozilla CoC].
+Community Impact Guidelines were inspired by
+[Mozilla's code of conduct enforcement ladder][mozilla coc].
 
 For answers to common questions about this code of conduct, see the FAQ at
-[https://www.contributor-covenant.org/faq][FAQ]. Translations are available 
+[https://www.contributor-covenant.org/faq][faq]. Translations are available
 at [https://www.contributor-covenant.org/translations][translations].
 
 # ConfessIt Addendum
@@ -131,7 +130,7 @@ at [https://www.contributor-covenant.org/translations][translations].
 This addendum is not intended to modify the Contributor Covenant above, but to
 clarify it within the context of ConfessIt. By its nature, ConfessIt is a
 religious tool designed specifically for Catholics, and we strive to ensure the
-tool adheres to the [teachings of the Catholic church][CCC]. This does not
+tool adheres to the [teachings of the Catholic church][ccc]. This does not
 change our adherence to the Contributor Covenant above. We welcome contributions
 from everyone. In particular, our community is _harassment free for everyone,
 regardless of religion_ -- Catholic or not. Harassment is never acceptable. To
@@ -144,8 +143,7 @@ appropriate forum for debate.
 
 [homepage]: https://www.contributor-covenant.org
 [v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
-[Mozilla CoC]: https://github.com/mozilla/diversity
-[FAQ]: https://www.contributor-covenant.org/faq
+[mozilla coc]: https://github.com/mozilla/diversity
+[faq]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
-[CCC]: https://www.usccb.org/sites/default/files/flipbooks/catechism/
-
+[ccc]: https://www.usccb.org/sites/default/files/flipbooks/catechism/
