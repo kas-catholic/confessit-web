@@ -1,0 +1,14 @@
+# Yarn 2 - https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+# We're not using zero-installs.
+.yarn/*
+.pnp.*
+
+# dependencies
+/node_modules
+/.pnp
+
+# testing
+/coverage
+
+# production
+/build
