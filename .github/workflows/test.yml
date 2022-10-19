@@ -22,5 +22,7 @@ jobs:
         run: yarn install --immutable
       - name: Run Linter (eslint)
         run: yarn lint
-      - name: Run Tests (yarn)
+      - name: Run Tests
         run: yarn test
+      - name: Prettier Check
+        run: yarn prettier --check .
