@@ -1,23 +1,23 @@
-import React from 'react';
-import './App.scss';
-import ExamineList from './ExamineList';
-import SinsList from './SinsList';
-import Walkthrough from './Walkthrough';
-import sinsdb from './data/sinsdb';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Swiper from 'react-id-swiper';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
-import About from './About';
-import Help from './Help';
-import Prayers from './Prayers';
-import AddButton from './AddButton';
-import { withTranslation } from 'react-i18next';
-import LoadingComponent from './LoadingComponent';
-import WelcomeModal from './WelcomeModal';
+import React from "react";
+import "./App.scss";
+import ExamineList from "./ExamineList";
+import SinsList from "./SinsList";
+import Walkthrough from "./Walkthrough";
+import sinsdb from "./data/sinsdb";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Swiper from "react-id-swiper";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import About from "./About";
+import Help from "./Help";
+import Prayers from "./Prayers";
+import AddButton from "./AddButton";
+import { withTranslation } from "react-i18next";
+import LoadingComponent from "./LoadingComponent";
+import WelcomeModal from "./WelcomeModal";
 
 class AppComponent extends React.Component {
   swiperParams = {
@@ -26,27 +26,25 @@ class AppComponent extends React.Component {
     breakpoints: {
       1024: {
         slidesPerView: 3,
-        spaceBetween: 10
-      }
-    }
+        spaceBetween: 10,
+      },
+    },
   };
 
   constructor(props) {
     super(props);
 
-    let storedState = localStorage.getItem('state');
+    let storedState = localStorage.getItem("state");
     if (storedState != null) {
       this.state = JSON.parse(storedState);
     } else {
       this.state = {
         selectedSinIds: [],
-        customSins: []
+        customSins: [],
       };
     }
 
-    this.sinsById = new Map(sinsdb.sins.map(s =>
-      [s.sin_id, s]
-    ));
+    this.sinsById = new Map(sinsdb.sins.map((s) => [s.sin_id, s]));
 
     // This binding is necessary to make `this` work in the callback
     this.addSinId = this.addSinId.bind(this);
@@ -61,58 +59,71 @@ class AppComponent extends React.Component {
     const { t } = this.props;
     let sinIds = this.state.selectedSinIds;
 
-    return sinIds.map(id =>
-      ({
+    return sinIds
+      .map((id) => ({
         id: id,
-        text: t(`sins.${id}.text_past`)
-      })
-    ).concat(
-      this.state.customSins.map(text =>
-        ({
-          text: text
-        })
-      )
-    );
+        text: t(`sins.${id}.text_past`),
+      }))
+      .concat(
+        this.state.customSins.map((text) => ({
+          text: text,
+        }))
+      );
   }
 
   persistData() {
     // Yes, this is quick & dirty. But it works and it's simple.
-    localStorage.setItem('state', JSON.stringify(this.state));
+    localStorage.setItem("state", JSON.stringify(this.state));
   }
 
   addSinId(id) {
-    this.setState(state => ({
-      selectedSinIds: state.selectedSinIds.concat([id])
-    }), this.persistData);
+    this.setState(
+      (state) => ({
+        selectedSinIds: state.selectedSinIds.concat([id]),
+      }),
+      this.persistData
+    );
   }
 
   removeSinItem(sinItem) {
     if (sinItem.hasOwnProperty("id") && sinItem.id !== null) {
-      this.setState(state => ({
-        selectedSinIds: state.selectedSinIds.filter(s => s !== sinItem.id)
-      }), this.persistData);
+      this.setState(
+        (state) => ({
+          selectedSinIds: state.selectedSinIds.filter((s) => s !== sinItem.id),
+        }),
+        this.persistData
+      );
     } else {
       this.removeCustomSin(sinItem.text);
     }
   }
 
   addCustomSin(text) {
-    this.setState(state => ({
-      customSins: state.customSins.concat([text])
-    }), this.persistData);
+    this.setState(
+      (state) => ({
+        customSins: state.customSins.concat([text]),
+      }),
+      this.persistData
+    );
   }
 
   removeCustomSin(text) {
-    this.setState(state => ({
-      customSins: state.customSins.filter(s => s !== text)
-    }), this.persistData);
+    this.setState(
+      (state) => ({
+        customSins: state.customSins.filter((s) => s !== text),
+      }),
+      this.persistData
+    );
   }
 
   clearAll() {
-    this.setState(_ => ({
-      selectedSinIds: [],
-      customSins: []
-    }), this.persistData);
+    this.setState(
+      (_) => ({
+        selectedSinIds: [],
+        customSins: [],
+      }),
+      this.persistData
+    );
   }
 
   render() {
@@ -129,16 +140,20 @@ class AppComponent extends React.Component {
         <div className={appClass}>
           <Navbar sticky="top" variant="dark" bg="primary" expand="lg">
             <Container fluid>
-            <Navbar.Brand href="/"><h1>ConfessIt</h1></Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav text-white">
-              <Nav className="me-auto text-white">
-                <Nav.Link href="/prayers">{t('navbar.prayers')}</Nav.Link>
-                <Nav.Link href="/help">{t('navbar.help')}</Nav.Link>
-                <Nav.Link href="/about">{t('navbar.about')}</Nav.Link>
-              </Nav>
-              <Nav.Link onClick={this.clearAll}><i className="fa fa-ban"></i> {t('navbar.clear')}</Nav.Link>
-            </Navbar.Collapse>
+              <Navbar.Brand href="/">
+                <h1>ConfessIt</h1>
+              </Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Collapse id="basic-navbar-nav text-white">
+                <Nav className="me-auto text-white">
+                  <Nav.Link href="/prayers">{t("navbar.prayers")}</Nav.Link>
+                  <Nav.Link href="/help">{t("navbar.help")}</Nav.Link>
+                  <Nav.Link href="/about">{t("navbar.about")}</Nav.Link>
+                </Nav>
+                <Nav.Link onClick={this.clearAll}>
+                  <i className="fa fa-ban"></i> {t("navbar.clear")}
+                </Nav.Link>
+              </Navbar.Collapse>
             </Container>
           </Navbar>
           <Switch>

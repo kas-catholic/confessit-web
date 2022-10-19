@@ -23,7 +23,7 @@ See [CONTRIBUTING](CONTRIBUTING.md) for more information about how to contribute
 
 Our `main` branch is continuously deployed via [Netlify](https://www.netlify.com/). Simply merge to main and the site will be updated.
 
-----
+---
 
 ## Available Scripts
 

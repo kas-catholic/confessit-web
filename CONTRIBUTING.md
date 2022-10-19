@@ -8,7 +8,7 @@ We use [react-i18next](https://react.i18next.com/) to manage our translations. *
 
 Note that we make several citations to the [Catechism of the Catholic Church (CCC)](https://www.vatican.va/archive/ccc/index.htm) and the Bible, and your translation should preserve these citations. We use the following translations of the Bible:
 
- - **en**: Revised Standard Version - Second Catholic Edition (RSV-2CE)
+- **en**: Revised Standard Version - Second Catholic Edition (RSV-2CE)
 
 To assist in the translation process, you can use the Weblate interface, available at https://translate.johnromanodorazio.com/engage/confessit-web/ .
 
