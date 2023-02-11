@@ -1,21 +1,21 @@
 {
     "navbar": {
-        "prayers": "",
-        "help": "",
-        "about": "",
-        "clear": ""
+        "prayers": "Gebete",
+        "help": "Hilfe",
+        "about": "Über",
+        "clear": "Zurücksetzen"
     },
     "examine_list": {
-        "examine": ""
+        "examine": "Untersuchen"
     },
     "sins_list": {
-        "review": ""
+        "review": "Überprufen"
     },
     "walkthrough": {
-        "walkthrough": "",
-        "in_the_name_of": "",
-        "bless_me_father": "",
-        "these_are_my_sins": "",
+        "walkthrough": "Durchgang",
+        "in_the_name_of": "Im Namen des Vaters und des Sohnes und des Heiligen Geistes. Amen.",
+        "bless_me_father": "Segne mich Vater, denn ich habe gesündigt. Es ist ____ seit meiner letzten Beichte gewesen, und das sind meine Sünden:",
+        "these_are_my_sins": "Das sind meine Sünden, und ich bereue sie von ganzem Herzen.",
         "your_confessor_may_offer": "",
         "your_confessor_will_assign": "",
         "act_of_contrition": "",
