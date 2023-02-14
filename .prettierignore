@@ -12,3 +12,6 @@
 
 # production
 /build
+
+# Translations don't come in formatted
+/public/locales
