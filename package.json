@@ -18,7 +18,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "5.0.1",
     "sass": "^1.43.4",
-    "swiper": "^8.0.0"
+    "swiper": "^9.0.0"
   },
   "resolutions": {
     "autoprefixer": "10.4.5"
