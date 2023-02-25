@@ -42,11 +42,16 @@ blockquote {
   .nav-link {
     background-color: $primary;
     border-top: 2px solid $white;
+    border-radius: 6px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .navbar-collapse {
+    background-color: $white;
     border: 4px solid $white;
     border-top: 2px solid $white;
+    border-radius: 8px;
   }
 }
 
