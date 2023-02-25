@@ -141,7 +141,7 @@ class AppComponent extends React.Component {
           <Navbar sticky="top" variant="dark" bg="primary" expand="lg">
             <Container fluid>
               <Navbar.Brand href="/">
-                <h1>ConfessIt</h1>
+                <h1>⛪ ConfessIt</h1>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav text-white">
