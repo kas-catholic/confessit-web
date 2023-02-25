@@ -4499,7 +4499,7 @@ __metadata:
     react-router-dom: ^5.1.2
     react-scripts: 5.0.1
     sass: ^1.43.4
-    swiper: ^6.4.10
+    swiper: ^7.0.0
   languageName: unknown
   linkType: soft
 
@@ -5241,12 +5241,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dom7@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "dom7@npm:3.0.0"
+"dom7@npm:^4.0.2":
+  version: 4.0.6
+  resolution: "dom7@npm:4.0.6"
   dependencies:
-    ssr-window: ^3.0.0-alpha.1
-  checksum: 8beff48475ec564d96a5bcec88eac784d1ff2ceca0f663cfb6a5f54fcebd5b5bf805b508161c24ededf7f84d02af7a976b340e86082b11673345d6c216abd8af
+    ssr-window: ^4.0.0
+  checksum: d58dd54feec147c9993f8defe37acb6caefc397a430db360d50e9b88bea4072e795fa3cbdbf54a5ba95bfe66c841967125f9c88ba72d928cd1b69b7d11b60548
   languageName: node
   linkType: hard
 
@@ -12001,10 +12001,10 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"ssr-window@npm:^3.0.0, ssr-window@npm:^3.0.0-alpha.1":
-  version: 3.0.0
-  resolution: "ssr-window@npm:3.0.0"
-  checksum: 36ac4b6ba91d0cafc83f43aff094b1e32ce55e3f8b31e4538694b203f4b797690b66c7aca17a3f514df82868271a7248514b5b6aca766eb50c97e6fe77b32358
+"ssr-window@npm:^4.0.0, ssr-window@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "ssr-window@npm:4.0.2"
+  checksum: 53fc0ec81d5792ad34cfaaaa4bb2a5fa071a8198ed3da7d415101e181e351d1f7a56c36134706855e03b749968a7761467535d3a01493b13f7d4595380d091f9
   languageName: node
   linkType: hard
 
@@ -12360,13 +12360,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"swiper@npm:^6.4.10":
-  version: 6.8.4
-  resolution: "swiper@npm:6.8.4"
+"swiper@npm:^7.0.0":
+  version: 7.4.1
+  resolution: "swiper@npm:7.4.1"
   dependencies:
-    dom7: ^3.0.0
-    ssr-window: ^3.0.0
-  checksum: d6f8b8babac62fd65bb5584dda19155535eb0e73576de16cb30e6984ef438e7c5ba6fa9c2981aa3d6aa0b9ec5ceb6030280e59750a93e435cbb89db4c75f8968
+    dom7: ^4.0.2
+    ssr-window: ^4.0.2
+  checksum: 326fd6cc4fedf2bf23d57f3ca0ca6e84f6a637ec597d12cb3c3f09b8a958e6ecae235f999fea01de390394d10b20b3cb9c3a68f7fc769a7aa2fe8bac29cdf1a8
   languageName: node
   linkType: hard
 
