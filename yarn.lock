@@ -4499,7 +4499,7 @@ __metadata:
     react-router-dom: ^5.1.2
     react-scripts: 5.0.1
     sass: ^1.43.4
-    swiper: ^7.0.0
+    swiper: ^8.0.0
   languageName: unknown
   linkType: soft
 
@@ -5241,7 +5241,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dom7@npm:^4.0.2":
+"dom7@npm:^4.0.4":
   version: 4.0.6
   resolution: "dom7@npm:4.0.6"
   dependencies:
@@ -12360,13 +12360,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"swiper@npm:^7.0.0":
-  version: 7.4.1
-  resolution: "swiper@npm:7.4.1"
+"swiper@npm:^8.0.0":
+  version: 8.4.7
+  resolution: "swiper@npm:8.4.7"
   dependencies:
-    dom7: ^4.0.2
+    dom7: ^4.0.4
     ssr-window: ^4.0.2
-  checksum: 326fd6cc4fedf2bf23d57f3ca0ca6e84f6a637ec597d12cb3c3f09b8a958e6ecae235f999fea01de390394d10b20b3cb9c3a68f7fc769a7aa2fe8bac29cdf1a8
+  checksum: a3760a1150cfd6e0aedb59f62fe771d6f34bc72aad7d786c611b48f6f8ba426d6434e3703f4c3f6a5435225b0a0e21a0e791a96ba8d17cffbb66948f2b5ad038
   languageName: node
   linkType: hard
 
