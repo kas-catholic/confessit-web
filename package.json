@@ -33,7 +33,10 @@
     "postinstall": "husky install"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "jsx-a11y/anchor-has-content": "off"
+    }
   },
   "browserslist": {
     "production": [
