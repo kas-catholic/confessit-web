@@ -14,7 +14,15 @@ class AboutComponent extends React.Component {
             <h1>{t("about.about_confessit")}</h1>
 
             <p>
-              <Trans t={t} i18nKey="about.about_confessit_text">
+              <Trans
+                t={t}
+                i18nKey="about.about_confessit_text"
+                components={{
+                  vatican: (
+                    <a href="https://www.vatican.va/content/vatican/en.html" />
+                  ),
+                }}
+              >
                 ConfessIt is a{" "}
                 <a href="https://www.vatican.va/content/vatican/en.html">
                   Roman Catholic
@@ -109,7 +117,11 @@ class AboutComponent extends React.Component {
             </blockquote>
 
             <p>
-              <Trans t={t} i18nKey="about.where_to_find">
+              <Trans
+                t={t}
+                i18nKey="about.where_to_find"
+                components={{ mass: <a href="https://masstimes.org/" /> }}
+              >
                 Confession times are listed in your local parish bulletin, and
                 you can find them online at your parish website or at{" "}
                 <a href="https://masstimes.org/">masstimes.org</a>. You can also
@@ -133,7 +145,16 @@ class AboutComponent extends React.Component {
             <p>{t("about.please_be_respectful")}</p>
 
             <p>
-              <Trans t={t} i18nKey="about.this_website">
+              <Trans
+                t={t}
+                i18nKey="about.this_website"
+                components={{
+                  website: <a href="https://confessit.app" />,
+                  app: (
+                    <a href="https://play.google.com/store/apps/details?id=com.mikekasberg.confessit" />
+                  ),
+                }}
+              >
                 This website, <a href="https://confessit.app">ConfessIt.app</a>,
                 is based on the{" "}
                 <a href="https://play.google.com/store/apps/details?id=com.mikekasberg.confessit">
@@ -157,7 +178,14 @@ class AboutComponent extends React.Component {
 
             <h2>{t("about.privacy")}</h2>
             <p>
-              <Trans t={t} i18nKey="about.information_you_enter">
+              <Trans
+                t={t}
+                i18nKey="about.information_you_enter"
+                components={{
+                  a: <a href="https://en.wikipedia.org/wiki/Web_storage" />,
+                  kbd: <kbd />,
+                }}
+              >
                 Information you enter into this app is only stored on your
                 device. It is not sent over the internet. We are able to do this
                 using a technology provided by your web browser called{" "}
@@ -173,7 +201,17 @@ class AboutComponent extends React.Component {
 
             <h2>{t("about.open_source")}</h2>
             <p>
-              <Trans t={t} i18nKey="about.confessit_is_open_source">
+              <Trans
+                t={t}
+                i18nKey="about.confessit_is_open_source"
+                components={{
+                  i: <i className="fa fa-github" />,
+                  github: (
+                    <a href="https://github.com/kas-catholic/confessit-web" />
+                  ),
+                  osc: <a href="https://www.opensourcecatholic.com/chat" />,
+                }}
+              >
                 ConfessIt is open source. We develop the app on{" "}
                 <i className="fa fa-github"></i>{" "}
                 <a href="https://github.com/kas-catholic/confessit-web">
@@ -189,7 +227,16 @@ class AboutComponent extends React.Component {
 
             <h3>{t("about.can_i_help_with_translations")}</h3>
             <p>
-              <Trans t={t} i18nKey="about.confessit_is_translated">
+              <Trans
+                t={t}
+                i18nKey="about.confessit_is_translated"
+                components={{
+                  github: (
+                    <a href="https://github.com/kas-catholic/confessit-web/blob/main/CONTRIBUTING.md#contributing-translations" />
+                  ),
+                  osc: <a href="https://www.opensourcecatholic.com/chat" />,
+                }}
+              >
                 ConfessIt is translated into multiple languages. If you'd like
                 to help with this effort by adding a new translation or
                 improving an existing translation, please read about how to do
@@ -207,7 +254,15 @@ class AboutComponent extends React.Component {
 
             <h3>{t("about.can_i_help_write_code")}</h3>
             <p>
-              <Trans t={t} i18nKey="about.we_welcome_new_contributions">
+              <Trans
+                t={t}
+                i18nKey="about.we_welcome_new_contributions"
+                components={{
+                  github: (
+                    <a href="https://github.com/kas-catholic/confessit-web/blob/main/CONTRIBUTING.md" />
+                  ),
+                }}
+              >
                 We welcome new contributions. If you'd like to contribute to
                 ConfessIt, the best way to begin is by reading about how to do
                 so on{" "}
