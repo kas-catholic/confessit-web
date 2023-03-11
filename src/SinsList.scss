@@ -13,3 +13,9 @@
     max-height: 2rem;
   }
 }
+@include media-breakpoint-down(md) {
+  .sin-list-item {
+    padding: 0.5rem 0.5rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}

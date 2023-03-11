@@ -1,7 +1,14 @@
+@import "./index.scss";
+
 .priest-bubble,
 .user-bubble {
   margin-bottom: 1rem;
   padding: 0.5rem;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.06);
+}
+@include media-breakpoint-down(md) {
+  .user-bubble {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
 }
