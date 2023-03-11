@@ -1,7 +1,7 @@
 // Override default variables before the import
-$body-bg: #cea990;
-$body-color: #4c1e00;
-$primary: #800080;
+$body-bg: #141400;
+$body-color: #3c005a;
+$primary: #3c005a;
 $font-size-root: 18px;
 
 // Import Bootstrap and its default variables
@@ -10,12 +10,31 @@ $font-size-root: 18px;
 // Import Swiper
 @import "swiper/css";
 
+* {
+  font-family: "EB Garamond", serif;
+}
+
 body {
   margin: 0;
-  font-family: "EB Garamond", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.2rem;
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    background-color: #afb6b9;
+  }
+  ::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: #7c8487;
+  }
 }
 b {
   font-weight: 600;
@@ -29,6 +48,11 @@ code {
 h1,
 h2 {
   font-weight: 800;
+}
+h2 {
+  margin: 0rem 0rem 3rem;
+  color: #ffffff;
+  font-size: 2em;
 }
 h3 {
   font-weight: 600;
