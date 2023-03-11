@@ -1,8 +1,11 @@
+@import "./index.scss";
+
 .sin-list-item {
-  margin-bottom: 0.5rem;
-  padding: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1.5rem 2rem;
   flex-direction: row;
   justify-content: space-between;
+  color: $body-color;
 
   .btn {
     max-height: 2rem;

@@ -18,7 +18,7 @@ class SinListItem extends React.Component {
     return (
       <Card className="sin-list-item">
         {this.props.sinItem.text}
-        <Button variant="danger" size="sm" onClick={this.handleDelete}>
+        <Button className="mt-2" size="sm" onClick={this.handleDelete}>
           <i className="fa fa-trash"></i>
         </Button>
       </Card>
