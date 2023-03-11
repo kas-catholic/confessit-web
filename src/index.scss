@@ -1,5 +1,5 @@
 // Override default variables before the import
-$body-bg: #141400;
+$body-bg: #fcfcf6;
 $body-color: #3c005a;
 $primary: #3c005a;
 $font-size-root: 18px;
@@ -33,7 +33,7 @@ body {
   }
   ::-webkit-scrollbar-thumb {
     border-radius: 6px;
-    background-color: #7c8487;
+    background-color: $primary;
   }
 }
 b {
@@ -51,7 +51,7 @@ h2 {
 }
 h2 {
   margin: 0rem 0rem 3rem;
-  color: #ffffff;
+  color: $primary;
   font-size: 2em;
 }
 h3 {
