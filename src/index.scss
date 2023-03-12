@@ -3,6 +3,7 @@ $body-bg: #fcfcf6;
 $body-color: #3c005a;
 $primary: #3c005a;
 $font-size-root: 18px;
+$mobile-breakpoint: 376px;
 
 // Import Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap.scss";
@@ -34,6 +35,14 @@ body {
   ::-webkit-scrollbar-thumb {
     border-radius: 6px;
     background-color: $primary;
+  }
+
+  // it can be assumed that screens are scrollable on mobile
+  @media only screen and (max-width: 400px) {
+    ::-webkit-scrollbar {
+      height: 0px;
+      width: 0px;
+    }
   }
 }
 b {

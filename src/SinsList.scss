@@ -2,7 +2,7 @@
 
 .sin-list-item {
   margin-bottom: 1rem;
-  padding: 1.5rem 2rem;
+  padding: 0.5rem 1rem;
   flex-direction: row;
   justify-content: space-between;
   color: $body-color;
@@ -11,5 +11,9 @@
 
   .btn {
     max-height: 2rem;
+  }
+
+  @media only screen and (min-width: $mobile-breakpoint) {
+    padding: 1.5rem 2rem;
   }
 }
