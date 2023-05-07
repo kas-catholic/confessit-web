@@ -53,15 +53,15 @@
         "this_app_is_designed": "Diese App soll römischen Katholiken helfen, sich auf das Sakrament der Beichte vorzubereiten, indem sie ihr Gewissen prüfen. Sie ist <strong>NICHT</strong> ein Ersatz für die Beichte.",
         "please_be_respectful": "Bitte nehmen Sie Rücksicht auf Ihre Mitmenschen, wenn Sie diese App nutzen. Ich empfehle Ihnen, Ihr Telefon auszuschalten, wenn Sie in Ihrer Kirche sind, und diese App zu benutzen, bevor Sie ankommen. Wenn Sie diese App in Ihrer Kirche oder während der Beichte verwenden, stellen Sie bitte sicher, dass Ihr Telefon auf lautlos gestellt ist.",
         "this_website": "Diese Website, <website>ConfessIt.app</website>, basiert auf der <app>ConfessIt Android App</app> (2012 vom selben Entwickler erstellt). Es handelt sich zwar (noch) nicht um eine vollständige Reproduktion, aber sie soll die App einer größeren Anzahl von Nutzern auf einer breiteren Palette von Geräten zugänglich machen. (Diese Website funktioniert auf iOS, Android, Tablets und Computern!)",
-        "if_you_find": "",
-        "privacy": "",
-        "information_you_enter": "",
-        "open_source": "",
-        "confessit_is_open_source": "",
-        "can_i_help_with_translations": "",
-        "confessit_is_translated": "",
-        "can_i_help_write_code": "",
-        "we_welcome_new_contributions": "",
+        "if_you_find": "Wenn du diese App nützlich findest, erwäge bitte, sie <strong>mit deinen Freunden und deiner Familie zu teilen</strong>. Erzählen Sie auf Facebook, Reddit, Twitter, in Ihrer Kirche oder in Ihrer Bibelstudiengruppe davon, um sie zu verbreiten!",
+        "privacy": "Datenschutz",
+        "information_you_enter": "Information you enter into this app is only stored on your device. It is not sent over the internet. We are able to do this using a technology provided by your web browser called <a>local storage</a>. We do not run Google Analytics or any other data collection mechanism on this site. Data you enter will be saved on your device until you hit <kbd>Clear</kbd> even if you close the window or refresh the page.",
+        "open_source": "Open Source",
+        "confessit_is_open_source": "ConfessIt ist Open Source. Wir entwickeln die App auf <i></i> <github>GitHub</github> und wir arbeiten in der <osc>Open Source Catholic</osc> Community auf Slack zusammen.",
+        "can_i_help_with_translations": "Kann ich bei Übersetzungen helfen?",
+        "confessit_is_translated": "ConfessIt is translated into multiple languages. If you'd like to help with this effort by adding a new translation or improving an existing translation, please read about how to do so on <github>GitHub</github> or get in touch with us on <osc>Open Source Catholic</osc> Slack.",
+        "can_i_help_write_code": "Kann ich beim Programmieren helfen?",
+        "we_welcome_new_contributions": "Wir begrüßen neue Beiträge. Wenn Sie zu ConfessIt beitragen möchten, lesen Sie am besten auf <1>GitHub</1> nach, wie Sie dies tun können.",
         "about_the_developer": "",
         "mike_kasberg": "",
         "information": ""
@@ -78,69 +78,69 @@
     },
     "welcome": {
         "title": "",
-        "body": ""
+        "body": " ist ein Hilfsmittel, das römischen Katholiken helfen soll, vor der Beichte eine Gewissenserforschung durchzuführen. Wir hoffen, dass es Ihnen helfen wird, sich an die Sünden zu erinnern, die Sie seit Ihrer letzten Beichte begangen haben. Kreuzen Sie einfach das Kästchen <strong>Ja</strong> neben den Sünden in der Liste <strong>Untersuchung</strong> an oder tippen Sie auf die Plustaste, um Ihre eigenen hinzuzufügen. Scrolle dann nach rechts, um deine Sünden zu <strong>überprüfen</strong> und <strong>die Schritte der Beichte durchzugehen</strong>. <br /><br />Die von dir eingegebenen Daten werden auf deinem Gerät gespeichert (<strong>niemals</strong> über das Internet gesendet). Die von Ihnen eingegebenen Daten werden gespeichert, bis Sie auf <strong>Löschen</strong> klicken, auch wenn Sie das Fenster schließen oder die Seite aktualisieren. <br /><br />Gott segne Sie auf Ihrem Weg zur Heiligkeit!"
     },
     "commandments": {
         "1": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Erstes Gebot",
+            "text": "Ihr sollt keine anderen Götter haben vor mir. (2 Mose 20:3)",
+            "description": "Ich bin der Herr, dein Gott, der dich aus dem Land Ägypten, aus dem Haus der Knechtschaft, herausgeführt hat. Du sollst keine anderen Götter haben vor mir ... du sollst dich nicht vor ihnen niederwerfen und ihnen nicht dienen; denn ich, der Herr, dein Gott, bin ein eifersüchtiger Gott ... der Tausenden von Menschen, die mich lieben und meine Gebote halten, unerschütterliche Liebe entgegenbringt. (2. Mose 20,2-6) Die Hauptsünden Hochmut und Völlerei werden oft als Verstoß gegen dieses Gebot angesehen."
         },
         "2": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Zweites Gebot",
+            "text": "Du sollst den Namen des Herrn, deines Gottes, nicht missbrauchen. (2. Mose 20:7)",
+            "description": "Du sollst den Namen des Herrn, deines Gottes, nicht missbrauchen; denn der Herr wird den nicht freisprechen, der seinen Namen missbraucht. (2. Mose 20:7)"
         },
         "3": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Drittes Gebot",
+            "text": "Gedenke des Sabbattages, dass du ihn heilig hältst. (2. Mose 20:8)",
+            "description": "Gedenke des Sabbattages, dass du ihn heilig hältst. Sechs Tage sollst du arbeiten und alle deine Werke tun; aber der siebte Tag ist ein Sabbat des Herrn, deines Gottes; an ihm sollst du kein Werk tun... Denn in sechs Tagen hat der Herr Himmel und Erde gemacht und das Meer und alles, was darinnen ist, und ruhte am siebten Tag; darum segnete der Herr den Sabbattag und heiligte ihn. (2. Mose 20:8-11)"
         },
         "4": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Viertes Gebot",
+            "text": "Ehre deinen Vater und deine Mutter. (2. Mose 20:12)",
+            "description": "Ehre deinen Vater und deine Mutter, damit du lange lebst in dem Land, das der Herr, dein Gott, dir gibt. (2. Mose 20:12)"
         },
         "5": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Fünftes Gebot",
+            "text": "Du sollst nicht töten. (2. Mose 20:13)",
+            "description": "Du sollst nicht töten. (2. Mose 20,13) Die Todsünde des Zorns wird oft mit diesem Gebot in Verbindung gebracht."
         },
         "6": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Sechstes Gebot",
+            "text": "Du sollst nicht ehebrechen. (2. Mose 20:14)",
+            "description": "Du sollst nicht ehebrechen. (2. Mose 20:14) Die Todsünde der Lust bricht dieses Gebot."
         },
         "7": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Siebtes Gebot",
+            "text": "Du sollst nicht stehlen. (2. Mose 20:15)",
+            "description": "Du sollst nicht stehlen. (2. Mose 20:15) Die Todsünden Habgier und Trägheit werden oft als Verstoß gegen dieses Gebot angesehen."
         },
         "8": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Achtes Gebot",
+            "text": "Du sollst kein falsches Zeugnis gegen deinen Nächsten ablegen. (2. Mose 20:16)",
+            "description": "Du sollst kein falsches Zeugnis gegen deinen Nächsten ablegen. (2. Mose 20:16)"
         },
         "9": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Neuntes Gebot",
+            "text": "Du sollst nicht die Frau deines Nächsten begehren. (2. Mose 20:17)",
+            "description": "Du sollst nicht begehren deines Nächsten Weib (2. Mose 20,17) Die Todsünde der Eifersucht kann dieses Gebot brechen."
         },
         "10": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Zehntes Gebot",
+            "text": "Du sollst nicht begehren deines Nächsten Gut. (2. Mose 20:17)",
+            "description": "Du sollst nicht begehren deines Nächsten Haus ... oder seinen Knecht oder seine Magd oder seinen Ochsen oder seinen Esel oder alles, was deines Nächsten ist. (2. Mose 20:17) Die Todsünde der Eifersucht kann dieses Gebot brechen."
         },
         "11": {
-            "title": "",
-            "text": "",
-            "description": ""
+            "title": "Gebote der Kirche",
+            "text": "Die Gebote der katholischen Kirche sind die Mindestanforderungen, die alle Katholiken erfüllen sollten.",
+            "description": "Die Gebote der Kirche stehen im Kontext eines sittlichen Lebens, das mit dem liturgischen Leben verbunden ist und von ihm genährt wird. Der obligatorische Charakter dieser von den Hirtenbehörden erlassenen positiven Gesetze soll den Gläubigen das notwendige Mindestmaß an Gebetsgeist und sittlicher Anstrengung, an Wachstum in der Gottes- und Nächstenliebe garantieren (KKK 2041)."
         }
     },
     "sins": {
         "1": {
-            "text": "",
-            "text_past": "",
+            "text": "Habe ich mich geweigert, den Lehren der katholischen Kirche zu glauben?",
+            "text_past": "Ich weigerte mich, die Lehren der katholischen Kirche zu glauben.",
             "detail": ""
         },
         "2": {
