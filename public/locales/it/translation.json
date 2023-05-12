@@ -57,7 +57,7 @@
         "privacy": "Privacy",
         "information_you_enter": "Le informazioni immesse nell'app sono immagazzinate soltanto sul tuo dispositivo. Non vengono trasmesse via internet. Questo è possibile grazie ad una tecnologia offerta dal browser, chiamata <a>local storage</a>. Non viene utilizzato alcun sistema di analisi dei dati, del tipo Google Analytics o qualsiasi altro sistema simile. I dati da te immessi permangono sul dispositivo anche se chiudi la finestra o aggiorni la pagina; vengono eliminati solo quando fai clic su <kbd>Svuota</kbd>.",
         "open_source": "Sorgenti Aperte",
-        "confessit_is_open_source": "ConfessIt è un progetto informatico a sorgenti aperte (\"open source\"). Sviluppiamo l'app su <github>GitHub</github> e collaboriamo nella comunità <osc>Open Source Catholic</osc> su Slack.",
+        "confessit_is_open_source": "ConfessIt è un progetto informatico a sorgenti aperte (\"open source\"). Sviluppiamo l'app su <i></i> <github>GitHub</github> e collaboriamo nella comunità <osc>Open Source Catholic</osc> su Slack.",
         "can_i_help_with_translations": "Posso aiutare con le traduzioni?",
         "confessit_is_translated": "ConfessIt è tradotto in varie lingue. Se puoi aiutare in questo, aggiungendo una nuova traduzione o migliorando una traduzione già esistente, leggi su <github>GitHub</github> come fare per contribuire, oppure rivolgiti a noi nello spazio di lavoro <osc>Open Source Catholic</osc> su Slack.",
         "can_i_help_write_code": "Posso aiutare a scrivere codice?",
@@ -224,7 +224,7 @@
             "detail": ""
         },
         "18": {
-            "text": "",
+            "text": "Ho infranto una legge giusta?",
             "text_past": "Ho infranto una legge giusta.",
             "detail": ""
         },
@@ -299,8 +299,8 @@
             "detail": ""
         },
         "33": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho rubato? Se sì, con quale valore?",
+            "text_past": "Ho rubato, per un valore di ___.",
             "detail": ""
         },
         "34": {
@@ -309,58 +309,58 @@
             "detail": ""
         },
         "35": {
-            "text": "",
-            "text_past": "",
+            "text": "Sono stato menzognero/a o ingannevole?",
+            "text_past": "Sono stato menzognero o ingannevole.",
             "detail": ""
         },
         "36": {
-            "text": "",
-            "text_past": "",
+            "text": "Mi sono dato al chiacchiericcio?",
+            "text_past": "Mi sono dato al chiacchiericcio.",
             "detail": ""
         },
         "37": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho mancato di osservare il digiuno il Mercoledì delle Ceneri ed il Venerdì Santo?",
+            "text_past": "Ho mancato di osservare il digiuno il Mercoledì delle Ceneri o il Venerdì Santo.",
             "detail": ""
         },
         "38": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho mancato di osservare l'astinenza dalla carne nei venerdì di quaresima e il Mercoledì delle Ceneri?",
+            "text_past": "Ho mancato di osservare l'astinenza dalla carne durante un venerdì di quaresima o il Mercoledì delle Ceneri.",
             "detail": ""
         },
         "39": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho mancato di ricevere l'Eucaristia almeno una volta durante il periodo pasquale?",
+            "text_past": "Ho mancato di ricevere l'Eucaristia almeno una volta durante la Pasqua.",
             "detail": ""
         },
         "40": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho mancato di osservare un'ora di digiuno prima di ricevere l'Eucaristia?",
+            "text_past": "Ho mancato di osservare un'ora di digiuno prima di ricevere l'Eucaristia.",
             "detail": ""
         },
         "41": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho ricevuto l'Eucaristia nello stato di peccato mortale?",
+            "text_past": "Ho ricevuto l'Eucaristia nello stato di peccato mortale.",
             "detail": ""
         },
         "42": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho nascosto intenzionalmente qualche peccato durante la confessione?",
+            "text_past": "Ho nascosto intenzionalmente qualche peccato durante la confessione.",
             "detail": ""
         },
         "43": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho mancato di curare il riposo domenicale, o il tempo dedicato alla famiglia?",
+            "text_past": "Ho mancato di curare il riposo domenicale, o il tempo dedicato alla famiglia.",
             "detail": ""
         },
         "44": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho desiderato la moglie/il marito oppure la fidanzata/il fidanzato di altri?",
+            "text_past": "Ho desiderato la moglie/il marito o la fidanzata/il fidanzato di altri.",
             "detail": ""
         },
         "45": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho desiderato i beni altrui?",
+            "text_past": "Ho desiderato i beni altrui.",
             "detail": ""
         },
         "46": {
@@ -369,38 +369,38 @@
             "detail": ""
         },
         "47": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho ascoltato musica, oppure guardato un programma televisivo o un film, oppure ho letto letteratura che mi può influenzare negativamente?",
+            "text_past": "Ho ascoltato musica, oppure guardato un programma televisivo o un film, oppure ho letto letteratura che mi può influenzare negativamente.",
             "detail": ""
         },
         "48": {
-            "text": "",
-            "text_past": "",
+            "text": "Sono stato/a avido/a, oppure ho mancato di donare con cuore generoso alla comunità ecclesiale e ai poveri?",
+            "text_past": "Sono stato/a avido/a oppure ho mancato di donare con cuore generoso alla comunità ecclesiale o ai poveri.",
             "detail": ""
         },
         "49": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho indotto consapevolmente altri al peccato?",
+            "text_past": "Ho indotto consapevolmente altri al peccato.",
             "detail": ""
         },
         "50": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho mancato di fare di Dio una priorità nella mia vita?",
+            "text_past": "Ho mancato di fare di Dio una priorità nella mia vita.",
             "detail": ""
         },
         "51": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho agito in maniera egoista?",
+            "text_past": "Ho agito in maniera egoista.",
             "detail": ""
         },
         "52": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho partecipato in pratiche occulte?",
+            "text_past": "Ho partecipato in pratiche occulte.",
             "detail": ""
         },
         "53": {
-            "text": "",
-            "text_past": "",
+            "text": "Ho peccato di accidia al lavoro o a casa?",
+            "text_past": "Ho peccato di accidia al lavoro o a casa.",
             "detail": ""
         },
         "54": {
