@@ -13,7 +13,7 @@ class WalkthroughComponent extends React.Component {
 
     return (
       <div>
-        <h2>{t("walkthrough.walkthrough")}</h2>
+        <h2 className="mt-5">{t("walkthrough.walkthrough")}</h2>
         <PriestBubble text={t("walkthrough.in_the_name_of")} />
         <UserBubble>{t("walkthrough.bless_me_father")}</UserBubble>
 
