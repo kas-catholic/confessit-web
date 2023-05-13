@@ -17,7 +17,7 @@ class SinsListComponent extends React.Component {
 
     return (
       <div>
-        <h2>{t("sins_list.review")}</h2>
+        <h2 className="mt-5">{t("sins_list.review")}</h2>
         {sinCards}
       </div>
     );
