@@ -54,5 +54,9 @@
 .col-scroll {
   height: 100%;
   overflow-y: scroll;
-  padding: 0 1rem 3rem;
+  padding: 0 0 1rem;
+
+  @media only screen and (min-width: $mobile-breakpoint) {
+    padding: 0 1rem 3rem;
+  }
 }

@@ -175,7 +175,7 @@ class AppComponent extends React.Component {
                 <Row className="h-100">
                   <Col xs="12" className="h-100">
                     <Swiper {...this.swiperParams}>
-                      <div className="col-scroll mt-5 overflow-auto">
+                      <div className="col-scroll overflow-auto">
                         <ExamineList
                           sinsdb={sinsdb}
                           selectedSinIds={this.state.selectedSinIds}
@@ -185,13 +185,13 @@ class AppComponent extends React.Component {
                           onRemoveCustomSin={this.removeCustomSin}
                         />
                       </div>
-                      <div className="col-scroll mt-5 overflow-auto">
+                      <div className="col-scroll overflow-auto">
                         <SinsList
                           sinsList={sinsList}
                           onRemoveSinItem={this.removeSinItem}
                         />
                       </div>
-                      <div className="col-scroll mt-5 overflow-auto">
+                      <div className="col-scroll overflow-auto">
                         <Walkthrough sinsList={sinsList} />
                       </div>
                     </Swiper>

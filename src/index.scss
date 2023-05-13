@@ -38,7 +38,7 @@ body {
   }
 
   // it can be assumed that screens are scrollable on mobile
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: $mobile-breakpoint) {
     ::-webkit-scrollbar {
       height: 0px;
       width: 0px;

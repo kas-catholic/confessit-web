@@ -44,7 +44,7 @@ class ExamineListComponent extends React.Component {
 
     return (
       <div>
-        <h2>{t("examine_list.examine")}</h2>
+        <h2 className="mt-5">{t("examine_list.examine")}</h2>
         {elements}
       </div>
     );
