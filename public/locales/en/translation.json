@@ -57,7 +57,7 @@
         "privacy": "Privacy",
         "information_you_enter": "Information you enter into this app is only stored on your device. It is not sent over the internet. We are able to do this using a technology provided by your web browser called <a>local storage</a>. We do not run Google Analytics or any other data collection mechanism on this site. Data you enter will be saved on your device until you hit <kbd>Clear</kbd> even if you close the window or refresh the page.",
         "open_source": "Open Source",
-        "confessit_is_open_source": "ConfessIt is open source. We develop the app on <github>GitHub</github> and we collaborate in the <osc>Open Source Catholic</osc> community on Slack.",
+        "confessit_is_open_source": "ConfessIt is open source. We develop the app on <i></i> <github>GitHub</github> and we collaborate in the <osc>Open Source Catholic</osc> community on Slack.",
         "can_i_help_with_translations": "Can I help with translations?",
         "confessit_is_translated": "ConfessIt is translated into multiple languages. If you'd like to help with this effort by adding a new translation or improving an existing translation, please read about how to do so on <github>GitHub</github> or get in touch with us on <osc>Open Source Catholic</osc> Slack.",
         "can_i_help_write_code": "Can I help write code?",
@@ -299,8 +299,8 @@
             "detail": ""
         },
         "33": {
-            "text": "Did I steal anything?",
-            "text_past": "I stole something.",
+            "text": "Did I steal anything? If so, to what extent?",
+            "text_past": "I stole something. (To such and such an extent.)",
             "detail": ""
         },
         "34": {
@@ -354,8 +354,8 @@
             "detail": ""
         },
         "44": {
-            "text": "Was I jealous of someone else's wife or girlfriend?",
-            "text_past": "I was jealous of someone else's wife or girlfriend.",
+            "text": "Was I jealous of someone else's wife/husband or fiancée/fiancé?",
+            "text_past": "I was jealous of someone else's wife/husband or fiancée/fiancé.",
             "detail": ""
         },
         "45": {
