@@ -9,5 +9,5 @@ class PriestBubble extends React.Component {
   }
 }
 
-export PriestBubble;
+export { PriestBubble };
 export default withTranslation()(PriestBubble);
