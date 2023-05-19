@@ -38,5 +38,5 @@ class ExamineItemComponent extends React.Component {
   }
 }
 
-const ExamineItem = withTranslation()(ExamineItemComponent);
-export default ExamineItem;
+export ExamineItem;
+export default withTranslation()(ExamineItemComponent);
