@@ -68,5 +68,5 @@ class AddButton extends React.Component {
   }
 }
 
-export AddButton;
+export { AddButton };
 export default withTranslation()(AddButton);
