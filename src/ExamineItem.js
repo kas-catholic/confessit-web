@@ -3,7 +3,7 @@ import "./ExamineItem.scss";
 import Card from "react-bootstrap/Card";
 import { withTranslation } from "react-i18next";
 
-class ExamineItemComponent extends React.Component {
+class ExamineItem extends React.Component {
   constructor(props) {
     super(props);
 
@@ -39,4 +39,4 @@ class ExamineItemComponent extends React.Component {
 }
 
 export ExamineItem;
-export default withTranslation()(ExamineItemComponent);
+export default withTranslation()(ExamineItem);
