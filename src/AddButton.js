@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import { FormControl } from "react-bootstrap";
 import { withTranslation } from "react-i18next";
 
-class AddButtonComponent extends React.Component {
+class AddButton extends React.Component {
   constructor(props) {
     super(props);
 
@@ -69,4 +69,4 @@ class AddButtonComponent extends React.Component {
 }
 
 export AddButton;
-export default withTranslation()(AddButtonComponent);
+export default withTranslation()(AddButton);
