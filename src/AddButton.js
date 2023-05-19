@@ -3,8 +3,9 @@ import "./AddButton.scss";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import { FormControl } from "react-bootstrap";
+import { withTranslation } from "react-i18next";
 
-class AddButton extends React.Component {
+class AddButtonComponent extends React.Component {
   constructor(props) {
     super(props);
 
@@ -33,6 +34,7 @@ class AddButton extends React.Component {
     this.handleClose();
   }
 
+  const { t } = this.props;
   render() {
     return (
       <div>
@@ -41,7 +43,7 @@ class AddButton extends React.Component {
         </div>
         <Modal show={this.state.showModal} onHide={this.handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Add Custom Sin</Modal.Title>
+            <Modal.Title>{t("addbutton.add-custom-sin")}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <FormControl
@@ -49,15 +51,15 @@ class AddButton extends React.Component {
               rows={3}
               id="add-sin-input"
               onInput={(e) => this.setState({ inputValue: e.target.value })}
-              placeholder="I sinned by..."
+              placeholder={t("addbutton.i-sinned-by")}
             />
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={this.handleClose}>
-              Cancel
+              {t("addbutton.cancel")}
             </Button>
             <Button className="add-button" onClick={this.handleAdd}>
-              Add
+              {t("addbutton.add")}
             </Button>
           </Modal.Footer>
         </Modal>
@@ -66,4 +68,5 @@ class AddButton extends React.Component {
   }
 }
 
+const AddButton = withTranslation()(AddButtonComponent);
 export default AddButton;
