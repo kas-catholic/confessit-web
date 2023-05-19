@@ -1,7 +1,7 @@
 import React from "react";
 import "./ExamineItem.scss";
 import Card from "react-bootstrap/Card";
-import { Trans, withTranslation } from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 class ExamineItemComponent extends React.Component {
   constructor(props) {
