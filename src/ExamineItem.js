@@ -1,8 +1,9 @@
 import React from "react";
 import "./ExamineItem.scss";
 import Card from "react-bootstrap/Card";
+import { Trans, withTranslation } from "react-i18next";
 
-class ExamineItem extends React.Component {
+class ExamineItemComponent extends React.Component {
   constructor(props) {
     super(props);
 
@@ -19,6 +20,7 @@ class ExamineItem extends React.Component {
   }
 
   render() {
+    const { t } = this.props;
     return (
       <Card className="examine-item">
         {this.props.text}
@@ -29,11 +31,12 @@ class ExamineItem extends React.Component {
             checked={this.props.selected}
             onChange={this.handleClick}
           />
-          <label htmlFor={"checkitem:" + this.props.sinId}>Yes</label>
+          <label htmlFor={"checkitem:" + this.props.sinId}>{t("examineitem.yes")}</label>
         </div>
       </Card>
     );
   }
 }
 
+const ExamineItem = withTranslation()(ExamineItemComponent);
 export default ExamineItem;
