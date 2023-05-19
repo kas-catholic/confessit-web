@@ -34,8 +34,8 @@ class AddButtonComponent extends React.Component {
     this.handleClose();
   }
 
-  const { t } = this.props;
   render() {
+    const { t } = this.props;
     return (
       <div>
         <div className="fab" onClick={this.handleShow}>
