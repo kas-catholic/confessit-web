@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { Trans, withTranslation } from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 class PriestBubbleComponent extends React.Component {
   const { t } = this.props;
