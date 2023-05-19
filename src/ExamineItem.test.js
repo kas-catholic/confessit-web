@@ -1,5 +1,5 @@
 import React from "react";
-import ExamineItem from "./ExamineItem";
+import { ExamineItem } from "./ExamineItem";
 import { shallow, configure } from "enzyme";
 import * as Adapter from "enzyme-adapter-react-16";
 
@@ -13,6 +13,7 @@ describe("ExamineItem", () => {
       onAddSinId={onAddSinIdMock}
       onRemoveSinItem={onRemoveSinItemMock}
       sinId={1}
+      t={key => key}
     />
   );
   const instance = wrapper.instance();
