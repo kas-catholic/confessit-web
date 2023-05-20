@@ -5,7 +5,11 @@ import { withTranslation } from "react-i18next";
 class PriestBubble extends React.Component {
   render() {
     const { t } = this.props;
-    return <Card className="priest-bubble">{t("priestbubble.priest")}: {this.props.text}</Card>;
+    return (
+      <Card className="priest-bubble">
+        {t("priestbubble.priest")}: {this.props.text}
+      </Card>
+    );
   }
 }
 

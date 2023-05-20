@@ -13,7 +13,7 @@ describe("ExamineItem", () => {
       onAddSinId={onAddSinIdMock}
       onRemoveSinItem={onRemoveSinItemMock}
       sinId={1}
-      t={key => key}
+      t={(key) => key}
     />
   );
   const instance = wrapper.instance();

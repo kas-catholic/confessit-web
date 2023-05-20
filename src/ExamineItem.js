@@ -31,7 +31,9 @@ class ExamineItem extends React.Component {
             checked={this.props.selected}
             onChange={this.handleClick}
           />
-          <label htmlFor={"checkitem:" + this.props.sinId}>{t("examineitem.yes")}</label>
+          <label htmlFor={"checkitem:" + this.props.sinId}>
+            {t("examineitem.yes")}
+          </label>
         </div>
       </Card>
     );

@@ -7,7 +7,9 @@ configure({ adapter: new Adapter.default() });
 
 describe("AddButton", () => {
   const addCustomSinMock = jest.fn();
-  const wrapper = shallow(<AddButton addCustomSin={addCustomSinMock} t={key => key} />);
+  const wrapper = shallow(
+    <AddButton addCustomSin={addCustomSinMock} t={(key) => key} />
+  );
   const instance = wrapper.instance();
 
   describe("constructor", () => {
