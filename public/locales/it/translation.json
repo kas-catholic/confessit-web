@@ -77,7 +77,8 @@
     "data_persistence_text": "I dati inseriti sono memorizzati direttamente sul dispositivo (mai inviati su Internet). I dati inseriti rimangono fintanto che non premi il pulsante <strong>Svuota</strong>, e persistono anche se chiudi la finestra o aggiorni la pagina. Assicùrati pertanto di cancellare i dati quando hai finito, se non vuoi che altre persone che usano questo dispositivo vedano i tuoi dati!"
   },
   "welcome": {
-    "title": "Benvenuto!"
+    "title": "Benvenuto!",
+    "body": "is a tool to help Roman Catholics walk through an examination of conscience prior to going to confession. We hope you'll find this useful to help remember sins you've committed since your last confession. Just check the <1>Yes</1> box next to sins in the <3>Examine</3> list, or tap the plus button to add your own. Then, scroll to the right to <5>Review</5> your sins and <7>Walkthrough</7> the steps of going to confession.<9></9><10></10>Data you enter is stored on your device (<12>never</12> sent over the Internet). Data you enter will be saved until you hit <15>Clear</15>, even if you close the window or refresh the page.<17></17><18></18>God bless you on your path to holiness!"
   },
   "commandments": {
     "1": {
@@ -422,5 +423,17 @@
       "text_past": "",
       "detail": ""
     }
+  },
+  "addbutton": {
+    "add-custom-sin": "",
+    "i-sinned-by": "",
+    "cancel": "",
+    "add": ""
+  },
+  "examineitem": {
+    "yes": ""
+  },
+  "priestbubble": {
+    "priest": ""
   }
 }
