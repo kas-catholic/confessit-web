@@ -1,6 +1,7 @@
 import React from "react";
 import "./ExamineItem.scss";
 import Card from "react-bootstrap/Card";
+import { withTranslation } from "react-i18next";
 
 class ExamineItem extends React.Component {
   constructor(props) {
@@ -19,6 +20,7 @@ class ExamineItem extends React.Component {
   }
 
   render() {
+    const { t } = this.props;
     return (
       <Card className="examine-item">
         {this.props.text}
@@ -29,11 +31,14 @@ class ExamineItem extends React.Component {
             checked={this.props.selected}
             onChange={this.handleClick}
           />
-          <label htmlFor={"checkitem:" + this.props.sinId}>Yes</label>
+          <label htmlFor={"checkitem:" + this.props.sinId}>
+            {t("examineitem.yes")}
+          </label>
         </div>
       </Card>
     );
   }
 }
 
-export default ExamineItem;
+export { ExamineItem };
+export default withTranslation()(ExamineItem);
