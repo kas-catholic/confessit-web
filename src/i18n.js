@@ -22,6 +22,24 @@ i18n
     // allow an empty value to count as invalid
     // https://www.i18next.com/principles/fallback#missing-values-for-existing-keys
     returnEmptyString: false,
+    react: {
+      transSupportBasicHtmlNodes: true,
+      transKeepBasicHtmlNodesFor: [
+        "br",
+        "strong",
+        "i",
+        "p",
+        "vatican",
+        "github",
+        "mass",
+        "osc",
+        "website",
+        "app",
+        "a",
+        "kbd",
+        "code",
+      ],
+    },
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
