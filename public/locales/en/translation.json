@@ -425,15 +425,15 @@
     }
   },
   "addbutton": {
-    "add-custom-sin": "",
-    "i-sinned-by": "",
-    "cancel": "",
-    "add": ""
+    "add-custom-sin": "Add custom sin",
+    "i-sinned-by": "I sinned by…",
+    "cancel": "Cancel",
+    "add": "Add"
   },
   "examineitem": {
-    "yes": ""
+    "yes": "Yes"
   },
   "priestbubble": {
-    "priest": ""
+    "priest": "Priest"
   }
 }
