@@ -1,426 +1,427 @@
 {
-  "navbar": {
-    "prayers": "Preghiere",
-    "help": "Aiuto",
-    "about": "Su questa app",
-    "clear": "Svuota"
-  },
-  "examine_list": {
-    "examine": "Esamina"
-  },
-  "sins_list": {
-    "review": "Revisiona"
-  },
-  "walkthrough": {
-    "walkthrough": "Confessa",
-    "in_the_name_of": "Nel nome del Padre, e del Figlio, e dello Spirito Santo. Amen.",
-    "bless_me_father": "Benedicimi Padre, perché ho peccato. Sono ____ dall'ultima confessione. Questi sono i miei peccati:",
-    "these_are_my_sins": "Questi sono i miei peccati, e me ne pento con tutto il cuore.",
-    "your_confessor_may_offer": "(Il confessore può ora offrire dei consigli o intrattenere una breve conversazione.)",
-    "your_confessor_will_assign": "(Il confessore ti assegnerà una penitenza da adempiere.) Ora recita l'atto di dolore.",
-    "act_of_contrition": "<p>Mio Dio, mi pento e mi dolgo con tutto il cuore dei miei peccati.</p><p>Perché peccando ho meritato i tuoi castighi, e molto più perché ho offeso te, infinitamente buono e degno di essere amato sopra ogni cosa.</p><p>Propongo con il tuo santo aiuto di non offenderti mai più, e di fuggire le occasioni prossime di peccato.</p><p>Signore, misericordia, perdonami.</p>",
-    "god_the_father_of_mercies": "Dio, Padre di misericordia…",
-    "amen": "Amen.",
-    "the_lord_has_freed_you": "Il Signore ha perdonato i tuoi peccati. Va' in pace.",
-    "thanks_be_to_god": "Lodiamo il Signore perché è buono."
-  },
-  "prayers": {
-    "prayers": "Preghiere",
-    "prayer_before_confession": "Preghiera prima della Confessione",
-    "act_of_contrition": "Atto di Dolore",
-    "another_act_of_contrition": "Altro Atto di Dolore",
-    "thanksgiving_after_confession": "Ringraziamento dopo la Confessione",
-    "our_father": "Padre Nostro",
-    "hail_mary": "Ave Maria",
-    "hail_holy_queen": "Salve Regina",
-    "prayer_before_confession_text": "<p>Padre santo, come il figliol prodigo mi rivolgo alla tua misericordia:<br />«Ho peccato contro di te, non son più degno d'esser chiamato tuo figlio ».<br />Cristo Gesù, Salvatore del mondo, che hai aperto al buon ladrone le porte del paradiso, ricordati di me nel tuo regno.<br />Spirito Santo, sorgente di pace e d'amore, fa' che purificato da ogni colpa e riconciliato con il Padre io cammini sempre come figlio della luce.<br />Amen.</p>",
-    "act_of_contrition_text": "<p>Ricordati, Signore, del tuo amore,<br />della tua fedeltà che è da sempre.<br />Non ricordare i miei peccati:<br />ricordati di me nella tua misericordia,<br />per la tua bontà, Signore.</p>",
-    "another_act_of_contrition_text": "<p>Lavami, Signore, da tutte le mie colpe,<br />mondami dal mio peccato.<br />Riconosco la mia colpa,<br />il mio peccato mi sta sempre dinanzi.<br />Amen.</p>",
-    "thanksgiving_after_confession_text": "<p>Dio mio, Padre dolcissimo, com'è dolce la tua grazia, com'è grande il tuo amore! Hai perdonato tutti i miei peccati e mi hai fatto assaporare di nuovo le meraviglie del tuo amore. Ti ringraziano per me, o mio Dio, il Cielo e la terra ed io do voce a tutte le creature per lodarti e ringraziarti per sempre. Ti ringraziano le Anime del Purgatorio, per le quali ora Ti saranno più accette le mie preghiere, poiché ho l'anima purificata da ogni peccato e sono di nuovo tuo amico.<br />Per mostrarti la mia riconoscenza, o Signore, come meglio posso, Ti offro la promessa di voler evitare ad ogni costo il peccato.<br />Piuttosto, o mio Dio, scelgo il disprezzo del mondo, le mortificazioni e le pene, le tribolazioni di ogni tipo, ed anche la morte, ma mai più voglio trasgredire i tuoi precetti che sono consigli di Padre amorevole.<br />Per mezzo della santa assoluzione mi hai accolto ancora nel tuo abbraccio paterno, ed io non voglio più staccarmi da Te. <br />Amen.</p>",
-    "our_father_text": "<p>Padre nostro,<br />che sei nei cieli, sia santificato il Tuo nome;<br />venga il Tuo regno; sia fatta la Tua volontà, come in cielo così in terra.<br />Dàcci oggi il nostro pane quotidiano, e rimètti a noi i nostri debiti,<br />come anche noi li rimettiamo ai nostri debitori.<br />E non ci abbandonare alla tentazione, ma lìberaci dal male.<br />Amen.</p>",
-    "hail_mary_text": "<p>Ave Maria, piena di grazia.<br />Il Signore è con te.<br />Benedetta tu fra le donne, e benedtto il frutto del tuo seno, Gesù.<br />Santa Maria, madre di Dio,<br />prèga per noi peccatori, ora e nell'ora della nostra morte.<br />Amen.</p>",
-    "hail_holy_queen_text": "<p>Salve, Regina, madre di misericordia,<br />vita, dolcezza e speranza nostra, salve.<br />A te ricorriamo, esuli figli di Eva; a te sospiriamo, gementi e piangenti in questa valle di lacrime.<br />Orsù dunque, avvocata nostra, rivolgi a noi gli occhi tuoi misericordiosi.<br />E mostraci, dopo questo esilio, Gesù, il frutto benedetto del tuo Seno.<br />O clemente, o pia, o dolce Vergine Maria!</p>"
-  },
-  "about": {
-    "about_confessit": "Riguardo ConfessaLo",
-    "about_confessit_text": "ConfessaLo è un esame di coscienza <1>Cattolico Romano</1> per computer, tablet, e smartphone. E' pensato per la facilità d'utilizzo, per essere di aiuto nel fare mente locale dei peccati da confessare. C'è anche una guida che ti segue passo passo nel rito della confessione, per aiutarti durante il rito. Una grande risorsa se non ti sei confessato da tempo! L'esame di coscienza si basa sugli insegnamenti della chiesa cattolica, è facile da comprendere, ed risulta attuale per i cattolici di oggi.",
-    "about_confession": "Riguardo la Confessione",
-    "about_confession_intro": "La Confessione è il sacramento con il quale i Cattolici ottengono il perdono dei peccati dalla misericordia di Dio, e vengono così riconciliati con la Chiesa, la comunità dei credenti, il Corpo di Cristo.",
-    "ccc_quote": "<p>È chiamato sacramento della Conversione poiché realizza sacramentalmente l'appello di Gesù alla conversione,4 il cammino di ritorno al Padre (Cf Mc 1,15;Lc 15,18) da cui ci si è allontanati con il peccato.</p><p>È chiamato sacramento della Penitenza poiché consacra un cammino personale ed ecclesiale di conversione, di pentimento e di soddisfazione del cristiano peccatore.</p><p>È chiamato sacramento della Confessione poiché l'accusa, la confessione dei peccati davanti al sacerdote è un elemento essenziale di questo sacramento. In un senso profondo esso è anche una « confessione », riconoscimento e lode della santità di Dio e della sua misericordia verso l'uomo peccatore.</p><p>È chiamato sacramento del Perdono poiché, attraverso l'assoluzione sacramentale del sacerdote, Dio accorda al penitente « il perdono e la pace ». (Rito della Penitenza, 46. 55)</p><p>È chiamato sacramento della Riconciliazione perché dona al peccatore l'amore di Dio che riconcilia: « Lasciatevi riconciliare con Dio » (2 Cor 5,20). Colui che vive dell'amore misericordioso di Dio è pronto a rispondere all'invito del Signore: « Va' prima a riconciliarti con il tuo fratello » (Mt 5,24)</p><p>La conversione a Cristo, la nuova nascita dal Battesimo, il dono dello Spirito Santo, il Corpo e il Sangue di Cristo ricevuti in nutrimento, ci hanno resi « santi e immacolati al suo cospetto » (Ef 1,4), come la Chiesa stessa, Sposa di Cristo, è « santa e immacolata » (Ef 5,27) davanti a lui. Tuttavia, la vita nuova ricevuta nell'iniziazione cristiana non ha soppresso la fragilità e la debolezza della natura umana, né l'inclinazione al peccato che la tradizione chiama concupiscenza, la quale rimane nei battezzati perché sostengano le loro prove nel combattimento della vita cristiana, aiutati dalla grazia di Cristo. (Cf Concilio di Trento, Sess. 5a, Decretum de peccato originali, canone 5.) Si tratta del combattimento della conversione in vista della santità e della vita eterna alla quale il Signore non cessa di chiamarci.</p><p>Gesù chiama alla conversione. Questo appello è una componente essenziale dell'annuncio del Regno: « Il tempo è compiuto e il regno di Dio è ormai vicino; convertitevi e credete al Vangelo » (Mc 1,15). Il Battesimo è quindi il luogo principale della prima e fondamentale conversione, ma l'appello di Cristo alla conversione continua a risuonare nella vita dei cristiani. Questa seconda conversione è un impegno continuo per tutta la Chiesa che « comprende nel suo seno i peccatori » e che, « santa insieme e sempre bisognosa di purificazione, incessantemente si applica alla penitenza e al suo rinnovamento ». (Concilio Vaticano II, Cost. dogm. Lumen gentium, 8.) Questo sforzo di conversione non è soltanto un'opera umana. È il dinamismo del « cuore contrito » (Cf Sal 51,19) attirato e mosso dalla grazia (Cf Gv 6,44; 12,32) a rispondere all'amore misericordioso di Dio che ci ha amati per primo (Cf 1 Gv 4,10). A proposito delle due conversioni sant'Ambrogio dice: « La Chiesa ha l'acqua e le lacrime: l'acqua del Battesimo, le lacrime della Penitenza » (Sant'Ambrogio, Epistula extra collectionem, 1 [41], 12).</p><7>— Catechismo della Chiesa Cattolica 1423-1424,1426; cf. 1427-1429</7>",
-    "where_to_find": "Gli orari per la confessione sono elencati nel bollettino della tua parrocchia, o li puoi trovare sul sito della tua parrocchia oppure sul sito <1>masstimes.org</1>. Puoi anche prenotare una confessione rivolgendoti direttamente alla parrocchia.",
-    "about_confession_end": "Quando ti confessi, hai generalmente la scelta tra stare seduti a faccia a faccia con il confessore, o stare in ginocchio dietro una grata in maniera più anonima. Non c'è motivo per preoccuparsi nella confessione! Qualsiasi peccato potrai accusare, il sacerdote l'ha già ascoltato. Ricòrdati che il sacerdote è lì per te, per aiutarti, per il tuo bene.",
-    "about_this_app": "Riguardo quest'App",
-    "this_app_is_designed": "Quest'app è pensata per assistere i cattolici che desiderano confessarsi, nella fase dell'esame di coscienza prima della confessione. <strong>NON</strong> si tratta di un sostituto per la confessione.",
-    "please_be_respectful": "Si raccomanda avere un occhio di riguardo per coloro che possano stare nelle vicinanze quando fai uso dell'app. Si raccomanda spengere il telefono quando sei dentro la chiesa, e di utilizzare l'app prima di giungere in chiesa. Se usi l'app dentro la chiesa o durante la confessione, assicùrati che il telefono sia in modalità silenziosa.",
-    "this_website": "Questo sito, <1>ConfessIt.app</1>, è basato sull'<3>App ConfessIt per Android</3> (creato nel 2012 dallo stesso sviluppatore). Mentre non è (ancora) una riproduzione completa, mira a rendere l'app maggiormente disponibile per più utenti su più dispositivi. (Questo sito funziona su iOS, Android, sia su tablet che su computer!)",
-    "if_you_find": "Se ti piace l'app, <strong>condivìdila</strong> con amici e parenti. Pàrlane su Facebook, Reddit, Twitter, in chiesa, o nel tuo gruppo di catechesi in modo da farla conoscere!",
-    "privacy": "Privacy",
-    "information_you_enter": "Le informazioni immesse nell'app sono immagazzinate soltanto sul tuo dispositivo. Non vengono trasmesse via internet. Questo è possibile grazie ad una tecnologia offerta dal browser, chiamata <1>local stroage</1>. Non viene utilizzato alcun sistema di analisi dei dati, del tipo Google Analytics o qualsiasi altro sistema simile. I dati da te immessi permangono sul dispositivo anche se chiudi la finestra o aggiorni la pagina; vengono eliminati solo quando fai clic su <3>Svuota</3>.",
-    "open_source": "Sorgenti Aperte",
-    "confessit_is_open_source": "ConfessaLo è un progetto a sorgenti aperte. Sviluppiamo l'app su <1></1> <3>GitHub</3> e collaboriamo nella comunità <5>Open Source Catholic</5> su Slack.",
-    "can_i_help_with_translations": "Posso aiutare con le traduzioni?",
-    "confessit_is_translated": "ConfessaLo è tradotto in varie lingue. Se puoi aiutare in questo, aggiungendo una nuova traduzione o migliorando una traduzione già esistente, leggi su <1>GitHub</1>come fare per contribuire, oppure rivolgiti a noi nello spazio di lavoro <3>Open Source Catholic</3> su Slack.",
-    "can_i_help_write_code": "Posso aiutare a scrivere codice?",
-    "we_welcome_new_contributions": "Nuovi contributi sono benvenuti. Se vuoi contribuire allo sviluppo di ConfessaLo, inizia col leggere le istruzioni su <1>GitHub</1> per i contributi.",
-    "about_the_developer": "Riguardo lo Sviluppatore",
-    "mike_kasberg": "<0>Mike Kasberg</0> sviluppa ConfessLo nel suo tempo libero, per ridare qualcosa alla chiesa dopo tutto quello che ha ricevuto. È anche coinvolto in alcuni altri piccoli progetti per supportare le organizzazioni cattoliche con la tecnologia.",
-    "information": "Le informazioni di quest'app provengono dall'edizione RSV della Bibbia, Seconda edizione cattolica. Vengono tratte informazioni anche dal Catechismo della Chiesa Cattolica."
-  },
-  "help": {
-    "confessit_help": "ConfessaLo Assistenza",
-    "basic_usage": "Utilizzo di base",
-    "step_1": "Nella scheda <strong>Esamina</strong>, spunta <strong>Sì</strong> accanto ai peccati di cui vuoi fare una promemoria per la confessione.",
-    "step_2": "Scorri alla prossima scheda, <strong>Peccati</strong>, per vedere la lista dei peccati che hai segnato. Puoi anche revisionare ancora la lista prima o durante la confessione.",
-    "step_3": "Se non sei sicuro di cosa dire durante la confessione, scorri alla scheda successiva, <strong>Procedura dettagliata</strong>, dove puoi visionare per sommi capi il dialogo che avviene tra sacerdote e penitente durante la confessione. Puoi anche riguardarti questa sezione durante la confessione se ti è di aiuto.",
-    "step_4": "Una volta che ti sei confessato, puoi usare il pulsante <strong>Svuota</strong> per eliminare tutti i peccati segnati.",
-    "data_persistence": "Persistenza dei dati",
-    "data_persistence_text": "I dati inseriti sono memorizzati direttamente sul dispositivo (mai inviati su Internet). I dati inseriti rimangono fintanto che non premi il pulsante <strong>Svuota</strong>, e persistono anche se chiudi la finestra o aggiorni la pagina. Assicùrati pertanto di cancellare i dati quando hai finito, se non vuoi che altre persone che usano questo dispositivo vedano i tuoi dati!"
-  },
-  "welcome": {
-    "title": "Benvenuto!"
-  },
-  "commandments": {
-    "1": {
-      "title": "Primo Comandamento",
-      "text": "Non avrai altri dèi di fronte a me (Es 20,3)",
-      "description": ""
+    "navbar": {
+        "prayers": "Preghiere",
+        "help": "Aiuto",
+        "about": "Su questa app",
+        "clear": "Svuota"
     },
-    "2": {
-      "title": "",
-      "text": "",
-      "description": ""
+    "examine_list": {
+        "examine": "Esamina"
     },
-    "3": {
-      "title": "",
-      "text": "",
-      "description": ""
+    "sins_list": {
+        "review": "Revisiona"
     },
-    "4": {
-      "title": "",
-      "text": "",
-      "description": ""
+    "walkthrough": {
+        "walkthrough": "Confessa",
+        "in_the_name_of": "Nel nome del Padre, e del Figlio, e dello Spirito Santo. Amen.",
+        "bless_me_father": "Benedicimi Padre, perché ho peccato. Sono ____ dall'ultima confessione. Questi sono i miei peccati:",
+        "these_are_my_sins": "Questi sono i miei peccati, e me ne pento con tutto il cuore.",
+        "your_confessor_may_offer": "(Il confessore può ora offrire dei consigli o intrattenere una breve conversazione.)",
+        "your_confessor_will_assign": "(Il confessore ti assegnerà una penitenza da adempiere.) Ora recita l'atto di dolore.",
+        "act_of_contrition": "<p>Mio Dio, mi pento e mi dolgo con tutto il cuore dei miei peccati.</p><p>Perché peccando ho meritato i tuoi castighi, e molto più perché ho offeso te, infinitamente buono e degno di essere amato sopra ogni cosa.</p><p>Propongo con il tuo santo aiuto di non offenderti mai più, e di fuggire le occasioni prossime di peccato.</p><p>Signore, misericordia, perdonami.</p>",
+        "god_the_father_of_mercies": "Dio, Padre di misericordia…",
+        "amen": "Amen.",
+        "the_lord_has_freed_you": "Il Signore ha perdonato i tuoi peccati. Va' in pace.",
+        "thanks_be_to_god": "Lodiamo il Signore perché è buono."
     },
-    "5": {
-      "title": "",
-      "text": "",
-      "description": ""
+    "prayers": {
+        "prayers": "Preghiere",
+        "prayer_before_confession": "Preghiera prima della Confessione",
+        "act_of_contrition": "Atto di Dolore",
+        "another_act_of_contrition": "Altro Atto di Dolore",
+        "thanksgiving_after_confession": "Ringraziamento dopo la Confessione",
+        "our_father": "Padre Nostro",
+        "hail_mary": "Ave Maria",
+        "hail_holy_queen": "Salve Regina",
+        "prayer_before_confession_text": "<p>Padre santo, come il figliol prodigo mi rivolgo alla tua misericordia:<br />«Ho peccato contro di te, non son più degno d'esser chiamato tuo figlio ».<br />Cristo Gesù, Salvatore del mondo, che hai aperto al buon ladrone le porte del paradiso, ricordati di me nel tuo regno.<br />Spirito Santo, sorgente di pace e d'amore, fa' che purificato da ogni colpa e riconciliato con il Padre io cammini sempre come figlio della luce.<br />Amen.</p>",
+        "act_of_contrition_text": "<p>Ricordati, Signore, del tuo amore,<br />della tua fedeltà che è da sempre.<br />Non ricordare i miei peccati:<br />ricordati di me nella tua misericordia,<br />per la tua bontà, Signore.</p>",
+        "another_act_of_contrition_text": "<p>Lavami, Signore, da tutte le mie colpe,<br />mondami dal mio peccato.<br />Riconosco la mia colpa,<br />il mio peccato mi sta sempre dinanzi.<br />Amen.</p>",
+        "thanksgiving_after_confession_text": "<p>Dio mio, Padre dolcissimo, com'è dolce la tua grazia, com'è grande il tuo amore! Hai perdonato tutti i miei peccati e mi hai fatto assaporare di nuovo le meraviglie del tuo amore. Ti ringraziano per me, o mio Dio, il Cielo e la terra ed io do voce a tutte le creature per lodarti e ringraziarti per sempre. Ti ringraziano le Anime del Purgatorio, per le quali ora Ti saranno più accette le mie preghiere, poiché ho l'anima purificata da ogni peccato e sono di nuovo tuo amico.<br />Per mostrarti la mia riconoscenza, o Signore, come meglio posso, Ti offro la promessa di voler evitare ad ogni costo il peccato.<br />Piuttosto, o mio Dio, scelgo il disprezzo del mondo, le mortificazioni e le pene, le tribolazioni di ogni tipo, ed anche la morte, ma mai più voglio trasgredire i tuoi precetti che sono consigli di Padre amorevole.<br />Per mezzo della santa assoluzione mi hai accolto ancora nel tuo abbraccio paterno, ed io non voglio più staccarmi da Te. <br />Amen.</p>",
+        "our_father_text": "<p>Padre nostro,<br />che sei nei cieli, sia santificato il Tuo nome;<br />venga il Tuo regno; sia fatta la Tua volontà, come in cielo così in terra.<br />Dàcci oggi il nostro pane quotidiano, e rimètti a noi i nostri debiti,<br />come anche noi li rimettiamo ai nostri debitori.<br />E non ci abbandonare alla tentazione, ma lìberaci dal male.<br />Amen.</p>",
+        "hail_mary_text": "<p>Ave Maria, piena di grazia.<br />Il Signore è con te.<br />Benedetta tu fra le donne, e benedtto il frutto del tuo seno, Gesù.<br />Santa Maria, madre di Dio,<br />prèga per noi peccatori, ora e nell'ora della nostra morte.<br />Amen.</p>",
+        "hail_holy_queen_text": "<p>Salve, Regina, madre di misericordia,<br />vita, dolcezza e speranza nostra, salve.<br />A te ricorriamo, esuli figli di Eva; a te sospiriamo, gementi e piangenti in questa valle di lacrime.<br />Orsù dunque, avvocata nostra, rivolgi a noi gli occhi tuoi misericordiosi.<br />E mostraci, dopo questo esilio, Gesù, il frutto benedetto del tuo Seno.<br />O clemente, o pia, o dolce Vergine Maria!</p>"
     },
-    "6": {
-      "title": "",
-      "text": "",
-      "description": ""
+    "about": {
+        "about_confessit": "Riguardo ConfessaLo",
+        "about_confessit_text": "ConfessIt è un esame di coscienza <vatican>Cattolico Romano</vatican> per computer, tablet, e smartphone. E' pensato per la facilità d'utilizzo, per essere di aiuto nel fare mente locale dei peccati da confessare. C'è anche una guida che ti segue passo passo nel rito della confessione, per aiutarti durante il rito. Una grande risorsa se non ti sei confessato da tempo! L'esame di coscienza si basa sugli insegnamenti della chiesa cattolica, è facile da comprendere, e risulta attuale per i cattolici di oggi.",
+        "about_confession": "Riguardo la Confessione",
+        "about_confession_intro": "La Confessione è il sacramento con il quale i Cattolici ottengono il perdono dei peccati dalla misericordia di Dio, e vengono così riconciliati con la Chiesa, la comunità dei credenti, il Corpo di Cristo.",
+        "ccc_quote": "<p>È chiamato sacramento della Conversione poiché realizza sacramentalmente l'appello di Gesù alla conversione,4 il cammino di ritorno al Padre (Cf Mc 1,15;Lc 15,18) da cui ci si è allontanati con il peccato.</p><p>È chiamato sacramento della Penitenza poiché consacra un cammino personale ed ecclesiale di conversione, di pentimento e di soddisfazione del cristiano peccatore.</p><p>È chiamato sacramento della Confessione poiché l'accusa, la confessione dei peccati davanti al sacerdote è un elemento essenziale di questo sacramento. In un senso profondo esso è anche una « confessione », riconoscimento e lode della santità di Dio e della sua misericordia verso l'uomo peccatore.</p><p>È chiamato sacramento del Perdono poiché, attraverso l'assoluzione sacramentale del sacerdote, Dio accorda al penitente « il perdono e la pace ». (Rito della Penitenza, 46. 55)</p><p>È chiamato sacramento della Riconciliazione perché dona al peccatore l'amore di Dio che riconcilia: « Lasciatevi riconciliare con Dio » (2 Cor 5,20). Colui che vive dell'amore misericordioso di Dio è pronto a rispondere all'invito del Signore: « Va' prima a riconciliarti con il tuo fratello » (Mt 5,24)</p><p>La conversione a Cristo, la nuova nascita dal Battesimo, il dono dello Spirito Santo, il Corpo e il Sangue di Cristo ricevuti in nutrimento, ci hanno resi « santi e immacolati al suo cospetto » (Ef 1,4), come la Chiesa stessa, Sposa di Cristo, è « santa e immacolata » (Ef 5,27) davanti a lui. Tuttavia, la vita nuova ricevuta nell'iniziazione cristiana non ha soppresso la fragilità e la debolezza della natura umana, né l'inclinazione al peccato che la tradizione chiama concupiscenza, la quale rimane nei battezzati perché sostengano le loro prove nel combattimento della vita cristiana, aiutati dalla grazia di Cristo. (Cf Concilio di Trento, Sess. 5a, Decretum de peccato originali, canone 5.) Si tratta del combattimento della conversione in vista della santità e della vita eterna alla quale il Signore non cessa di chiamarci.</p><p>Gesù chiama alla conversione. Questo appello è una componente essenziale dell'annuncio del Regno: « Il tempo è compiuto e il regno di Dio è ormai vicino; convertitevi e credete al Vangelo » (Mc 1,15). Il Battesimo è quindi il luogo principale della prima e fondamentale conversione, ma l'appello di Cristo alla conversione continua a risuonare nella vita dei cristiani. Questa seconda conversione è un impegno continuo per tutta la Chiesa che « comprende nel suo seno i peccatori » e che, « santa insieme e sempre bisognosa di purificazione, incessantemente si applica alla penitenza e al suo rinnovamento ». (Concilio Vaticano II, Cost. dogm. Lumen gentium, 8.) Questo sforzo di conversione non è soltanto un'opera umana. È il dinamismo del « cuore contrito » (Cf Sal 51,19) attirato e mosso dalla grazia (Cf Gv 6,44; 12,32) a rispondere all'amore misericordioso di Dio che ci ha amati per primo (Cf 1 Gv 4,10). A proposito delle due conversioni sant'Ambrogio dice: « La Chiesa ha l'acqua e le lacrime: l'acqua del Battesimo, le lacrime della Penitenza » (Sant'Ambrogio, Epistula extra collectionem, 1 [41], 12).</p><7>— Catechismo della Chiesa Cattolica 1423-1424,1426; cf. 1427-1429</7>",
+        "where_to_find": "Gli orari per la confessione sono elencati nel bollettino della tua parrocchia, o li puoi trovare sul sito della tua parrocchia oppure sul sito <mass>masstimes.org</mass>. Puoi anche prenotare una confessione rivolgendoti direttamente alla tua parrocchia.",
+        "about_confession_end": "Quando ti confessi, hai generalmente la scelta tra stare seduti a faccia a faccia con il confessore, o stare in ginocchio dietro una grata in maniera più anonima. Non c'è motivo per preoccuparsi nella confessione! Qualsiasi peccato potrai accusare, il sacerdote l'ha già ascoltato. Ricòrdati che il sacerdote è lì per te, per aiutarti, per il tuo bene.",
+        "about_this_app": "Riguardo quest'App",
+        "this_app_is_designed": "Quest'app è pensata per assistere i cattolici che desiderano confessarsi, nella fase dell'esame di coscienza prima della confessione. <strong>NON</strong> si tratta di un sostituto per la confessione.",
+        "please_be_respectful": "Si raccomanda avere un occhio di riguardo per coloro che possano stare nelle vicinanze quando fai uso dell'app. Si raccomanda di utilizzare l'app prima di giungere in chiesa, e di spegnere poi il telefono quando si è in chiesa. Se usi l'app dentro la chiesa o durante la confessione, assicùrati che il telefono sia in modalità silenziosa.",
+        "this_website": "Questo sito, <website>ConfessIt.app</website>, è basato sull'<app>App ConfessIt per Android</app> (creato nel 2012 dallo stesso sviluppatore). Mentre non è (ancora) una riproduzione completa, mira a rendere l'app maggiormente disponibile per più utenti su più dispositivi. (Questo sito funziona su iOS, Android, sia su tablet che su computer!)",
+        "if_you_find": "Se ti piace l'app, <strong>condivìdila</strong> con amici e parenti. Pàrlane su Facebook, Reddit, Twitter, in chiesa, o nel tuo gruppo di catechesi in modo da farla conoscere!",
+        "privacy": "Privacy",
+        "information_you_enter": "Le informazioni immesse nell'app sono immagazzinate soltanto sul tuo dispositivo. Non vengono trasmesse via internet. Questo è possibile grazie ad una tecnologia offerta dal browser, chiamata <a>local storage</a>. Non viene utilizzato alcun sistema di analisi dei dati, del tipo Google Analytics o qualsiasi altro sistema simile. I dati da te immessi permangono sul dispositivo anche se chiudi la finestra o aggiorni la pagina; vengono eliminati solo quando fai clic su <kbd>Svuota</kbd>.",
+        "open_source": "Sorgenti Aperte",
+        "confessit_is_open_source": "ConfessIt è un progetto informatico a sorgenti aperte (\"open source\"). Sviluppiamo l'app su <i></i> <github>GitHub</github> e collaboriamo nella comunità <osc>Open Source Catholic</osc> su Slack.",
+        "can_i_help_with_translations": "Posso aiutare con le traduzioni?",
+        "confessit_is_translated": "ConfessIt è tradotto in varie lingue. Se puoi aiutare in questo, aggiungendo una nuova traduzione o migliorando una traduzione già esistente, leggi su <github>GitHub</github> come fare per contribuire, oppure rivolgiti a noi nello spazio di lavoro <osc>Open Source Catholic</osc> su Slack.",
+        "can_i_help_write_code": "Posso aiutare a scrivere codice?",
+        "we_welcome_new_contributions": "Nuovi contributi sono benvenuti. Se vuoi contribuire allo sviluppo di ConfessaLo, inizia col leggere le istruzioni su <1>GitHub</1> per i contributi.",
+        "about_the_developer": "Riguardo lo Sviluppatore",
+        "mike_kasberg": "<0>Mike Kasberg</0> sviluppa ConfessLo nel suo tempo libero, per ridare qualcosa alla chiesa in cambio di tutto quello che ha ricevuto. È anche coinvolto in alcuni altri piccoli progetti per supportare le organizzazioni cattoliche con la tecnologia.",
+        "information": "Le citazioni bibliche di quest'app provengono dall'edizione CEI 2008 della Bibbia. Vengono tratte informazioni anche dal Catechismo della Chiesa Cattolica."
     },
-    "7": {
-      "title": "",
-      "text": "",
-      "description": ""
+    "help": {
+        "confessit_help": "ConfessaLo Assistenza",
+        "basic_usage": "Utilizzo di base",
+        "step_1": "Nella scheda <strong>Esamina</strong>, spunta <strong>Sì</strong> accanto ai peccati di cui vuoi fare una promemoria per la confessione.",
+        "step_2": "Scorri alla prossima scheda, <strong>Peccati</strong>, per vedere la lista dei peccati che hai segnato. Puoi anche revisionare ancora la lista prima o durante la confessione.",
+        "step_3": "Se non sei sicuro di cosa dire durante la confessione, scorri alla scheda successiva, <strong>Procedura dettagliata</strong>, dove puoi visionare per sommi capi il dialogo che avviene tra sacerdote e penitente durante la confessione. Puoi anche riguardarti questa sezione durante la confessione se ti è di aiuto.",
+        "step_4": "Una volta che ti sei confessato, puoi usare il pulsante <strong>Svuota</strong> per eliminare tutti i peccati segnati.",
+        "data_persistence": "Persistenza dei dati",
+        "data_persistence_text": "I dati inseriti sono memorizzati direttamente sul dispositivo (mai inviati su Internet). I dati inseriti rimangono fintanto che non premi il pulsante <strong>Svuota</strong>, e persistono anche se chiudi la finestra o aggiorni la pagina. Assicùrati pertanto di cancellare i dati quando hai finito, se non vuoi che altre persone che usano questo dispositivo vedano i tuoi dati!"
     },
-    "8": {
-      "title": "",
-      "text": "",
-      "description": ""
+    "welcome": {
+        "title": "Benvenuto!",
+        "body": " è uno strumento per assistere Cattolici romani nell'esame di coscienza prima di andare alla confessione. Speriamo che possa esserti d'aiuto nel fare mente locale dei peccati commessi dall'ultima confessione. Semplicemente puoi spuntare la casella <strong>Sì</strong> accanto ai peccati nell'elenco <strong>Esamina</strong>, oppure toccare il pulsante <kbd>+</kbd> in fondo a destra all'app per aggiungerne uno personalizzato. Poi, scorri verso destra alla scheda <strong>Revisiona</strong> per visualizzare l'elenco dei tuoi peccati, e poi di nuovo alla scheda <strong>Confessa</strong> per rivedere il rito della confessione. <br /><br />I dati da te immessi sono immagazzinati soltanto sul tuo dispositivo (<strong>mai</strong> verranno trasmessi via internet). I dati da te immessi permangono nell'app, anche se chiudi la finestra o ricarichi la pagina, fino a quando non scegli <strong>Svuota</strong> dalle impostazioni dell'app.<br /><br />Che il Signore ti benedica nel tuo cammino verso la santità!"
     },
-    "9": {
-      "title": "",
-      "text": "",
-      "description": ""
+    "commandments": {
+        "1": {
+            "title": "Primo Comandamento",
+            "text": "Non avrai altri dèi di fronte a me (Es 20,3)",
+            "description": "Io sono il Signore, tuo Dio, che ti ho fatto uscire dalla terra d'Egitto, dalla condizione servile: Non avrai altri dèi di fronte a me... Non ti prostrerai davanti a loro e non li servirai. Perché io, il Signore, tuo Dio, sono un Dio geloso... che dimostra la sua bontà fino a mille generazioni, per quelli che mi amano e osservano i miei comandamenti. (Es 20,2-6) I peccati capitali di orgoglio e ghiottoneria vanno contro questo comandamento."
+        },
+        "2": {
+            "title": "Secpndo Comandamento",
+            "text": "Non pronuncerai invano il nome del Signore, tuo Dio. (Es 20,7)",
+            "description": "Non pronuncerai invano il nome del Signore, tuo Dio, perché il Signore non lascia impunito chi pronuncia il suo nome invano. (Es 20,7)"
+        },
+        "3": {
+            "title": "Terzo Comandamento",
+            "text": "Ricòrdati del giorno del sabato per santificarlo. (Es 20,8)",
+            "description": "Ricòrdati del giorno del sabato per santificarlo. Sei giorni lavorerai e farai ogni tuo lavoro; ma il settimo giorno è il sabato in onore del Signore, tuo Dio: non farai alcun lavoro, né tu né tuo figlio né tua figlia, né il tuo schiavo né la tua schiava, né il tuo bestiame, né il forestiero che dimora presso di te. Perché in sei giorni il Signore ha fatto il cielo e la terra e il mare e quanto è in essi, ma si è riposato il settimo giorno. Perciò il Signore ha benedetto il giorno del sabato e lo ha consacrato. (Es 20,8-11)"
+        },
+        "4": {
+            "title": "Quarto Comandamento",
+            "text": "Onora tuo padre e tua madre. (Es 20,12)",
+            "description": "Onora tuo padre e tua madre, perché si prolunghino i tuoi giorni nel paese che il Signore, tuo Dio, ti dà. (Es 20,12)"
+        },
+        "5": {
+            "title": "Quinto Comandamento",
+            "text": "Non ucciderai. (Es 20,13)",
+            "description": "Non ucciderai. (Es 20,13). Il peccato capitale dell'ira è associato a questo comandamento."
+        },
+        "6": {
+            "title": "Sesto Comandamento",
+            "text": "Non commetterai adulterio. (Es 20,14)",
+            "description": "Non commetterai adulterio. (Es 20,14) Il peccato capitale della lussuria va contro questo comandamento."
+        },
+        "7": {
+            "title": "Settimo Comandamento",
+            "text": "Non ruberai. (Es 20,15)",
+            "description": "Non ruberai. (Es 20,15) I peccati capitali dell'invidia e dell'ignavia vanno contro questo comandamento."
+        },
+        "8": {
+            "title": "Ottavo Comandamento",
+            "text": "Non pronuncerai falsa testimonianza contro il tuo prossimo. (Es 20,16)",
+            "description": "Non pronuncerai falsa testimonianza contro il tuo prossimo. (Es 20,16)"
+        },
+        "9": {
+            "title": "Nono Comandamento",
+            "text": "Non desidererai la moglie del tuo prossimo. (Es 20,17)",
+            "description": "Non desidererai la moglie del tuo prossimo. (Es 20,17) Il peccato capitale della gelosia va contro questo comandamento."
+        },
+        "10": {
+            "title": "Decimo Comandamento",
+            "text": "Non desidererai la casa del tuo prossimo... né alcuna cosa che appartenga al tuo prossimo. (Es 20,17)",
+            "description": "Non desidererai la casa del tuo prossimo. Non desidererai la moglie del tuo prossimo, né il suo schiavo né la sua schiava, né il suo bue né il suo asino, né alcuna cosa che appartenga al tuo prossimo. (Es 20,17) Il peccato capitale della gelosia va contro questo comandamento."
+        },
+        "11": {
+            "title": "Precetti della Chiesa",
+            "text": "I precetti della Chiesa Cattolica sono gli adempimenti minimi richiesti da ogni Cattolico.",
+            "description": "I precetti della Chiesa si collocano in questa linea di una vita morale che si aggancia alla vita liturgica e di essa si nutre. Il carattere obbligatorio di tali leggi positive promulgate dalle autorità pastorali, ha come fine di garantire ai fedeli il minimo indispensabile nello spirito di preghiera e nell'impegno morale, nella crescita del l'amore di Dio e del prossimo (CCC 2041)."
+        }
     },
-    "10": {
-      "title": "",
-      "text": "",
-      "description": ""
-    },
-    "11": {
-      "title": "",
-      "text": "",
-      "description": ""
+    "sins": {
+        "1": {
+            "text": "Ho rifiutato qualche insegnamento della Chiesa Cattolica?",
+            "text_past": "Ho rifiutato gli insegnamenti della Chiesa Cattolica.",
+            "detail": "Obbedire nella fede è sottomettersi liberamente alla parola ascoltata, perché la sua verità è garantita da Dio, il quale è la verità stessa (CCC 144). Credere agli insegnamenti della chiesa è la via della salvezza."
+        },
+        "2": {
+            "text": "Ho praticato altre religioni che non siano il Cattolicesimo?",
+            "text_past": "Ho praticato altre religioni che siano il Cattolicesimo.",
+            "detail": "Il primo comandamento vieta di onorare altri dèi, all'infuori dell'unico Signore che si è rivelato al suo popolo. Proibisce la superstizione e l'irreligione. La superstizione rappresenta, in qualche modo, un eccesso perverso della religione; l'irreligione è un vizio opposto, per difetto, alla virtù della religione."
+        },
+        "3": {
+            "text": "Ho peccato di presunzione, dando per scontato la misericordia di Dio e quindi acconsentendo al peccato senza scrupolo?",
+            "text_past": "Ho peccato di presunzione nei confronti della misericordia divina.",
+            "detail": "Ci sono due tipi di presunzione. O l'uomo presume delle proprie capacità (sperando di potersi salvare senza l'aiuto dall'alto), oppure presume della onnipotenza e della misericordia di Dio (sperando di ottenere il suo perdono senza conversione e la gloria senza merito) (CCC 2092). E' illecito compiere un atto immorale nella previsione che Dio sarà misericordioso."
+        },
+        "4": {
+            "text": "Com'è la mia vita di preghiera? Dovrei forse pregare di più?",
+            "text_past": "Dovrei pregare di più.",
+            "detail": "Adorare Dio, pregarlo, rendergli il culto che a lui è dovuto, mantenere le promesse e i voti che a lui si sono fatti, sono atti della virtù della religione, che esprimono l'obbedienza al primo comandamento (CC 2135). Senza la preghiera non possiamo avere un vero rapporto con Dio."
+        },
+        "5": {
+            "text": "Il mondo talvolta va in conflitto con gli ideali Cattolici. Sono venuto meno nell'adesione ai valori morali Cattolici?",
+            "text_past": "Sono venuto meno nell'adesione ai valori morali Cattolici.",
+            "detail": ""
+        },
+        "6": {
+            "text": "Ho usato un linguaggio volgare?",
+            "text_past": "Ho usato un linguaggio volgare.",
+            "detail": ""
+        },
+        "7": {
+            "text": "Ho usato il nome di Dio invano?",
+            "text_past": "Ho usato il nome di Dio invano.",
+            "detail": "Il secondo comandamento proibisce ogni uso sconveniente del nome di Dio. La bestemmia consiste nell'usare il nome di Dio, di Gesù Cristo, della Vergine Maria e dei santi in un modo ingiurioso (CC 2162)."
+        },
+        "8": {
+            "text": "Ho insultato Dio?",
+            "text_past": "Ho insultato Dio.",
+            "detail": "Il rispetto per il nome di Dio esprime quello dovuto al suo stesso mistero e a tutta la realtà sacra da esso evocata (CC 2144)."
+        },
+        "9": {
+            "text": "Ho saltato la Messa domenicale?",
+            "text_past": "Ho saltato la Messa domenicale.",
+            "detail": "Il primo precetto (« Partecipa alla Messa la domenica e le altre feste comandate e rimani libero dalle occupazioni del lavoro ») esige dai fedeli che santifichino il giorno in cui si ricorda la risurrezione del Signore e le particolari festività liturgiche in onore dei misteri del Signore, della beata Vergine Maria e dei santi, in primo luogo partecipando alla celebrazione eucaristica in cui si riunisce la comunità cristiana, e che riposino da quei lavori e da quelle attività che potrebbero impedire una tale santificazione di questi giorni (CC2042). Da Cattolici, attendiamo con gioia la celebrazione Eucaristica domenicale. E' un peccato saltare la Messa, perché in questa maniera il nostro rapporto con Dio si indebolisce."
+        },
+        "10": {
+            "text": "Ho saltato la Messa nei giorni di precetto?",
+            "text_past": "Ho saltato la Messa nei giorni di precetto.",
+            "detail": ""
+        },
+        "11": {
+            "text": "Sono arrivato tardi a Messa o sono andato via prima?",
+            "text_past": "Sono arrivato tardi a Messa o sono andato via prima.",
+            "detail": "Affrettarsi verso la chiesa, avvicinarsi al Signore e confessare i propri peccati, pentirsi durante la preghiera… Assistere alla santa e divina liturgia, terminare la propria preghiera e non uscirne prima del congedo… (CCC 2178). Arrivare in ritardo o andare via prima è anche irrispettoso nei confronti di altri che sono raccolti in preghiera, e crea distrazione."
+        },
+        "12": {
+            "text": "Ho disobbedito ai genitori?",
+            "text_past": "Ho disobbedito ai genitori.",
+            "detail": ""
+        },
+        "13": {
+            "text": "Ho mancato nell'impartire / testimoniare la fede Cattolica ai miei figli?",
+            "text_past": "Ho mancato nell'impartire / testimoniare la fede Cattolica ai miei figli.",
+            "detail": ""
+        },
+        "14": {
+            "text": "Ho mancato di prendermi cura dei miei parenti più anziani?",
+            "text_past": "Ho mancato di prendermi cura dei miei parenti più anziani.",
+            "detail": ""
+        },
+        "15": {
+            "text": "Ho trascurato la mia famiglia?",
+            "text_past": "Ho trascurato la mia famiglia.",
+            "detail": ""
+        },
+        "16": {
+            "text": "Ho disobbedito ad un adulto responsabile?",
+            "text_past": "Ho disobbedito ad un adulto responsabile.",
+            "detail": ""
+        },
+        "17": {
+            "text": "",
+            "text_past": "",
+            "detail": ""
+        },
+        "18": {
+            "text": "Ho infranto una legge giusta?",
+            "text_past": "Ho infranto una legge giusta.",
+            "detail": ""
+        },
+        "19": {
+            "text": "Ho recato un danno fisico a qualcuno?",
+            "text_past": "Ho recato un danno fisico a qualcuno.",
+            "detail": ""
+        },
+        "20": {
+            "text": "Ho procurato un aborto? Oppure ho partecipato a procurare un aborto?",
+            "text_past": "Ho procurato o ho partecipato in un aborto.",
+            "detail": ""
+        },
+        "21": {
+            "text": "Ho usato contraccettivi?",
+            "text_past": "Ho usato contraccettivi.",
+            "detail": "\"È intrinsecamente cattiva ogni azione che, o in previsione dell'atto coniugale, o nel suo compimento, o nello sviluppo delle sue conseguenze naturali, si proponga, come scopo o come mezzo, di impedire la procreazione\" (CCC 2370). \"La legittimità delle intenzioni degli sposi non giustifica il ricorso a mezzi moralmente inaccettabili (per esempio, la sterilizzazione diretta o la contraccezione)\" (CCC 2399). La contraccezione artificiale è moralmente errata perché trasforma quello che dovrebbe essere un atto di amore in un atto di egoismo."
+        },
+        "22": {
+            "text": "Ho tentato il suicidio?",
+            "text_past": "Ho tentato il suicidio.",
+            "detail": ""
+        },
+        "23": {
+            "text": "Ho partecipato nell'eutanasia?",
+            "text_past": "Ho partecipato nell'eutanasia.",
+            "detail": ""
+        },
+        "24": {
+            "text": "Ho abusato di droga o alcol?",
+            "text_past": "Ho abusato di droga o alcol.",
+            "detail": ""
+        },
+        "25": {
+            "text": "Ho avuto rapporti intimi fuori del matrimonio?",
+            "text_past": "Ho avuto rapporti intimi fuori del matrimonio.",
+            "detail": ""
+        },
+        "26": {
+            "text": "Sono colpevole del peccato della lussuria?",
+            "text_past": "Sono colpevole del peccato di lussuria.",
+            "detail": ""
+        },
+        "27": {
+            "text": "Ho guardato alla pornografia?",
+            "text_past": "Ho guardato alla pornografia.",
+            "detail": ""
+        },
+        "28": {
+            "text": "Ho acconsentito a desideri contrari alla natura?",
+            "text_past": "Ho acconsentito a desideri contrari alla natura.",
+            "detail": ""
+        },
+        "29": {
+            "text": "Sono venuto meno nell'onorare mio marito / mia moglie?",
+            "text_past": "Sono venuto meno nell'onorare mio marito / mia moglie.",
+            "detail": ""
+        },
+        "30": {
+            "text": "Ho letto letteratura erotica?",
+            "text_past": "Ho letto letteratura erotica.",
+            "detail": ""
+        },
+        "31": {
+            "text": "Ho partecipato in atti sessuali immorali?",
+            "text_past": "Ho partecipato in atti sessuali immorali.",
+            "detail": ""
+        },
+        "32": {
+            "text": "",
+            "text_past": "",
+            "detail": ""
+        },
+        "33": {
+            "text": "Ho rubato? Se sì, con quale valore?",
+            "text_past": "Ho rubato, per un valore di ___.",
+            "detail": ""
+        },
+        "34": {
+            "text": "",
+            "text_past": "",
+            "detail": ""
+        },
+        "35": {
+            "text": "Sono stato menzognero/a o ingannevole?",
+            "text_past": "Sono stato menzognero o ingannevole.",
+            "detail": ""
+        },
+        "36": {
+            "text": "Mi sono dato al chiacchiericcio?",
+            "text_past": "Mi sono dato al chiacchiericcio.",
+            "detail": ""
+        },
+        "37": {
+            "text": "Ho mancato di osservare il digiuno il Mercoledì delle Ceneri ed il Venerdì Santo?",
+            "text_past": "Ho mancato di osservare il digiuno il Mercoledì delle Ceneri o il Venerdì Santo.",
+            "detail": ""
+        },
+        "38": {
+            "text": "Ho mancato di osservare l'astinenza dalla carne nei venerdì di quaresima e il Mercoledì delle Ceneri?",
+            "text_past": "Ho mancato di osservare l'astinenza dalla carne durante un venerdì di quaresima o il Mercoledì delle Ceneri.",
+            "detail": ""
+        },
+        "39": {
+            "text": "Ho mancato di ricevere l'Eucaristia almeno una volta durante il periodo pasquale?",
+            "text_past": "Ho mancato di ricevere l'Eucaristia almeno una volta durante la Pasqua.",
+            "detail": ""
+        },
+        "40": {
+            "text": "Ho mancato di osservare un'ora di digiuno prima di ricevere l'Eucaristia?",
+            "text_past": "Ho mancato di osservare un'ora di digiuno prima di ricevere l'Eucaristia.",
+            "detail": ""
+        },
+        "41": {
+            "text": "Ho ricevuto l'Eucaristia nello stato di peccato mortale?",
+            "text_past": "Ho ricevuto l'Eucaristia nello stato di peccato mortale.",
+            "detail": ""
+        },
+        "42": {
+            "text": "Ho nascosto intenzionalmente qualche peccato durante la confessione?",
+            "text_past": "Ho nascosto intenzionalmente qualche peccato durante la confessione.",
+            "detail": ""
+        },
+        "43": {
+            "text": "Ho mancato di curare il riposo domenicale, o il tempo dedicato alla famiglia?",
+            "text_past": "Ho mancato di curare il riposo domenicale, o il tempo dedicato alla famiglia.",
+            "detail": ""
+        },
+        "44": {
+            "text": "Ho desiderato la moglie/il marito oppure la fidanzata/il fidanzato di altri?",
+            "text_past": "Ho desiderato la moglie/il marito o la fidanzata/il fidanzato di altri.",
+            "detail": ""
+        },
+        "45": {
+            "text": "Ho desiderato i beni altrui?",
+            "text_past": "Ho desiderato i beni altrui.",
+            "detail": ""
+        },
+        "46": {
+            "text": "",
+            "text_past": "",
+            "detail": ""
+        },
+        "47": {
+            "text": "Ho ascoltato musica, oppure guardato un programma televisivo o un film, oppure ho letto letteratura che mi può influenzare negativamente?",
+            "text_past": "Ho ascoltato musica, oppure guardato un programma televisivo o un film, oppure ho letto letteratura che mi può influenzare negativamente.",
+            "detail": ""
+        },
+        "48": {
+            "text": "Sono stato/a avido/a, oppure ho mancato di donare con cuore generoso alla comunità ecclesiale e ai poveri?",
+            "text_past": "Sono stato/a avido/a oppure ho mancato di donare con cuore generoso alla comunità ecclesiale o ai poveri.",
+            "detail": ""
+        },
+        "49": {
+            "text": "Ho indotto consapevolmente altri al peccato?",
+            "text_past": "Ho indotto consapevolmente altri al peccato.",
+            "detail": ""
+        },
+        "50": {
+            "text": "Ho mancato di fare di Dio una priorità nella mia vita?",
+            "text_past": "Ho mancato di fare di Dio una priorità nella mia vita.",
+            "detail": ""
+        },
+        "51": {
+            "text": "Ho agito in maniera egoista?",
+            "text_past": "Ho agito in maniera egoista.",
+            "detail": ""
+        },
+        "52": {
+            "text": "Ho partecipato in pratiche occulte?",
+            "text_past": "Ho partecipato in pratiche occulte.",
+            "detail": ""
+        },
+        "53": {
+            "text": "Ho peccato di accidia al lavoro o a casa?",
+            "text_past": "Ho peccato di accidia al lavoro o a casa.",
+            "detail": ""
+        },
+        "54": {
+            "text": "",
+            "text_past": "",
+            "detail": ""
+        },
+        "55": {
+            "text": "Sono stato vanitoso o orgoglioso?",
+            "text_past": "Sono stato vanitoso o orgoglioso.",
+            "detail": ""
+        },
+        "56": {
+            "text": "Ho peccato di golosità?",
+            "text_past": "Ho peccato di golosità.",
+            "detail": ""
+        },
+        "57": {
+            "text": "Sono stato iracondo?",
+            "text_past": "Sono stato iracondo.",
+            "detail": ""
+        }
     }
-  },
-  "sins": {
-    "1": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "2": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "3": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "4": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "5": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "6": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "7": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "8": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "9": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "10": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "11": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "12": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "13": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "14": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "15": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "16": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "17": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "18": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "19": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "20": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "21": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "22": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "23": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "24": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "25": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "26": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "27": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "28": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "29": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "30": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "31": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "32": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "33": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "34": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "35": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "36": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "37": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "38": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "39": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "40": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "41": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "42": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "43": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "44": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "45": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "46": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "47": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "48": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "49": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "50": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "51": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "52": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "53": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "54": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "55": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "56": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    },
-    "57": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
-    }
-  }
 }
