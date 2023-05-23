@@ -23,10 +23,7 @@ class AboutComponent extends React.Component {
                   ),
                 }}
               >
-                ConfessIt is a{" "}
-                <a href="https://www.vatican.va/content/vatican/en.html">
-                  Roman Catholic
-                </a>{" "}
+                ConfessIt is a <vatican>Roman Catholic</vatican>
                 examination of conscience for computers, tablets, and phones.
                 It's designed to be simple and easy to use, and it can help you
                 remember your sins when you go to confession. There's also a
@@ -123,10 +120,9 @@ class AboutComponent extends React.Component {
                 components={{ mass: <a href="https://masstimes.org/" /> }}
               >
                 Confession times are listed in your local parish bulletin, and
-                you can find them online at your parish website or at{" "}
-                <a href="https://masstimes.org/">masstimes.org</a>. You can also
-                schedule a confession at any time you'd like by contacting your
-                local parish.
+                you can find them online at your parish website or at
+                <mass>masstimes.org</mass>. You can also schedule a confession
+                at any time you'd like by contacting your local parish.
               </Trans>
             </p>
 
@@ -137,7 +133,7 @@ class AboutComponent extends React.Component {
             <p>
               <Trans t={t} i18nKey="about.this_app_is_designed">
                 This app is designed to help Roman Catholics prepare for the
-                sacrament of confession by examining their conscience. It is{" "}
+                sacrament of confession by examining their conscience. It is
                 <strong>NOT</strong> a substitute for confession.
               </Trans>
             </p>
@@ -155,11 +151,8 @@ class AboutComponent extends React.Component {
                   ),
                 }}
               >
-                This website, <a href="https://confessit.app">ConfessIt.app</a>,
-                is based on the{" "}
-                <a href="https://play.google.com/store/apps/details?id=com.mikekasberg.confessit">
-                  ConfessIt Android App
-                </a>{" "}
+                This website, <website>ConfessIt.app</website>, is based on the{" "}
+                <app>ConfessIt Android App</app>
                 (created in 2012 by the same developer). While it's not (yet) a
                 complete reproduction, it aims to make the app available to a
                 wider range of users on a broader range of devices. (This site
@@ -169,7 +162,7 @@ class AboutComponent extends React.Component {
 
             <p>
               <Trans t={t} i18nKey="about.if_you_find">
-                If you find this app useful, please consider{" "}
+                If you find this app useful, please consider
                 <strong>sharing it</strong> with your friends and family. Tell
                 people about it on Facebook, Reddit, Twitter, at your church, or
                 in your Bible study group to help spread the word!
@@ -183,19 +176,15 @@ class AboutComponent extends React.Component {
                 i18nKey="about.information_you_enter"
                 components={{
                   a: <a href="https://en.wikipedia.org/wiki/Web_storage" />,
-                  kbd: <kbd />,
                 }}
               >
                 Information you enter into this app is only stored on your
                 device. It is not sent over the internet. We are able to do this
                 using a technology provided by your web browser called{" "}
-                <a href="https://en.wikipedia.org/wiki/Web_storage">
-                  local stroage
-                </a>
-                . We do not run Google Analytics or any other data collection
-                mechanism on this site. Data you enter will be saved on your
-                device until you hit <code>Clear</code> even if you close the
-                window or refresh the page.
+                <a>local storage</a>. We do not run Google Analytics or any
+                other data collection mechanism on this site. Data you enter
+                will be saved on your device until you hit <code>Clear</code>{" "}
+                even if you close the window or refresh the page.
               </Trans>
             </p>
 
@@ -205,22 +194,16 @@ class AboutComponent extends React.Component {
                 t={t}
                 i18nKey="about.confessit_is_open_source"
                 components={{
-                  i: <i className="fa fa-github" />,
+                  githubicon: <i className="fa fa-github" />,
                   github: (
                     <a href="https://github.com/kas-catholic/confessit-web" />
                   ),
                   osc: <a href="https://www.opensourcecatholic.com/chat" />,
                 }}
               >
-                ConfessIt is open source. We develop the app on{" "}
-                <i className="fa fa-github"></i>{" "}
-                <a href="https://github.com/kas-catholic/confessit-web">
-                  GitHub
-                </a>{" "}
-                and we collaborate in the{" "}
-                <a href="https://www.opensourcecatholic.com/chat">
-                  Open Source Catholic
-                </a>{" "}
+                ConfessIt is open source. We develop the app on <githubicon />
+                <github>GitHub</github>
+                and we collaborate in the <osc>Open Source Catholic</osc>{" "}
                 community on Slack.
               </Trans>
             </p>
@@ -240,14 +223,8 @@ class AboutComponent extends React.Component {
                 ConfessIt is translated into multiple languages. If you'd like
                 to help with this effort by adding a new translation or
                 improving an existing translation, please read about how to do
-                so on{" "}
-                <a href="https://github.com/kas-catholic/confessit-web/blob/main/CONTRIBUTING.md#contributing-translations">
-                  GitHub
-                </a>{" "}
-                or get in touch with us on{" "}
-                <a href="https://www.opensourcecatholic.com/chat">
-                  Open Source Catholic
-                </a>{" "}
+                so on <github>GitHub</github>
+                or get in touch with us on <osc>Open Source Catholic</osc>{" "}
                 Slack.
               </Trans>
             </p>
@@ -265,21 +242,23 @@ class AboutComponent extends React.Component {
               >
                 We welcome new contributions. If you'd like to contribute to
                 ConfessIt, the best way to begin is by reading about how to do
-                so on{" "}
-                <a href="https://github.com/kas-catholic/confessit-web/blob/main/CONTRIBUTING.md">
-                  GitHub
-                </a>
-                .
+                so on <github>GitHub</github>.
               </Trans>
             </p>
 
             <h3>{t("about.about_the_developer")}</h3>
             <p>
-              <Trans t={t} i18nKey="about.mike_kasberg">
-                <a href="https://www.mikekasberg.com">Mike Kasberg</a> develops
-                ConfessIt in his free time, as a way of giving back to the
-                church. He is also involved in a few other small projects to
-                support Catholic organizations with technology.
+              <Trans
+                t={t}
+                i18nKey="about.mike_kasberg"
+                components={{
+                  website: <a href="https://www.mikekasberg.com" />,
+                }}
+              >
+                <website>Mike Kasberg</website> develops ConfessIt in his free
+                time, as a way of giving back to the church. He is also involved
+                in a few other small projects to support Catholic organizations
+                with technology.
               </Trans>
             </p>
 
