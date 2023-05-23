@@ -80,13 +80,13 @@ module.exports = {
 
     parser.parseFuncFromString(
       content,
-      { list: ["i18next._", "i18next.__"] },
+      { list: ["i18next._", "i18next.__", "t"] },
       (key, options) => {
         parser.set(
           key,
           Object.assign({}, options, {
             nsSeparator: false,
-            keySeparator: false,
+            keySeparator: ".",
           })
         );
         ++count;
