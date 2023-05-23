@@ -38,6 +38,7 @@ i18n
         "a",
         "kbd",
         "code",
+        "footer",
       ],
     },
     interpolation: {
