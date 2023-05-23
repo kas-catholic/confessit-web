@@ -18,16 +18,15 @@ class HelpComponent extends React.Component {
             <ol>
               <li>
                 <Trans t={t} i18nKey="help.step_1">
-                  In the <strong>Examination</strong> tab, mark{" "}
-                  <strong>Yes</strong>
+                  In the <strong>Examine</strong> tab, mark <strong>Yes</strong>
                   next to all the sins you want to remember to confess.
                 </Trans>
               </li>
               <li>
                 <Trans t={t} i18nKey="help.step_2">
-                  Swipe to the next tab, <strong>Sins</strong>, to see a list of
-                  sins you've marked. You can review this list before or during
-                  confession if you wish.
+                  Swipe to the next tab, <strong>Review</strong>, to see a list
+                  of sins you've marked. You can review this list before or
+                  during confession if you wish.
                 </Trans>
               </li>
               <li>

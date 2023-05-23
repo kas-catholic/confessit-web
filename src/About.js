@@ -151,7 +151,7 @@ class AboutComponent extends React.Component {
                   ),
                 }}
               >
-                This website, <website>ConfessIt.app</website>, is based on the{" "}
+                This website, <website>ConfessIt.app</website>, is based on the
                 <app>ConfessIt Android App</app>
                 (created in 2012 by the same developer). While it's not (yet) a
                 complete reproduction, it aims to make the app available to a
@@ -182,12 +182,12 @@ class AboutComponent extends React.Component {
               >
                 Information you enter into this app is only stored on your
                 device. It is not sent over the internet. We are able to do this
-                using a technology provided by your web browser called{" "}
+                using a technology provided by your web browser called
                 <website>local storage</website>. We do not run Google Analytics
                 or any other data collection mechanism on this site. Data you
                 enter will be saved on your device until you hit{" "}
-                <code>Clear</code> even if you close the window or refresh the
-                page.
+                <kbd>Clear</kbd>
+                even if you close the window or refresh the page.
               </Trans>
             </p>
 
@@ -204,10 +204,10 @@ class AboutComponent extends React.Component {
                   osc: <a href="https://www.opensourcecatholic.com/chat" />,
                 }}
               >
-                ConfessIt is open source. We develop the app on <githubicon />
-                <github>GitHub</github>
-                and we collaborate in the <osc>Open Source Catholic</osc>{" "}
-                community on Slack.
+                ConfessIt is open source. We develop the app on
+                <githubicon />
+                <github>GitHub</github> and we collaborate in the{" "}
+                <osc>Open Source Catholic</osc> community on Slack.
               </Trans>
             </p>
 
@@ -227,7 +227,7 @@ class AboutComponent extends React.Component {
                 to help with this effort by adding a new translation or
                 improving an existing translation, please read about how to do
                 so on <github>GitHub</github>
-                or get in touch with us on <osc>Open Source Catholic</osc>{" "}
+                or get in touch with us on <osc>Open Source Catholic</osc>
                 Slack.
               </Trans>
             </p>
