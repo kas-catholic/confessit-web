@@ -206,7 +206,7 @@ class AboutComponent extends React.Component {
               >
                 ConfessIt is open source. We develop the app on
                 <githubicon />
-                <github>GitHub</github> and we collaborate in the{" "}
+                <github>GitHub</github> and we collaborate in the
                 <osc>Open Source Catholic</osc> community on Slack.
               </Trans>
             </p>
