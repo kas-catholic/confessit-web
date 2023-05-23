@@ -39,7 +39,7 @@ class HelpComponent extends React.Component {
               </li>
               <li>
                 <Trans t={t} i18nKey="help.step_4">
-                  After you've gone to confession, use the{" "}
+                  After you've gone to confession, use the
                   <strong>Clear</strong>
                   button to clear all the sins you've marked.
                 </Trans>

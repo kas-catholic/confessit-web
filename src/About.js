@@ -185,7 +185,7 @@ class AboutComponent extends React.Component {
                 using a technology provided by your web browser called
                 <website>local storage</website>. We do not run Google Analytics
                 or any other data collection mechanism on this site. Data you
-                enter will be saved on your device until you hit{" "}
+                enter will be saved on your device until you hit
                 <kbd>Clear</kbd>
                 even if you close the window or refresh the page.
               </Trans>
