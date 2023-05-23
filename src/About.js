@@ -175,16 +175,19 @@ class AboutComponent extends React.Component {
                 t={t}
                 i18nKey="about.information_you_enter"
                 components={{
-                  a: <a href="https://en.wikipedia.org/wiki/Web_storage" />,
+                  website: (
+                    <a href="https://en.wikipedia.org/wiki/Web_storage" />
+                  ),
                 }}
               >
                 Information you enter into this app is only stored on your
                 device. It is not sent over the internet. We are able to do this
                 using a technology provided by your web browser called{" "}
-                <a>local storage</a>. We do not run Google Analytics or any
-                other data collection mechanism on this site. Data you enter
-                will be saved on your device until you hit <code>Clear</code>{" "}
-                even if you close the window or refresh the page.
+                <website>local storage</website>. We do not run Google Analytics
+                or any other data collection mechanism on this site. Data you
+                enter will be saved on your device until you hit{" "}
+                <code>Clear</code> even if you close the window or refresh the
+                page.
               </Trans>
             </p>
 
