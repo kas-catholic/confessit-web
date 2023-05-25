@@ -1,427 +1,427 @@
 {
-    "navbar": {
-        "prayers": "Prayers",
-        "help": "Help",
-        "about": "About",
-        "clear": "Clear"
+  "navbar": {
+    "prayers": "Prayers",
+    "help": "Help",
+    "about": "About",
+    "clear": "Clear"
+  },
+  "examine_list": {
+    "examine": "Examine"
+  },
+  "sins_list": {
+    "review": "Review"
+  },
+  "walkthrough": {
+    "walkthrough": "Walkthrough",
+    "in_the_name_of": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+    "bless_me_father": "Bless me father, for I have sinned. It has been ____ since my last confession, and these are my sins:",
+    "these_are_my_sins": "These are my sins, and I am sorry for them with all my heart.",
+    "your_confessor_may_offer": "(Your confessor may offer you some advice or have a short conversation with you.)",
+    "your_confessor_will_assign": "(Your confessor will assign you penance.) Now pray the act of contrition.",
+    "act_of_contrition": "<p>My God, I am sorry for my sins with all my heart.</p><p>In choosing to do wrong and failing to do good, I have sinned against You, whom I should love above all things.</p><p>I firmly intend with Your help to do penance, to sin no more, and to avoid whatever leads me to sin.</p><p>Jesus Christ suffered and died for us. In His name, my God, have mercy.</p>",
+    "god_the_father_of_mercies": "God, the Father of mercies…",
+    "amen": "Amen.",
+    "the_lord_has_freed_you": "The Lord has freed you from sin. Go in peace.",
+    "thanks_be_to_god": "Thanks be to God."
+  },
+  "prayers": {
+    "prayers": "Prayers",
+    "prayer_before_confession": "Prayer Before Confession",
+    "act_of_contrition": "Act Of Contrition",
+    "another_act_of_contrition": "Another Act Of Contrition",
+    "thanksgiving_after_confession": "Thanksgiving After Confession",
+    "our_father": "Our Father",
+    "hail_mary": "Hail Mary",
+    "hail_holy_queen": "Hail Holy Queen",
+    "prayer_before_confession_text": "<p>My Lord and God, I have sinned. I am guilty before you.<br />Grant me the strength to say to Your minister what I say to You in the secret of my heart.<br />Increase my repentance. Make it more genuine. May it really be a sorrow for having offended You and my neighbor rather than a wounded love of self.<br />Help me to atone for my sin. May the sufferings of my life and my little mortifications be joined with the sufferings of Jesus, Your Son, and cooperate in rooting sin from the world.<br />Amen.</p>",
+    "act_of_contrition_text": "<p>My God,<br />I am sorry for my sins with all my heart.<br />In choosing to do wrong and failing to do good, I have sinned against You, whom I should love above all things.<br />I firmly intend with Your help to do penance, to sin no more, and to avoid whatever leads me to sin.<br />Jesus Christ suffered and died for us. In His name, my God, have mercy.</p>",
+    "another_act_of_contrition_text": "<p>O my God,<br />I am heartily sorry for having offended Thee, and I detest all of my sins, because I dread the loss of heaven, and the pains of hell;<br />but most of all because they offend Thee, my God, Who are all good and deserving of my love.<br />I firmly resolve, with the help of Thy grace, to confess my sins, to do penance, and to amend my life.<br />Amen.</p>",
+    "thanksgiving_after_confession_text": "<p>My dearest Jesus,<br />I have told all my sins as well as I could. I have tried hard to make a good confession. I feel sure that You have forgiven me. I thank You. It is only because of all Your sufferings that I can go to confession and free myself from my sins. Your heart is full of love and mercy for poor sinners. I love You because You are so good to me.<br />My loving Savior,<br />I shall try to keep from sin and to love you more each day.<br />My dear Mother Mary,<br />pray for me and help me to keep my promises. Protect me and do not let me fall back into sin.</p>",
+    "our_father_text": "<p>Our Father,<br />Who art in heaven, hallowed be Thy name;<br />Thy kingdom come, Thy will be done, on earth as it is in heaven.<br />Give us this day our daily bread, and forgive us our trespasses,<br />as we forgive those who trespass against us;<br />and lead us not into temptation, but deliver us from evil.<br />Amen.</p>",
+    "hail_mary_text": "<p>Hail Mary, full of grace.<br />The Lord is with thee.<br />Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.<br />Holy Mary, mother of God,<br />pray for us sinners, now and at the hour of our death.<br />Amen.</p>",
+    "hail_holy_queen_text": "<p>Hail, holy Queen, Mother of Mercy!<br />Our life, our sweetness, and our hope!<br />To thee do we cry, poor banished children of Eve. To thee do we send up our sighs, lonely and weeping in this valley of tears.<br />Turn then, most gracious advocate, thine eyes of mercy toward us; and after this our exile show unto us the blessed fruit of thy womb, Jesus.<br />O clement, O loving, O sweet virgin Mary. Pray for us, holy Mother of God, that we may be made worthy of the promises of Christ.<br />Amen.</p>"
+  },
+  "about": {
+    "about_confessit": "About ConfessIt",
+    "about_confessit_text": "ConfessIt is a <vatican>Roman Catholic</vatican> examination of conscience for computers, tablets, and phones. It's designed to be simple and easy to use, and it can help you remember your sins when you go to confession. There's also a confession walkthrough that tells you exactly what the priest will say and how you should respond - a great resource if you haven't been to confession in a while! The examination of conscience is based on fundamental Catholic church teachings, is easy to understand, and is relevant for modern Catholics.",
+    "about_confession": "About Confession",
+    "about_confession_intro": "Confession is the holy sacrament by which Catholics obtain pardon from God's mercy for their sins, and are thus reconciled with the Church, the community of believers, the Body of Christ.",
+    "ccc_quote": "<p>It is called the sacrament of conversion because it makes sacramentally present Jesus' call to conversion, the first step in returning to the Father (Cf. Mk 1:15; Lk 15:18) from whom one has strayed by sin.</p><p>It is called the sacrament of Penance, since it consecrates the Christian sinner's personal and ecclesial steps of conversion, penance, and satisfaction.</p><p>It is called the sacrament of confession, since the disclosure or confession of sins to a priest is an essential element of this sacrament. In a profound sense it is also a \"confession\" - acknowledgment and praise - of the holiness of God and of his mercy toward sinful man.</p><p>It is called the sacrament of forgiveness, since by the priest's sacramental absolution God grants the penitent \"pardon and peace\" (Ordo paenitantiae 46 formula of absolution).</p><p>It is called the sacrament of Reconciliation, because it imparts to the sinner the love of God who reconciles: \"Be reconciled to God\" (2 Cor 5:20). He who lives by God's merciful love is ready to respond to the Lord's call: \"Go; first be reconciled to your brother\" (Mt 5:24).</p><p>Conversion to Christ, the new birth of Baptism, the gift of the Holy Spirit and the Body and Blood of Christ received as food have made us \"holy and without blemish,\" just as the Church herself, the Bride of Christ, is \"holy and without blemish\" (Eph 1:4; 5:27). Nevertheless the new life received in Christian initiation has not abolished the frailty and weakness of human nature, nor the inclination to sin that tradition calls concupiscence, which remains in the baptized such that with the help of the grace of Christ they may prove themselves in the struggle of Christian life (Cf. Council of Trent, DS 1545; Lumen Gentium 40). This is the struggle of conversion directed toward holiness and eternal life to which the Lord never ceases to call us.</p><p>Jesus calls to conversion. This call is an essential part of the proclamation of the kingdom: \"The time is fulfilled, and the kingdom of God is at hand; repent, and believe in the gospel\" (Mk 1:15). Baptism is the principal place for the first and fundamental conversion, but then Christ's call to conversion continues to resound in the lives of Christians. This second conversion is an uninterrupted task for the whole Church who, \"clasping sinners to her bosom, (is) at once holy and always in need of purification, (and) follows constantly the path of penance and renewal\" (Lumen Gentium 8). This endeavor of conversion is not just a human work. It is the movement of a \"contrite heart,\" drawn and moved by grace to respond to the merciful love of God who loved us first (Ps 51:17; Jn 6:44; 12:32; 1 Jn 4:10). St. Ambrose says of the two conversions that, in the Church, \"there are water and tears: the water of Baptism and the tears of repentance\" (epistle 41).</p><7>— Catechism of the Catholic Church 1423-1424,1426; cf. 1427-1429</7>",
+    "where_to_find": "Confession times are listed in your local parish bulletin, and you can find them online at your parish website or at <mass>masstimes.org</mass>. You can also schedule a confession at any time you'd like by contacting your local parish.",
+    "about_confession_end": "When you go to confession, typically, you will have the choice of kneeling anonymously behind a screen or sitting face-to-face with your confessor.Don't be nervous about going to confession! Whatever you confess, your priest has heard it before. Remember, he is there to help you.",
+    "about_this_app": "About This App",
+    "this_app_is_designed": "This app is designed to help Roman Catholics prepare for the sacrament of confession by examining their conscience. It is <strong>NOT</strong> a substitute for confession.",
+    "please_be_respectful": "Please be respectful of those around you when you use this app. I recommend that you turn your phone off when you're inside your church, and use this app before you arrive. If you do use this app inside your church or during confession, please ensure your phone is in silent mode.",
+    "this_website": "This website, <website>ConfessIt.app</website>, is based on the <app>ConfessIt Android App</app> (created in 2012 by the same developer). While it's not (yet) a complete reproduction, it aims to make the app available to a wider range of users on a broader range of devices. (This site works on iOS, Android, tablets, and computers!)",
+    "if_you_find": "If you find this app useful, please consider <strong>sharing it</strong> with your friends and family. Tell people about it on Facebook, Reddit, Twitter, at your church, or in your Bible study group to help spread the word!",
+    "privacy": "Privacy",
+    "information_you_enter": "Information you enter into this app is only stored on your device. It is not sent over the internet. We are able to do this using a technology provided by your web browser called <a>local storage</a>. We do not run Google Analytics or any other data collection mechanism on this site. Data you enter will be saved on your device until you hit <kbd>Clear</kbd> even if you close the window or refresh the page.",
+    "open_source": "Open Source",
+    "confessit_is_open_source": "ConfessIt is open source. We develop the app on <i></i> <github>GitHub</github> and we collaborate in the <osc>Open Source Catholic</osc> community on Slack.",
+    "can_i_help_with_translations": "Can I help with translations?",
+    "confessit_is_translated": "ConfessIt is translated into multiple languages. If you'd like to help with this effort by adding a new translation or improving an existing translation, please read about how to do so on <github>GitHub</github> or get in touch with us on <osc>Open Source Catholic</osc> Slack.",
+    "can_i_help_write_code": "Can I help write code?",
+    "we_welcome_new_contributions": "We welcome new contributions. If you'd like to contribute to ConfessIt, the best way to begin is by reading about how to do so on <1>GitHub</1>.",
+    "about_the_developer": "About the Developer",
+    "mike_kasberg": "<0>Mike Kasberg</0> develops ConfessIt in his free time, as a way of giving back to the church. He is also involved in a few other small projects to support Catholic organizations with technology.",
+    "information": "Bible quotes in this app come from the Revised Standard Version of the Holy Bible, Second Catholic Edition. Information from the Catechism of the Catholic Church was also used."
+  },
+  "help": {
+    "confessit_help": "ConfessIt Help",
+    "basic_usage": "Basic Usage",
+    "step_1": "In the <strong>Examination</strong> tab, mark <strong>Yes</strong> next to all the sins you want to remember to confess.",
+    "step_2": "Swipe to the next tab, <strong>Review</strong>, to see a list of sins you've marked. You can review this list before or during confession if you wish.",
+    "step_3": "If you're unsure what to say in confession, swipe to the next tab, <strong>Walkthrough</strong>, to see roughly what you and the priest will say to each other in confession. You can review this during confession if you wish.",
+    "step_4": "After you've gone to confession, use the <strong>Clear</strong> button to clear all the sins you've marked.",
+    "data_persistence": "Data Persistence",
+    "data_persistence_text": "Data you enter is stored on your device (never sent over the internet). Data you enter will be saved until you hit <strong>Clear</strong>, even if you close the window or refresh the page. Be sure to clear your data when you're done if you don't want other people who use this device to see your data!"
+  },
+  "welcome": {
+    "title": "Welcome!",
+    "body": " is a tool to help Roman Catholics walk through an examination of conscience prior to going to confession. We hope you'll find this useful to help remember sins you've committed since your last confession. Just check the <strong>Yes</strong> box next to sins in the <strong>Examine</strong> list, or tap the <kbd>+</kbd> button at the bottom right of the app to add your own. Then, scroll to the right to <strong>Review</strong> your sins and <strong>Walkthrough</strong> the steps of going to confession. <br /><br />Data you enter is stored on your device (<strong>never</strong> sent over the Internet). Data you enter will be saved until you hit <strong>Clear</strong> in the app settings, even if you close the window or refresh the page. <br /><br />God bless you on your path to holiness!"
+  },
+  "commandments": {
+    "1": {
+      "title": "First Commandment",
+      "text": "You shall have no other gods before Me. (Ex 20:3)",
+      "description": "I am the Lord your God, who brought you out of the land of Egypt, out of the house of bondage. You shall have no other gods before me… you shall not bow down to them or serve them; for I the Lord your God am a jealous God… showing steadfast love to thousands of those who love me and keep my commandments. (Ex 20:2-6) The capital sins of pride and gluttony are often considered to break this commandment."
     },
-    "examine_list": {
-        "examine": "Examine"
+    "2": {
+      "title": "Second Commandment",
+      "text": "You shall not take the name of the Lord your God in vain. (Ex 20:7)",
+      "description": "You shall not take the name of the Lord your God in vain; for the Lord will not hold him guiltless who takes his name in vain. (Ex 20:7)"
     },
-    "sins_list": {
-        "review": "Review"
+    "3": {
+      "title": "Third Commandment",
+      "text": "Remember the sabbath day, to keep it holy. (Ex 20:8)",
+      "description": "Remember the sabbath day, to keep it holy. Six days you shall labor, and do all your work; but the seventh day is a sabbath to the Lord your God; in it you shall not do any work… For in six days the Lord made heaven and earth, the sea, and all that is in them, and rested the seventh day; therefore the Lord blessed the sabbath day and hallowed it. (Ex 20:8-11)"
     },
-    "walkthrough": {
-        "walkthrough": "Walkthrough",
-        "in_the_name_of": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
-        "bless_me_father": "Bless me father, for I have sinned. It has been ____ since my last confession, and these are my sins:",
-        "these_are_my_sins": "These are my sins, and I am sorry for them with all my heart.",
-        "your_confessor_may_offer": "(Your confessor may offer you some advice or have a short conversation with you.)",
-        "your_confessor_will_assign": "(Your confessor will assign you penance.) Now pray the act of contrition.",
-        "act_of_contrition": "<p>My God, I am sorry for my sins with all my heart.</p><p>In choosing to do wrong and failing to do good, I have sinned against You, whom I should love above all things.</p><p>I firmly intend with Your help to do penance, to sin no more, and to avoid whatever leads me to sin.</p><p>Jesus Christ suffered and died for us. In His name, my God, have mercy.</p>",
-        "god_the_father_of_mercies": "God, the Father of mercies…",
-        "amen": "Amen.",
-        "the_lord_has_freed_you": "The Lord has freed you from sin. Go in peace.",
-        "thanks_be_to_god": "Thanks be to God."
+    "4": {
+      "title": "Fourth Commandment",
+      "text": "Honor your father and your mother. (Ex 20:12)",
+      "description": "Honor your father and mother, that your days may be long in the land which the Lord your God gives you. (Ex 20:12)"
     },
-    "prayers": {
-        "prayers": "Prayers",
-        "prayer_before_confession": "Prayer Before Confession",
-        "act_of_contrition": "Act Of Contrition",
-        "another_act_of_contrition": "Another Act Of Contrition",
-        "thanksgiving_after_confession": "Thanksgiving After Confession",
-        "our_father": "Our Father",
-        "hail_mary": "Hail Mary",
-        "hail_holy_queen": "Hail Holy Queen",
-        "prayer_before_confession_text": "<p>My Lord and God, I have sinned. I am guilty before you.<br />Grant me the strength to say to Your minister what I say to You in the secret of my heart.<br />Increase my repentance. Make it more genuine. May it really be a sorrow for having offended You and my neighbor rather than a wounded love of self.<br />Help me to atone for my sin. May the sufferings of my life and my little mortifications be joined with the sufferings of Jesus, Your Son, and cooperate in rooting sin from the world.<br />Amen.</p>",
-        "act_of_contrition_text": "<p>My God,<br />I am sorry for my sins with all my heart.<br />In choosing to do wrong and failing to do good, I have sinned against You, whom I should love above all things.<br />I firmly intend with Your help to do penance, to sin no more, and to avoid whatever leads me to sin.<br />Jesus Christ suffered and died for us. In His name, my God, have mercy.</p>",
-        "another_act_of_contrition_text": "<p>O my God,<br />I am heartily sorry for having offended Thee, and I detest all of my sins, because I dread the loss of heaven, and the pains of hell;<br />but most of all because they offend Thee, my God, Who are all good and deserving of my love.<br />I firmly resolve, with the help of Thy grace, to confess my sins, to do penance, and to amend my life.<br />Amen.</p>",
-        "thanksgiving_after_confession_text": "<p>My dearest Jesus,<br />I have told all my sins as well as I could. I have tried hard to make a good confession. I feel sure that You have forgiven me. I thank You. It is only because of all Your sufferings that I can go to confession and free myself from my sins. Your heart is full of love and mercy for poor sinners. I love You because You are so good to me.<br />My loving Savior,<br />I shall try to keep from sin and to love you more each day.<br />My dear Mother Mary,<br />pray for me and help me to keep my promises. Protect me and do not let me fall back into sin.</p>",
-        "our_father_text": "<p>Our Father,<br />Who art in heaven, hallowed be Thy name;<br />Thy kingdom come, Thy will be done, on earth as it is in heaven.<br />Give us this day our daily bread, and forgive us our trespasses,<br />as we forgive those who trespass against us;<br />and lead us not into temptation, but deliver us from evil.<br />Amen.</p>",
-        "hail_mary_text": "<p>Hail Mary, full of grace.<br />The Lord is with thee.<br />Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.<br />Holy Mary, mother of God,<br />pray for us sinners, now and at the hour of our death.<br />Amen.</p>",
-        "hail_holy_queen_text": "<p>Hail, holy Queen, Mother of Mercy!<br />Our life, our sweetness, and our hope!<br />To thee do we cry, poor banished children of Eve. To thee do we send up our sighs, lonely and weeping in this valley of tears.<br />Turn then, most gracious advocate, thine eyes of mercy toward us; and after this our exile show unto us the blessed fruit of thy womb, Jesus.<br />O clement, O loving, O sweet virgin Mary. Pray for us, holy Mother of God, that we may be made worthy of the promises of Christ.<br />Amen.</p>"
+    "5": {
+      "title": "Fifth Commandment",
+      "text": "You shall not kill. (Ex 20:13)",
+      "description": "You shall not kill. (Ex 20:13) The capital sin of anger is often associated with this commandment."
     },
-    "about": {
-        "about_confessit": "About ConfessIt",
-        "about_confessit_text": "ConfessIt is a <vatican>Roman Catholic</vatican> examination of conscience for computers, tablets, and phones. It's designed to be simple and easy to use, and it can help you remember your sins when you go to confession. There's also a confession walkthrough that tells you exactly what the priest will say and how you should respond - a great resource if you haven't been to confession in a while! The examination of conscience is based on fundamental Catholic church teachings, is easy to understand, and is relevant for modern Catholics.",
-        "about_confession": "About Confession",
-        "about_confession_intro": "Confession is the holy sacrament by which Catholics obtain pardon from God's mercy for their sins, and are thus reconciled with the Church, the community of believers, the Body of Christ.",
-        "ccc_quote": "<p>It is called the sacrament of conversion because it makes sacramentally present Jesus' call to conversion, the first step in returning to the Father (Cf. Mk 1:15; Lk 15:18) from whom one has strayed by sin.</p><p>It is called the sacrament of Penance, since it consecrates the Christian sinner's personal and ecclesial steps of conversion, penance, and satisfaction.</p><p>It is called the sacrament of confession, since the disclosure or confession of sins to a priest is an essential element of this sacrament. In a profound sense it is also a \"confession\" - acknowledgment and praise - of the holiness of God and of his mercy toward sinful man.</p><p>It is called the sacrament of forgiveness, since by the priest's sacramental absolution God grants the penitent \"pardon and peace\" (Ordo paenitantiae 46 formula of absolution).</p><p>It is called the sacrament of Reconciliation, because it imparts to the sinner the love of God who reconciles: \"Be reconciled to God\" (2 Cor 5:20). He who lives by God's merciful love is ready to respond to the Lord's call: \"Go; first be reconciled to your brother\" (Mt 5:24).</p><p>Conversion to Christ, the new birth of Baptism, the gift of the Holy Spirit and the Body and Blood of Christ received as food have made us \"holy and without blemish,\" just as the Church herself, the Bride of Christ, is \"holy and without blemish\" (Eph 1:4; 5:27). Nevertheless the new life received in Christian initiation has not abolished the frailty and weakness of human nature, nor the inclination to sin that tradition calls concupiscence, which remains in the baptized such that with the help of the grace of Christ they may prove themselves in the struggle of Christian life (Cf. Council of Trent, DS 1545; Lumen Gentium 40). This is the struggle of conversion directed toward holiness and eternal life to which the Lord never ceases to call us.</p><p>Jesus calls to conversion. This call is an essential part of the proclamation of the kingdom: \"The time is fulfilled, and the kingdom of God is at hand; repent, and believe in the gospel\" (Mk 1:15). Baptism is the principal place for the first and fundamental conversion, but then Christ's call to conversion continues to resound in the lives of Christians. This second conversion is an uninterrupted task for the whole Church who, \"clasping sinners to her bosom, (is) at once holy and always in need of purification, (and) follows constantly the path of penance and renewal\" (Lumen Gentium 8). This endeavor of conversion is not just a human work. It is the movement of a \"contrite heart,\" drawn and moved by grace to respond to the merciful love of God who loved us first (Ps 51:17; Jn 6:44; 12:32; 1 Jn 4:10). St. Ambrose says of the two conversions that, in the Church, \"there are water and tears: the water of Baptism and the tears of repentance\" (epistle 41).</p><7>— Catechism of the Catholic Church 1423-1424,1426; cf. 1427-1429</7>",
-        "where_to_find": "Confession times are listed in your local parish bulletin, and you can find them online at your parish website or at <mass>masstimes.org</mass>. You can also schedule a confession at any time you'd like by contacting your local parish.",
-        "about_confession_end": "When you go to confession, typically, you will have the choice of kneeling anonymously behind a screen or sitting face-to-face with your confessor.Don't be nervous about going to confession! Whatever you confess, your priest has heard it before. Remember, he is there to help you.",
-        "about_this_app": "About This App",
-        "this_app_is_designed": "This app is designed to help Roman Catholics prepare for the sacrament of confession by examining their conscience. It is <strong>NOT</strong> a substitute for confession.",
-        "please_be_respectful": "Please be respectful of those around you when you use this app. I recommend that you turn your phone off when you're inside your church, and use this app before you arrive. If you do use this app inside your church or during confession, please ensure your phone is in silent mode.",
-        "this_website": "This website, <website>ConfessIt.app</website>, is based on the <app>ConfessIt Android App</app> (created in 2012 by the same developer). While it's not (yet) a complete reproduction, it aims to make the app available to a wider range of users on a broader range of devices. (This site works on iOS, Android, tablets, and computers!)",
-        "if_you_find": "If you find this app useful, please consider <strong>sharing it</strong> with your friends and family. Tell people about it on Facebook, Reddit, Twitter, at your church, or in your Bible study group to help spread the word!",
-        "privacy": "Privacy",
-        "information_you_enter": "Information you enter into this app is only stored on your device. It is not sent over the internet. We are able to do this using a technology provided by your web browser called <a>local storage</a>. We do not run Google Analytics or any other data collection mechanism on this site. Data you enter will be saved on your device until you hit <kbd>Clear</kbd> even if you close the window or refresh the page.",
-        "open_source": "Open Source",
-        "confessit_is_open_source": "ConfessIt is open source. We develop the app on <i></i> <github>GitHub</github> and we collaborate in the <osc>Open Source Catholic</osc> community on Slack.",
-        "can_i_help_with_translations": "Can I help with translations?",
-        "confessit_is_translated": "ConfessIt is translated into multiple languages. If you'd like to help with this effort by adding a new translation or improving an existing translation, please read about how to do so on <github>GitHub</github> or get in touch with us on <osc>Open Source Catholic</osc> Slack.",
-        "can_i_help_write_code": "Can I help write code?",
-        "we_welcome_new_contributions": "We welcome new contributions. If you'd like to contribute to ConfessIt, the best way to begin is by reading about how to do so on <1>GitHub</1>.",
-        "about_the_developer": "About the Developer",
-        "mike_kasberg": "<0>Mike Kasberg</0> develops ConfessIt in his free time, as a way of giving back to the church. He is also involved in a few other small projects to support Catholic organizations with technology.",
-        "information": "Bible quotes in this app come from the Revised Standard Version of the Holy Bible, Second Catholic Edition. Information from the Catechism of the Catholic Church was also used."
+    "6": {
+      "title": "Sixth Commandment",
+      "text": "You shall not commit adultery. (Ex 20:14)",
+      "description": "You shall not commit adultery. (Ex 20:14) The capital sin of lust breaks this commandment."
     },
-    "help": {
-        "confessit_help": "ConfessIt Help",
-        "basic_usage": "Basic Usage",
-        "step_1": "In the <strong>Examination</strong> tab, mark <strong>Yes</strong> next to all the sins you want to remember to confess.",
-        "step_2": "Swipe to the next tab, <strong>Sins</strong>, to see a list of sins you've marked. You can review this list before or during confession if you wish.",
-        "step_3": "If you're unsure what to say in confession, swipe to the next tab, <strong>Walkthrough</strong>, to see roughly what you and the priest will say to each other in confession. You can review this during confession if you wish.",
-        "step_4": "After you've gone to confession, use the <strong>Clear</strong> button to clear all the sins you've marked.",
-        "data_persistence": "Data Persistence",
-        "data_persistence_text": "Data you enter is stored on your device (never sent over the internet). Data you enter will be saved until you hit <strong>Clear</strong>, even if you close the window or refresh the page. Be sure to clear your data when you're done if you don't want other people who use this device to see your data!"
+    "7": {
+      "title": "Seventh Commandment",
+      "text": "You shall not steal. (Ex 20:15)",
+      "description": "You shall not steal. (Ex 20:15) The capital sins of greed and sloth are often considered to break this commandment."
     },
-    "welcome": {
-        "title": "Welcome!",
-        "body": " is a tool to help Roman Catholics walk through an examination of conscience prior to going to confession. We hope you'll find this useful to help remember sins you've committed since your last confession. Just check the <strong>Yes</strong> box next to sins in the <strong>Examine</strong> list, or tap the <kbd>+</kbd> button at the bottom right of the app to add your own. Then, scroll to the right to <strong>Review</strong> your sins and <strong>Walkthrough</strong> the steps of going to confession. <br /><br />Data you enter is stored on your device (<strong>never</strong> sent over the Internet). Data you enter will be saved until you hit <strong>Clear</strong> in the app settings, even if you close the window or refresh the page. <br /><br />God bless you on your path to holiness!"
+    "8": {
+      "title": "Eighth Commandment",
+      "text": "You shall not bear false witness against your neighbor. (Ex 20:16)",
+      "description": "You shall not bear false witness against your neighbor. (Ex 20:16)"
     },
-    "commandments": {
-        "1": {
-            "title": "First Commandment",
-            "text": "You shall have no other gods before Me. (Ex 20:3)",
-            "description": "I am the Lord your God, who brought you out of the land of Egypt, out of the house of bondage. You shall have no other gods before me… you shall not bow down to them or serve them; for I the Lord your God am a jealous God… showing steadfast love to thousands of those who love me and keep my commandments. (Ex 20:2-6) The capital sins of pride and gluttony are often considered to break this commandment."
-        },
-        "2": {
-            "title": "Second Commandment",
-            "text": "You shall not take the name of the Lord your God in vain. (Ex 20:7)",
-            "description": "You shall not take the name of the Lord your God in vain; for the Lord will not hold him guiltless who takes his name in vain. (Ex 20:7)"
-        },
-        "3": {
-            "title": "Third Commandment",
-            "text": "Remember the sabbath day, to keep it holy. (Ex 20:8)",
-            "description": "Remember the sabbath day, to keep it holy. Six days you shall labor, and do all your work; but the seventh day is a sabbath to the Lord your God; in it you shall not do any work… For in six days the Lord made heaven and earth, the sea, and all that is in them, and rested the seventh day; therefore the Lord blessed the sabbath day and hallowed it. (Ex 20:8-11)"
-        },
-        "4": {
-            "title": "Fourth Commandment",
-            "text": "Honor your father and your mother. (Ex 20:12)",
-            "description": "Honor your father and mother, that your days may be long in the land which the Lord your God gives you. (Ex 20:12)"
-        },
-        "5": {
-            "title": "Fifth Commandment",
-            "text": "You shall not kill. (Ex 20:13)",
-            "description": "You shall not kill. (Ex 20:13) The capital sin of anger is often associated with this commandment."
-        },
-        "6": {
-            "title": "Sixth Commandment",
-            "text": "You shall not commit adultery. (Ex 20:14)",
-            "description": "You shall not commit adultery. (Ex 20:14) The capital sin of lust breaks this commandment."
-        },
-        "7": {
-            "title": "Seventh Commandment",
-            "text": "You shall not steal. (Ex 20:15)",
-            "description": "You shall not steal. (Ex 20:15) The capital sins of greed and sloth are often considered to break this commandment."
-        },
-        "8": {
-            "title": "Eighth Commandment",
-            "text": "You shall not bear false witness against your neighbor. (Ex 20:16)",
-            "description": "You shall not bear false witness against your neighbor. (Ex 20:16)"
-        },
-        "9": {
-            "title": "Ninth Commandment",
-            "text": "You shall not covet your neighbor's wife. (Ex 20:17)",
-            "description": "You shall not covet your neighbor's wife. (Ex 20:17) The capital sin of jealousy can break this commandment."
-        },
-        "10": {
-            "title": "Tenth Commandment",
-            "text": "You shall not covet your neighbor's goods. (Ex 20:17)",
-            "description": "You shall not covet your neighbor's house… or his manservant, or his maidservant, or his ox, or his ass, or anything that is your neighbor's. (Ex 20:17) The capital sin of jealousy can break this commandment."
-        },
-        "11": {
-            "title": "Precepts of the Church",
-            "text": "The precepts of the Catholic Church are the minimum requirements that all Catholics should fulfill.",
-            "description": "The precepts of the Church are set in the context of a moral life bound to and nourished by liturgical life. The obligatory character of these positive laws decreed by the pastoral authorities is meant to guarantee to the faithful the very necessary minimum in the spirit of prayer and moral effort, in the growth in love of God and neighbor (CCC 2041)."
-        }
+    "9": {
+      "title": "Ninth Commandment",
+      "text": "You shall not covet your neighbor's wife. (Ex 20:17)",
+      "description": "You shall not covet your neighbor's wife. (Ex 20:17) The capital sin of jealousy can break this commandment."
     },
-    "sins": {
-        "1": {
-            "text": "Did I refuse to believe the teachings of the Catholic Church?",
-            "text_past": "I refused to believe the teachings of the Catholic Church.",
-            "detail": "To obey in faith is to submit freely to the word that has been heard, because its truth is guaranteed by God, who is Truth itself (CCC 144). It is important to believe in all of the teachings of the church."
-        },
-        "2": {
-            "text": "Did I practice any religion besides Catholicism?",
-            "text_past": "I practiced a religion besides Catholicism.",
-            "detail": "The first commandment forbids honoring gods other than the one Lord who has revealed himself to his people (CCC 2110).  It is wrong to practice a religion other than Catholicism because it weakens our relationship with our Lord."
-        },
-        "3": {
-            "text": "Did I presume God's mercy?",
-            "text_past": "I presumed God's mercy.",
-            "detail": "Presuming God's mercy is hoping to obtain forgiveness without conversion and glory without merit (CCC 2092). It is wrong to do something immoral because you expect God to forgive you."
-        },
-        "4": {
-            "text": "How is my prayer life?  Do I need to pray more often?",
-            "text_past": "I need to pray more often.",
-            "detail": "Adoring God, praying to him, offering him the worship that belongs to him, fulfilling the promises and vows made to him are acts of the virtue of religionwhich fall under obedience to the first commandment (CCC 2135). Prayer is important because without prayer we cannot have a relationship with God."
-        },
-        "5": {
-            "text": "Our culture often conflicts with Catholic ideals.  Did I fail to stand up for Catholic moral values?",
-            "text_past": "I failed to stand up for Catholic moral values.",
-            "detail": ""
-        },
-        "6": {
-            "text": "Did I use foul language?",
-            "text_past": "I used foul language.",
-            "detail": ""
-        },
-        "7": {
-            "text": "Did I use God's name without respect?",
-            "text_past": "I used God's name without respect.",
-            "detail": "The second commandment forbids every improper use of God's name. Blasphemy is the use of the name of God, of Jesus Christ, of the Virgin Mary, and of the saints in an offensive way (CCC 2162)."
-        },
-        "8": {
-            "text": "Did I insult God?",
-            "text_past": "I insulted God.",
-            "detail": "Respect for His name is an expression of the respect owed to the mystery of God himself and to the whole sacred reality it evokes (CCC 2144)."
-        },
-        "9": {
-            "text": "Did I skip mass on Sunday?",
-            "text_past": "I skipped mass on Sunday.",
-            "detail": "The first precept of the Catholic church is \"You shall attend Mass on Sundays and holy days of obligation and rest from servile labor\" (CCC 2042).  As Catholics, we look forward to celebrating the Eucharist every Sunday. It is a sin to skip mass because it weakens our relationship with God."
-        },
-        "10": {
-            "text": "Did I skip mass on a holy day of obligation?",
-            "text_past": "I skipped mass on a holy day of obligation.",
-            "detail": "The first precept of the Catholic church is \"You shall attend Mass on Sundays and holy days of obligation and rest from servile labor\" (CCC 2042).  As Catholics, we look forward to celebrating the Eucharist on holy days of obligation. It is a sin to skip mass because it weakens our relationship with God."
-        },
-        "11": {
-            "text": "Did I arrive to mass late or leave early?",
-            "text_past": "I arrived to mass late or left early.",
-            "detail": "Come to church early, approach the Lord, and confess your sins, repent in prayer… Be present at the sacred and divine liturgy, conclude its prayer and do not leave before dismissal… (CCC 2178). It is also rude and distracting to others who are worshipping to arrive late or leave early."
-        },
-        "12": {
-            "text": "Did I disobey my parents?",
-            "text_past": "I disobeyed my parents.",
-            "detail": ""
-        },
-        "13": {
-            "text": "Did I fail to raise my children in the Catholic faith?",
-            "text_past": "I failed to raise my children in the Catholic faith.",
-            "detail": ""
-        },
-        "14": {
-            "text": "Did I fail to care for my elderly relatives?",
-            "text_past": "I failed to care for my elderly relatives.",
-            "detail": ""
-        },
-        "15": {
-            "text": "Did I neglect my family?",
-            "text_past": "I neglected my family.",
-            "detail": ""
-        },
-        "16": {
-            "text": "Did I disobey any responsible adult?",
-            "text_past": "I disobeyed a responsible adult.",
-            "detail": ""
-        },
-        "17": {
-            "text": "Did I fail to teach my children about their human sexuality?",
-            "text_past": "I failed to teach my children about their human sexuality.",
-            "detail": ""
-        },
-        "18": {
-            "text": "Did I break a just law?",
-            "text_past": "I broke a just law.",
-            "detail": ""
-        },
-        "19": {
-            "text": "Did I physically hurt anyone?",
-            "text_past": "I physically hurt someone.",
-            "detail": ""
-        },
-        "20": {
-            "text": "Did I have an abortion?  Did I participate in an abortion?",
-            "text_past": "I had or participated in an abortion.",
-            "detail": ""
-        },
-        "21": {
-            "text": "Did I use artificial birth control?",
-            "text_past": "I used artificial birth control.",
-            "detail": "\"Every action which, whether in anticipation of the conjugal act, or in its accomplishment, or in the development of its natural consequences, proposes, whether as an end or as a means, to render procreation impossible is intrinsically evil\" (CCC 2370). \"Legitimate intentions on the part of the spouses do not justify recourse to morally unacceptable means (for example, direct sterilization or contraception)\" (CCC 2399). Artificial contraception is wrong because it makes a beautiful act of love into something selfish."
-        },
-        "22": {
-            "text": "Did I attempt suicide?",
-            "text_past": "I attempted suicide.",
-            "detail": ""
-        },
-        "23": {
-            "text": "Did I participate in euthanasia?",
-            "text_past": "I participated in Euthanasia.",
-            "detail": ""
-        },
-        "24": {
-            "text": "Did I abuse drugs or alcohol?",
-            "text_past": "I abused drugs or alcohol.",
-            "detail": ""
-        },
-        "25": {
-            "text": "Did I have sex outside marriage?",
-            "text_past": "I had sex outside marriage.",
-            "detail": ""
-        },
-        "26": {
-            "text": "Am I guilty of the sin of lust?",
-            "text_past": "I am guilty of the sin of lust.",
-            "detail": ""
-        },
-        "27": {
-            "text": "Did I look at pornography?",
-            "text_past": "I looked at pornography.",
-            "detail": ""
-        },
-        "28": {
-            "text": "Did I act on homosexual desires?",
-            "text_past": "I acted on homosexual desires.",
-            "detail": ""
-        },
-        "29": {
-            "text": "Did I fail to honor my husband or wife?",
-            "text_past": "I failed to honor my husband or wife.",
-            "detail": ""
-        },
-        "30": {
-            "text": "Did I read erotic literature?",
-            "text_past": "I read erotic literature.",
-            "detail": ""
-        },
-        "31": {
-            "text": "Did I engage in sexually immoral acts?",
-            "text_past": "I engaged in sexually immoral acts.",
-            "detail": ""
-        },
-        "32": {
-            "text": "Did I give in to overly passionate kissing for pleasure?",
-            "text_past": "I gave in to overly passionate kissing for pleasure.",
-            "detail": ""
-        },
-        "33": {
-            "text": "Did I steal anything? If so, to what extent?",
-            "text_past": "I stole something. (To such and such an extent.)",
-            "detail": ""
-        },
-        "34": {
-            "text": "Did I pirate movies, music, or software?",
-            "text_past": "I pirated movies, music, or software.",
-            "detail": ""
-        },
-        "35": {
-            "text": "Did I lie or cheat?",
-            "text_past": "I lied or cheated.",
-            "detail": ""
-        },
-        "36": {
-            "text": "Did I gossip about others?",
-            "text_past": "I gossiped about others.",
-            "detail": ""
-        },
-        "37": {
-            "text": "Did I fail to fast on Ash Wednesday and Good Friday?",
-            "text_past": "I failed to fast on Ash Wednesday or Good Friday.",
-            "detail": ""
-        },
-        "38": {
-            "text": "Did I fail to abstain from meat on Fridays of Lent and Ash Wednesday?",
-            "text_past": "I failed to abstain from meat on a Friday during Lent or Ash Wednesday.",
-            "detail": ""
-        },
-        "39": {
-            "text": "Did I fail to receive the Eucharist at least once during Easter?",
-            "text_past": "I failed to receive the Eucharist at least once during Easter.",
-            "detail": ""
-        },
-        "40": {
-            "text": "Did I fail to fast for an hour before receiving the Eucharist?",
-            "text_past": "I failed to fast for an hour before receiving the Eucharist.",
-            "detail": ""
-        },
-        "41": {
-            "text": "Did I receive the Eucharist in a state of mortal sin?",
-            "text_past": "I received the Eucharist in a state of mortal sin.",
-            "detail": ""
-        },
-        "42": {
-            "text": "Did I intentionally hide something at confession?",
-            "text_past": "I intentionally hid something at confession.",
-            "detail": ""
-        },
-        "43": {
-            "text": "Was I too busy to rest and spend time with my family on Sunday?",
-            "text_past": "I was too busy to rest and spend time with my family on Sunday.",
-            "detail": ""
-        },
-        "44": {
-            "text": "Was I jealous of someone else's wife/husband or fiancée/fiancé?",
-            "text_past": "I was jealous of someone else's wife/husband or fiancée/fiancé.",
-            "detail": ""
-        },
-        "45": {
-            "text": "Was I jealous of something that belongs to someone else?",
-            "text_past": "I was jealous of something that belongs to someone else.",
-            "detail": ""
-        },
-        "46": {
-            "text": "Did I vote for a candidate or policy that does not uphold my Catholic values?",
-            "text_past": "I voted for a candidate or policy that does not uphold my Catholic values.",
-            "detail": ""
-        },
-        "47": {
-            "text": "Did I listen to music or watch TV or a movie that have a bad influence on me?",
-            "text_past": "I listened to music or watched TV or a movie that had a bad influence on me.",
-            "detail": ""
-        },
-        "48": {
-            "text": "Was I greedy, or did I fail to give generously to my church and to the poor?",
-            "text_past": "I was greedy or failed to give generously to my church or to the poor.",
-            "detail": ""
-        },
-        "49": {
-            "text": "Did I knowingly lead others into sin?",
-            "text_past": "I knowingly led others into sin.",
-            "detail": ""
-        },
-        "50": {
-            "text": "Did I fail to make God a priority in my life?",
-            "text_past": "I failed to make God a priority in my life.",
-            "detail": ""
-        },
-        "51": {
-            "text": "Have I acted selfishly?",
-            "text_past": "I acted selfishly.",
-            "detail": ""
-        },
-        "52": {
-            "text": "Did I participate in occult practices?",
-            "text_past": "I participated in occult practices.",
-            "detail": ""
-        },
-        "53": {
-            "text": "Have I been slothful at work or at home?",
-            "text_past": "I was slothful at work or at home.",
-            "detail": ""
-        },
-        "54": {
-            "text": "Have I been lazy with my school work?",
-            "text_past": "I was lazy with my school work.",
-            "detail": ""
-        },
-        "55": {
-            "text": "Have I been prideful or vain?",
-            "text_past": "I was prideful or vain.",
-            "detail": ""
-        },
-        "56": {
-            "text": "Have I committed the sin of gluttony?",
-            "text_past": "I am guilty of gluttony.",
-            "detail": ""
-        },
-        "57": {
-            "text": "Have I allowed myself to be controlled by anger?",
-            "text_past": "I allowed myself to be controlled by anger.",
-            "detail": ""
-        }
+    "10": {
+      "title": "Tenth Commandment",
+      "text": "You shall not covet your neighbor's goods. (Ex 20:17)",
+      "description": "You shall not covet your neighbor's house… or his manservant, or his maidservant, or his ox, or his ass, or anything that is your neighbor's. (Ex 20:17) The capital sin of jealousy can break this commandment."
+    },
+    "11": {
+      "title": "Precepts of the Church",
+      "text": "The precepts of the Catholic Church are the minimum requirements that all Catholics should fulfill.",
+      "description": "The precepts of the Church are set in the context of a moral life bound to and nourished by liturgical life. The obligatory character of these positive laws decreed by the pastoral authorities is meant to guarantee to the faithful the very necessary minimum in the spirit of prayer and moral effort, in the growth in love of God and neighbor (CCC 2041)."
     }
+  },
+  "sins": {
+    "1": {
+      "text": "Did I refuse to believe the teachings of the Catholic Church?",
+      "text_past": "I refused to believe the teachings of the Catholic Church.",
+      "detail": "To obey in faith is to submit freely to the word that has been heard, because its truth is guaranteed by God, who is Truth itself (CCC 144). It is important to believe in all of the teachings of the church."
+    },
+    "2": {
+      "text": "Did I practice any religion besides Catholicism?",
+      "text_past": "I practiced a religion besides Catholicism.",
+      "detail": "The first commandment forbids honoring gods other than the one Lord who has revealed himself to his people (CCC 2110).  It is wrong to practice a religion other than Catholicism because it weakens our relationship with our Lord."
+    },
+    "3": {
+      "text": "Did I presume God's mercy?",
+      "text_past": "I presumed God's mercy.",
+      "detail": "Presuming God's mercy is hoping to obtain forgiveness without conversion and glory without merit (CCC 2092). It is wrong to do something immoral because you expect God to forgive you."
+    },
+    "4": {
+      "text": "How is my prayer life?  Do I need to pray more often?",
+      "text_past": "I need to pray more often.",
+      "detail": "Adoring God, praying to him, offering him the worship that belongs to him, fulfilling the promises and vows made to him are acts of the virtue of religionwhich fall under obedience to the first commandment (CCC 2135). Prayer is important because without prayer we cannot have a relationship with God."
+    },
+    "5": {
+      "text": "Our culture often conflicts with Catholic ideals.  Did I fail to stand up for Catholic moral values?",
+      "text_past": "I failed to stand up for Catholic moral values.",
+      "detail": ""
+    },
+    "6": {
+      "text": "Did I use foul language?",
+      "text_past": "I used foul language.",
+      "detail": ""
+    },
+    "7": {
+      "text": "Did I use God's name without respect?",
+      "text_past": "I used God's name without respect.",
+      "detail": "The second commandment forbids every improper use of God's name. Blasphemy is the use of the name of God, of Jesus Christ, of the Virgin Mary, and of the saints in an offensive way (CCC 2162)."
+    },
+    "8": {
+      "text": "Did I insult God?",
+      "text_past": "I insulted God.",
+      "detail": "Respect for His name is an expression of the respect owed to the mystery of God himself and to the whole sacred reality it evokes (CCC 2144)."
+    },
+    "9": {
+      "text": "Did I skip mass on Sunday?",
+      "text_past": "I skipped mass on Sunday.",
+      "detail": "The first precept of the Catholic church is \"You shall attend Mass on Sundays and holy days of obligation and rest from servile labor\" (CCC 2042).  As Catholics, we look forward to celebrating the Eucharist every Sunday. It is a sin to skip mass because it weakens our relationship with God."
+    },
+    "10": {
+      "text": "Did I skip mass on a holy day of obligation?",
+      "text_past": "I skipped mass on a holy day of obligation.",
+      "detail": "The first precept of the Catholic church is \"You shall attend Mass on Sundays and holy days of obligation and rest from servile labor\" (CCC 2042).  As Catholics, we look forward to celebrating the Eucharist on holy days of obligation. It is a sin to skip mass because it weakens our relationship with God."
+    },
+    "11": {
+      "text": "Did I arrive to mass late or leave early?",
+      "text_past": "I arrived to mass late or left early.",
+      "detail": "Come to church early, approach the Lord, and confess your sins, repent in prayer… Be present at the sacred and divine liturgy, conclude its prayer and do not leave before dismissal… (CCC 2178). It is also rude and distracting to others who are worshipping to arrive late or leave early."
+    },
+    "12": {
+      "text": "Did I disobey my parents?",
+      "text_past": "I disobeyed my parents.",
+      "detail": ""
+    },
+    "13": {
+      "text": "Did I fail to raise my children in the Catholic faith?",
+      "text_past": "I failed to raise my children in the Catholic faith.",
+      "detail": ""
+    },
+    "14": {
+      "text": "Did I fail to care for my elderly relatives?",
+      "text_past": "I failed to care for my elderly relatives.",
+      "detail": ""
+    },
+    "15": {
+      "text": "Did I neglect my family?",
+      "text_past": "I neglected my family.",
+      "detail": ""
+    },
+    "16": {
+      "text": "Did I disobey any responsible adult?",
+      "text_past": "I disobeyed a responsible adult.",
+      "detail": ""
+    },
+    "17": {
+      "text": "Did I fail to teach my children about their human sexuality?",
+      "text_past": "I failed to teach my children about their human sexuality.",
+      "detail": ""
+    },
+    "18": {
+      "text": "Did I break a just law?",
+      "text_past": "I broke a just law.",
+      "detail": ""
+    },
+    "19": {
+      "text": "Did I physically hurt anyone?",
+      "text_past": "I physically hurt someone.",
+      "detail": ""
+    },
+    "20": {
+      "text": "Did I have an abortion?  Did I participate in an abortion?",
+      "text_past": "I had or participated in an abortion.",
+      "detail": ""
+    },
+    "21": {
+      "text": "Did I use artificial birth control?",
+      "text_past": "I used artificial birth control.",
+      "detail": "\"Every action which, whether in anticipation of the conjugal act, or in its accomplishment, or in the development of its natural consequences, proposes, whether as an end or as a means, to render procreation impossible is intrinsically evil\" (CCC 2370). \"Legitimate intentions on the part of the spouses do not justify recourse to morally unacceptable means (for example, direct sterilization or contraception)\" (CCC 2399). Artificial contraception is wrong because it makes a beautiful act of love into something selfish."
+    },
+    "22": {
+      "text": "Did I attempt suicide?",
+      "text_past": "I attempted suicide.",
+      "detail": ""
+    },
+    "23": {
+      "text": "Did I participate in euthanasia?",
+      "text_past": "I participated in Euthanasia.",
+      "detail": ""
+    },
+    "24": {
+      "text": "Did I abuse drugs or alcohol?",
+      "text_past": "I abused drugs or alcohol.",
+      "detail": ""
+    },
+    "25": {
+      "text": "Did I have sex outside marriage?",
+      "text_past": "I had sex outside marriage.",
+      "detail": ""
+    },
+    "26": {
+      "text": "Am I guilty of the sin of lust?",
+      "text_past": "I am guilty of the sin of lust.",
+      "detail": ""
+    },
+    "27": {
+      "text": "Did I look at pornography?",
+      "text_past": "I looked at pornography.",
+      "detail": ""
+    },
+    "28": {
+      "text": "Did I act on homosexual desires?",
+      "text_past": "I acted on homosexual desires.",
+      "detail": ""
+    },
+    "29": {
+      "text": "Did I fail to honor my husband or wife?",
+      "text_past": "I failed to honor my husband or wife.",
+      "detail": ""
+    },
+    "30": {
+      "text": "Did I read erotic literature?",
+      "text_past": "I read erotic literature.",
+      "detail": ""
+    },
+    "31": {
+      "text": "Did I engage in sexually immoral acts?",
+      "text_past": "I engaged in sexually immoral acts.",
+      "detail": ""
+    },
+    "32": {
+      "text": "Did I give in to overly passionate kissing for pleasure?",
+      "text_past": "I gave in to overly passionate kissing for pleasure.",
+      "detail": ""
+    },
+    "33": {
+      "text": "Did I steal anything? If so, to what extent?",
+      "text_past": "I stole something. (To such and such an extent.)",
+      "detail": ""
+    },
+    "34": {
+      "text": "Did I pirate movies, music, or software?",
+      "text_past": "I pirated movies, music, or software.",
+      "detail": ""
+    },
+    "35": {
+      "text": "Did I lie or cheat?",
+      "text_past": "I lied or cheated.",
+      "detail": ""
+    },
+    "36": {
+      "text": "Did I gossip about others?",
+      "text_past": "I gossiped about others.",
+      "detail": ""
+    },
+    "37": {
+      "text": "Did I fail to fast on Ash Wednesday and Good Friday?",
+      "text_past": "I failed to fast on Ash Wednesday or Good Friday.",
+      "detail": ""
+    },
+    "38": {
+      "text": "Did I fail to abstain from meat on Fridays of Lent and Ash Wednesday?",
+      "text_past": "I failed to abstain from meat on a Friday during Lent or Ash Wednesday.",
+      "detail": ""
+    },
+    "39": {
+      "text": "Did I fail to receive the Eucharist at least once during Easter?",
+      "text_past": "I failed to receive the Eucharist at least once during Easter.",
+      "detail": ""
+    },
+    "40": {
+      "text": "Did I fail to fast for an hour before receiving the Eucharist?",
+      "text_past": "I failed to fast for an hour before receiving the Eucharist.",
+      "detail": ""
+    },
+    "41": {
+      "text": "Did I receive the Eucharist in a state of mortal sin?",
+      "text_past": "I received the Eucharist in a state of mortal sin.",
+      "detail": ""
+    },
+    "42": {
+      "text": "Did I intentionally hide something at confession?",
+      "text_past": "I intentionally hid something at confession.",
+      "detail": ""
+    },
+    "43": {
+      "text": "Was I too busy to rest and spend time with my family on Sunday?",
+      "text_past": "I was too busy to rest and spend time with my family on Sunday.",
+      "detail": ""
+    },
+    "44": {
+      "text": "Was I jealous of someone else's wife/husband or fiancée/fiancé?",
+      "text_past": "I was jealous of someone else's wife/husband or fiancée/fiancé.",
+      "detail": ""
+    },
+    "45": {
+      "text": "Was I jealous of something that belongs to someone else?",
+      "text_past": "I was jealous of something that belongs to someone else.",
+      "detail": ""
+    },
+    "46": {
+      "text": "Did I vote for a candidate or policy that does not uphold my Catholic values?",
+      "text_past": "I voted for a candidate or policy that does not uphold my Catholic values.",
+      "detail": ""
+    },
+    "47": {
+      "text": "Did I listen to music or watch TV or a movie that have a bad influence on me?",
+      "text_past": "I listened to music or watched TV or a movie that had a bad influence on me.",
+      "detail": ""
+    },
+    "48": {
+      "text": "Was I greedy, or did I fail to give generously to my church and to the poor?",
+      "text_past": "I was greedy or failed to give generously to my church or to the poor.",
+      "detail": ""
+    },
+    "49": {
+      "text": "Did I knowingly lead others into sin?",
+      "text_past": "I knowingly led others into sin.",
+      "detail": ""
+    },
+    "50": {
+      "text": "Did I fail to make God a priority in my life?",
+      "text_past": "I failed to make God a priority in my life.",
+      "detail": ""
+    },
+    "51": {
+      "text": "Have I acted selfishly?",
+      "text_past": "I acted selfishly.",
+      "detail": ""
+    },
+    "52": {
+      "text": "Did I participate in occult practices?",
+      "text_past": "I participated in occult practices.",
+      "detail": ""
+    },
+    "53": {
+      "text": "Have I been slothful at work or at home?",
+      "text_past": "I was slothful at work or at home.",
+      "detail": ""
+    },
+    "54": {
+      "text": "Have I been lazy with my school work?",
+      "text_past": "I was lazy with my school work.",
+      "detail": ""
+    },
+    "55": {
+      "text": "Have I been prideful or vain?",
+      "text_past": "I was prideful or vain.",
+      "detail": ""
+    },
+    "56": {
+      "text": "Have I committed the sin of gluttony?",
+      "text_past": "I am guilty of gluttony.",
+      "detail": ""
+    },
+    "57": {
+      "text": "Have I allowed myself to be controlled by anger?",
+      "text_past": "I allowed myself to be controlled by anger.",
+      "detail": ""
+    }
+  }
 }
