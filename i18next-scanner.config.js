@@ -104,6 +104,7 @@ module.exports = {
           "kbd",
           "code",
           "footer",
+          "githubicon",
         ], // Which nodes are allowed to be kept in translations during defaultValue generation of <Trans>.
 
         // https://github.com/acornjs/acorn/tree/master/acorn#interface

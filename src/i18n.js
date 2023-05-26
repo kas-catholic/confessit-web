@@ -39,6 +39,7 @@ i18n
         "kbd",
         "code",
         "footer",
+        "githubicon",
       ],
     },
     interpolation: {
