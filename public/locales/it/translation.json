@@ -42,7 +42,7 @@
     "hail_holy_queen_text": "<p>Salve, Regina, madre di misericordia,<br />vita, dolcezza e speranza nostra, salve.<br />A te ricorriamo, esuli figli di Eva; a te sospiriamo, gementi e piangenti in questa valle di lacrime.<br />Orsù dunque, avvocata nostra, rivolgi a noi gli occhi tuoi misericordiosi.<br />E mostraci, dopo questo esilio, Gesù, il frutto benedetto del tuo Seno.<br />O clemente, o pia, o dolce Vergine Maria!</p>"
   },
   "about": {
-    "about_confessit": "Riguardo ConfessaLo",
+    "about_confessit": "Riguardo ConfessIt",
     "about_confessit_text": "ConfessIt è un esame di coscienza <vatican>Cattolico Romano</vatican> per computer, tablet, e smartphone. E' pensato per la facilità d'utilizzo, per essere di aiuto nel fare mente locale dei peccati da confessare. C'è anche una guida che ti segue passo passo nel rito della confessione, per aiutarti durante il rito. Una grande risorsa se non ti sei confessato da tempo! L'esame di coscienza si basa sugli insegnamenti della chiesa cattolica, è facile da comprendere, e risulta attuale per i cattolici di oggi.",
     "about_confession": "Riguardo la Confessione",
     "about_confession_intro": "La Confessione è il sacramento con il quale i Cattolici ottengono il perdono dei peccati dalla misericordia di Dio, e vengono così riconciliati con la Chiesa, la comunità dei credenti, il Corpo di Cristo.",
@@ -61,17 +61,17 @@
     "can_i_help_with_translations": "Posso aiutare con le traduzioni?",
     "confessit_is_translated": "ConfessIt è tradotto in varie lingue. Se puoi aiutare in questo, aggiungendo una nuova traduzione o migliorando una traduzione già esistente, leggi su <github>GitHub</github> come fare per contribuire, oppure rivolgiti a noi nello spazio di lavoro <osc>Open Source Catholic</osc> su Slack.",
     "can_i_help_write_code": "Posso aiutare a scrivere codice?",
-    "we_welcome_new_contributions": "Nuovi contributi sono benvenuti. Se vuoi contribuire allo sviluppo di ConfessaLo, inizia col leggere le istruzioni su <1>GitHub</1> per i contributi.",
+    "we_welcome_new_contributions": "Nuovi contributi sono benvenuti. Se vuoi contribuire allo sviluppo di ConfessIt, inizia col leggere le istruzioni su <1>GitHub</1> per i contributi.",
     "about_the_developer": "Riguardo lo Sviluppatore",
     "mike_kasberg": "<0>Mike Kasberg</0> sviluppa ConfessLo nel suo tempo libero, per ridare qualcosa alla chiesa in cambio di tutto quello che ha ricevuto. È anche coinvolto in alcuni altri piccoli progetti per supportare le organizzazioni cattoliche con la tecnologia.",
     "information": "Le citazioni bibliche di quest'app provengono dall'edizione CEI 2008 della Bibbia. Vengono tratte informazioni anche dal Catechismo della Chiesa Cattolica."
   },
   "help": {
-    "confessit_help": "ConfessaLo Assistenza",
+    "confessit_help": "ConfessIt Assistenza",
     "basic_usage": "Utilizzo di base",
     "step_1": "Nella scheda <strong>Esamina</strong>, spunta <strong>Sì</strong> accanto ai peccati di cui vuoi fare una promemoria per la confessione.",
     "step_2": "Scorri alla prossima scheda, <strong>Peccati</strong>, per vedere la lista dei peccati che hai segnato. Puoi anche revisionare ancora la lista prima o durante la confessione.",
-    "step_3": "Se non sei sicuro di cosa dire durante la confessione, scorri alla scheda successiva, <strong>Procedura dettagliata</strong>, dove puoi visionare per sommi capi il dialogo che avviene tra sacerdote e penitente durante la confessione. Puoi anche riguardarti questa sezione durante la confessione se ti è di aiuto.",
+    "step_3": "Se non sei sicuro di cosa dire durante la confessione, scorri alla scheda successiva, <strong>Confessa</strong>, dove puoi visionare per sommi capi il dialogo che avviene tra sacerdote e penitente durante la confessione. Puoi anche riguardarti questa sezione durante la confessione se ti è di aiuto.",
     "step_4": "Una volta che ti sei confessato, puoi usare il pulsante <strong>Svuota</strong> per eliminare tutti i peccati segnati.",
     "data_persistence": "Persistenza dei dati",
     "data_persistence_text": "I dati inseriti sono memorizzati direttamente sul dispositivo (mai inviati su Internet). I dati inseriti rimangono fintanto che non premi il pulsante <strong>Svuota</strong>, e persistono anche se chiudi la finestra o aggiorni la pagina. Assicùrati pertanto di cancellare i dati quando hai finito, se non vuoi che altre persone che usano questo dispositivo vedano i tuoi dati!"
@@ -186,7 +186,7 @@
     "10": {
       "text": "Ho saltato la Messa nei giorni di precetto?",
       "text_past": "Ho saltato la Messa nei giorni di precetto.",
-      "detail": ""
+      "detail": "Il primo precetto (« Partecipa alla Messa la domenica e le altre feste comandate e rimani libero dalle occupazioni del lavoro ») esige dai fedeli che santifichino il giorno in cui si ricorda la risurrezione del Signore e le particolari festività liturgiche in onore dei misteri del Signore, della beata Vergine Maria e dei santi, in primo luogo partecipando alla celebrazione eucaristica in cui si riunisce la comunità cristiana, e che riposino da quei lavori e da quelle attività che potrebbero impedire una tale santificazione di questi giorni (CC2042). Da Cattolici, attendiamo con gioia la celebrazione Eucaristica nei giorni di precetto. E' un peccato saltare la Messa, perché in questa maniera il nostro rapporto con Dio si indebolisce."
     },
     "11": {
       "text": "Sono arrivato tardi a Messa o sono andato via prima?",
