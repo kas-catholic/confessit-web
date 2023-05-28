@@ -423,5 +423,17 @@
       "text_past": "I allowed myself to be controlled by anger.",
       "detail": ""
     }
+  },
+  "addbutton": {
+    "add-custom-sin": "Add custom sin",
+    "i-sinned-by": "I sinned by…",
+    "cancel": "Cancel",
+    "add": "Add"
+  },
+  "examineitem": {
+    "yes": "Yes"
+  },
+  "priestbubble": {
+    "priest": "Priest"
   }
 }
