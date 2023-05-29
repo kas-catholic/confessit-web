@@ -57,13 +57,13 @@
     "privacy": "Privacy",
     "information_you_enter": "Information you enter into this app is only stored on your device. It is not sent over the internet. We are able to do this using a technology provided by your web browser called <a>local storage</a>. We do not run Google Analytics or any other data collection mechanism on this site. Data you enter will be saved on your device until you hit <kbd>Clear</kbd> even if you close the window or refresh the page.",
     "open_source": "Open Source",
-    "confessit_is_open_source": "ConfessIt is open source. We develop the app on <i></i> <github>GitHub</github> and we collaborate in the <osc>Open Source Catholic</osc> community on Slack.",
+    "confessit_is_open_source": "ConfessIt is open source. We develop the app on <githubicon /> <github>GitHub</github> and we collaborate in the <osc>Open Source Catholic</osc> community on Slack.",
     "can_i_help_with_translations": "Can I help with translations?",
     "confessit_is_translated": "ConfessIt is translated into multiple languages. If you'd like to help with this effort by adding a new translation or improving an existing translation, please read about how to do so on <github>GitHub</github> or get in touch with us on <osc>Open Source Catholic</osc> Slack.",
     "can_i_help_write_code": "Can I help write code?",
-    "we_welcome_new_contributions": "We welcome new contributions. If you'd like to contribute to ConfessIt, the best way to begin is by reading about how to do so on <1>GitHub</1>.",
+    "we_welcome_new_contributions": "We welcome new contributions. If you'd like to contribute to ConfessIt, the best way to begin is by reading about how to do so on <github>GitHub</github>.",
     "about_the_developer": "About the Developer",
-    "mike_kasberg": "<0>Mike Kasberg</0> develops ConfessIt in his free time, as a way of giving back to the church. He is also involved in a few other small projects to support Catholic organizations with technology.",
+    "mike_kasberg": "<website>Mike Kasberg</website> develops ConfessIt in his free time, as a way of giving back to the church. He is also involved in a few other small projects to support Catholic organizations with technology.",
     "information": "Bible quotes in this app come from the Revised Standard Version of the Holy Bible, Second Catholic Edition. Information from the Catechism of the Catholic Church was also used."
   },
   "help": {
@@ -146,7 +146,7 @@
     "2": {
       "text": "Did I practice any religion besides Catholicism?",
       "text_past": "I practiced a religion besides Catholicism.",
-      "detail": "The first commandment forbids honoring gods other than the one Lord who has revealed himself to his people (CCC 2110).  It is wrong to practice a religion other than Catholicism because it weakens our relationship with our Lord."
+      "detail": "The first commandment forbids honoring gods other than the one Lord who has revealed himself to his people (CCC 2110). It is wrong to practice a religion other than Catholicism because it weakens our relationship with our Lord."
     },
     "3": {
       "text": "Did I presume God's mercy?",
@@ -154,12 +154,12 @@
       "detail": "Presuming God's mercy is hoping to obtain forgiveness without conversion and glory without merit (CCC 2092). It is wrong to do something immoral because you expect God to forgive you."
     },
     "4": {
-      "text": "How is my prayer life?  Do I need to pray more often?",
+      "text": "How is my prayer life? Do I need to pray more often?",
       "text_past": "I need to pray more often.",
       "detail": "Adoring God, praying to him, offering him the worship that belongs to him, fulfilling the promises and vows made to him are acts of the virtue of religionwhich fall under obedience to the first commandment (CCC 2135). Prayer is important because without prayer we cannot have a relationship with God."
     },
     "5": {
-      "text": "Our culture often conflicts with Catholic ideals.  Did I fail to stand up for Catholic moral values?",
+      "text": "Our culture often conflicts with Catholic ideals. Did I fail to stand up for Catholic moral values?",
       "text_past": "I failed to stand up for Catholic moral values.",
       "detail": ""
     },
@@ -181,12 +181,12 @@
     "9": {
       "text": "Did I skip mass on Sunday?",
       "text_past": "I skipped mass on Sunday.",
-      "detail": "The first precept of the Catholic church is \"You shall attend Mass on Sundays and holy days of obligation and rest from servile labor\" (CCC 2042).  As Catholics, we look forward to celebrating the Eucharist every Sunday. It is a sin to skip mass because it weakens our relationship with God."
+      "detail": "The first precept of the Catholic church is \"You shall attend Mass on Sundays and holy days of obligation and rest from servile labor\" (CCC 2042). As Catholics, we look forward to celebrating the Eucharist every Sunday. It is a sin to skip mass because it weakens our relationship with God."
     },
     "10": {
       "text": "Did I skip mass on a holy day of obligation?",
       "text_past": "I skipped mass on a holy day of obligation.",
-      "detail": "The first precept of the Catholic church is \"You shall attend Mass on Sundays and holy days of obligation and rest from servile labor\" (CCC 2042).  As Catholics, we look forward to celebrating the Eucharist on holy days of obligation. It is a sin to skip mass because it weakens our relationship with God."
+      "detail": "The first precept of the Catholic church is \"You shall attend Mass on Sundays and holy days of obligation and rest from servile labor\" (CCC 2042). As Catholics, we look forward to celebrating the Eucharist on holy days of obligation. It is a sin to skip mass because it weakens our relationship with God."
     },
     "11": {
       "text": "Did I arrive to mass late or leave early?",
@@ -234,7 +234,7 @@
       "detail": ""
     },
     "20": {
-      "text": "Did I have an abortion?  Did I participate in an abortion?",
+      "text": "Did I have an abortion? Did I participate in an abortion?",
       "text_past": "I had or participated in an abortion.",
       "detail": ""
     },

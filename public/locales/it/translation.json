@@ -423,5 +423,17 @@
       "text_past": "Sono stato iracondo.",
       "detail": ""
     }
+  },
+  "addbutton": {
+    "add-custom-sin": "",
+    "i-sinned-by": "",
+    "cancel": "",
+    "add": ""
+  },
+  "examineitem": {
+    "yes": ""
+  },
+  "priestbubble": {
+    "priest": ""
   }
 }

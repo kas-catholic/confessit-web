@@ -73,15 +73,29 @@
     "step_4": "Despues de la confesión, usa el boton <strong>Borrar</strong> para vaciar todos los pecados demarcados.",
     "step_2": "Desliza a la siguiente pestaña, <strong>Pecados</strong>, para ver la lista de los pecados que has marcado. Puedes revisar esta lista antes o durante la confesión si lo deseas.",
     "step_3": "Si no estas seguro de lo qué vas a decir en la confesión, pasa a la siguiente pestaña, <strong>Tutorial </strong>, para ver aproximadamente lo que tu y el sacerdote se dirán en la confesión. Puedes revisar esto durante la confesión si lo deseas.",
-    "data_persistence_text": "Los datos que vas ad ingresar se almacenan en tu dispositivo (nunca se envían a través de Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong>, incluso si cierras la ventana o actualizas la página. ¡Asegúrete de borrar tus datos cuando haya terminado si no deseas que otras personas que usan este dispositivo vean tus datos!"
+    "data_persistence_text": "Los datos que vas ad ingresar se almacenan en tu dispositivo (nunca se envían a través de Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong>, incluso si cierras la ventana o actualizas la página. ¡Asegúrete de borrar tus datos cuando haya terminado si no deseas que otras personas que usan este dispositivo vean tus datos!",
+    "step_1": "In the <1>Examination</1> tab, mark <4>Yes</4> next to all the sins you want to remember to confess."
   },
   "welcome": {
-    "title": "¡Bienvenido!"
+    "title": "¡Bienvenido!",
+    "body": "is a tool to help Roman Catholics walk through an examination of conscience prior to going to confession. We hope you'll find this useful to help remember sins you've committed since your last confession. Just check the <1>Yes</1> box next to sins in the <3>Examine</3> list, or tap the plus button to add your own. Then, scroll to the right to <5>Review</5> your sins and <7>Walkthrough</7> the steps of going to confession.<9></9><10></10>Data you enter is stored on your device (<12>never</12> sent over the Internet). Data you enter will be saved until you hit <15>Clear</15>, even if you close the window or refresh the page.<17></17><18></18>God bless you on your path to holiness!"
   },
   "commandments": {
     "1": {
       "title": "Primer Mandamiento",
       "text": "Yo soy el Señor tu Dios. No habrá para ti otros dioses delante de mí. (Éx 20,3)"
     }
+  },
+  "addbutton": {
+    "add-custom-sin": "",
+    "i-sinned-by": "",
+    "cancel": "",
+    "add": ""
+  },
+  "examineitem": {
+    "yes": ""
+  },
+  "priestbubble": {
+    "priest": ""
   }
 }
