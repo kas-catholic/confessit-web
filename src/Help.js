@@ -18,16 +18,15 @@ class HelpComponent extends React.Component {
             <ol>
               <li>
                 <Trans t={t} i18nKey="help.step_1">
-                  In the <strong>Examination</strong> tab, mark{" "}
-                  <strong>Yes</strong> next to all the sins you want to remember
-                  to confess.
+                  In the <strong>Examine</strong> tab, mark <strong>Yes</strong>
+                  next to all the sins you want to remember to confess.
                 </Trans>
               </li>
               <li>
                 <Trans t={t} i18nKey="help.step_2">
-                  Swipe to the next tab, <strong>Sins</strong>, to see a list of
-                  sins you've marked. You can review this list before or during
-                  confession if you wish.
+                  Swipe to the next tab, <strong>Review</strong>, to see a list
+                  of sins you've marked. You can review this list before or
+                  during confession if you wish.
                 </Trans>
               </li>
               <li>
@@ -40,9 +39,9 @@ class HelpComponent extends React.Component {
               </li>
               <li>
                 <Trans t={t} i18nKey="help.step_4">
-                  After you've gone to confession, use the{" "}
-                  <strong>Clear</strong> button to clear all the sins you've
-                  marked.
+                  After you've gone to confession, use the
+                  <strong>Clear</strong>
+                  button to clear all the sins you've marked.
                 </Trans>
               </li>
             </ol>
@@ -52,7 +51,7 @@ class HelpComponent extends React.Component {
             <p>
               <Trans t={t} i18nKey="help.data_persistence_text">
                 Data you enter is stored on your device (never sent over the
-                Internet). Data you enter will be saved until you hit{" "}
+                Internet). Data you enter will be saved until you hit
                 <strong>Clear</strong>, even if you close the window or refresh
                 the page. Be sure to clear your data when you're done if you
                 don't want other people who use this device to see your data!
