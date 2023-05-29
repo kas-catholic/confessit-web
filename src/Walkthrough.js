@@ -2,7 +2,7 @@ import React from "react";
 import "./Walkthrough.scss";
 import PriestBubble from "./PriestBubble";
 import UserBubble from "./UserBubble";
-import { Trans, withTranslation } from "react-i18next";
+import { withTranslation } from "react-i18next";
 
 class WalkthroughComponent extends React.Component {
   render() {
