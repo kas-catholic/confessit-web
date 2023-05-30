@@ -23,7 +23,7 @@ class WalkthroughComponent extends React.Component {
         <PriestBubble text={t("walkthrough.your_confessor_may_offer")} />
         <PriestBubble text={t("walkthrough.your_confessor_will_assign")} />
         <UserBubble>
-          <Trans i18nKey="prayers.act_of_contrition_text" />
+          <Trans t={t} i18nKey="prayers.act_of_contrition_text" />
         </UserBubble>
         <PriestBubble text={t("walkthrough.god_the_father_of_mercies")} />
         <UserBubble>{t("walkthrough.amen")}</UserBubble>
