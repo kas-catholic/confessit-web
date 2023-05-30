@@ -2,7 +2,7 @@ import React from "react";
 import "./Walkthrough.scss";
 import PriestBubble from "./PriestBubble";
 import UserBubble from "./UserBubble";
-import { withTranslation } from "react-i18next";
+import { Trans, withTranslation } from "react-i18next";
 
 class WalkthroughComponent extends React.Component {
   render() {
@@ -23,13 +23,7 @@ class WalkthroughComponent extends React.Component {
         <PriestBubble text={t("walkthrough.your_confessor_may_offer")} />
         <PriestBubble text={t("walkthrough.your_confessor_will_assign")} />
         <UserBubble>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: t("prayers.act_of_contrition_text", {
-                interpolation: { escapeValue: false },
-              }),
-            }}
-          />
+          <Trans i18nKey="prayers.act_of_contrition_text" />
         </UserBubble>
         <PriestBubble text={t("walkthrough.god_the_father_of_mercies")} />
         <UserBubble>{t("walkthrough.amen")}</UserBubble>
