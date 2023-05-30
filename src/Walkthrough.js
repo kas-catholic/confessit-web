@@ -22,7 +22,15 @@ class WalkthroughComponent extends React.Component {
         <UserBubble>{t("walkthrough.these_are_my_sins")}</UserBubble>
         <PriestBubble text={t("walkthrough.your_confessor_may_offer")} />
         <PriestBubble text={t("walkthrough.your_confessor_will_assign")} />
-        <UserBubble>{t("prayers.act_of_contrition")}</UserBubble>
+        <UserBubble>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: t("prayers.act_of_contrition_text", {
+                interpolation: { escapeValue: false },
+              }),
+            }}
+          />
+        </UserBubble>
         <PriestBubble text={t("walkthrough.god_the_father_of_mercies")} />
         <UserBubble>{t("walkthrough.amen")}</UserBubble>
         <PriestBubble text={t("walkthrough.the_lord_has_freed_you")} />
