@@ -23,7 +23,20 @@ class WalkthroughComponent extends React.Component {
         <PriestBubble text={t("walkthrough.your_confessor_may_offer")} />
         <PriestBubble text={t("walkthrough.your_confessor_will_assign")} />
         <UserBubble>
-          <Trans t={t} i18nKey="prayers.act_of_contrition_text" />
+          <Trans t={t} i18nKey="prayers.act_of_contrition_text">
+            My God,
+            <br />
+            I am sorry for my sins with all my heart.
+            <br />
+            In choosing to do wrong and failing to do good, I have sinned
+            against You, whom I should love above all things.
+            <br />
+            I firmly intend with Your help to do penance, to sin no more, and to
+            avoid whatever leads me to sin.
+            <br />
+            Jesus Christ suffered and died for us. In His name, my God, have
+            mercy.
+          </Trans>
         </UserBubble>
         <PriestBubble text={t("walkthrough.god_the_father_of_mercies")} />
         <UserBubble>{t("walkthrough.amen")}</UserBubble>
