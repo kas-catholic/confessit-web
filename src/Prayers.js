@@ -49,8 +49,8 @@ class PrayersComponent extends React.Component {
             <h2 className="anchor-pad" id="prayer-before-confession">
               {t("prayers.prayer_before_confession")}
             </h2>
-            <Trans t={t} i18nKey="prayers.prayer_before_confession_text">
-              <p>
+            <p>
+              <Trans t={t} i18nKey="prayers.prayer_before_confession_text">
                 My Lord and God, I have sinned. I am guilty before you.
                 <br />
                 Grant me the strength to say to Your minister what I say to You
@@ -65,14 +65,14 @@ class PrayersComponent extends React.Component {
                 Your Son, and cooperate in rooting sin from the world.
                 <br />
                 Amen.
-              </p>
-            </Trans>
+              </Trans>
+            </p>
 
             <h2 className="anchor-pad" id="act-of-contrition">
               {t("prayers.act_of_contrition")}
             </h2>
-            <Trans t={t} i18nKey="prayers.act_of_contrition_text">
-              <p>
+            <p>
+              <Trans t={t} i18nKey="prayers.act_of_contrition_text">
                 My God,
                 <br />
                 I am sorry for my sins with all my heart.
@@ -85,14 +85,14 @@ class PrayersComponent extends React.Component {
                 <br />
                 Jesus Christ suffered and died for us. In His name, my God, have
                 mercy.
-              </p>
-            </Trans>
+              </Trans>
+            </p>
 
             <h2 className="anchor-pad" id="another-act-of-contrition">
               {t("prayers.another_act_of_contrition")}
             </h2>
-            <Trans t={t} i18nKey="prayers.another_act_of_contrition_text">
-              <p>
+            <p>
+              <Trans t={t} i18nKey="prayers.another_act_of_contrition_text">
                 O my God,
                 <br />
                 I am heartily sorry for having offended Thee, and I detest all
@@ -106,14 +106,14 @@ class PrayersComponent extends React.Component {
                 sins, to do penance, and to amend my life.
                 <br />
                 Amen.
-              </p>
-            </Trans>
+              </Trans>
+            </p>
 
             <h2 className="anchor-pad" id="thanksgiving-after-confession">
               {t("prayers.thanksgiving_after_confession")}
             </h2>
-            <Trans t={t} i18nKey="prayers.thanksgiving_after_confession_text">
-              <p>
+            <p>
+              <Trans t={t} i18nKey="prayers.thanksgiving_after_confession_text">
                 My dearest Jesus,
                 <br />
                 I have told all my sins as well as I could. I have tried hard to
@@ -131,14 +131,14 @@ class PrayersComponent extends React.Component {
                 <br />
                 pray for me and help me to keep my promises. Protect me and do
                 not let me fall back into sin.
-              </p>
-            </Trans>
+              </Trans>
+            </p>
 
             <h2 className="anchor-pad" id="our-father">
               {t("prayers.our_father")}
             </h2>
-            <Trans t={t} i18nKey="prayers.our_father_text">
-              <p>
+            <p>
+              <Trans t={t} i18nKey="prayers.our_father_text">
                 Our Father,
                 <br />
                 Who art in heaven, hallowed be Thy name;
@@ -152,14 +152,14 @@ class PrayersComponent extends React.Component {
                 and lead us not into temptation, but deliver us from evil.
                 <br />
                 Amen.
-              </p>
-            </Trans>
+              </Trans>
+            </p>
 
             <h2 className="anchor-pad" id="hail-mary">
               {t("prayers.hail_mary")}
             </h2>
-            <Trans t={t} i18nKey="prayers.hail_mary_text">
-              <p>
+            <p>
+              <Trans t={t} i18nKey="prayers.hail_mary_text">
                 Hail Mary, full of grace.
                 <br />
                 The Lord is with thee.
@@ -172,14 +172,14 @@ class PrayersComponent extends React.Component {
                 pray for us sinners, now and at the hour of our death.
                 <br />
                 Amen.
-              </p>
-            </Trans>
+              </Trans>
+            </p>
 
             <h2 className="anchor-pad" id="hail-holy-queen">
               {t("prayers.hail_holy_queen")}
             </h2>
-            <Trans t={t} i18nKey="prayers.hail_holy_queen_text">
-              <p>
+            <p>
+              <Trans t={t} i18nKey="prayers.hail_holy_queen_text">
                 Hail, holy Queen, Mother of Mercy!
                 <br />
                 Our life, our sweetness, and our hope!
@@ -196,8 +196,8 @@ class PrayersComponent extends React.Component {
                 Christ.
                 <br />
                 Amen.
-              </p>
-            </Trans>
+              </Trans>
+            </p>
           </Col>
         </Row>
       </Container>
