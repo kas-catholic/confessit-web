@@ -56,13 +56,13 @@
     "privacy": "Privacy",
     "information_you_enter": "Le informazioni immesse nell'app sono immagazzinate soltanto sul tuo dispositivo. Non vengono trasmesse via internet. Questo è possibile grazie ad una tecnologia offerta dal browser, chiamata <a>local storage</a>. Non viene utilizzato alcun sistema di analisi dei dati, del tipo Google Analytics o qualsiasi altro sistema simile. I dati da te immessi permangono sul dispositivo anche se chiudi la finestra o aggiorni la pagina; vengono eliminati solo quando fai clic su <kbd>Svuota</kbd>.",
     "open_source": "Sorgenti Aperte",
-    "confessit_is_open_source": "ConfessIt è un progetto informatico a sorgenti aperte (\"open source\"). Sviluppiamo l'app su <i></i> <github>GitHub</github> e collaboriamo nella comunità <osc>Open Source Catholic</osc> su Slack.",
+    "confessit_is_open_source": "ConfessIt è un progetto informatico a sorgenti aperte (\"open source\"). Sviluppiamo l'app su <githubicon /> <github>GitHub</github> e collaboriamo nella comunità <osc>Open Source Catholic</osc> su Slack.",
     "can_i_help_with_translations": "Posso aiutare con le traduzioni?",
     "confessit_is_translated": "ConfessIt è tradotto in varie lingue. Se puoi aiutare in questo, aggiungendo una nuova traduzione o migliorando una traduzione già esistente, leggi su <github>GitHub</github> come fare per contribuire, oppure rivolgiti a noi nello spazio di lavoro <osc>Open Source Catholic</osc> su Slack.",
     "can_i_help_write_code": "Posso aiutare a scrivere codice?",
-    "we_welcome_new_contributions": "Nuovi contributi sono benvenuti. Se vuoi contribuire allo sviluppo di ConfessIt, inizia col leggere le istruzioni su <1>GitHub</1> per i contributi.",
+    "we_welcome_new_contributions": "Nuovi contributi sono benvenuti. Se vuoi contribuire allo sviluppo di ConfessIt, inizia col leggere le istruzioni su <github>GitHub</github> per i contributi.",
     "about_the_developer": "Riguardo lo Sviluppatore",
-    "mike_kasberg": "<0>Mike Kasberg</0> sviluppa ConfessLo nel suo tempo libero, per ridare qualcosa alla chiesa in cambio di tutto quello che ha ricevuto. È anche coinvolto in alcuni altri piccoli progetti per supportare le organizzazioni cattoliche con la tecnologia.",
+    "mike_kasberg": "<website>Mike Kasberg</website> sviluppa ConfessIt nel suo tempo libero, per ridare qualcosa alla chiesa in cambio di tutto quello che ha ricevuto. È anche coinvolto in alcuni altri piccoli progetti per supportare le organizzazioni cattoliche con la tecnologia.",
     "information": "Le citazioni bibliche di quest'app provengono dall'edizione CEI 2008 della Bibbia. Vengono tratte informazioni anche dal Catechismo della Chiesa Cattolica."
   },
   "help": {
@@ -424,15 +424,15 @@
     }
   },
   "addbutton": {
-    "add-custom-sin": "",
-    "i-sinned-by": "",
-    "cancel": "",
-    "add": ""
+    "add-custom-sin": "Aggiungi peccato personalizzato",
+    "i-sinned-by": "Ho peccato in…",
+    "cancel": "Annulla",
+    "add": "Aggiungi"
   },
   "examineitem": {
-    "yes": ""
+    "yes": "Sì"
   },
   "priestbubble": {
-    "priest": ""
+    "priest": "Sacerdote"
   }
 }
