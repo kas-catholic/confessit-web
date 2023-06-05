@@ -69,7 +69,7 @@
     "confessit_help": "ConfessIt Assistenza",
     "basic_usage": "Utilizzo di base",
     "step_1": "Nella scheda <strong>Esamina</strong>, spunta <strong>Sì</strong> accanto ai peccati di cui vuoi fare una promemoria per la confessione.",
-    "step_2": "Scorri alla prossima scheda, <strong>Peccati</strong>, per vedere la lista dei peccati che hai segnato. Puoi anche revisionare ancora la lista prima o durante la confessione.",
+    "step_2": "Scorri alla prossima scheda, <strong>Revisiona</strong>, per vedere la lista dei peccati che hai segnato. Troverai la stessa lista anche nella scheda <strong>Confessa</strong>.",
     "step_3": "Se non sei sicuro di cosa dire durante la confessione, scorri alla scheda successiva, <strong>Confessa</strong>, dove puoi visionare per sommi capi il dialogo che avviene tra sacerdote e penitente durante la confessione. Puoi anche riguardarti questa sezione durante la confessione se ti è di aiuto.",
     "step_4": "Una volta che ti sei confessato, puoi usare il pulsante <strong>Svuota</strong> per eliminare tutti i peccati segnati.",
     "data_persistence": "Persistenza dei dati",
@@ -86,7 +86,7 @@
       "description": "Io sono il Signore, tuo Dio, che ti ho fatto uscire dalla terra d'Egitto, dalla condizione servile: Non avrai altri dèi di fronte a me... Non ti prostrerai davanti a loro e non li servirai. Perché io, il Signore, tuo Dio, sono un Dio geloso... che dimostra la sua bontà fino a mille generazioni, per quelli che mi amano e osservano i miei comandamenti. (Es 20,2-6) I peccati capitali di orgoglio e ghiottoneria vanno contro questo comandamento."
     },
     "2": {
-      "title": "Secpndo Comandamento",
+      "title": "Secondo Comandamento",
       "text": "Non pronuncerai invano il nome del Signore, tuo Dio. (Es 20,7)",
       "description": "Non pronuncerai invano il nome del Signore, tuo Dio, perché il Signore non lascia impunito chi pronuncia il suo nome invano. (Es 20,7)"
     },
