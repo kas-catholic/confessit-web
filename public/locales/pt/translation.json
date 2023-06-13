@@ -1,97 +1,97 @@
 {
   "navbar": {
-    "prayers": "",
-    "help": "",
-    "about": "",
-    "clear": ""
+    "prayers": "Orações",
+    "help": "Ajuda",
+    "about": "Sobre",
+    "clear": "Limpar"
   },
   "examine_list": {
-    "examine": ""
+    "examine": "Examinar"
   },
   "sins_list": {
-    "review": ""
+    "review": "Revisar"
   },
   "walkthrough": {
-    "walkthrough": "",
-    "in_the_name_of": "",
-    "bless_me_father": "",
-    "these_are_my_sins": "",
-    "your_confessor_may_offer": "",
-    "your_confessor_will_assign": "",
-    "god_the_father_of_mercies": "",
-    "amen": "",
-    "the_lord_has_freed_you": "",
-    "thanks_be_to_god": ""
+    "walkthrough": "Passo a passo",
+    "in_the_name_of": "Em nome do Pai, e do Filho e do Espírito Santo. Amém.",
+    "bless_me_father": "Abençoe-me, pai, pois pequei. Tem sido ____ desde a minha última confissão, e estes são os meus pecados:",
+    "these_are_my_sins": "Estes são os meus pecados, e lamento por eles de todo o meu coração.",
+    "your_confessor_may_offer": "(Seu confessor pode oferecer-lhe alguns conselhos ou ter uma breve conversa com você.)",
+    "your_confessor_will_assign": "(Seu confessor lhe atribuirá penitência. Agora rezem o acto de contrição.",
+    "god_the_father_of_mercies": "Deus, o Pai das misericórdias…",
+    "amen": "Amém.",
+    "the_lord_has_freed_you": "O Senhor te libertou do pecado. Vai em paz.",
+    "thanks_be_to_god": "Graças a Deus."
   },
   "prayers": {
-    "prayers": "",
-    "prayer_before_confession": "",
-    "act_of_contrition": "",
-    "another_act_of_contrition": "",
-    "thanksgiving_after_confession": "",
-    "our_father": "",
-    "hail_mary": "",
-    "hail_holy_queen": "",
-    "prayer_before_confession_text": "",
-    "act_of_contrition_text": "",
-    "another_act_of_contrition_text": "",
-    "thanksgiving_after_confession_text": "",
-    "our_father_text": "",
-    "hail_mary_text": "",
-    "hail_holy_queen_text": ""
+    "prayers": "Orações",
+    "prayer_before_confession": "Oração antes da confissão",
+    "act_of_contrition": "Ato de Contrição",
+    "another_act_of_contrition": "Outro Ato de Contrição",
+    "thanksgiving_after_confession": "Ação de Graças após a Confissão",
+    "our_father": "Pai-Nosso",
+    "hail_mary": "Ave-Maria",
+    "hail_holy_queen": "Salve Rainha",
+    "prayer_before_confession_text": "Meu Senhor e Deus, eu pequei. Sou culpado diante de ti.<br />Dai-me forças para dizer ao Teu ministro o que Te digo no segredo do meu coração.<br />Aumente o meu arrependimento. Torná-lo mais genuíno. Que seja realmente uma tristeza por ter ofendido a Ti e ao meu próximo, em vez de um amor ferido por mim mesmo.<br />Ajuda-me a reparar meu pecado. Que os sofrimentos da minha vida e as minhas pequenas mortificações se unam aos sofrimentos de Jesus, Vosso Filho, e cooperem para erradicar o pecado do mundo.<br />Amém.",
+    "act_of_contrition_text": "Meu Deus,<br />sinto muito pelos meus pecados de todo o coração.<br />Ao escolher fazer o mal e deixar de fazer o bem, pequei contra Ti, a quem devo amar acima de todas as coisas.<br />Eu tenciono firmemente, com a Tua ajuda, fazer penitência, não pecar mais e evitar tudo o que me leva ao pecado.<br />Jesus Cristo sofreu e morreu por nós. Em Seu nome, meu Deus, tenha misericórdia.",
+    "another_act_of_contrition_text": "Ó meu Deus,<br />lamento profundamente por ter Vos ofendido, e detesto todos os meus pecados, porque temo a perda do céu e as dores do inferno;<br />mas acima de tudo porque eles Vos ofendem, meu Deus, que são todos bons e merecedores do meu amor.<br />Resolvo firmemente, com a ajuda da Tua graça, confessar os meus pecados, fazer penitência e mudar a minha vida.<br />Amém.",
+    "thanksgiving_after_confession_text": "Meu querido Jesus,<br />Contei todos os meus pecados o melhor que pude. Eu tentei arduamente fazer uma boa confissão. Tenho certeza de que Tu me perdoaste. Eu agradeço. É somente por causa de todos os Teus sofrimentos que posso me confessar e me libertar dos meus pecados. Seu coração está cheio de amor e misericórdia pelos pobres pecadores. Eu Te amo porque Tu és tão bom para mim.<br />Meu amado Salvador,<br />Eu tentarei me livrar do pecado e te amar mais a cada dia.<br />Minha querida Mãe Maria,<br /> ore por mim e ajude-me a cumprir minhas promessas. Proteja-me e não me deixe cair no pecado.",
+    "our_father_text": "Pai nosso, <br />que estais no céu, santificado seja o Vosso nome;<br /> Venha a nós o Vosso reino. Seja feita a Vossa vontade, assim na terra como no céu.<br /> O pão nosso de cada dia nos dai hoje, perdoai as nossas ofensas, <br />assim como nós perdoamos a quem nos tem ofendido;<br /> e não nos deixeis cair em tentação, mas livrai-nos do mal. <br />Amén.",
+    "hail_mary_text": "Ave Maria, cheia de graça.<br />O Senhor é convosco.<br />Bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, Jesus.<br />Santa Maria, Mãe de Deus,<br />rogai por nós pecadores, agora e na hora da nossa morte.<br />Amém.",
+    "hail_holy_queen_text": "Salve Rainha , Mãe de Misericórdia!<br />Vida, doçura nossa e esperança nossa, salve!<br />A vós bradamos, os degredados filhos de Eva. A vós suspiramos, gemendo e chorando neste vale de Lágrimas.<br />Eia, pois, advogada nossa, esses vossos olhos misericordiosos a nós volvei; E depois deste desterro mostrai-nos Jesus, bendito fruto do vosso ventre.<br />Ó clemente, ó piedosa, ó doce sempre Virgem Maria. Rogai por nós, Santa Mãe de Deus, para que sejamos dignos das promessas de Cristo.<br />Amém."
   },
   "about": {
-    "about_confessit": "",
-    "about_confessit_text": "",
-    "about_confession": "",
-    "about_confession_intro": "",
-    "ccc_quote": "",
-    "where_to_find": "",
-    "about_confession_end": "",
-    "about_this_app": "",
-    "this_app_is_designed": "",
-    "please_be_respectful": "",
-    "this_website": "",
-    "if_you_find": "",
-    "privacy": "",
-    "information_you_enter": "",
-    "open_source": "",
-    "confessit_is_open_source": "",
-    "can_i_help_with_translations": "",
-    "confessit_is_translated": "",
-    "can_i_help_write_code": "",
-    "we_welcome_new_contributions": "",
-    "about_the_developer": "",
-    "mike_kasberg": "",
-    "information": ""
+    "about_confessit": "Sobre o ConfessIt",
+    "about_confessit_text": "ConfessIt é um exame de consciência <vatican>Católico Romano</vatican> para computadores, tablets e telefones. Ele foi projetado para ser simples e fácil de usar e pode ajudá-lo a se lembrar de seus pecados quando se for confessar. Há também um passo a passo da confissão que informa exatamente o que o padre dirá e como você deve responder - um ótimo recurso se você não se confessa há algum tempo! O exame de consciência é baseado nos ensinamentos fundamentais da Igreja Católica, é fácil de entender e é relevante para os católicos modernos.",
+    "about_confession": "Sobre a Confissão",
+    "about_confession_intro": "A confissão é o santo sacramento pelo qual os católicos obtêm perdão a partir da misericórdia de Deus pelos seus pecados, e são assim reconciliados com a Igreja, a comunidade dos crentes, o Corpo de Cristo.",
+    "ccc_quote": "<p>Chama-se sacramento da conversão porque torna sacramentalmente presente o chamamento de Jesus à conversão, o primeiro passo para voltar ao Pai (cf. Mc 1,15; Lc 15,18), do qual se afastou pelo pecado. </p><p>Chama-se sacramento da Penitência, porque consagra as etapas pessoais e eclesiais de conversão, penitência e satisfação do pecador cristão.</p><p>Chama-se sacramento da confissão, porque o revelação ou confissão de pecados a um padre é um elemento essencial deste sacramento. Num sentido profundo, é também uma \\\"confissão\\\" - reconhecimento e louvor - da santidade de Deus e da sua misericórdia para com o homem pecador.</p><p>Chama-se sacramento do perdão, porque pelo sacerdote absolvição sacramental Deus concede ao penitente \\\"perdão e paz\\\" (Ordo paenitantiae 46 fórmula de absolvição).</p><p>Chama-se sacramento da Reconciliação, porque dá ao pecador o amor de Deus que reconcilia: \\\"Reconciliai-vos com Deus\\\" (2 Coríntios 5:20). Quem vive do amor misericordioso de Deus está pronto a responder ao chamamento do Senhor: \\\"Vai, reconcilia-te primeiro com o teu irmão\\\" (Mt 5,24).</p><p>A conversão a Cristo, o novo nascimento da O Batismo, o dom do Espírito Santo e o Corpo e o Sangue de Cristo recebidos como alimento nos tornaram “santos e sem mácula”, assim como a própria Igreja, a Esposa de Cristo, é “santa e sem mácula”. (Ef 1:4; 5:27). No entanto, a vida nova recebida na iniciação cristã não aboliu a fragilidade e fraqueza da natureza humana, nem a inclinação para o pecado que a tradição chama de concupiscência, que permanece nos batizados para que, com a ajuda da graça de Cristo, possam provar-se no luta da vida cristã (cf. Concílio de Trento, DS 1545; Lumen Gentium 4B8r3B4p7yhRXuBWLqsQ546WR43cqQwrbXMDFnBi6vSJBeif8tPW85a7r7DM961Jvk4hdryZoByEp8GC8HzsqJpRN4FxGM9 de nos chamar.</p><p>Jesus chama à conversão. Este chamado é parte essencial da proclamação do reino: \\\"O tempo está cumprido, e o reino de Deus está próximo; arrependei-vos e crede no evangelho\\\" (Mc 1,15). O baptismo é o lugar principal da primeira e fundamental conversão, mas depois continua a ressoar na vida dos cristãos a chamada de Cristo à conversão. Esta segunda conversão é uma tarefa ininterrupta para toda a Igreja que, \\\"apertando os pecadores em seu seio, (é) ao mesmo tempo santa e sempre necessitada de purificação, (e) segue constantemente o caminho da penitência e da renovação\\\" (Lumen Gentium 8). Este esforço de conversão não é apenas uma obra humana. É o movimento de um \\\"coração contrito\\\", atraído e movido pela graça para responder ao amor misericordioso de Deus que nos amou primeiro (Sl 51,17; Jo 6,44; 12,32; 1 Jo 4,10 ). Santo Ambrósio diz das duas conversões que, na Igreja, \\\"há água e lágrimas: a água do batismo e as lágrimas do arrependimento\\\" (epístola 41).</p><footer>— Catecismo da Igreja Católica Igreja 1423-1424,1426; cf. 1427-1429</footer>",
+    "where_to_find": "Os horários das confissões estão listados no boletim da paróquia local e você pode encontrá-los on-line no site da paróquia ou em <mass>masstimes.org</mass>. Você também pode agendar uma confissão a qualquer momento, entrando em contato a sua paróquia local.",
+    "about_confession_end": "Quando você vai para a confissão, normalmente, você terá a opção de ajoelhar-se anonimamente atrás de uma tela ou sentar-se cara a cara com o seu confessor. Não fique nervoso para ir à confissão! Seja o que for que você confesse, o seu padre já o ouviu antes. Lembre-se, ele está lá para ajudá-lo.",
+    "about_this_app": "Sobre este aplicativo",
+    "this_app_is_designed": "Este aplicativo é projetado para ajudar os Católicos Romanos a se prepararem para o Sacramento da Confissão, examinando a sua consciência. <strong>NÃO</strong> é um substituto para a confissão.",
+    "please_be_respectful": "Respeite as pessoas ao seu redor ao usar este aplicativo. Eu recomendo que você desligue o telefone quando estiver dentro da sua Igreja e use este aplicativo antes de chegar. Caso você usar este aplicativo dentro da sua igreja ou durante a confissão, certifique-se de que o seu telefone esteja no modo silencioso.",
+    "this_website": "Este site, <website>ConfessIt.app</website>, é baseado no <app>ConfessIt Android App</app> (criado em 2012 pelo mesmo desenvolvedor). Embora não seja (ainda) uma reprodução completa, o objetivo é disponibilizar o aplicativo para uma ampla gama de usuários em uma ampla gama de dispositivos. (Este site funciona em iOS, Android, tablets e computadores!)",
+    "if_you_find": "Caso achar que esta aplicação é útil, por favor considere <strong>partilhá-la</strong> com os seus amigos e familiares. Conte às pessoas sobre isso no Facebook, Reddit, Twitter, na sua Igreja ou no seu grupo de estudo da Bíblia para ajudar a espalhar a palavra!",
+    "privacy": "Privacidade",
+    "information_you_enter": "As informações inseridas neste aplicativo são armazenadas apenas no seu dispositivo. Não é enviado pela internet. Podemos fazer isso usando uma tecnologia fornecida pelo seu navegador da Web chamada <a>armazenamento local</a>. Não executamos o Google Analytics ou qualquer outro mecanismo de coleta de dados neste site. Os dados introduzidos serão guardados no seu dispositivo até clicar em <kbd>Limpar</kbd>, mesmo que feche a janela ou atualize a página.",
+    "open_source": "Código aberto",
+    "confessit_is_open_source": "ConfessIt é open source. Desenvolvemos o aplicativo no <githubicon /> <github>GitHub</github> e colaboramos na comunidade <osc>Open Source Catholic</osc> no Slack.",
+    "can_i_help_with_translations": "Posso ajudar com as traduções?",
+    "confessit_is_translated": "ConfessIt é traduzido em vários idiomas. Caso você queira ajudar com esse esforço adicionando uma nova tradução ou melhorando uma tradução existente, leia sobre como fazê-lo no <github>GitHub</github> ou entre em contato conosco na comunidade <osc>Open Source Catholic</osc> no Slack.",
+    "can_i_help_write_code": "Posso ajudar a escrever o código?",
+    "we_welcome_new_contributions": "Nós agradecemos novas contribuições. Caso você gostaria contribuir para o ConfessIt, a melhor maneira de começar é lendo sobre como fazê-lo no <github>GitHub</github>.",
+    "about_the_developer": "Sobre o programador",
+    "mike_kasberg": "<website>Mike Kasberg</website> desenvolve ConfessIt em seu tempo livre, como uma forma de retribuir à Igreja. Ele também está envolvido em alguns outros pequenos projetos para apoiar organizações Católicas com tecnologia.",
+    "information": "As citações da Bíblia neste aplicativo vêm da Versão Padrão Revisada da Bíblia Sagrada, Segunda Edição Católica. Informações do Catecismo da Igreja Católica também foram usadas."
   },
   "help": {
-    "confessit_help": "",
-    "basic_usage": "",
-    "step_1": "",
-    "step_2": "",
-    "step_3": "",
-    "step_4": "",
-    "data_persistence": "",
-    "data_persistence_text": ""
+    "confessit_help": "ConfessIt Ajuda",
+    "basic_usage": "Utilização Básica",
+    "step_1": "Na guia <strong>Examinar</strong>, marque <strong>Sim</strong> ao lado de todos os pecados que deseja relembrar para confessar.",
+    "step_2": "Deslize para a próxima aba, <strong>Revisar</strong>, para ver uma lista de pecados que você marcou. Você pode rever esta lista antes ou durante a confissão, se desejar.",
+    "step_3": "Caso você não tiver certeza do que dizer na confissão, deslize para a próxima guia, <strong>Passo a passo</strong>, para ver aproximadamente o que você e o padre dirão um ao outro na confissão. Você pode rever isso durante a confissão, se desejar.",
+    "step_4": "Depois de se confessar, use o botão <strong>Limpar</strong> para limpar todos os pecados que você marcou.",
+    "data_persistence": "Persistência de Dados",
+    "data_persistence_text": "Os dados inseridos são armazenados no seu dispositivo (nunca enviados pela Internet). Os dados introduzidos serão guardados até clicar em <strong>Limpar</strong>, mesmo que feche a janela ou atualize a página. Certifique-se de limpar os seus dados quando terminar, se não quiser que outras pessoas que usam este dispositivo vejam os seus dados!"
   },
   "welcome": {
-    "title": "",
-    "body": ""
+    "title": "Bem vindo!",
+    "body": " é uma ferramenta para ajudar os Católicos Romanos a passarem por um exame de consciência antes de se confessarem. Esperamos que você ache isso útil para ajudá-lo a se lembrar dos pecados que cometeu desde sua última confissão. Basta marcar a caixa <strong>Sim</strong> ao lado dos pecados na lista da aba <strong>Examinar</strong> ou tocar no botão <kbd>+</kbd> no canto inferior direito do aplicativo para adicionar o seu próprio . Em seguida, deslize para a direita para <strong>Revisar</strong> seus pecados e para a aba <strong>Passo a passo</strong> que há os passos para ir se confessar. <br /><br />Os dados inseridos são armazenados no seu dispositivo (<strong>nunca</strong> enviados pela Internet). Os dados inseridos estarão salvos até que você pressione <strong>Limpar</strong> nas configurações do aplicativo, mesmo que feche a janela ou atualize a página. <br /><br />Deus o abençoe em seu caminho para a santidade!"
   },
   "commandments": {
     "1": {
-      "title": "",
-      "text": "",
-      "description": ""
+      "title": "Primeiro Mandamento",
+      "text": "Não terás outros deuses diante de minha face. (Ex 20:3)",
+      "description": "Eu sou o Senhor, teu Deus, que te fez sair do Egito, da casa da servidão. Não terás outros deuses diante de minha face. Não farás para ti escultura, nem figura alguma do que está em cima, nos céus, ou embaixo, sobre a terra, ou nas águas, debaixo da terra. Não te prostrarás diante delas e não lhes prestarás culto. Eu sou o Senhor, teu Deus, um Deus zeloso que vingo a iniquidade dos pais nos filhos, nos netos e nos bisnetos daqueles que me odeiam, mas uso de misericórdia até a milésima geração com aqueles que me amam e guardam os meus mandamentos. (Ex 20:2-6) The capital sins of pride and gluttony are often considered to break this commandment."
     },
     "2": {
-      "title": "",
-      "text": "",
-      "description": ""
+      "title": "Segundo Mandamento",
+      "text": "Não pronunciarás o nome do Senhor, teu Deus, em vão. (Ex 20:7)",
+      "description": "Não pronunciarás o nome do Senhor, teu Deus, em prova de falsi­dade, porque o Senhor não dei­xa impune aquele que pronuncia o seu nome em favor do erro. (Ex 20:7)"
     },
     "3": {
-      "title": "",
+      "title": "Terceiro Mandamento",
       "text": "",
       "description": ""
     },
