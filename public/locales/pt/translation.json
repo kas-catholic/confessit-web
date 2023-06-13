@@ -92,347 +92,347 @@
     },
     "3": {
       "title": "Terceiro Mandamento",
-      "text": "",
-      "description": ""
+      "text": "Lembra-te de santificar o dia de sábado. (Ex 20:8)",
+      "description": "Lembra-te de santificar o dia de sábado. Trabalharás durante seis dias, e farás toda a tua obra. Mas no sétimo dia, que é um repouso em honra do Se­nhor, teu Deus, não farás trabalho algum, nem tu, nem teu filho, nem tua filha, nem teu servo, nem tua serva, nem teu animal, nem o estrangeiro que está dentro de teus muros. Porque em seis dias o Senhor fez o céu, a terra, o mar e tudo que neles há, e repousou no sétimo dia; e, por isso, o Senhor abençoou o dia de sábado e o consagrou. (Ex 20:8-11)"
     },
     "4": {
-      "title": "",
-      "text": "",
-      "description": ""
+      "title": "Quarto Mandamento",
+      "text": "Honra teu pai e tua mãe. (Ex 20:12)",
+      "description": "Honra teu pai e tua mãe, para que teus dias se prolonguem sobre a terra que te dá o Senhor, teu Deus. (Ex 20:12)"
     },
     "5": {
-      "title": "",
-      "text": "",
-      "description": ""
+      "title": "Quinto Mandamento",
+      "text": "Não matarás. (Ex 20:13)",
+      "description": "Não matarás. (Êx 20:13) O pecado capital da ira é muitas vezes associado a este mandamento."
     },
     "6": {
-      "title": "",
-      "text": "",
-      "description": ""
+      "title": "Sexto Mandamento",
+      "text": "Não cometerás adultério. (Ex 20:14)",
+      "description": "Não cometerás adultério. (Êx 20:14) O pecado capital da luxúria quebra este mandamento."
     },
     "7": {
-      "title": "",
-      "text": "",
-      "description": ""
+      "title": "Sétimo Mandamento",
+      "text": "Não roubarás. (Êx 20:15)",
+      "description": "Não roubarás. (Êx 20:15) Os pecados capitais da ganância e da preguiça são frequentemente considerados a quebrar esse mandamento."
     },
     "8": {
-      "title": "",
-      "text": "",
-      "description": ""
+      "title": "Oitavo Mandamento",
+      "text": "Não levantarás falso testemunho contra teu próximo. (Ex 20:16)",
+      "description": "Não dirás falso testemunho contra o teu próximo. (Êx 20:16)"
     },
     "9": {
-      "title": "",
-      "text": "",
-      "description": ""
+      "title": "Nono Mandamento",
+      "text": "Não cobiçarás a mulher do teu próximo. (Êx 20:17)",
+      "description": "Não cobiçarás a mulher do teu próximo. (Êx 20:17) O pecado capital do ciúme pode quebrar este mandamento."
     },
     "10": {
-      "title": "",
-      "text": "",
-      "description": ""
+      "title": "Décimo Mandamento",
+      "text": "Não cobiçarás os bens do teu próximo. (Êx 20:17)",
+      "description": "Não cobiçarás a casa do teu próximo, nem o seu servo, nem a sua serva, nem o seu boi, nem o seu jumento, nem coisa alguma que pertença ao teu próximo. (Êx 20:17) O pecado capital do ciúme pode quebrar este mandamento."
     },
     "11": {
-      "title": "",
-      "text": "",
-      "description": ""
+      "title": "Preceitos da Igreja",
+      "text": "Os preceitos da Igreja Católica são os requisitos mínimos que todos os católicos devem cumprir.",
+      "description": "Os preceitos da Igreja inserem-se no contexto de uma vida moral ligada e alimentada pela vida litúrgica. O caráter obrigatório dessas leis positivas decretadas pelas autoridades pastorais tem o objetivo de garantir aos fiéis o mínimo necessário no espírito de oração e esforço moral, no crescimento no amor a Deus e ao próximo (CIC 2041)."
     }
   },
   "sins": {
     "1": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Recusei-me a acreditar nos ensinamentos da Igreja Católica?",
+      "text_past": "Eu recusei a acreditar nos ensinamentos da Igreja Católica.",
+      "detail": "Obedecer na fé é submeter-se livremente à palavra ouvida, porque a sua verdade é garantida por Deus, que é a própria Verdade (CIC 144). É importante acreditar em todos os ensinamentos da Igreja."
     },
     "2": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Pratiquei alguma religião além do catolicismo?",
+      "text_past": "Pratiquei uma religião além do catolicismo.",
+      "detail": "O primeiro mandamento proíbe honrar outros deuses além do único Senhor que se revelou ao seu povo (CIC 2110). É errado praticar uma religião diferente do catolicismo porque enfraquece nosso relacionamento com nosso Senhor."
     },
     "3": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Presumi a misericórdia de Deus?",
+      "text_past": "Eu presumi a misericórdia de Deus.",
+      "detail": "Presumir a misericórdia de Deus é esperar obter perdão sem conversão e glória sem mérito (CIC 2092). É errado fazer algo imoral porque você espera que Deus o perdoe."
     },
     "4": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Como é a minha vida de oração? Eu preciso rezar com mais frequência?",
+      "text_past": "Tenho que rezar mais vezes.",
+      "detail": "Adorar a Deus, rezar a Ele, oferecer-Lhe o culto que Lhe pertence, cumprir as promessas e os votos que Lhe são feitos são atos da virtude da religião que se submetem à obediência ao primeiro mandamento (CIC 2135). A oração é importante porque sem oração não podemos ter um relacionamento com Deus."
     },
     "5": {
-      "text": "",
-      "text_past": "",
+      "text": "Nossa cultura muitas vezes entra em conflito com os ideais católicos. Será que deixei de defender os valores morais católicos?",
+      "text_past": "Falhei em defender os valores morais católicos.",
       "detail": ""
     },
     "6": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu usei linguagem suja?",
+      "text_past": "Eu usei linguagem suja.",
       "detail": ""
     },
     "7": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Eu falei nome de Deus em vão?",
+      "text_past": "Eu falei o nome de Deus em vão.",
+      "detail": "O segundo mandamento proíbe todo uso impróprio do nome de Deus. Blasfêmia é o uso do nome de Deus, de Jesus Cristo, da Virgem Maria e dos santos de maneira ofensiva (CIC 2162)."
     },
     "8": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Eu insultei Deus?",
+      "text_past": "Eu insultei Deus.",
+      "detail": "O respeito pelo Teu nome é expressão do respeito devido ao mistério do próprio Deus e a toda a realidade sagrada que ele evoca (CIC 2144)."
     },
     "9": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Faltei à Santa Missa no domingo?",
+      "text_past": "Eu faltei à Santa Missa no domingo.",
+      "detail": "O primeiro preceito da Igreja Católica é: “Assistireis à Missa aos domingos e dias santos de festa e descanso do trabalho servil” (CIC 2042). Como católicos, esperamos celebrar a Eucaristia todos os domingos. É um pecado faltar a missa porque enfraquece nosso relacionamento com Deus."
     },
     "10": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Faltei à Missa em um dia de festa?",
+      "text_past": "Faltei à missa num dia sagrado de festa.",
+      "detail": "O primeiro preceito da Igreja Católica é: “Assistireis à Missa aos domingos e dias santos de obrigação e descanso do trabalho servil” (CIC 2042). Como católicos, esperamos celebrar a Eucaristia nos dias santos de obrigação. É um pecado faltar à Missa porque enfraquece nosso relacionamento com Deus."
     },
     "11": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Cheguei atrasado à missa ou saí mais cedo?",
+      "text_past": "Cheguei à missa atrasado ou saí mais cedo.",
+      "detail": "Vir cedo à Igreja, aproximar-se do Senhor e confessar os próprios pecados, arrepender-se deles na oração [...], assistir à Santa e divina liturgia, acabar a sua oração e não sair antes da despedida [...] (CIC 2178). Muitas vezes o temos dito: este dia é-vos dado para a oração e o descanso. É o dia que o Senhor fez: nele exultemos e cantemos de alegria."
     },
     "12": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu desobedeci meus pais?",
+      "text_past": "Eu desobedeci meus pais.",
       "detail": ""
     },
     "13": {
-      "text": "",
-      "text_past": "",
+      "text": "Deixei de criar os meus filhos na fé Católica?",
+      "text_past": "Deixei de criar os meus filhos na fé Católica.",
       "detail": ""
     },
     "14": {
-      "text": "",
-      "text_past": "",
+      "text": "Deixei de cuidar dos meus parentes idosos?",
+      "text_past": "Deixei de cuidar dos meus parentes idosos.",
       "detail": ""
     },
     "15": {
-      "text": "",
-      "text_past": "",
+      "text": "Negligenciei a minha família?",
+      "text_past": "Negligenciei a minha família.",
       "detail": ""
     },
     "16": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu desobedeci algum adulto responsável?",
+      "text_past": "Desobedeci a um adulto responsável.",
       "detail": ""
     },
     "17": {
-      "text": "",
-      "text_past": "",
+      "text": "Deixei de ensinar aos meus filhos sobre a sexualidade humana deles?",
+      "text_past": "Falhei em ensinar meus filhos sobre a sexualidade humana deles.",
       "detail": ""
     },
     "18": {
-      "text": "",
-      "text_past": "",
+      "text": "Quebrei uma lei justa?",
+      "text_past": "Quebrei uma lei justa.",
       "detail": ""
     },
     "19": {
-      "text": "",
-      "text_past": "",
+      "text": "Machuquei alguém fisicamente?",
+      "text_past": "Eu machuquei alguém fisicamente.",
       "detail": ""
     },
     "20": {
-      "text": "",
-      "text_past": "",
+      "text": "Fiz um aborto? Participei de um aborto?",
+      "text_past": "Eu fiz ou participei de um aborto.",
       "detail": ""
     },
     "21": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Eu usei anticoncepcionais artificiais?",
+      "text_past": "Usei anticoncepcionais artificiais.",
+      "detail": "\"Qualquer acção que, quer em previsão do acto conjugal, quer durante a sua realização, quer no desenrolar das suas consequências naturais, se proponha, como fim ou como meio, tornar impossível a procriação é intrinsecamente má\" (CIC 2370). \"A regulação dos nascimentos representa um dos aspectos da paternidade e da maternidade responsáveis. A legitimidade das intenções dos esposos não justifica o recurso a meios moralmente inadmissíveis\" (por exemplo, a esterilização directa ou a contracepção). Contracepção Artificial é errado porque torna um belo Ato de Amor em algo egoísta."
     },
     "22": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu tentei suicídio?",
+      "text_past": "Eu tentei suicídio.",
       "detail": ""
     },
     "23": {
-      "text": "",
-      "text_past": "",
+      "text": "Participei da eutanásia?",
+      "text_past": "Participei da eutanásia.",
       "detail": ""
     },
     "24": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu abusei de drogas ou álcool?",
+      "text_past": "Eu abusei de drogas ou álcool.",
       "detail": ""
     },
     "25": {
-      "text": "",
-      "text_past": "",
+      "text": "Fiz sexo fora do casamento?",
+      "text_past": "Fiz sexo fora do casamento.",
       "detail": ""
     },
     "26": {
-      "text": "",
-      "text_past": "",
+      "text": "Sou culpado do pecado da luxúria?",
+      "text_past": "Eu sou culpado do pecado da luxúria.",
       "detail": ""
     },
     "27": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu assisti pornografia?",
+      "text_past": "Eu assisti pornografia.",
       "detail": ""
     },
     "28": {
-      "text": "",
-      "text_past": "",
+      "text": "Agi de acordo com os desejos homossexuais?",
+      "text_past": "Agi de acordo com os desejos homossexuais.",
       "detail": ""
     },
     "29": {
-      "text": "",
-      "text_past": "",
+      "text": "Deixei de honrar o meu marido ou a minha esposa?",
+      "text_past": "Deixei de honrar o meu marido ou a minha esposa.",
       "detail": ""
     },
     "30": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu li literatura erótica?",
+      "text_past": "Eu li literatura erótica.",
       "detail": ""
     },
     "31": {
-      "text": "",
-      "text_past": "",
+      "text": "Envolvi-me em atos sexualmente imorais?",
+      "text_past": "Envolvi-me em atos sexualmente imorais.",
       "detail": ""
     },
     "32": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu cedi a beijos excessivamente apaixonados por prazer?",
+      "text_past": "Eu cedi a beijos excessivamente apaixonados por prazer.",
       "detail": ""
     },
     "33": {
-      "text": "",
-      "text_past": "",
+      "text": "Roubei alguma coisa? Em caso afirmativo, em que medida?",
+      "text_past": "Eu roubei alguma coisa. (Até certo ponto.)",
       "detail": ""
     },
     "34": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu pirateei filmes, música ou software?",
+      "text_past": "Eu pirateei filmes, música ou software.",
       "detail": ""
     },
     "35": {
-      "text": "",
-      "text_past": "",
+      "text": "Menti ou enganei?",
+      "text_past": "Eu menti ou enganei.",
       "detail": ""
     },
     "36": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu fofoquei sobre os outros?",
+      "text_past": "Eu fofoquei sobre os outros.",
       "detail": ""
     },
     "37": {
-      "text": "",
-      "text_past": "",
+      "text": "Deixei de jejuar na Quarta-feira de Cinzas e na Sexta-feira Santa?",
+      "text_past": "Não consegui jejuar na Quarta-feira de Cinzas ou na Sexta-feira Santa.",
       "detail": ""
     },
     "38": {
-      "text": "",
-      "text_past": "",
+      "text": "Deixei de me abster de carne nas sextas-feiras da Quaresma e da Quarta-feira de Cinzas?",
+      "text_past": "Eu não me abstive de carne numa sexta-feira durante a Quaresma ou na quarta-feira de Cinzas.",
       "detail": ""
     },
     "39": {
-      "text": "",
-      "text_past": "",
+      "text": "Deixei de receber a Eucaristia pelo menos uma vez durante a Páscoa?",
+      "text_past": "Eu não recebi a Eucaristia pelo menos uma vez durante a Páscoa.",
       "detail": ""
     },
     "40": {
-      "text": "",
-      "text_past": "",
+      "text": "Deixei de jejuar por uma hora antes de receber a Eucaristia?",
+      "text_past": "Eu deixei de jejuar por uma hora antes de receber a Eucaristia.",
       "detail": ""
     },
     "41": {
-      "text": "",
-      "text_past": "",
+      "text": "Recebi a Eucaristia em estado de pecado mortal?",
+      "text_past": "Eu recebi a Eucaristia em estado de pecado mortal.",
       "detail": ""
     },
     "42": {
-      "text": "",
-      "text_past": "",
+      "text": "Escondi algo intencionalmente na confissão?",
+      "text_past": "Eu intencionalmente escondi algo na confissão.",
       "detail": ""
     },
     "43": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu fiquei muito ocupado para descansar e passar tempo com a minha família no domingo?",
+      "text_past": "Eu fiquei muito ocupado para descansar e passar um tempo com a minha família no domingo.",
       "detail": ""
     },
     "44": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu fiquei com ciúmes da esposa/marido ou noiva/noivo de outra pessoa?",
+      "text_past": "Eu fiquei com ciúmes da esposa/marido ou noiva/noivo de outra pessoa.",
       "detail": ""
     },
     "45": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu fiquei com ciúmes de algo que pertence a outra pessoa?",
+      "text_past": "Eu fiquei com ciúmes de algo que pertence a outra pessoa.",
       "detail": ""
     },
     "46": {
-      "text": "",
-      "text_past": "",
+      "text": "Votei num candidato ou numa política que não defende os meus valores Católicos?",
+      "text_past": "Votei num candidato ou numa política que não defende os meus valores Católicos.",
       "detail": ""
     },
     "47": {
-      "text": "",
-      "text_past": "",
+      "text": "Eu ouvi música ou assisti TV ou um filme que tinha uma má influência sobre mim?",
+      "text_past": "Eu ouvi música ou assisti TV ou um filme que teve uma má influência sobre mim.",
       "detail": ""
     },
     "48": {
-      "text": "",
-      "text_past": "",
+      "text": "Fui ganancioso ou falhei em dar generosamente à minha Igreja e aos pobres?",
+      "text_past": "Fui ganancioso ou deixei de doar generosamente para minha Igreja ou para os pobres.",
       "detail": ""
     },
     "49": {
-      "text": "",
-      "text_past": "",
+      "text": "Conscientemente levei outros a pecar?",
+      "text_past": "Eu conscientemente levei outros ao pecado.",
       "detail": ""
     },
     "50": {
-      "text": "",
-      "text_past": "",
+      "text": "Falhei em fazer de Deus uma prioridade em minha vida?",
+      "text_past": "Eu falhei em fazer de Deus uma prioridade em minha vida.",
       "detail": ""
     },
     "51": {
-      "text": "",
-      "text_past": "",
+      "text": "Agi de forma egoísta?",
+      "text_past": "Eu agi de forma egoísta.",
       "detail": ""
     },
     "52": {
-      "text": "",
-      "text_past": "",
+      "text": "Participei de práticas ocultas?",
+      "text_past": "Eu participei de práticas ocultas.",
       "detail": ""
     },
     "53": {
-      "text": "",
-      "text_past": "",
+      "text": "Fui preguiçoso no trabalho ou em casa?",
+      "text_past": "Fui preguiçoso no trabalho ou em casa.",
       "detail": ""
     },
     "54": {
-      "text": "",
-      "text_past": "",
+      "text": "Tenho sido preguiçoso com meus trabalhos escolares?",
+      "text_past": "Eu tenho sido preguiçoso com meus trabalhos escolares.",
       "detail": ""
     },
     "55": {
-      "text": "",
-      "text_past": "",
+      "text": "Fui orgulhoso ou vaidoso?",
+      "text_past": "Eu era orgulhoso ou vaidoso.",
       "detail": ""
     },
     "56": {
-      "text": "",
-      "text_past": "",
+      "text": "Cometi o pecado da gula?",
+      "text_past": "Eu sou culpado de gula.",
       "detail": ""
     },
     "57": {
-      "text": "",
-      "text_past": "",
+      "text": "Permiti ser controlado pela raiva?",
+      "text_past": "Eu me permiti ser controlado pela raiva.",
       "detail": ""
     }
   },
   "addbutton": {
-    "add-custom-sin": "",
-    "i-sinned-by": "",
-    "cancel": "",
-    "add": ""
+    "add-custom-sin": "Adicionar pecado personalizado",
+    "i-sinned-by": "Eu pequei por…",
+    "cancel": "Cancelar",
+    "add": "Adicionar"
   },
   "examineitem": {
-    "yes": ""
+    "yes": "Sim"
   },
   "priestbubble": {
-    "priest": ""
+    "priest": "Padre"
   }
 }
