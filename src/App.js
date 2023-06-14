@@ -154,9 +154,7 @@ class AppComponent extends React.Component {
                   value={i18n.resolvedLanguage}
                   onChange={(e) => {
                     e.persist();
-
-                    console.log(e.target.value);
-
+                    
                     i18n.changeLanguage(e.target.value);
                   }}
                   className="me-4"
