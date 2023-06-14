@@ -154,6 +154,9 @@ class AppComponent extends React.Component {
                   value={i18n.resolvedLanguage}
                   onChange={(e) => {
                     e.persist();
+
+                    console.log(e.target.value);
+
                     i18n.changeLanguage(e.target.value);
                   }}
                   className="me-4"
@@ -162,6 +165,7 @@ class AppComponent extends React.Component {
                   <option value="de">🇩🇪 Deutsch</option>
                   <option value="es">🇪🇸 Español</option>
                   <option value="it">🇮🇹 Italiano</option>
+                  <option value="ptBR">🇧🇷 Português</option>
                 </select>
                 <Nav.Link onClick={this.clearAll}>
                   <i className="fa fa-trash-o"></i> {t("navbar.clear")}
