@@ -17,7 +17,7 @@ module.exports = {
     attr: false,
     func: false,
     trans: false,
-    lngs: ["en", "es", "de", "it", "ptBR"],
+    lngs: ["en", "es", "de", "it", "pt_BR"],
     ns: ["translation"],
     defaultLng: "en",
     defaultNs: "translation",
@@ -41,7 +41,7 @@ module.exports = {
     allowDynamicKeys: false,
   },
   transform: function customTransform(file, enc, done) {
-    "use strict";
+    
     const parser = this.parser;
     const transParser = new Parser({
       defaultValue: (lng, ns, key) => {
@@ -51,7 +51,7 @@ module.exports = {
           return "";
         }
       },
-      lngs: ["en", "es", "de", "it", "ptBR"],
+      lngs: ["en", "es", "de", "it", "pt_BR"],
       resource: {
         loadPath: "public/locales/{{lng}}/{{ns}}.json",
         savePath: "public/locales/{{lng}}/{{ns}}.json",
