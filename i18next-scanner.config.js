@@ -41,7 +41,8 @@ module.exports = {
     allowDynamicKeys: false,
   },
   transform: function customTransform(file, enc, done) {
-    
+    "use strict";
+
     const parser = this.parser;
     const transParser = new Parser({
       defaultValue: (lng, ns, key) => {
