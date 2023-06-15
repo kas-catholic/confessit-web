@@ -163,7 +163,7 @@ class AppComponent extends React.Component {
                   <option value="de">🇩🇪 Deutsch</option>
                   <option value="es">🇪🇸 Español</option>
                   <option value="it">🇮🇹 Italiano</option>
-                  <option value="pt_BR">🇧🇷 Português</option>
+                  <option value="pt">🇧🇷 Português</option>
                 </select>
                 <Nav.Link onClick={this.clearAll}>
                   <i className="fa fa-trash-o"></i> {t("navbar.clear")}
