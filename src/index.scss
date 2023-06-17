@@ -11,11 +11,14 @@ $mobile-breakpoint: 376px;
 // Import Swiper
 @import "swiper/css";
 
-* {
-  font-family: "EB Garamond", serif;
+@font-face {
+  font-family: NotoColorEmojiLimited;
+  unicode-range: U+1F1E6-1F1FF;
+  src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
 }
 
 body {
+  font-family: "NotoColorEmojiLimited", "EB Garamond", serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
