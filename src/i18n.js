@@ -18,7 +18,7 @@ i18n
   .init({
     // debug: true,
     fallbackLng: "en",
-    supportedLngs: ["en", "de", "es", "it", "pt"],
+    supportedLngs: ["en", "de", "es", "it", "pt-BR"],
     // allow an empty value to count as invalid
     // https://www.i18next.com/principles/fallback#missing-values-for-existing-keys
     returnEmptyString: false,
