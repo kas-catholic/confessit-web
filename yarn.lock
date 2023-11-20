@@ -4651,11 +4651,10 @@ __metadata:
     react-bootstrap: ^2.5.0
     react-dom: ^16.14.0
     react-i18next: ^11.14.2
-    react-id-swiper: ^4.0.0
     react-router-dom: ^5.1.2
     react-scripts: 5.0.1
     sass: ^1.43.4
-    swiper: ^8.0.0
+    swiper: ^11.0.0
   languageName: unknown
   linkType: soft
 
@@ -5401,15 +5400,6 @@ __metadata:
     domhandler: ^5.0.2
     entities: ^4.2.0
   checksum: bf20b38ea932142d73a95840b8de87ca021132d65d0d7f1df2616ec91d6ba3db3ba14ebb5ffc9967cd6af42a7b54a7c70cf9459739871c12eff7452f77c905d4
-  languageName: node
-  linkType: hard
-
-"dom7@npm:^4.0.4":
-  version: 4.0.6
-  resolution: "dom7@npm:4.0.6"
-  dependencies:
-    ssr-window: ^4.0.0
-  checksum: d58dd54feec147c9993f8defe37acb6caefc397a430db360d50e9b88bea4072e795fa3cbdbf54a5ba95bfe66c841967125f9c88ba72d928cd1b69b7d11b60548
   languageName: node
   linkType: hard
 
@@ -11363,19 +11353,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-id-swiper@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "react-id-swiper@npm:4.0.0"
-  dependencies:
-    object-assign: ^4.1.1
-  peerDependencies:
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-    swiper: ">=5.0.0"
-  checksum: e2ecd37e12a18b09029d543818aae0e4306567094fcde72033ba2c40abb505eed17240dd01903ce627b82ef79175f876064f7699c773b097b6314dcaebff43b0
-  languageName: node
-  linkType: hard
-
 "react-is@npm:^16.13.1, react-is@npm:^16.3.2, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.6":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -12573,13 +12550,6 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"ssr-window@npm:^4.0.0, ssr-window@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "ssr-window@npm:4.0.2"
-  checksum: 53fc0ec81d5792ad34cfaaaa4bb2a5fa071a8198ed3da7d415101e181e351d1f7a56c36134706855e03b749968a7761467535d3a01493b13f7d4595380d091f9
-  languageName: node
-  linkType: hard
-
 "ssri@npm:^9.0.0":
   version: 9.0.1
   resolution: "ssri@npm:9.0.1"
@@ -12939,13 +12909,10 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"swiper@npm:^8.0.0":
-  version: 8.4.7
-  resolution: "swiper@npm:8.4.7"
-  dependencies:
-    dom7: ^4.0.4
-    ssr-window: ^4.0.2
-  checksum: a3760a1150cfd6e0aedb59f62fe771d6f34bc72aad7d786c611b48f6f8ba426d6434e3703f4c3f6a5435225b0a0e21a0e791a96ba8d17cffbb66948f2b5ad038
+"swiper@npm:^11.0.0":
+  version: 11.0.4
+  resolution: "swiper@npm:11.0.4"
+  checksum: 0c31feb37f00ade28db778f1dd0c496f4879b1b465ad078a9103a79cc82a7288993850622cb25eeeab31a99f61da42dd569e1e68358664e2970bf9349170a86d
   languageName: node
   linkType: hard
 
