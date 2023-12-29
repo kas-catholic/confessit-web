@@ -7,7 +7,6 @@ import sinsdb from "./data/sinsdb";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Swiper from "react-id-swiper";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -19,18 +18,13 @@ import { withTranslation } from "react-i18next";
 import LoadingComponent from "./LoadingComponent";
 import WelcomeModal from "./WelcomeModal";
 
-class AppComponent extends React.Component {
-  swiperParams = {
-    slidesPerView: 1,
-    spaceBetween: 5,
-    breakpoints: {
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 10,
-      },
-    },
-  };
+// Swiper stuff
+import { Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
 
+class AppComponent extends React.Component {
   constructor(props) {
     super(props);
 
@@ -176,26 +170,34 @@ class AppComponent extends React.Component {
               <Container fluid={true} className="column-container">
                 <Row className="h-100">
                   <Col xs="12" className="h-100">
-                    <Swiper {...this.swiperParams}>
-                      <div className="col-scroll overflow-auto">
-                        <ExamineList
-                          sinsdb={sinsdb}
-                          selectedSinIds={this.state.selectedSinIds}
-                          onAddSinId={this.addSinId}
-                          onRemoveSinItem={this.removeSinItem}
-                          customSins={this.state.customSins}
-                          onRemoveCustomSin={this.removeCustomSin}
-                        />
-                      </div>
-                      <div className="col-scroll overflow-auto">
+                    <Swiper
+                      modules={[Pagination]}
+                      slidesPerView={1}
+                      spaceBetween={5}
+                      breakpoints={{ 1024: { slidesPerView: 3 } }}
+                      pagination={{ clickable: true }}
+                    >
+                      <SwiperSlide>
+                        <div className="col-scroll overflow-auto">
+                          <ExamineList
+                            sinsdb={sinsdb}
+                            selectedSinIds={this.state.selectedSinIds}
+                            onAddSinId={this.addSinId}
+                            onRemoveSinItem={this.removeSinItem}
+                            customSins={this.state.customSins}
+                            onRemoveCustomSin={this.removeCustomSin}
+                          />
+                        </div>
+                      </SwiperSlide>
+                      <SwiperSlide className="col-scroll overflow-auto">
                         <SinsList
                           sinsList={sinsList}
                           onRemoveSinItem={this.removeSinItem}
                         />
-                      </div>
-                      <div className="col-scroll overflow-auto">
+                      </SwiperSlide>
+                      <SwiperSlide className="col-scroll overflow-auto">
                         <Walkthrough sinsList={sinsList} />
-                      </div>
+                      </SwiperSlide>
                     </Swiper>
                   </Col>
                 </Row>
