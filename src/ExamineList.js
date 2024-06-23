@@ -1,7 +1,7 @@
-import React from 'react';
-import CommandmentGroup from './CommandmentGroup';
-import ExamineItem from './ExamineItem';
-import { withTranslation } from 'react-i18next';
+import React from "react";
+import CommandmentGroup from "./CommandmentGroup";
+import ExamineItem from "./ExamineItem";
+import { withTranslation } from "react-i18next";
 
 class ExamineListComponent extends React.Component {
   render() {
@@ -25,22 +25,29 @@ class ExamineListComponent extends React.Component {
 
       return obj;
     }, {});
-      
-    let elements = sinsdb.commandments.map( c => {
+
+    let elements = sinsdb.commandments.map((c) => {
       let title = t(`commandments.${c.commandment_id}.title`);
       let text = t(`commandments.${c.commandment_id}.text`);
 
-      return <CommandmentGroup title={title} text={text} cmdId={c.commandment_id} key={c.commandment_id}>
-        <div>
-          {sins[c.commandment_id]}
-        </div>
-      </CommandmentGroup>
+      return (
+        <CommandmentGroup
+          title={title}
+          text={text}
+          cmdId={c.commandment_id}
+          key={c.commandment_id}
+        >
+          <div>{sins[c.commandment_id]}</div>
+        </CommandmentGroup>
+      );
     });
 
-    return <div>
-      <h2>{t('examine_list.examine')}</h2>
-      {elements}
-    </div>;
+    return (
+      <div>
+        <h2 className="mt-5">{t("examine_list.examine")}</h2>
+        {elements}
+      </div>
+    );
   }
 }
 

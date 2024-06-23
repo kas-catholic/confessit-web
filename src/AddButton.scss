@@ -1,7 +1,9 @@
+@import "./index.scss";
+
 .fab {
   width: 3.6rem;
   height: 3.6rem;
-  background-color: #aa0000;
+  background-color: $primary;
   border-radius: 50%;
   box-shadow: 0 6px 10px 0 #666;
   transition: all 0.1s ease-in-out;
@@ -19,7 +21,7 @@
   cursor: pointer;
 
   z-index: 100;
- }
+}
 
 .fab:hover {
   box-shadow: 0 6px 14px 0 #666;

@@ -1,12 +1,15 @@
+@import "./index.scss";
+
 .App {
   text-align: center;
 }
 .full-screen-app {
   height: 100vh;
+  overflow-y: hidden;
 }
 
 .btn {
-  font-family: "Open Sans", sans-serif;
+  font-family: "NotoColorEmojiLimited", "Open Sans", sans-serif;
 }
 
 .navbar-brand {
@@ -31,12 +34,12 @@
   }
 }
 
-/* Make the container fill the window vertically, less the navbar. */
+/* Make the container fill the window vertically, less the navbar.
+ * This is required to make each column scroll independently. */
 .navbar {
   height: 4rem;
-  font-family: "Open Sans", sans-serif;
 }
-.container, .container-fluid {
+.column-container {
   height: calc(100% - 4rem);
 }
 
@@ -50,4 +53,9 @@
 .col-scroll {
   height: 100%;
   overflow-y: scroll;
+  padding: 0 0 1rem;
+
+  @media only screen and (min-width: $mobile-breakpoint) {
+    padding: 0 1rem 3rem;
+  }
 }

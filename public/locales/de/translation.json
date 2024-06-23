@@ -1,0 +1,438 @@
+{
+  "navbar": {
+    "prayers": "Gebete",
+    "help": "Hilfe",
+    "about": "Über",
+    "clear": "Zurücksetzen"
+  },
+  "examine_list": {
+    "examine": "Untersuchen"
+  },
+  "sins_list": {
+    "review": "Überprufen"
+  },
+  "walkthrough": {
+    "walkthrough": "Durchgang",
+    "in_the_name_of": "Im Namen des Vaters und des Sohnes und des Heiligen Geistes. Amen.",
+    "bless_me_father": "Segne mich Vater, denn ich habe gesündigt. Es ist ____ seit meiner letzten Beichte gewesen, und das sind meine Sünden:",
+    "these_are_my_sins": "Das sind meine Sünden, und ich bereue sie von ganzem Herzen.",
+    "your_confessor_may_offer": "(Ihr Beichtvater kann Ihnen einen Rat geben oder ein kurzes Gespräch mit Ihnen führen.)",
+    "your_confessor_will_assign": "(Dein Beichtvater wird Ihnen eine Buße auferlegen.) Beten Sie nun den Akt der Reue.",
+    "god_the_father_of_mercies": "Gott, der Vater der Barmherzigkeit…",
+    "amen": "Amen.",
+    "the_lord_has_freed_you": "Der Herr hat Sie von der Sünde befreit. Gehen Sie in Frieden.",
+    "thanks_be_to_god": "Dank sei Gott dem Herrn."
+  },
+  "prayers": {
+    "prayers": "Gebete",
+    "prayer_before_confession": "Gebet vor der Beichte",
+    "act_of_contrition": "Akt der Reue",
+    "another_act_of_contrition": "Ein weiterer Akt der Reue",
+    "thanksgiving_after_confession": "Danksagung nach der Beichte",
+    "our_father": "Vater unser",
+    "hail_mary": "Ave Maria",
+    "hail_holy_queen": "Gegrüßt sei die Heilige Königin",
+    "prayer_before_confession_text": "Mein Herr und Gott, ich habe gesündigt. Ich bin schuldig vor dir.<br />Gib mir die Kraft, deinem Minister zu sagen, was ich dir im Geheimen meines Herzens sage.<br />Vermehre meine Reue. Mache sie echter. Möge es wirklich ein Bedauern darüber sein, Dich und meinen Nächsten beleidigt zu haben, und nicht eine verletzte Selbstliebe.<br />Hilf mir, für meine Sünde zu büßen. Mögen die Leiden meines Lebens und meine kleinen Abtötungen mit den Leiden Jesu, Deines Sohnes, verbunden sein und dazu beitragen, die Sünde aus der Welt zu verbannen.<br />Amen.",
+    "act_of_contrition_text": "Mein Gott,<br />ich bereue meine Sünden von ganzem Herzen.<br />Indem ich mich entschlossen habe, Unrecht zu tun und Gutes zu unterlassen, habe ich gegen Dich gesündigt, den ich über alles lieben sollte.<br />Ich nehme mir fest vor, mit Deiner Hilfe Buße zu tun, nicht mehr zu sündigen und alles zu meiden, was mich zur Sünde verleitet.<br />Jesus Christus hat gelitten und ist für uns gestorben. In seinem Namen, mein Gott, sei mir gnädig.",
+    "another_act_of_contrition_text": "Oh mein Gott,<br />es tut mir von Herzen leid, dass ich Dich beleidigt habe, und ich verabscheue alle meine Sünden, weil ich den Verlust des Himmels und die Schmerzen der Hölle fürchte,<br />aber vor allem, weil sie Dich, meinen Gott, beleidigen, der so gut ist und meine Liebe verdient.<br />Ich nehme mir fest vor, mit Hilfe Deiner Gnade meine Sünden zu bekennen, Buße zu tun und mein Leben zu ändern.<br />Amen.",
+    "thanksgiving_after_confession_text": "Mein liebster Jesus,<br />ich habe alle meine Sünden so gut ich konnte erzählt. Ich habe mich bemüht, eine gute Beichte abzulegen. Ich bin sicher, dass Du mir verziehen hast. Ich danke Dir. Nur wegen all Deiner Leiden kann ich zur Beichte gehen und mich von meinen Sünden befreien. Dein Herz ist voll von Liebe und Barmherzigkeit für die armen Sünder. Ich liebe Dich, weil Du so gut zu mir bist.<br />Mein liebender Heiland,<br />ich werde versuchen, mich von der Sünde fernzuhalten und Dich jeden Tag mehr zu lieben.<br />Meine liebe Mutter Maria,<br />bitte für mich und hilf mir, meine Versprechen zu halten. Beschütze mich und lass mich nicht in die Sünde zurückfallen.",
+    "our_father_text": "Vater unser,<br />der Du bist im Himmel, geheiligt werde Dein Name,<br />dein Reich komme, Dein Wille geschehe, wie im Himmel so auf Erden.<br />Gib uns heute unser tägliches Brot, und vergib uns unsere Schuld,<br />wie auch wir vergeben unseren Schuldigern,<br />und führe uns nicht in Versuchung, sondern erlöse uns von dem Bösen.<br />Amen.",
+    "hail_mary_text": "Gegrüßt seist du Maria, voll der Gnade.<br />Der Herr ist mit dir.<br />Gesegnet bist du unter den Frauen, und gesegnet ist die Frucht deines Leibes, Jesus.<br />Heilige Maria, Mutter Gottes,<br />bete für uns Sünder, jetzt und in der Stunde unseres Todes.<br />Amen.",
+    "hail_holy_queen_text": "Gegrüßt seist du, heilige Königin, Mutter der Barmherzigkeit<br />Unser Leben, unsere Süße und unsere Hoffnung<br />Zu dir schreien wir, arme verbannte Kinder Evas. Zu dir senden wir unsere Seufzer, einsam und weinend in diesem Tal der Tränen.<br />Wende nun, gnädigste Fürsprecherin, deine Augen der Barmherzigkeit zu uns, und zeige uns nach diesem Exil die gesegnete Frucht deines Leibes, Jesus.<br />O milde, o liebende, o süße Jungfrau Maria. Bete für uns, heilige Mutter Gottes, dass wir der Verheißungen Christi würdig werden.<br />Amen."
+  },
+  "about": {
+    "about_confessit": "Über ConfessIt",
+    "about_confessit_text": "ConfessIt ist eine <vatican>römisch-katholische</vatican> Gewissenserforschung für Computer, Tablets und Telefone. Es ist einfach und leicht zu bedienen und kann dir helfen, dich an deine Sünden zu erinnern, wenn du zur Beichte gehst. Es gibt auch eine Anleitung zur Beichte, die Ihnen genau sagt, was der Priester sagen wird und wie Sie darauf reagieren sollten - ein großartiges Hilfsmittel, wenn Sie schon lange nicht mehr zur Beichte gegangen sind! Die Gewissenserforschung basiert auf den grundlegenden Lehren der katholischen Kirche, ist leicht zu verstehen und für moderne Katholiken relevant.",
+    "about_confession": "Über die Beichte",
+    "about_confession_intro": "Die Beichte ist das heilige Sakrament, durch das die Katholiken aus Gottes Barmherzigkeit Vergebung für ihre Sünden erlangen und so mit der Kirche, der Gemeinschaft der Gläubigen, dem Leib Christi, versöhnt werden.",
+    "ccc_quote": "<p>Es wird Sakrament der Bekehrung genannt, weil es den Aufruf Jesu zur Umkehr sakramental vergegenwärtigt, den ersten Schritt zur Rückkehr zum Vater (vgl. Mk 1,15; Lk 15,18), von dem man sich durch Sünde entfernt hat.</p><p>Es wird das Sakrament der Buße genannt, da es die persönlichen und kirchlichen Schritte des christlichen Sünders zur Umkehr, Buße und Genugtuung weiht.</p><p>Es wird das Sakrament der Beichte genannt, da die Offenbarung oder das Bekenntnis der Sünden gegenüber einem Priester ein wesentliches Element dieses Sakraments ist. In einem tiefen Sinn ist es auch ein \"Bekenntnis\" - Anerkennung und Lobpreisung - der Heiligkeit Gottes und seiner Barmherzigkeit gegenüber dem sündigen Menschen.</p><p>Es wird Sakrament der Vergebung genannt, denn durch die sakramentale Absolution des Priesters gewährt Gott dem Pönitenten \"Vergebung und Frieden\" (Ordo paenitantiae 46 Absolutionsformel).</p><p>Es wird Sakrament der Versöhnung genannt, denn es vermittelt dem Sünder die Liebe Gottes, der versöhnt: \"Seid versöhnt mit Gott\" (2 Kor 5,20). Wer aus der barmherzigen Liebe Gottes lebt, ist bereit, dem Ruf des Herrn zu folgen: \"Geh hin und versöhne dich mit deinem Bruder\" (Mt 5,24).</p><p>Die Bekehrung zu Christus, die neue Geburt in der Taufe, die Gabe des Heiligen Geistes und der als Speise empfangene Leib und das Blut Christi haben uns \"heilig und unbefleckt\" gemacht, so wie auch die Kirche selbst, die Braut Christi, \"heilig und unbefleckt\" ist (Eph 1,4; 5,27). Dennoch hat das in der christlichen Initiation empfangene neue Leben weder die Zerbrechlichkeit und Schwäche der menschlichen Natur noch die Neigung zur Sünde, die die Tradition als Konkupiszenz bezeichnet, beseitigt, die in den Getauften verbleibt, damit sie sich mit Hilfe der Gnade Christi im Kampf des christlichen Lebens bewähren können (vgl. Konzil von Trient, DS 1545; Lumen Gentium 40). Dies ist der Kampf der Bekehrung, der auf die Heiligkeit und das ewige Leben ausgerichtet ist, zu dem uns der Herr immer wieder aufruft.</p><p>Jesus ruft zur Bekehrung. Dieser Ruf ist ein wesentlicher Teil der Verkündigung des Reiches Gottes: \"Die Zeit ist erfüllt, und das Reich Gottes ist nahe herbeigekommen; tut Buße und glaubt an das Evangelium\" (Mk 1,15). Die Taufe ist der wichtigste Ort für die erste und grundlegende Bekehrung, aber auch danach ertönt der Ruf Christi zur Umkehr im Leben der Christen weiter. Diese zweite Bekehrung ist eine ununterbrochene Aufgabe für die ganze Kirche, die, \"die Sünder an ihren Schoß nehmend, zugleich heilig und immer läuterungsbedürftig ist (und) ständig den Weg der Buße und der Erneuerung geht\" (Lumen Gentium 8). Dieses Bemühen um Bekehrung ist nicht nur ein menschliches Werk. Es ist die Bewegung eines \"zerknirschten Herzens\", das von der Gnade gezogen und bewegt wird, um auf die barmherzige Liebe Gottes zu antworten, der uns zuerst geliebt hat (Ps 51,17; Joh 6,44; 12,32; 1 Joh 4,10). Der heilige Ambrosius sagt von den beiden Bekehrungen, dass es in der Kirche \"Wasser und Tränen gibt: das Wasser der Taufe und die Tränen der Reue\" (Epistel 41).</p><footer>- Katechismus der Katholischen Kirche 1423-1424,1426; vgl. 1427-1429</footer>",
+    "where_to_find": "Die Beichtzeiten werden in Ihrem örtlichen Pfarrblatt angegeben und sind auch online auf der Website Ihrer Pfarrei oder unter <mass>massimes.org</mass> zu finden. Sie können auch jederzeit einen Beichttermin vereinbaren, indem Sie sich an Ihre Gemeinde wenden.",
+    "about_confession_end": "Wenn Sie zur Beichte gehen, haben Sie in der Regel die Wahl, ob Sie anonym hinter einem Bildschirm knien oder von Angesicht zu Angesicht mit Ihrem Beichtvater sitzen. Was auch immer Sie beichten, Ihr Priester hat es schon einmal gehört. Denken Sie daran, dass er da ist, um Ihnen zu helfen.",
+    "about_this_app": "Über diese App",
+    "this_app_is_designed": "Diese App soll römischen Katholiken helfen, sich auf das Sakrament der Beichte vorzubereiten, indem sie ihr Gewissen prüfen. Sie ist <strong>NICHT</strong> ein Ersatz für die Beichte.",
+    "please_be_respectful": "Bitte nehmen Sie Rücksicht auf Ihre Mitmenschen, wenn Sie diese App nutzen. Ich empfehle Ihnen, Ihr Telefon auszuschalten, wenn Sie in Ihrer Kirche sind, und diese App zu benutzen, bevor Sie ankommen. Wenn Sie diese App in Ihrer Kirche oder während der Beichte verwenden, stellen Sie bitte sicher, dass Ihr Telefon auf lautlos gestellt ist.",
+    "this_website": "Diese Website, <website>ConfessIt.app</website>, basiert auf der <app>ConfessIt Android App</app> (2012 vom selben Entwickler erstellt). Es handelt sich zwar (noch) nicht um eine vollständige Reproduktion, aber sie soll die App einer größeren Anzahl von Nutzern auf einer breiteren Palette von Geräten zugänglich machen. (Diese Website funktioniert auf iOS, Android, Tablets und Computern!)",
+    "if_you_find": "Wenn du diese App nützlich findest, erwäge bitte, sie <strong>mit deinen Freunden und deiner Familie zu teilen</strong>. Erzählen Sie auf Facebook, Reddit, Twitter, in Ihrer Kirche oder in Ihrer Bibelstudiengruppe davon, um sie zu verbreiten!",
+    "privacy": "Datenschutz",
+    "information_you_enter": "",
+    "open_source": "Open Source",
+    "confessit_is_open_source": "ConfessIt ist Open Source. Wir entwickeln die App auf <githubicon /> <github>GitHub</github> und wir arbeiten in der <osc>Open Source Catholic</osc> Community auf Slack zusammen.",
+    "can_i_help_with_translations": "Kann ich bei Übersetzungen helfen?",
+    "confessit_is_translated": "ConfessIt is translated into multiple languages. If you'd like to help with this effort by adding a new translation or improving an existing translation, please read about how to do so on <github>GitHub</github> or get in touch with us on <osc>Open Source Catholic</osc> Slack.",
+    "can_i_help_write_code": "Kann ich beim Programmieren helfen?",
+    "we_welcome_new_contributions": "Wir begrüßen neue Beiträge. Wenn Sie zu ConfessIt beitragen möchten, lesen Sie am besten auf <github>GitHub</github> nach, wie Sie dies tun können.",
+    "about_the_developer": "",
+    "mike_kasberg": "",
+    "information": ""
+  },
+  "help": {
+    "confessit_help": "",
+    "basic_usage": "",
+    "step_1": "",
+    "step_2": "",
+    "step_3": "",
+    "step_4": "",
+    "data_persistence": "",
+    "data_persistence_text": ""
+  },
+  "welcome": {
+    "title": "",
+    "body": " ist ein Hilfsmittel, das römischen Katholiken helfen soll, vor der Beichte eine Gewissenserforschung durchzuführen. Wir hoffen, dass es Ihnen helfen wird, sich an die Sünden zu erinnern, die Sie seit Ihrer letzten Beichte begangen haben. Kreuzen Sie einfach das Kästchen <strong>Ja</strong> neben den Sünden in der Liste <strong>Untersuchung</strong> an oder tippen Sie auf die Plustaste, um Ihre eigenen hinzuzufügen. Scrolle dann nach rechts, um deine Sünden zu <strong>überprüfen</strong> und <strong>die Schritte der Beichte durchzugehen</strong>. <br /><br />Die von dir eingegebenen Daten werden auf deinem Gerät gespeichert (<strong>niemals</strong> über das Internet gesendet). Die von Ihnen eingegebenen Daten werden gespeichert, bis Sie auf <strong>Löschen</strong> klicken, auch wenn Sie das Fenster schließen oder die Seite aktualisieren. <br /><br />Gott segne Sie auf Ihrem Weg zur Heiligkeit!"
+  },
+  "commandments": {
+    "1": {
+      "title": "Erstes Gebot",
+      "text": "Ihr sollt keine anderen Götter haben vor mir. (2 Mose 20:3)",
+      "description": "Ich bin der Herr, dein Gott, der dich aus dem Land Ägypten, aus dem Haus der Knechtschaft, herausgeführt hat. Du sollst keine anderen Götter haben vor mir ... du sollst dich nicht vor ihnen niederwerfen und ihnen nicht dienen; denn ich, der Herr, dein Gott, bin ein eifersüchtiger Gott ... der Tausenden von Menschen, die mich lieben und meine Gebote halten, unerschütterliche Liebe entgegenbringt. (2. Mose 20,2-6) Die Hauptsünden Hochmut und Völlerei werden oft als Verstoß gegen dieses Gebot angesehen."
+    },
+    "2": {
+      "title": "Zweites Gebot",
+      "text": "Du sollst den Namen des Herrn, deines Gottes, nicht missbrauchen. (2. Mose 20:7)",
+      "description": "Du sollst den Namen des Herrn, deines Gottes, nicht missbrauchen; denn der Herr wird den nicht freisprechen, der seinen Namen missbraucht. (2. Mose 20:7)"
+    },
+    "3": {
+      "title": "Drittes Gebot",
+      "text": "Gedenke des Sabbattages, dass du ihn heilig hältst. (2. Mose 20:8)",
+      "description": "Gedenke des Sabbattages, dass du ihn heilig hältst. Sechs Tage sollst du arbeiten und alle deine Werke tun; aber der siebte Tag ist ein Sabbat des Herrn, deines Gottes; an ihm sollst du kein Werk tun... Denn in sechs Tagen hat der Herr Himmel und Erde gemacht und das Meer und alles, was darinnen ist, und ruhte am siebten Tag; darum segnete der Herr den Sabbattag und heiligte ihn. (2. Mose 20:8-11)"
+    },
+    "4": {
+      "title": "Viertes Gebot",
+      "text": "Ehre deinen Vater und deine Mutter. (2. Mose 20:12)",
+      "description": "Ehre deinen Vater und deine Mutter, damit du lange lebst in dem Land, das der Herr, dein Gott, dir gibt. (2. Mose 20:12)"
+    },
+    "5": {
+      "title": "Fünftes Gebot",
+      "text": "Du sollst nicht töten. (2. Mose 20:13)",
+      "description": "Du sollst nicht töten. (2. Mose 20,13) Die Todsünde des Zorns wird oft mit diesem Gebot in Verbindung gebracht."
+    },
+    "6": {
+      "title": "Sechstes Gebot",
+      "text": "Du sollst nicht ehebrechen. (2. Mose 20:14)",
+      "description": "Du sollst nicht ehebrechen. (2. Mose 20:14) Die Todsünde der Lust bricht dieses Gebot."
+    },
+    "7": {
+      "title": "Siebtes Gebot",
+      "text": "Du sollst nicht stehlen. (2. Mose 20:15)",
+      "description": "Du sollst nicht stehlen. (2. Mose 20:15) Die Todsünden Habgier und Trägheit werden oft als Verstoß gegen dieses Gebot angesehen."
+    },
+    "8": {
+      "title": "Achtes Gebot",
+      "text": "Du sollst kein falsches Zeugnis gegen deinen Nächsten ablegen. (2. Mose 20:16)",
+      "description": "Du sollst kein falsches Zeugnis gegen deinen Nächsten ablegen. (2. Mose 20:16)"
+    },
+    "9": {
+      "title": "Neuntes Gebot",
+      "text": "Du sollst nicht die Frau deines Nächsten begehren. (2. Mose 20:17)",
+      "description": "Du sollst nicht begehren deines Nächsten Weib (2. Mose 20,17) Die Todsünde der Eifersucht kann dieses Gebot brechen."
+    },
+    "10": {
+      "title": "Zehntes Gebot",
+      "text": "Du sollst nicht begehren deines Nächsten Gut. (2. Mose 20:17)",
+      "description": "Du sollst nicht begehren deines Nächsten Haus ... oder seinen Knecht oder seine Magd oder seinen Ochsen oder seinen Esel oder alles, was deines Nächsten ist. (2. Mose 20:17) Die Todsünde der Eifersucht kann dieses Gebot brechen."
+    },
+    "11": {
+      "title": "Gebote der Kirche",
+      "text": "Die Gebote der katholischen Kirche sind die Mindestanforderungen, die alle Katholiken erfüllen sollten.",
+      "description": "Die Gebote der Kirche stehen im Kontext eines sittlichen Lebens, das mit dem liturgischen Leben verbunden ist und von ihm genährt wird. Der obligatorische Charakter dieser von den Hirtenbehörden erlassenen positiven Gesetze soll den Gläubigen das notwendige Mindestmaß an Gebetsgeist und sittlicher Anstrengung, an Wachstum in der Gottes- und Nächstenliebe garantieren (KKK 2041)."
+    }
+  },
+  "sins": {
+    "1": {
+      "text": "Habe ich mich geweigert, den Lehren der katholischen Kirche zu glauben?",
+      "text_past": "Ich weigerte mich, die Lehren der katholischen Kirche zu glauben.",
+      "detail": ""
+    },
+    "2": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "3": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "4": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "5": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "6": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "7": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "8": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "9": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "10": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "11": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "12": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "13": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "14": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "15": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "16": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "17": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "18": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "19": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "20": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "21": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "22": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "23": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "24": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "25": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "26": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "27": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "28": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "29": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "30": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "31": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "32": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "33": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "34": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "35": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "36": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "37": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "38": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "39": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "40": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "41": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "42": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "43": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "44": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "45": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "46": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "47": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "48": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "49": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "50": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "51": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "52": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "53": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "54": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "55": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "56": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    },
+    "57": {
+      "text": "",
+      "text_past": "",
+      "detail": ""
+    }
+  },
+  "addbutton": {
+    "add-custom-sin": "",
+    "i-sinned-by": "",
+    "cancel": "",
+    "add": ""
+  },
+  "examineitem": {
+    "yes": ""
+  },
+  "priestbubble": {
+    "priest": ""
+  }
+}

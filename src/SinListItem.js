@@ -1,6 +1,6 @@
-import React from 'react';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import React from "react";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 class SinListItem extends React.Component {
   constructor(props) {
@@ -15,12 +15,14 @@ class SinListItem extends React.Component {
   }
 
   render() {
-    return <Card className="sin-list-item">
-    {this.props.sinItem.text}
-    <Button variant="danger" size="sm" onClick={this.handleDelete}>
-      <i className="fa fa-trash"></i>
-    </Button>
-  </Card>
+    return (
+      <Card className="sin-list-item">
+        {this.props.sinItem.text}
+        <Button className="mt-2" size="sm" onClick={this.handleDelete}>
+          <i className="fa fa-trash"></i>
+        </Button>
+      </Card>
+    );
   }
 }
 

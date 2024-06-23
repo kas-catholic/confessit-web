@@ -1,0 +1,28 @@
+name: Test
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.18.0"
+          cache: "yarn"
+      - name: Install Dependencies
+        run: yarn install --immutable
+      - name: Run Linter (eslint)
+        run: yarn lint
+      - name: Run Tests
+        run: yarn test
+      - name: Prettier Check
+        run: yarn prettier --check .

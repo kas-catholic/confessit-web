@@ -1,10 +1,19 @@
+@import "./index.scss";
+
 .sin-list-item {
-  margin-bottom: 0.5rem;
-  padding: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
   flex-direction: row;
   justify-content: space-between;
+  color: $body-color;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.06);
 
   .btn {
     max-height: 2rem;
+  }
+
+  @media only screen and (min-width: $mobile-breakpoint) {
+    padding: 1.5rem 2rem;
   }
 }

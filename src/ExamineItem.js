@@ -1,6 +1,7 @@
-import React from 'react';
-import './ExamineItem.scss';
-import Card from 'react-bootstrap/Card';
+import React from "react";
+import "./ExamineItem.scss";
+import Card from "react-bootstrap/Card";
+import { withTranslation } from "react-i18next";
 
 class ExamineItem extends React.Component {
   constructor(props) {
@@ -14,19 +15,30 @@ class ExamineItem extends React.Component {
     if (e.target.checked) {
       this.props.onAddSinId(this.props.sinId);
     } else {
-      this.props.onRemoveSinItem(({id: this.props.sinId}));
+      this.props.onRemoveSinItem({ id: this.props.sinId });
     }
   }
 
   render() {
-    return <Card className="examine-item">
-      {this.props.text}
-      <div className="md-checkbox">
-        <input id={"checkitem:" + this.props.sinId} type="checkbox" checked={this.props.selected} onChange={this.handleClick} />
-        <label htmlFor={"checkitem:" + this.props.sinId}>Yes</label>
-      </div>
-    </Card>
+    const { t } = this.props;
+    return (
+      <Card className="examine-item">
+        {this.props.text}
+        <div className="md-checkbox">
+          <input
+            id={"checkitem:" + this.props.sinId}
+            type="checkbox"
+            checked={this.props.selected}
+            onChange={this.handleClick}
+          />
+          <label htmlFor={"checkitem:" + this.props.sinId}>
+            {t("examineitem.yes")}
+          </label>
+        </div>
+      </Card>
+    );
   }
 }
 
-export default ExamineItem;
+export { ExamineItem };
+export default withTranslation()(ExamineItem);

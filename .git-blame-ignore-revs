@@ -1,0 +1,5 @@
+# .git-blame-ignore-revs
+# https://docs.github.com/en/repositories/working-with-files/using-files/viewing-a-file#ignore-commits-in-the-blame-view
+
+# Reformatted using Prettier
+3709f89ff471461d107e0196deb917c14344184b
