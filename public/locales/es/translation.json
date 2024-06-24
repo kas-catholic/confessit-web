@@ -151,11 +151,90 @@
   "sins": {
     "1": {
       "text": "¿Me negué a creer en las enseñanzas de la Iglesia Católica?",
-      "text_past": "Me negué a creer las enseñanzas de la Iglesia Católica.",
+      "text_past": "Me negué a creer en las enseñanzas de la Iglesia Católica.",
       "detail": "Obedecer en la fe es someterse libremente a la palabra que se ha escuchado, porque su verdad está garantizada por Dios, que es la Verdad misma (CIC 144). Es importante creer en todas las enseñanzas de la iglesia."
     },
     "42": {
       "text": "¿Oculté algo intencionalmente en la confesión?"
+    },
+    "4": {
+      "text": "¿Cómo está mi vida de oración? ¿Necesito orar más a menudo?",
+      "detail": "Adorar a Dios, rezarle, ofrecerle la adoración que le corresponde, cumplir las promesas y votos hechos a él son actos de la virtud de la religión que están bajo la obediencia al primer mandamiento (CIC 2135). La oración es importante porque sin ella no podemos tener una relación con Dios."
+    },
+    "6": {
+      "text": "¿Utilicé lenguaje grosero?",
+      "text_past": "Utilicé lenguaje grosero."
+    },
+    "8": {
+      "text": "¿Insulté a Dios?",
+      "text_past": "Insulté a Dios.",
+      "detail": "El respeto por Su nombre es una expresión del respeto debido al misterio de Dios mismo y a toda la realidad sagrada que evoca (CIC 2144)."
+    },
+    "33": {
+      "text": "¿Robé algo? Si es así, ¿en qué medida?",
+      "text_past": "Robé algo. (Hasta tal y tal punto.)"
+    },
+    "16": {
+      "text": "¿Desobedecí a algún adulto responsable?",
+      "text_past": "Desobedecí a un adulto responsable."
+    },
+    "2": {
+      "detail": "El primer mandamiento prohíbe honrar a dioses distintos del único Señor que se ha revelado a su pueblo (CIC 2110). Es incorrecto practicar una religión diferente al catolicismo porque debilita nuestra relación con nuestro Señor."
+    },
+    "5": {
+      "text": "Nuestra cultura a menudo entra en conflicto con los ideales católicos. ¿Fallé en defender los valores morales católicos?"
+    },
+    "7": {
+      "text": "¿Usé el nombre de Dios sin respeto?",
+      "text_past": "Usé el nombre de Dios sin respeto.",
+      "detail": "El segundo mandamiento prohíbe todo uso indebido del nombre de Dios. La blasfemia es el uso del nombre de Dios, de Jesucristo, de la Virgen María y de los santos de manera ofensiva (CIC 2162)."
+    },
+    "9": {
+      "text": "¿Falté a misa el domingo?",
+      "text_past": "Falté a misa el domingo.",
+      "detail": "El primer precepto de la Iglesia católica es \"Asistirás a Misa los domingos y días de precepto y descansarás de trabajos serviles\" (CIC 2042). Como católicos, esperamos con ansias celebrar la Eucaristía todos los domingos. Es pecado faltar a misa porque debilita nuestra relación con Dios."
+    },
+    "10": {
+      "text": "¿Falté a misa en un día de precepto?",
+      "text_past": "Falté a misa en un día de precepto.",
+      "detail": "El primer precepto de la Iglesia católica es \"Asistirás a Misa los domingos y días de precepto y descansarás de trabajos serviles\" (CIC 2042). Como católicos, esperamos con ansias celebrar la Eucaristía en los días de precepto. Es pecado faltar a misa porque debilita nuestra relación con Dios."
+    },
+    "11": {
+      "text": "¿Llegué tarde a la misa o me fui temprano?",
+      "text_past": "Llegué tarde a la misa o me fui temprano.",
+      "detail": "Ven a la iglesia temprano, acércate al Señor y confiesa tus pecados, arrepiéntete en oración... Esté presente en la sagrada y divina liturgia, concluya su oración y no se vaya antes de la despedida... (CIC 2178). También es de mala educación y distrae a los demás que están adorando llegar tarde o irse temprano."
+    },
+    "12": {
+      "text": "¿Desobedecí a mis padres?",
+      "text_past": "Desobedecí a mis padres."
+    },
+    "13": {
+      "text": "¿Fallé en educar a mis hijos en la fe católica?",
+      "text_past": "Fallé en educar a mis hijos en la fe católica."
+    },
+    "14": {
+      "text": "¿Fallé en cuidar a mis familiares ancianos?",
+      "text_past": "Fallé en cuidar a mis familiares ancianos."
+    },
+    "15": {
+      "text": "¿Descuidé a mi familia?",
+      "text_past": "Descuidé a mi familia."
+    },
+    "18": {
+      "text": "¿Infringí alguna ley justa?",
+      "text_past": "Infringí una ley justa."
+    },
+    "20": {
+      "text": "¿Tuve un aborto? ¿Participé en un aborto?",
+      "text_past": "Tuve o participé en un aborto."
+    },
+    "17": {
+      "text": "¿Fallé en enseñar a mis hijos sobre su sexualidad humana?",
+      "text_past": "No les enseñé a mis hijos sobre su sexualidad humana."
+    },
+    "19": {
+      "text": "¿Lastimé físicamente a alguien?",
+      "text_past": "Lastimé físicamente a alguien."
     }
   }
 }
