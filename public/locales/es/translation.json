@@ -57,7 +57,7 @@
     "we_welcome_new_contributions": "Damos la bienvenida a nuevas contribuciones. Si desea contribuir a ConfessIt, la mejor manera de comenzar es leyer cómo hacerlo en <github>GitHub</github>.",
     "about_the_developer": "Acerca de el Desarrollador",
     "mike_kasberg": "<website>Mike Kasberg</website> desarrolla ConfessIt en su tiempo libre, como una forma de retribuir a la iglesia. También está involucrado en algunos otros proyectos pequeños para apoyar a las organizaciones católicas con tecnología.",
-    "information": "La información de esta aplicación proviene de la Versión Estándar Revisada de la Santa Biblia, Segunda Edición Católica. También se utilizó información del Catecismo de la Iglesia Católica."
+    "information": "Las citas bíblicas en esta aplicación provienen de la Versión Estándar Revisada de la Santa Biblia, Segunda Edición Católica. También se utilizó información del Catecismo de la Iglesia Católica."
   },
   "examine_list": {
     "examine": "Examine"
@@ -70,31 +70,322 @@
     "basic_usage": "Uso básico",
     "data_persistence": "Persistencia de los datos",
     "step_4": "Despues de la confesión, usa el boton <strong>Borrar</strong> para vaciar todos los pecados demarcados.",
-    "step_2": "Desliza a la siguiente pestaña, <strong>Pecados</strong>, para ver la lista de los pecados que has marcado. Puedes revisar esta lista antes o durante la confesión si lo deseas.",
+    "step_2": "Desliza hacia la siguiente pestaña, <strong>Revisar</strong>, para ver una lista de pecados que has marcado. Puedes revisar esta lista antes o durante la confesión si lo deseas.",
     "step_3": "Si no estas seguro de lo qué vas a decir en la confesión, pasa a la siguiente pestaña, <strong>Tutorial </strong>, para ver aproximadamente lo que tu y el sacerdote se dirán en la confesión. Puedes revisar esto durante la confesión si lo deseas.",
     "data_persistence_text": "Los datos que vas ad ingresar se almacenan en tu dispositivo (nunca se envían a través de Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong>, incluso si cierras la ventana o actualizas la página. ¡Asegúrete de borrar tus datos cuando haya terminado si no deseas que otras personas que usan este dispositivo vean tus datos!",
-    "step_1": ""
+    "step_1": "En la pestaña <strong>Examen</strong>, marca <strong>Sí</strong> junto a todos los pecados que quieras recordar para confesar."
   },
   "welcome": {
     "title": "¡Bienvenido!",
-    "body": ""
+    "body": " es una herramienta para ayudar a los católicos romanos a realizar un examen de conciencia antes de ir a confesarse. Esperamos que encuentres esto útil para recordar los pecados que has cometido desde tu última confesión. Simplemente marca la casilla <strong>Sí</strong> al lado de los pecados en la lista de <strong>Examen</strong>, o toca el botón <kbd>+</kbd> en la parte inferior derecha de la aplicación para agregar los tuyos. Luego, desplázate hacia la derecha para <strong>Revisar</strong> tus pecados y <strong>Seguir</strong> los pasos para confesarte. <br /><br />Los datos que ingreses se almacenan en tu dispositivo (<strong>nunca</strong> se envían por Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong> en la configuración de la aplicación, incluso si cierras la ventana o actualizas la página. <br /><br />¡Dios te bendiga en tu camino hacia la santidad!"
   },
   "commandments": {
     "1": {
       "title": "Primer Mandamiento",
-      "text": "Yo soy el Señor tu Dios. No habrá para ti otros dioses delante de mí. (Éx 20,3)"
+      "text": "Yo soy el Señor tu Dios. No habrá para ti otros dioses delante de mí. (Éx 20,3)",
+      "description": "Soy el Señor tu Dios, que te sacó de la tierra de Egipto, de la casa de servidumbre. No tendrás otros dioses delante de mí... no te inclinarás ante ellos ni los servirás; porque yo, el Señor tu Dios, soy un Dios celoso... mostrando amor inquebrantable a miles de aquellos que me aman y guardan mis mandamientos. (Ex 20:2-6) Los pecados capitales de soberbia y gula a menudo se consideran una violación de este mandamiento."
+    },
+    "4": {
+      "title": "Cuarto Mandamiento",
+      "text": "Honra a tu padre y a tu madre. (Ex 20:12)",
+      "description": "Honra a tu padre y a tu madre, para que tus días se prolonguen en la tierra que el Señor tu Dios te da. (Ex 20:12)"
+    },
+    "5": {
+      "title": "Quinto Mandamiento",
+      "text": "No matarás. (Ex 20:13)",
+      "description": "No matarás. (Ex 20:13) El pecado capital de la ira se asocia a menudo con este mandamiento."
+    },
+    "6": {
+      "text": "No cometerás adulterio. (Ex 20:14)",
+      "description": "No cometerás adulterio. (Ex 20:14) El pecado capital de la lujuria rompe este mandamiento.",
+      "title": "Sexto Mandamiento"
+    },
+    "7": {
+      "title": "Séptimo Mandamiento",
+      "text": "No robarás. (Ex 20:15)",
+      "description": "No robarás. (Ex 20:15) Los pecados capitales de la avaricia y la pereza se consideran a menudo como causantes de la ruptura de este mandamiento."
+    },
+    "8": {
+      "title": "Octavo Mandamiento",
+      "text": "No darás falso testimonio contra tu prójimo. (Ex 20:16)",
+      "description": "No darás falso testimonio contra tu prójimo. (Ex 20:16)"
+    },
+    "9": {
+      "title": "Noveno Mandamiento",
+      "text": "No codiciarás la mujer de tu prójimo. (Ex 20:17)",
+      "description": "No codiciarás la mujer de tu prójimo. (Ex 20:17) El pecado capital de la envidia puede romper este mandamiento."
+    },
+    "10": {
+      "title": "Décimo Mandamiento",
+      "text": "No codiciarás los bienes ajenos. (Ex 20:17)",
+      "description": "No codiciarás la casa de tu prójimo... ni a su criado, ni a su criada, ni a su buey, ni a su asno, ni nada de lo que es de tu prójimo. (Ex 20:17) El pecado capital de la envidia puede romper este mandamiento."
+    },
+    "11": {
+      "title": "Preceptos de la Iglesia",
+      "text": "Los preceptos de la Iglesia Católica son los requisitos mínimos que todos los católicos deben cumplir.",
+      "description": "Los preceptos de la Iglesia están establecidos en el contexto de una vida moral ligada y nutrida por la vida litúrgica. El carácter obligatorio de estas leyes positivas decretadas por las autoridades pastorales tiene como objetivo garantizar a los fieles el mínimo muy necesario en el espíritu de oración y esfuerzo moral, en el crecimiento en el amor a Dios y al prójimo (CIC 2041)."
+    },
+    "3": {
+      "description": "Recuerda el día de reposo para santificarlo. Seis días trabajarás y harás todas tus labores; pero el séptimo día es de reposo para el Señor tu Dios; no harás en él trabajo alguno... Porque en seis días hizo el Señor los cielos y la tierra, el mar y todo lo que hay en ellos, y descansó el séptimo día; por tanto, el Señor bendijo el día de reposo y lo santificó. (Ex 20:8-11)",
+      "title": "Tercer Mandamiento",
+      "text": "Recuerda el día de reposo para santificarlo. (Ex 20:8)"
+    },
+    "2": {
+      "title": "Segundo Mandamiento",
+      "text": "No tomarás el nombre del Señor tu Dios en vano. (Ex 20:7)",
+      "description": "No tomarás el nombre del Señor tu Dios en vano; porque no dejará sin castigo al que tome su nombre en vano. (Ex 20:7)"
     }
   },
   "addbutton": {
-    "add-custom-sin": "",
-    "i-sinned-by": "",
-    "cancel": "",
-    "add": ""
+    "add-custom-sin": "Añadir pecado personalizado",
+    "i-sinned-by": "Pequé al…",
+    "cancel": "Action-cancel",
+    "add": "Añadir"
   },
   "examineitem": {
-    "yes": ""
+    "yes": "Sí"
   },
   "priestbubble": {
-    "priest": ""
+    "priest": "Sacerdote"
+  },
+  "sins": {
+    "1": {
+      "text": "¿Me negué a creer en las enseñanzas de la Iglesia Católica?",
+      "text_past": "Me negué a creer en las enseñanzas de la Iglesia Católica.",
+      "detail": "Obedecer en la fe es someterse libremente a la palabra que ha sido escuchada, porque su verdad está garantizada por Dios, que es la Verdad misma (CIC 144). Es importante creer en todas las enseñanzas de la iglesia."
+    },
+    "42": {
+      "text": "¿Oculté algo intencionalmente en la confesión?",
+      "text_past": "Oculté intencionalmente algo en la confesión."
+    },
+    "4": {
+      "text": "¿Cómo está mi vida de oración? ¿Necesito orar más a menudo?",
+      "detail": "Adorar a Dios, rezarle, ofrecerle la adoración que le corresponde, cumplir las promesas y votos hechos a él son actos de la virtud de la religión que están bajo la obediencia al primer mandamiento (CIC 2135). La oración es importante porque sin ella no podemos tener una relación con Dios.",
+      "text_past": "Necesito rezar más a menudo."
+    },
+    "6": {
+      "text": "¿Utilicé lenguaje grosero?",
+      "text_past": "Utilicé lenguaje grosero."
+    },
+    "8": {
+      "text": "¿Insulté a Dios?",
+      "text_past": "Insulté a Dios.",
+      "detail": "El respeto por Su nombre es una expresión del respeto debido al misterio de Dios mismo y a toda la realidad sagrada que evoca (CIC 2144)."
+    },
+    "33": {
+      "text": "¿Robé algo? Si es así, ¿en qué medida?",
+      "text_past": "Robé algo. (Hasta tal y tal punto.)"
+    },
+    "16": {
+      "text": "¿Desobedecí a algún adulto responsable?",
+      "text_past": "Desobedecí a un adulto responsable."
+    },
+    "2": {
+      "detail": "El primer mandamiento prohíbe honrar a dioses distintos del único Señor que se ha revelado a su pueblo (CIC 2110). Es incorrecto practicar una religión diferente al catolicismo porque debilita nuestra relación con nuestro Señor.",
+      "text_past": "Practiqué una religión aparte del catolicismo.",
+      "text": "¿Practiqué alguna religión aparte del catolicismo?"
+    },
+    "5": {
+      "text": "Nuestra cultura a menudo entra en conflicto con los ideales católicos. ¿Fallé en defender los valores morales católicos?",
+      "text_past": "Fallé en defender los valores morales católicos."
+    },
+    "7": {
+      "text": "¿Usé el nombre de Dios sin respeto?",
+      "text_past": "Usé el nombre de Dios sin respeto.",
+      "detail": "El segundo mandamiento prohíbe todo uso indebido del nombre de Dios. La blasfemia es el uso del nombre de Dios, de Jesucristo, de la Virgen María y de los santos de manera ofensiva (CIC 2162)."
+    },
+    "9": {
+      "text": "¿Falté a misa el domingo?",
+      "text_past": "Falté a misa el domingo.",
+      "detail": "El primer precepto de la Iglesia católica es \"Asistirás a Misa los domingos y días de precepto y descansarás de trabajos serviles\" (CIC 2042). Como católicos, esperamos con ansias celebrar la Eucaristía todos los domingos. Es pecado faltar a misa porque debilita nuestra relación con Dios."
+    },
+    "10": {
+      "text": "¿Falté a misa en un día de precepto?",
+      "text_past": "Falté a misa en un día de precepto.",
+      "detail": "El primer precepto de la Iglesia católica es \"Asistirás a Misa los domingos y días de precepto y descansarás de trabajos serviles\" (CIC 2042). Como católicos, esperamos con ansias celebrar la Eucaristía en los días de precepto. Es pecado faltar a misa porque debilita nuestra relación con Dios."
+    },
+    "11": {
+      "text": "¿Llegué tarde a la misa o me fui temprano?",
+      "text_past": "Llegué tarde a la misa o me fui temprano.",
+      "detail": "Ven a la iglesia temprano, acércate al Señor y confiesa tus pecados, arrepiéntete en oración... Esté presente en la sagrada y divina liturgia, concluya su oración y no se vaya antes de la despedida... (CIC 2178). También es de mala educación y distrae a los demás que están adorando llegar tarde o irse temprano."
+    },
+    "12": {
+      "text": "¿Desobedecí a mis padres?",
+      "text_past": "Desobedecí a mis padres."
+    },
+    "13": {
+      "text": "¿Fallé en educar a mis hijos en la fe católica?",
+      "text_past": "Fallé en educar a mis hijos en la fe católica."
+    },
+    "14": {
+      "text": "¿Fallé en cuidar a mis familiares ancianos?",
+      "text_past": "Fallé en cuidar a mis familiares ancianos."
+    },
+    "15": {
+      "text": "¿Descuidé a mi familia?",
+      "text_past": "Descuidé a mi familia."
+    },
+    "18": {
+      "text": "¿Infringí alguna ley justa?",
+      "text_past": "Infringí una ley justa."
+    },
+    "20": {
+      "text": "¿Tuve un aborto? ¿Participé en un aborto?",
+      "text_past": "Tuve o participé en un aborto."
+    },
+    "17": {
+      "text": "¿Fallé en enseñar a mis hijos sobre su sexualidad humana?",
+      "text_past": "No les enseñé a mis hijos sobre su sexualidad humana."
+    },
+    "19": {
+      "text": "¿Lastimé físicamente a alguien?",
+      "text_past": "Lastimé físicamente a alguien."
+    },
+    "24": {
+      "text": "¿Abusé de drogas o alcohol?",
+      "text_past": "Abusé de drogas o alcohol."
+    },
+    "21": {
+      "detail": "\"Toda acción que, ya sea en previsión del acto conyugal, en su realización o en el desarrollo de sus consecuencias naturales, propone, ya sea como fin o como medio, hacer imposible la procreación es intrínsecamente mala\" (CIC 2370). \"Las intenciones legítimas por parte de los cónyuges no justifican el recurso a medios moralmente inaceptables (por ejemplo, la esterilización directa o la anticoncepción)\" (CIC 2399). La anticoncepción artificial es incorrecta porque convierte un hermoso acto de amor en algo egoísta.",
+      "text": "¿Usé métodos anticonceptivos artificiales?",
+      "text_past": "Usé métodos anticonceptivos artificiales."
+    },
+    "27": {
+      "text": "¿Miré pornografía?",
+      "text_past": "Miré pornografía."
+    },
+    "28": {
+      "text": "¿Actué según deseos homosexuales?",
+      "text_past": "Actué según deseos homosexuales."
+    },
+    "29": {
+      "text": "¿Falle en honrar a mi esposo o esposa?",
+      "text_past": "Fallé en honrar a mi esposo o esposa."
+    },
+    "30": {
+      "text": "¿Leí literatura erótica?",
+      "text_past": "Leí literatura erótica."
+    },
+    "31": {
+      "text": "¿Realicé actos sexualmente inmorales?",
+      "text_past": "Realicé actos sexualmente inmorales."
+    },
+    "52": {
+      "text_past": "Participé en prácticas ocultistas.",
+      "text": "¿Participé en prácticas ocultas?"
+    },
+    "46": {
+      "text": "¿Voté por un candidato o política que no sostiene mis valores católicos?",
+      "text_past": "Voté por un candidato o política que no defiende mis valores católicos."
+    },
+    "39": {
+      "text": "¿Fallé en recibir la Eucaristía al menos una vez durante la Pascua?",
+      "text_past": "Fallé en recibir la Eucaristía al menos una vez durante la Pascua."
+    },
+    "47": {
+      "text": "¿Escuché música o vi televisión o una película que tuvieron una mala influencia en mí?",
+      "text_past": "Escuché música o vi televisión o una película que tuvo una mala influencia en mí."
+    },
+    "43": {
+      "text": "¿Estuve demasiado ocupado como para descansar y pasar tiempo con mi familia el domingo?",
+      "text_past": "Estuve demasiado ocupado como para descansar y pasar tiempo con mi familia el domingo."
+    },
+    "44": {
+      "text": "¿Sentí celos de la esposa/el esposo o prometida/prometido de alguien más?",
+      "text_past": "Sentí celos de la esposa/el esposo o prometida/prometido de alguien más."
+    },
+    "45": {
+      "text": "¿Sentí celos de algo que pertenece a alguien más?",
+      "text_past": "Sentí celos de algo que pertenece a alguien más."
+    },
+    "49": {
+      "text": "¿Guié a otros al pecado conscientemente?",
+      "text_past": "Guié a otros al pecado conscientemente."
+    },
+    "50": {
+      "text": "¿Fallé en hacer de Dios una prioridad en mi vida?",
+      "text_past": "Fallé en hacer de Dios una prioridad en mi vida."
+    },
+    "51": {
+      "text": "¿He actuado egoístamente?",
+      "text_past": "Actué egoístamente."
+    },
+    "53": {
+      "text": "¿He sido perezoso en el trabajo o en casa?",
+      "text_past": "Fui perezoso en el trabajo o en casa."
+    },
+    "54": {
+      "text": "¿He sido perezoso con mis tareas escolares?",
+      "text_past": "Fui perezoso con mis tareas escolares."
+    },
+    "40": {
+      "text": "¿Dejé de ayunar una hora antes de recibir la Eucaristía?",
+      "text_past": "Fallé en ayunar durante una hora antes de recibir la Eucaristía."
+    },
+    "55": {
+      "text": "¿He sido orgulloso o vanidoso?",
+      "text_past": "Fui orgulloso o vanidoso."
+    },
+    "56": {
+      "text": "¿He cometido el pecado de la gula?",
+      "text_past": "Soy culpable de gula."
+    },
+    "57": {
+      "text": "¿Permití que me controlara la ira?",
+      "text_past": "Permití que me controlara la ira."
+    },
+    "23": {
+      "text_past": "Participé en la eutanasia.",
+      "text": "¿Participé en la eutanasia?"
+    },
+    "22": {
+      "text": "¿Intenté suicidarme?",
+      "text_past": "Intenté suicidarme."
+    },
+    "25": {
+      "text": "¿Tuve sexo fuera del matrimonio?",
+      "text_past": "Tuve sexo fuera del matrimonio."
+    },
+    "26": {
+      "text": "¿Soy culpable del pecado de lujuria?",
+      "text_past": "Soy culpable del pecado de lujuria."
+    },
+    "32": {
+      "text": "¿Cedí a los besos apasionados por placer?",
+      "text_past": "Cedí a los besos apasionados por placer."
+    },
+    "34": {
+      "text": "¿Piratié películas, música o software?",
+      "text_past": "Piratié películas, música o software."
+    },
+    "35": {
+      "text": "¿Mentí o engañé?",
+      "text_past": "Mentí o engañé."
+    },
+    "36": {
+      "text": "¿Hablé de otros a sus espaldas?",
+      "text_past": "Hablé de otros a sus espaldas."
+    },
+    "37": {
+      "text": "¿Fallé en ayunar el Miércoles de Ceniza y el Viernes Santo?",
+      "text_past": "Fallé en ayunar el Miércoles de Ceniza o el Viernes Santo."
+    },
+    "38": {
+      "text": "¿Fallé en abstenerme de comer carne los viernes de Cuaresma y el Miércoles de Ceniza?",
+      "text_past": "Fallé en abstenerme de comer carne un viernes de Cuaresma o el Miércoles de Ceniza."
+    },
+    "41": {
+      "text": "¿Recibí la Eucaristía en estado de pecado mortal?",
+      "text_past": "Recibí la Eucaristía en estado de pecado mortal."
+    },
+    "48": {
+      "text": "¿Fui avaro o fallé en dar generosamente a mi iglesia y a los pobres?",
+      "text_past": "Fui avaro o fallé en dar generosamente a mi iglesia o a los pobres."
+    },
+    "3": {
+      "text": "¿Presumí de la misericordia de Dios?",
+      "text_past": "Presumí de la misericordia de Dios.",
+      "detail": "Presumir de la misericordia de Dios es esperar obtener el perdón sin conversión y la gloria sin mérito (CIC 2092). Es incorrecto hacer algo inmoral porque esperas que Dios te perdone."
+    }
   }
 }

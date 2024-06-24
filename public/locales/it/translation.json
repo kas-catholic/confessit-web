@@ -145,7 +145,7 @@
     "2": {
       "text": "Ho praticato altre religioni che non siano il Cattolicesimo?",
       "text_past": "Ho praticato altre religioni che siano il Cattolicesimo.",
-      "detail": "Il primo comandamento vieta di onorare altro Dio, all'infuori dell'unico Signore che si è rivelato al suo popolo. Proibisce la superstizione e l'ateismo. La superstizione rappresenta, in qualche modo, un eccesso perverso della religione; l'ateismo è il peccato opposto, per difetto, alla virtù della religione."
+      "detail": "Il primo comandamento vieta di onorare altri dèi, all'infuori dell'unico Signore che si è rivelato al suo popolo. Proibisce la superstizione e l'irreligione. La superstizione rappresenta, in qualche modo, un eccesso perverso della religione; l'irreligione è un vizio opposto, per difetto, alla virtù della religione (CCC 2110)."
     },
     "3": {
       "text": "Ho peccato di presunzione, dando per scontato la misericordia di Dio e quindi acconsentendo al peccato senza scrupolo?",
@@ -218,8 +218,8 @@
       "detail": ""
     },
     "17": {
-      "text": "",
-      "text_past": "",
+      "text": "Ho fallito nell'educare i miei figli per quanto riguarda la loro sessualità?",
+      "text_past": "Non ho educato correttamente i miei figli circa la loro sessualità.",
       "detail": ""
     },
     "18": {
@@ -293,8 +293,8 @@
       "detail": ""
     },
     "32": {
-      "text": "",
-      "text_past": "",
+      "text": "Ho indugiato in baci passionali per la ricerca di piacere?",
+      "text_past": "Ho ceduto nel bacio appassionato per la ricerca di piacere.",
       "detail": ""
     },
     "33": {
@@ -303,8 +303,8 @@
       "detail": ""
     },
     "34": {
-      "text": "",
-      "text_past": "",
+      "text": "Ho commesso atti di pirateria informatica duplicando film, musica o software?",
+      "text_past": "Ho contribuito alla pirateria informatica di film, musica o software.",
       "detail": ""
     },
     "35": {
@@ -363,8 +363,8 @@
       "detail": ""
     },
     "46": {
-      "text": "",
-      "text_past": "",
+      "text": "Ho votato per un candidato politico o per un regolamento che non sostiene i miei valori cattolici?",
+      "text_past": "Ho votato per un candidato politico o per un regolamento che non sostiene i miei valori Cattolici.",
       "detail": ""
     },
     "47": {
@@ -403,8 +403,8 @@
       "detail": ""
     },
     "54": {
-      "text": "",
-      "text_past": "",
+      "text": "Sono stato pigro con i miei compiti scolastici?",
+      "text_past": "Sono stato pigro con i miei compiti scolastici.",
       "detail": ""
     },
     "55": {
