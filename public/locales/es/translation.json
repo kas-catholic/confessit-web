@@ -152,7 +152,7 @@
     "1": {
       "text": "¿Me negué a creer en las enseñanzas de la Iglesia Católica?",
       "text_past": "Me negué a creer en las enseñanzas de la Iglesia Católica.",
-      "detail": "Obedecer en la fe es someterse libremente a la palabra que se ha escuchado, porque su verdad está garantizada por Dios, que es la Verdad misma (CIC 144). Es importante creer en todas las enseñanzas de la iglesia."
+      "detail": "Obedecer en la fe es someterse libremente a la palabra que ha sido escuchada, porque su verdad está garantizada por Dios, que es la Verdad misma (CIC 144). Es importante creer en todas las enseñanzas de la iglesia."
     },
     "42": {
       "text": "¿Oculté algo intencionalmente en la confesión?",
@@ -160,7 +160,8 @@
     },
     "4": {
       "text": "¿Cómo está mi vida de oración? ¿Necesito orar más a menudo?",
-      "detail": "Adorar a Dios, rezarle, ofrecerle la adoración que le corresponde, cumplir las promesas y votos hechos a él son actos de la virtud de la religión que están bajo la obediencia al primer mandamiento (CIC 2135). La oración es importante porque sin ella no podemos tener una relación con Dios."
+      "detail": "Adorar a Dios, rezarle, ofrecerle la adoración que le corresponde, cumplir las promesas y votos hechos a él son actos de la virtud de la religión que están bajo la obediencia al primer mandamiento (CIC 2135). La oración es importante porque sin ella no podemos tener una relación con Dios.",
+      "text_past": "Necesito rezar más a menudo."
     },
     "6": {
       "text": "¿Utilicé lenguaje grosero?",
@@ -180,10 +181,13 @@
       "text_past": "Desobedecí a un adulto responsable."
     },
     "2": {
-      "detail": "El primer mandamiento prohíbe honrar a dioses distintos del único Señor que se ha revelado a su pueblo (CIC 2110). Es incorrecto practicar una religión diferente al catolicismo porque debilita nuestra relación con nuestro Señor."
+      "detail": "El primer mandamiento prohíbe honrar a dioses distintos del único Señor que se ha revelado a su pueblo (CIC 2110). Es incorrecto practicar una religión diferente al catolicismo porque debilita nuestra relación con nuestro Señor.",
+      "text_past": "Practiqué una religión aparte del catolicismo.",
+      "text": "¿Practiqué alguna religión aparte del catolicismo?"
     },
     "5": {
-      "text": "Nuestra cultura a menudo entra en conflicto con los ideales católicos. ¿Fallé en defender los valores morales católicos?"
+      "text": "Nuestra cultura a menudo entra en conflicto con los ideales católicos. ¿Fallé en defender los valores morales católicos?",
+      "text_past": "Fallé en defender los valores morales católicos."
     },
     "7": {
       "text": "¿Usé el nombre de Dios sin respeto?",
@@ -335,7 +339,8 @@
       "text": "¿Participé en la eutanasia?"
     },
     "22": {
-      "text": "¿Intenté suicidarme?"
+      "text": "¿Intenté suicidarme?",
+      "text_past": "Intenté suicidarme."
     },
     "25": {
       "text": "¿Tuve sexo fuera del matrimonio?",
@@ -376,6 +381,11 @@
     "48": {
       "text": "¿Fui avaro o fallé en dar generosamente a mi iglesia y a los pobres?",
       "text_past": "Fui avaro o fallé en dar generosamente a mi iglesia o a los pobres."
+    },
+    "3": {
+      "text": "¿Presumí de la misericordia de Dios?",
+      "text_past": "Presumí de la misericordia de Dios.",
+      "detail": "Presumir de la misericordia de Dios es esperar obtener el perdón sin conversión y la gloria sin mérito (CIC 2092). Es incorrecto hacer algo inmoral porque esperas que Dios te perdone."
     }
   }
 }
