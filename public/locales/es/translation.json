@@ -57,7 +57,7 @@
     "we_welcome_new_contributions": "Damos la bienvenida a nuevas contribuciones. Si desea contribuir a ConfessIt, la mejor manera de comenzar es leyer cómo hacerlo en <github>GitHub</github>.",
     "about_the_developer": "Acerca de el Desarrollador",
     "mike_kasberg": "<website>Mike Kasberg</website> desarrolla ConfessIt en su tiempo libre, como una forma de retribuir a la iglesia. También está involucrado en algunos otros proyectos pequeños para apoyar a las organizaciones católicas con tecnología.",
-    "information": "La información de esta aplicación proviene de la Versión Estándar Revisada de la Santa Biblia, Segunda Edición Católica. También se utilizó información del Catecismo de la Iglesia Católica."
+    "information": "Las citas bíblicas en esta aplicación provienen de la Versión Estándar Revisada de la Santa Biblia, Segunda Edición Católica. También se utilizó información del Catecismo de la Iglesia Católica."
   },
   "examine_list": {
     "examine": "Examine"
@@ -70,7 +70,7 @@
     "basic_usage": "Uso básico",
     "data_persistence": "Persistencia de los datos",
     "step_4": "Despues de la confesión, usa el boton <strong>Borrar</strong> para vaciar todos los pecados demarcados.",
-    "step_2": "Desliza a la siguiente pestaña, <strong>Pecados</strong>, para ver la lista de los pecados que has marcado. Puedes revisar esta lista antes o durante la confesión si lo deseas.",
+    "step_2": "Desliza hacia la siguiente pestaña, <strong>Revisar</strong>, para ver una lista de pecados que has marcado. Puedes revisar esta lista antes o durante la confesión si lo deseas.",
     "step_3": "Si no estas seguro de lo qué vas a decir en la confesión, pasa a la siguiente pestaña, <strong>Tutorial </strong>, para ver aproximadamente lo que tu y el sacerdote se dirán en la confesión. Puedes revisar esto durante la confesión si lo deseas.",
     "data_persistence_text": "Los datos que vas ad ingresar se almacenan en tu dispositivo (nunca se envían a través de Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong>, incluso si cierras la ventana o actualizas la página. ¡Asegúrete de borrar tus datos cuando haya terminado si no deseas que otras personas que usan este dispositivo vean tus datos!",
     "step_1": "En la pestaña <strong>Examen</strong>, marca <strong>Sí</strong> junto a todos los pecados que quieras recordar para confesar."
