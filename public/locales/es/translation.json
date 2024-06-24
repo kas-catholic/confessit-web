@@ -103,7 +103,7 @@
     "7": {
       "title": "Séptimo Mandamiento",
       "text": "No robarás. (Ex 20:15)",
-      "description": "No robarás. (Ex 20:15) Los pecados capitales de la avaricia y la pereza suelen considerarse violaciones de este mandamiento."
+      "description": "No robarás. (Ex 20:15) Los pecados capitales de la avaricia y la pereza se consideran a menudo como causantes de la ruptura de este mandamiento."
     },
     "8": {
       "title": "Octavo Mandamiento",
@@ -137,16 +137,16 @@
     }
   },
   "addbutton": {
-    "add-custom-sin": "",
-    "i-sinned-by": "",
+    "add-custom-sin": "Añadir pecado personalizado",
+    "i-sinned-by": "Pequé al…",
     "cancel": "Action-cancel",
-    "add": ""
+    "add": "Añadir"
   },
   "examineitem": {
-    "yes": ""
+    "yes": "Sí"
   },
   "priestbubble": {
-    "priest": ""
+    "priest": "Sacerdote"
   },
   "sins": {
     "1": {
@@ -155,7 +155,8 @@
       "detail": "Obedecer en la fe es someterse libremente a la palabra que se ha escuchado, porque su verdad está garantizada por Dios, que es la Verdad misma (CIC 144). Es importante creer en todas las enseñanzas de la iglesia."
     },
     "42": {
-      "text": "¿Oculté algo intencionalmente en la confesión?"
+      "text": "¿Oculté algo intencionalmente en la confesión?",
+      "text_past": "Oculté intencionalmente algo en la confesión."
     },
     "4": {
       "text": "¿Cómo está mi vida de oración? ¿Necesito orar más a menudo?",
@@ -235,6 +236,146 @@
     "19": {
       "text": "¿Lastimé físicamente a alguien?",
       "text_past": "Lastimé físicamente a alguien."
+    },
+    "24": {
+      "text": "¿Abusé de drogas o alcohol?",
+      "text_past": "Abusé de drogas o alcohol."
+    },
+    "21": {
+      "detail": "\"Toda acción que, ya sea en previsión del acto conyugal, en su realización o en el desarrollo de sus consecuencias naturales, propone, ya sea como fin o como medio, hacer imposible la procreación es intrínsecamente mala\" (CIC 2370). \"Las intenciones legítimas por parte de los cónyuges no justifican el recurso a medios moralmente inaceptables (por ejemplo, la esterilización directa o la anticoncepción)\" (CIC 2399). La anticoncepción artificial es incorrecta porque convierte un hermoso acto de amor en algo egoísta.",
+      "text": "¿Usé métodos anticonceptivos artificiales?",
+      "text_past": "Usé métodos anticonceptivos artificiales."
+    },
+    "27": {
+      "text": "¿Miré pornografía?",
+      "text_past": "Miré pornografía."
+    },
+    "28": {
+      "text": "¿Actué según deseos homosexuales?",
+      "text_past": "Actué según deseos homosexuales."
+    },
+    "29": {
+      "text": "¿Falle en honrar a mi esposo o esposa?",
+      "text_past": "Fallé en honrar a mi esposo o esposa."
+    },
+    "30": {
+      "text": "¿Leí literatura erótica?",
+      "text_past": "Leí literatura erótica."
+    },
+    "31": {
+      "text": "¿Realicé actos sexualmente inmorales?",
+      "text_past": "Realicé actos sexualmente inmorales."
+    },
+    "52": {
+      "text_past": "Participé en prácticas ocultistas.",
+      "text": "¿Participé en prácticas ocultas?"
+    },
+    "46": {
+      "text": "¿Voté por un candidato o política que no sostiene mis valores católicos?",
+      "text_past": "Voté por un candidato o política que no defiende mis valores católicos."
+    },
+    "39": {
+      "text": "¿Fallé en recibir la Eucaristía al menos una vez durante la Pascua?",
+      "text_past": "Fallé en recibir la Eucaristía al menos una vez durante la Pascua."
+    },
+    "47": {
+      "text": "¿Escuché música o vi televisión o una película que tuvieron una mala influencia en mí?",
+      "text_past": "Escuché música o vi televisión o una película que tuvo una mala influencia en mí."
+    },
+    "43": {
+      "text": "¿Estuve demasiado ocupado como para descansar y pasar tiempo con mi familia el domingo?",
+      "text_past": "Estuve demasiado ocupado como para descansar y pasar tiempo con mi familia el domingo."
+    },
+    "44": {
+      "text": "¿Sentí celos de la esposa/el esposo o prometida/prometido de alguien más?",
+      "text_past": "Sentí celos de la esposa/el esposo o prometida/prometido de alguien más."
+    },
+    "45": {
+      "text": "¿Sentí celos de algo que pertenece a alguien más?",
+      "text_past": "Sentí celos de algo que pertenece a alguien más."
+    },
+    "49": {
+      "text": "¿Guié a otros al pecado conscientemente?",
+      "text_past": "Guié a otros al pecado conscientemente."
+    },
+    "50": {
+      "text": "¿Fallé en hacer de Dios una prioridad en mi vida?",
+      "text_past": "Fallé en hacer de Dios una prioridad en mi vida."
+    },
+    "51": {
+      "text": "¿He actuado egoístamente?",
+      "text_past": "Actué egoístamente."
+    },
+    "53": {
+      "text": "¿He sido perezoso en el trabajo o en casa?",
+      "text_past": "Fui perezoso en el trabajo o en casa."
+    },
+    "54": {
+      "text": "¿He sido perezoso con mis tareas escolares?",
+      "text_past": "Fui perezoso con mis tareas escolares."
+    },
+    "40": {
+      "text": "¿Dejé de ayunar una hora antes de recibir la Eucaristía?",
+      "text_past": "Fallé en ayunar durante una hora antes de recibir la Eucaristía."
+    },
+    "55": {
+      "text": "¿He sido orgulloso o vanidoso?",
+      "text_past": "Fui orgulloso o vanidoso."
+    },
+    "56": {
+      "text": "¿He cometido el pecado de la gula?",
+      "text_past": "Soy culpable de gula."
+    },
+    "57": {
+      "text": "¿Permití que me controlara la ira?",
+      "text_past": "Permití que me controlara la ira."
+    },
+    "23": {
+      "text_past": "Participé en la eutanasia.",
+      "text": "¿Participé en la eutanasia?"
+    },
+    "22": {
+      "text": "¿Intenté suicidarme?"
+    },
+    "25": {
+      "text": "¿Tuve sexo fuera del matrimonio?",
+      "text_past": "Tuve sexo fuera del matrimonio."
+    },
+    "26": {
+      "text": "¿Soy culpable del pecado de lujuria?",
+      "text_past": "Soy culpable del pecado de lujuria."
+    },
+    "32": {
+      "text": "¿Cedí a los besos apasionados por placer?",
+      "text_past": "Cedí a los besos apasionados por placer."
+    },
+    "34": {
+      "text": "¿Piratié películas, música o software?",
+      "text_past": "Piratié películas, música o software."
+    },
+    "35": {
+      "text": "¿Mentí o engañé?",
+      "text_past": "Mentí o engañé."
+    },
+    "36": {
+      "text": "¿Hablé de otros a sus espaldas?",
+      "text_past": "Hablé de otros a sus espaldas."
+    },
+    "37": {
+      "text": "¿Fallé en ayunar el Miércoles de Ceniza y el Viernes Santo?",
+      "text_past": "Fallé en ayunar el Miércoles de Ceniza o el Viernes Santo."
+    },
+    "38": {
+      "text": "¿Fallé en abstenerme de comer carne los viernes de Cuaresma y el Miércoles de Ceniza?",
+      "text_past": "Fallé en abstenerme de comer carne un viernes de Cuaresma o el Miércoles de Ceniza."
+    },
+    "41": {
+      "text": "¿Recibí la Eucaristía en estado de pecado mortal?",
+      "text_past": "Recibí la Eucaristía en estado de pecado mortal."
+    },
+    "48": {
+      "text": "¿Fui avaro o fallé en dar generosamente a mi iglesia y a los pobres?",
+      "text_past": "Fui avaro o fallé en dar generosamente a mi iglesia o a los pobres."
     }
   }
 }
