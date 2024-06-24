@@ -139,7 +139,7 @@
   "addbutton": {
     "add-custom-sin": "",
     "i-sinned-by": "",
-    "cancel": "",
+    "cancel": "Action-cancel",
     "add": ""
   },
   "examineitem": {
