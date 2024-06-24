@@ -2,7 +2,7 @@ name: NodeJS with i18next-scanner
 
 on:
   push:
-    branches: [main]
+    branches: [main, i18next-action]
     paths: ["src/**.js"]
 
   # Allows you to run this workflow manually from the Actions tab
