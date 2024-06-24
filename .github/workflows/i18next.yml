@@ -1,0 +1,60 @@
+name: NodeJS with i18next-scanner
+
+on:
+  push:
+    branches: [main]
+    paths: ["src/**.js"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: "yarn"
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name:
+          Scan for new translation strings # we treat English different because values should be populated
+          # whereas for other languages values should be empty
+          # the only way to achieve this for Trans components is with a separate config
+        run: |
+          yarn dlx i18next-scanner --config i18next-scanner.config-en.js
+          yarn dlx i18next-scanner --config i18next-scanner.config-langs.js
+
+      - name: Push changes # push the output folder to your repo
+        uses: actions-x/commit@v6
+        with:
+          # The committer's email address
+          email: 41898282+github-actions[bot]@users.noreply.github.com
+          # The committer's name
+          name: github-actions
+          # The commit message
+          message: regenerated i18next translation.json files from source files
+          # The branch to push the changes back to, defaults to the current branch
+          branch: ${{ github.ref }}
+          # The files to add separated by space, defaults to every file
+          files: public/locales/**/translation.json
+          # The repository to push the code to, defaults to origin (e.g. this repository)
+          repository: origin
+          # The token used to push the code, not needed if you push to the same repository
+          #token: # default is ${{ github.token }}
+          # Whether to perform force push
+          force: 0
+          # The working directory that will be used for git commands
+          #directory: # default is .
