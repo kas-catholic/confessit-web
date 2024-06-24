@@ -54,29 +54,29 @@
     "this_website": "Diese Website, <website>ConfessIt.app</website>, basiert auf der <app>ConfessIt Android App</app> (2012 vom selben Entwickler erstellt). Es handelt sich zwar (noch) nicht um eine vollständige Reproduktion, aber sie soll die App einer größeren Anzahl von Nutzern auf einer breiteren Palette von Geräten zugänglich machen. (Diese Website funktioniert auf iOS, Android, Tablets und Computern!)",
     "if_you_find": "Wenn du diese App nützlich findest, erwäge bitte, sie <strong>mit deinen Freunden und deiner Familie zu teilen</strong>. Erzählen Sie auf Facebook, Reddit, Twitter, in Ihrer Kirche oder in Ihrer Bibelstudiengruppe davon, um sie zu verbreiten!",
     "privacy": "Datenschutz",
-    "information_you_enter": "",
+    "information_you_enter": "Die von Ihnen in diese App eingegebenen Informationen werden nur auf Ihrem Gerät gespeichert. Sie werden nicht über das Internet gesendet. Wir können dies durch eine Technologie Ihres Webbrowsers ermöglichen, die <a>lokaler Speicher</a> genannt wird. Wir verwenden weder Google Analytics noch andere Datenerfassungsmechanismen auf dieser Website. Die eingegebenen Daten werden auf Ihrem Gerät gespeichert, bis Sie auf <kbd>Löschen</kbd> klicken, auch wenn Sie das Fenster schließen oder die Seite aktualisieren.",
     "open_source": "Open Source",
     "confessit_is_open_source": "ConfessIt ist Open Source. Wir entwickeln die App auf <githubicon /> <github>GitHub</github> und wir arbeiten in der <osc>Open Source Catholic</osc> Community auf Slack zusammen.",
     "can_i_help_with_translations": "Kann ich bei Übersetzungen helfen?",
     "confessit_is_translated": "ConfessIt is translated into multiple languages. If you'd like to help with this effort by adding a new translation or improving an existing translation, please read about how to do so on <github>GitHub</github> or get in touch with us on <osc>Open Source Catholic</osc> Slack.",
     "can_i_help_write_code": "Kann ich beim Programmieren helfen?",
     "we_welcome_new_contributions": "Wir begrüßen neue Beiträge. Wenn Sie zu ConfessIt beitragen möchten, lesen Sie am besten auf <github>GitHub</github> nach, wie Sie dies tun können.",
-    "about_the_developer": "",
-    "mike_kasberg": "",
-    "information": ""
+    "about_the_developer": "Über den Entwickler",
+    "mike_kasberg": "<website>Mike Kasberg</website> entwickelt ConfessIt in seiner Freizeit, als eine Art, der Kirche etwas zurückzugeben. Er engagiert sich auch in einigen anderen kleinen Projekten, um katholische Organisationen technologisch zu unterstützen.",
+    "information": "Bibelzitate in dieser App stammen aus der revidierten Standardversion der Heiligen Bibel, zweite katholische Ausgabe. Auch Informationen aus dem Katechismus der Katholischen Kirche wurden verwendet."
   },
   "help": {
-    "confessit_help": "",
-    "basic_usage": "",
-    "step_1": "",
-    "step_2": "",
-    "step_3": "",
-    "step_4": "",
-    "data_persistence": "",
-    "data_persistence_text": ""
+    "confessit_help": "ConfessIt Hilfe",
+    "basic_usage": "Grundlegende Verwendung",
+    "step_1": "Im Tab <strong>Prüfung</strong> markiere <strong>Ja</strong> neben allen Sünden, an die du dich beim Beichten erinnern möchtest.",
+    "step_2": "Wische zum nächsten Tab, <strong>Überprüfen</strong>, um eine Liste der Sünden zu sehen, die du markiert hast. Du kannst diese Liste vor oder während der Beichte ansehen, wenn du möchtest.",
+    "step_3": "Wenn du unsicher bist, was du in der Beichte sagen sollst, wechsle zum nächsten Tab, <strong>Anleitung</strong>, um ungefähr zu sehen, was du und der Priester während der Beichte zueinander sagen werden. Du kannst dies während der Beichte überprüfen, wenn du möchtest.",
+    "step_4": "Nachdem du gebeichtet hast, verwende den <strong>Löschen</strong> Button, um alle Sünden, die du markiert hast, zu entfernen.",
+    "data_persistence": "Datenpersistenz",
+    "data_persistence_text": "Die eingegebenen Daten werden auf Ihrem Gerät gespeichert (niemals über das Internet gesendet). Die eingegebenen Daten bleiben gespeichert, bis Sie auf <strong>Löschen</strong> klicken, auch wenn Sie das Fenster schließen oder die Seite aktualisieren. Vergewissern Sie sich, dass Sie Ihre Daten löschen, wenn Sie fertig sind, falls Sie nicht möchten, dass andere Personen, die dieses Gerät verwenden, Ihre Daten sehen!"
   },
   "welcome": {
-    "title": "",
+    "title": "Willkommen!",
     "body": " ist ein Hilfsmittel, das römischen Katholiken helfen soll, vor der Beichte eine Gewissenserforschung durchzuführen. Wir hoffen, dass es Ihnen helfen wird, sich an die Sünden zu erinnern, die Sie seit Ihrer letzten Beichte begangen haben. Kreuzen Sie einfach das Kästchen <strong>Ja</strong> neben den Sünden in der Liste <strong>Untersuchung</strong> an oder tippen Sie auf die Plustaste, um Ihre eigenen hinzuzufügen. Scrolle dann nach rechts, um deine Sünden zu <strong>überprüfen</strong> und <strong>die Schritte der Beichte durchzugehen</strong>. <br /><br />Die von dir eingegebenen Daten werden auf deinem Gerät gespeichert (<strong>niemals</strong> über das Internet gesendet). Die von Ihnen eingegebenen Daten werden gespeichert, bis Sie auf <strong>Löschen</strong> klicken, auch wenn Sie das Fenster schließen oder die Seite aktualisieren. <br /><br />Gott segne Sie auf Ihrem Weg zur Heiligkeit!"
   },
   "commandments": {
@@ -140,299 +140,299 @@
     "1": {
       "text": "Habe ich mich geweigert, den Lehren der katholischen Kirche zu glauben?",
       "text_past": "Ich weigerte mich, die Lehren der katholischen Kirche zu glauben.",
-      "detail": ""
+      "detail": "Im Glauben gehorchen heißt, sich dem gehörten Wort in Freiheit unterwerfen, weil dessen Wahrheit von Gott, der Wahrheit selbst, verbürgt ist. (KKK 144). Es ist wichtig, an alle Lehren der Kirche zu glauben."
     },
     "2": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Habe ich irgendeine andere Religion außer dem Katholizismus praktiziert?",
+      "text_past": "Ich habe eine andere Religion als den Katholizismus praktiziert.",
+      "detail": "Das erste Gebot verbietet, neben dem einen Herrn, der sich seinem Volk geoffenbart hat, noch andere Götter zu verehren (KKK 2110). Es ist falsch, eine andere Religion als den Katholizismus zu praktizieren, denn es schwächt unsere Beziehung zu unserem Herrn."
     },
     "3": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Habe ich Gottes Barmherzigkeit vorausgesetzt?",
+      "text_past": "Ich ging von Gottes Barmherzigkeit aus.",
+      "detail": "Die Barmherzigkeit Gottes zu vermuten bedeutet, Vergebung ohne Umkehr und Herrlichkeit ohne Verdienst erhoffen zu wollen (KKK 2092). Es ist falsch, etwas Unmoralisches zu tun, weil man erwartet, dass Gott einem vergibt."
     },
     "4": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Wie steht es um mein Gebetsleben? Sollte ich öfter beten?",
+      "text_past": "Ich muss öfter beten.",
+      "detail": "Gott anzubeten, zu ihm zu beten, ihm den Gottesdienst zu erweisen, der ihm gebührt, die ihm gemachten Versprechen und Gelübde zu erfüllen, sind Akte der Tugend der Religion, die dem Gehorsam gegenüber dem ersten Gebot unterliegen (KKK 2135). Das Gebet ist wichtig, denn ohne Gebet können wir keine Beziehung zu Gott haben."
     },
     "5": {
-      "text": "",
-      "text_past": "",
+      "text": "Unsere Kultur steht oft im Konflikt mit katholischen Idealen. Habe ich versäumt, für katholische Moralvorstellungen einzustehen?",
+      "text_past": "Ich habe es versäumt, für katholische Moralvorstellungen einzustehen.",
       "detail": ""
     },
     "6": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich unanständige Sprache verwendet?",
+      "text_past": "Ich habe unanständige Sprache benutzt.",
       "detail": ""
     },
     "7": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Habe ich den Namen Gottes respektlos verwendet?",
+      "text_past": "Ich habe den Namen Gottes respektlos verwendet.",
+      "detail": "Das zweite Gebot verbietet jeglichen Missbrauch des Namens Gottes. Blasphemie ist die Verwendung des Namens Gottes, Jesu Christi, der Jungfrau Maria und der Heiligen auf beleidigende Weise (KKK 2162)."
     },
     "8": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Habe ich Gott beleidigt?",
+      "text_past": "Ich habe Gott beleidigt.",
+      "detail": "Die Achtung vor seinem Namen ist ein Ausdruck der Achtung, die dem Geheimnis Gottes selbst und der gesamten heiligen Wirklichkeit, die es hervorruft, geschuldet ist (KKK 2144)."
     },
     "9": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Habe ich die Messe am Sonntag ausgelassen?",
+      "text_past": "Ich habe die Messe am Sonntag ausgelassen.",
+      "detail": "Das erste Gebot der katholischen Kirche lautet: \"Du sollst am Sonntag und an den gebotenen Feiertagen die heilige Messe besuchen und von serviler Arbeit ruhen\" (KKK 2042). Als Katholiken freuen wir uns darauf, jeden Sonntag die Eucharistie zu feiern. Es ist eine Sünde, die Messe zu schwänzen, weil es unsere Beziehung zu Gott schwächt."
     },
     "10": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Habe ich die Messe an einem gebotenen Feiertag versäumt?",
+      "text_past": "Ich habe die Messe an einem gebotenen Feiertag ausgelassen.",
+      "detail": "Das erste Gebot der katholischen Kirche lautet: \"Du sollst am Sonntag und an den gebotenen Feiertagen die heilige Messe besuchen und von serviler Arbeit ruhen\" (KKK 2042). Als Katholiken freuen wir uns darauf, jeden Sonntag die Eucharistie zu feiern. Es ist eine Sünde, die Messe zu schwänzen, weil es unsere Beziehung zu Gott schwächt."
     },
     "11": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Bin ich zu spät zur Messe gekommen oder zu früh gegangen?",
+      "text_past": "Ich bin zu spät zur Messe gekommen oder bin früher gegangen.",
+      "detail": "Komm früh zur Kirche, nähere dich dem Herrn und beichte deine Sünden, bereue im Gebet... Sei bei der heiligen und göttlichen Liturgie anwesend, schließe ihr Gebet ab und verlasse den Gottesdienst nicht vor der Entlassung... (KKK 2178). Es ist auch unhöflich und störend für andere, die Gottesdienst feiern, zu spät zu kommen oder zu früh zu gehen."
     },
     "12": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich meinen Eltern nicht gehorcht?",
+      "text_past": "Ich habe meinen Eltern nicht gehorcht.",
       "detail": ""
     },
     "13": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich versäumt, meine Kinder im katholischen Glauben zu erziehen?",
+      "text_past": "Ich habe versäumt, meine Kinder im katholischen Glauben zu erziehen.",
       "detail": ""
     },
     "14": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich es versäumt, mich um meine älteren Verwandten zu kümmern?",
+      "text_past": "Ich habe es versäumt, mich um meine älteren Verwandten zu kümmern.",
       "detail": ""
     },
     "15": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich meine Familie vernachlässigt?",
+      "text_past": "Ich habe meine Familie vernachlässigt.",
       "detail": ""
     },
     "16": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich irgendeinem verantwortlichen Erwachsenen nicht gehorcht?",
+      "text_past": "Ich habe einen verantwortlichen Erwachsenen nicht gehorcht.",
       "detail": ""
     },
     "17": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich versäumt, meinen Kindern ihre menschliche Sexualität zu vermitteln?",
+      "text_past": "Ich habe versäumt, meinen Kindern ihre menschliche Sexualität zu vermitteln.",
       "detail": ""
     },
     "18": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich ein gerechtes Gesetz gebrochen?",
+      "text_past": "Ich habe ein gerechtes Gesetz gebrochen.",
       "detail": ""
     },
     "19": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich jemandem körperlich wehgetan?",
+      "text_past": "Ich habe jemanden körperlich verletzt.",
       "detail": ""
     },
     "20": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich eine Abtreibung gehabt? Habe ich an einer Abtreibung teilgenommen?",
+      "text_past": "Ich hatte eine Abtreibung oder habe daran teilgenommen.",
       "detail": ""
     },
     "21": {
-      "text": "",
-      "text_past": "",
-      "detail": ""
+      "text": "Habe ich künstliche Verhütungsmittel verwendet?",
+      "text_past": "Ich habe künstliche Verhütungsmittel benutzt.",
+      "detail": "\"Jede Handlung, die, sei es in Erwartung des ehelichen Aktes, bei seiner Ausführung oder in der Entwicklung seiner natürlichen Folgen, das Ziel verfolgt, sei es als Zweck oder als Mittel, die Zeugung unmöglich zu machen, ist an sich böse\" (KKK 2370). \"Legitime Absichten der Ehepartner rechtfertigen nicht den Rückgriff auf moralisch unannehmbare Mittel (zum Beispiel direkte Sterilisation oder Empfängnisverhütung)\" (KKK 2399). Künstliche Empfängnisverhütung ist falsch, weil sie einen schönen Akt der Liebe in etwas Selbstsüchtiges verwandelt."
     },
     "22": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich einen Selbstmordversuch unternommen?",
+      "text_past": "Ich habe versucht, Selbstmord zu begehen.",
       "detail": ""
     },
     "23": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich an Euthanasie teilgenommen?",
+      "text_past": "Ich habe an Sterbehilfe teilgenommen.",
       "detail": ""
     },
     "24": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich Drogen oder Alkohol missbraucht?",
+      "text_past": "Ich habe Drogen oder Alkohol missbraucht.",
       "detail": ""
     },
     "25": {
-      "text": "",
-      "text_past": "",
+      "text": "Hatte ich außerehelichen Geschlechtsverkehr?",
+      "text_past": "Ich hatte außerehelichen Geschlechtsverkehr.",
       "detail": ""
     },
     "26": {
-      "text": "",
-      "text_past": "",
+      "text": "Bin ich der Sünde der Wollust schuldig?",
+      "text_past": "Ich bin schuldig der Sünde der Wollust.",
       "detail": ""
     },
     "27": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich mir Pornografie angesehen?",
+      "text_past": "Ich habe mir Pornografie angesehen.",
       "detail": ""
     },
     "28": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich homosexuellen Neigungen nachgegeben?",
+      "text_past": "Ich habe meinen homosexuellen Neigungen nachgegeben.",
       "detail": ""
     },
     "29": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich es versäumt, meinen Ehemann oder meine Ehefrau zu ehren?",
+      "text_past": "Ich habe versäumt, meinen Ehemann oder meine Ehefrau zu ehren.",
       "detail": ""
     },
     "30": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich erotische Literatur gelesen?",
+      "text_past": "Ich lese erotische Literatur.",
       "detail": ""
     },
     "31": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich mich sexuell unmoralisch verhalten?",
+      "text_past": "Ich habe mich sexuell unmoralisch verhalten.",
       "detail": ""
     },
     "32": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich mich zu leidenschaftlichen Küssen aus Vergnügen hingegeben?",
+      "text_past": "Ich habe mich zu leidenschaftlichem Küssen aus Vergnügen hinreißen lassen.",
       "detail": ""
     },
     "33": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich etwas gestohlen? Wenn ja, in welchem Ausmaß?",
+      "text_past": "Ich habe etwas gestohlen. (In einem solchen Ausmaß.)",
       "detail": ""
     },
     "34": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich Filme, Musik oder Software raubkopiert?",
+      "text_past": "Ich habe Filme, Musik oder Software raubkopiert.",
       "detail": ""
     },
     "35": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich gelogen oder betrogen?",
+      "text_past": "Ich habe gelogen oder betrogen.",
       "detail": ""
     },
     "36": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich über andere getratscht?",
+      "text_past": "Ich habe über andere getratscht.",
       "detail": ""
     },
     "37": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich versäumt, am Aschermittwoch und Karfreitag zu fasten?",
+      "text_past": "Ich habe es versäumt, am Aschermittwoch oder Karfreitag zu fasten.",
       "detail": ""
     },
     "38": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich versäumt, an den Freitagen der Fastenzeit und am Aschermittwoch auf Fleisch zu verzichten?",
+      "text_past": "Ich habe es versäumt, an einem Freitag in der Fastenzeit oder am Aschermittwoch auf Fleisch zu verzichten.",
       "detail": ""
     },
     "39": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich es versäumt, die Eucharistie mindestens einmal während der Osterzeit zu empfangen?",
+      "text_past": "Ich habe es versäumt, während der Osterzeit wenigstens einmal die Eucharistie zu empfangen.",
       "detail": ""
     },
     "40": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich versäumt, eine Stunde vor dem Empfang der Eucharistie zu fasten?",
+      "text_past": "Ich habe es versäumt, eine Stunde vor dem Empfang der Eucharistie zu fasten.",
       "detail": ""
     },
     "41": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich die Eucharistie im Zustand der Todsünde empfangen?",
+      "text_past": "Ich habe die Eucharistie im Zustand der Todsünde empfangen.",
       "detail": ""
     },
     "42": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich bei der Beichte absichtlich etwas verheimlicht?",
+      "text_past": "Ich habe bei der Beichte absichtlich etwas verschwiegen.",
       "detail": ""
     },
     "43": {
-      "text": "",
-      "text_past": "",
+      "text": "War ich am Sonntag zu beschäftigt, um mich auszuruhen und Zeit mit meiner Familie zu verbringen?",
+      "text_past": "Ich war zu beschäftigt, um am Sonntag zu ruhen und Zeit mit meiner Familie zu verbringen.",
       "detail": ""
     },
     "44": {
-      "text": "",
-      "text_past": "",
+      "text": "War ich eifersüchtig auf den Ehepartner oder Verlobten einer anderen Person?",
+      "text_past": "Ich war eifersüchtig auf die Frau/den Mann oder die Verlobte/den Verlobten von jemand anderem.",
       "detail": ""
     },
     "45": {
-      "text": "",
-      "text_past": "",
+      "text": "War ich eifersüchtig auf etwas, das jemand anderem gehört?",
+      "text_past": "Ich war eifersüchtig auf etwas, das jemand anderem gehört.",
       "detail": ""
     },
     "46": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich für einen Kandidaten oder eine Politik gestimmt, die meine katholischen Werte nicht unterstützt?",
+      "text_past": "Ich habe für einen Kandidaten oder eine Politik gestimmt, die meine katholischen Werte nicht unterstützt.",
       "detail": ""
     },
     "47": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich Musik gehört oder ferngesehen oder einen Film geschaut, der einen schlechten Einfluss auf mich hatte?",
+      "text_past": "Ich habe Musik gehört oder ferngesehen oder einen Film geschaut, der einen schlechten Einfluss auf mich hatte.",
       "detail": ""
     },
     "48": {
-      "text": "",
-      "text_past": "",
+      "text": "War ich gierig, oder habe ich es versäumt, meiner Kirche und den Armen großzügig zu geben?",
+      "text_past": "Ich war habgierig oder habe es versäumt, meiner Kirche oder den Armen großzügig zu geben.",
       "detail": ""
     },
     "49": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich wissentlich andere in die Sünde geführt?",
+      "text_past": "Ich habe wissentlich andere in die Sünde geführt.",
       "detail": ""
     },
     "50": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich versäumt, Gott in meinem Leben Priorität einzuräumen?",
+      "text_past": "Ich habe es versäumt, Gott in meinem Leben an erste Stelle zu setzen.",
       "detail": ""
     },
     "51": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich egoistisch gehandelt?",
+      "text_past": "Ich habe egoistisch gehandelt.",
       "detail": ""
     },
     "52": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich an okkulten Praktiken teilgenommen?",
+      "text_past": "Ich habe an okkulten Praktiken teilgenommen.",
       "detail": ""
     },
     "53": {
-      "text": "",
-      "text_past": "",
+      "text": "War ich bei der Arbeit oder zu Hause faul?",
+      "text_past": "Ich war zu Hause oder bei der Arbeit träge.",
       "detail": ""
     },
     "54": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich bei meinen Schulaufgaben faul gewesen?",
+      "text_past": "Ich war faul bei meinen Schulaufgaben.",
       "detail": ""
     },
     "55": {
-      "text": "",
-      "text_past": "",
+      "text": "War ich überheblich oder eitel?",
+      "text_past": "Ich war überheblich oder eitel.",
       "detail": ""
     },
     "56": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich die Sünde der Völlerei begangen?",
+      "text_past": "Ich bin der Völlerei schuldig.",
       "detail": ""
     },
     "57": {
-      "text": "",
-      "text_past": "",
+      "text": "Habe ich mich von Ärger beherrschen lassen?",
+      "text_past": "Ich habe mich von Wut beherrschen lassen.",
       "detail": ""
     }
   },
   "addbutton": {
-    "add-custom-sin": "",
-    "i-sinned-by": "",
-    "cancel": "",
-    "add": ""
+    "add-custom-sin": "Füge eigene Sünde hinzu",
+    "i-sinned-by": "Ich habe gesündigt, indem ich…",
+    "cancel": "Stornieren",
+    "add": "Hinzufügen"
   },
   "examineitem": {
-    "yes": ""
+    "yes": "Ja"
   },
   "priestbubble": {
-    "priest": ""
+    "priest": "Priester"
   }
 }
