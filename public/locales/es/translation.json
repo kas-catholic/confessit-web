@@ -73,16 +73,67 @@
     "step_2": "Desliza a la siguiente pestaña, <strong>Pecados</strong>, para ver la lista de los pecados que has marcado. Puedes revisar esta lista antes o durante la confesión si lo deseas.",
     "step_3": "Si no estas seguro de lo qué vas a decir en la confesión, pasa a la siguiente pestaña, <strong>Tutorial </strong>, para ver aproximadamente lo que tu y el sacerdote se dirán en la confesión. Puedes revisar esto durante la confesión si lo deseas.",
     "data_persistence_text": "Los datos que vas ad ingresar se almacenan en tu dispositivo (nunca se envían a través de Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong>, incluso si cierras la ventana o actualizas la página. ¡Asegúrete de borrar tus datos cuando haya terminado si no deseas que otras personas que usan este dispositivo vean tus datos!",
-    "step_1": ""
+    "step_1": "En la pestaña <strong>Examen</strong>, marca <strong>Sí</strong> junto a todos los pecados que quieras recordar para confesar."
   },
   "welcome": {
     "title": "¡Bienvenido!",
-    "body": ""
+    "body": " es una herramienta para ayudar a los católicos romanos a realizar un examen de conciencia antes de ir a confesarse. Esperamos que encuentres esto útil para recordar los pecados que has cometido desde tu última confesión. Simplemente marca la casilla <strong>Sí</strong> al lado de los pecados en la lista de <strong>Examen</strong>, o toca el botón <kbd>+</kbd> en la parte inferior derecha de la aplicación para agregar los tuyos. Luego, desplázate hacia la derecha para <strong>Revisar</strong> tus pecados y <strong>Seguir</strong> los pasos para confesarte. <br /><br />Los datos que ingreses se almacenan en tu dispositivo (<strong>nunca</strong> se envían por Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong> en la configuración de la aplicación, incluso si cierras la ventana o actualizas la página. <br /><br />¡Dios te bendiga en tu camino hacia la santidad!"
   },
   "commandments": {
     "1": {
       "title": "Primer Mandamiento",
-      "text": "Yo soy el Señor tu Dios. No habrá para ti otros dioses delante de mí. (Éx 20,3)"
+      "text": "Yo soy el Señor tu Dios. No habrá para ti otros dioses delante de mí. (Éx 20,3)",
+      "description": "Soy el Señor tu Dios, que te sacó de la tierra de Egipto, de la casa de servidumbre. No tendrás otros dioses delante de mí... no te inclinarás ante ellos ni los servirás; porque yo, el Señor tu Dios, soy un Dios celoso... mostrando amor inquebrantable a miles de aquellos que me aman y guardan mis mandamientos. (Ex 20:2-6) Los pecados capitales de soberbia y gula a menudo se consideran una violación de este mandamiento."
+    },
+    "4": {
+      "title": "Cuarto Mandamiento",
+      "text": "Honra a tu padre y a tu madre. (Ex 20:12)",
+      "description": "Honra a tu padre y a tu madre, para que tus días se prolonguen en la tierra que el Señor tu Dios te da. (Ex 20:12)"
+    },
+    "5": {
+      "title": "Quinto Mandamiento",
+      "text": "No matarás. (Ex 20:13)",
+      "description": "No matarás. (Ex 20:13) El pecado capital de la ira a menudo se asocia con este mandamiento."
+    },
+    "6": {
+      "text": "No cometerás adulterio. (Ex 20:14)",
+      "description": "No cometerás adulterio. (Ex 20:14) El pecado capital de la lujuria rompe este mandamiento.",
+      "title": "Sexto Mandamiento"
+    },
+    "7": {
+      "title": "Séptimo Mandamiento",
+      "text": "No robarás. (Ex 20:15)",
+      "description": "No robarás. (Ex 20:15) Los pecados capitales de la avaricia y la pereza suelen considerarse violaciones de este mandamiento."
+    },
+    "8": {
+      "title": "Octavo Mandamiento",
+      "text": "No darás falso testimonio contra tu prójimo. (Ex 20:16)",
+      "description": "No darás falso testimonio contra tu prójimo. (Ex 20:16)"
+    },
+    "9": {
+      "title": "Noveno Mandamiento",
+      "text": "No codiciarás la mujer de tu prójimo. (Ex 20:17)",
+      "description": "No codiciarás la mujer de tu prójimo. (Ex 20:17) El pecado capital de la envidia puede romper este mandamiento."
+    },
+    "10": {
+      "title": "Décimo Mandamiento",
+      "text": "No codiciarás los bienes ajenos. (Ex 20:17)",
+      "description": "No codiciarás la casa de tu prójimo... ni su criado, ni su criada, ni su buey, ni su asno, ni cosa alguna de tu prójimo. (Ex 20:17) El pecado capital de la envidia puede romper este mandamiento."
+    },
+    "11": {
+      "title": "Preceptos de la Iglesia",
+      "text": "Los preceptos de la Iglesia Católica son los requisitos mínimos que todos los católicos deberían cumplir.",
+      "description": "Los preceptos de la Iglesia están establecidos en el contexto de una vida moral ligada y nutrida por la vida litúrgica. El carácter obligatorio de estas leyes positivas decretadas por las autoridades pastorales tiene como objetivo garantizar a los fieles el mínimo muy necesario en el espíritu de oración y esfuerzo moral, en el crecimiento del amor a Dios y al prójimo (CIC 2041)."
+    },
+    "3": {
+      "description": "Recuerda el día de reposo para santificarlo. Seis días trabajarás y harás todas tus labores; pero el séptimo día es de reposo para el Señor tu Dios; no harás en él trabajo alguno... Porque en seis días hizo el Señor los cielos y la tierra, el mar y todo lo que hay en ellos, y descansó el séptimo día; por tanto, el Señor bendijo el día de reposo y lo santificó. (Ex 20:8-11)",
+      "title": "Tercer Mandamiento",
+      "text": "Recuerda el día de reposo para santificarlo. (Ex 20:8)"
+    },
+    "2": {
+      "title": "Segundo Mandamiento",
+      "text": "No tomarás el nombre del Señor tu Dios en vano. (Ex 20:7)",
+      "description": "No tomarás el nombre del Señor tu Dios en vano; porque no dejará sin castigo al que tome su nombre en vano. (Ex 20:7)"
     }
   },
   "addbutton": {
@@ -96,5 +147,12 @@
   },
   "priestbubble": {
     "priest": ""
+  },
+  "sins": {
+    "1": {
+      "text": "¿Me negué a creer las enseñanzas de la Iglesia Católica?",
+      "text_past": "Me negué a creer las enseñanzas de la Iglesia Católica.",
+      "detail": "Obedecer en la fe es someterse libremente a la palabra que se ha escuchado, porque su verdad está garantizada por Dios, que es la Verdad misma (CIC 144). Es importante creer en todas las enseñanzas de la iglesia."
+    }
   }
 }
