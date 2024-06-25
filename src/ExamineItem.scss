@@ -109,11 +109,11 @@ $md-checkbox-label-padding: 0.75rem;
 
         transform: translate(
             $md-checkbox-padding,
-            ($md-checkbox-size / 2) - ($md-checkmark-size / 2.6)
+            calc($md-checkbox-size / 2) - calc($md-checkmark-size / 2.6)
           )
           rotate(-45deg);
         width: $md-checkmark-size;
-        height: $md-checkmark-size / 2;
+        height: calc($md-checkmark-size / 2);
 
         border: $md-checkmark-width solid $md-checkmark-color;
         border-top-style: none;
