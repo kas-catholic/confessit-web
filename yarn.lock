@@ -2182,6 +2182,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@popperjs/core@npm:^2.11.8":
+  version: 2.11.8
+  resolution: "@popperjs/core@npm:2.11.8"
+  checksum: 8c170d4eb56b6604b190eb5ed9dd6ab4b9e9cdb6ef6ee5b3884fe14af37a3a4289af1bfa0373e4dab288fddb12b43d94a565f313beaae023cd1da742173b050b
+  languageName: node
+  linkType: hard
+
 "@react-aria/ssr@npm:^3.2.0":
   version: 3.3.0
   resolution: "@react-aria/ssr@npm:3.3.0"
@@ -4636,6 +4643,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "confessit-web@workspace:."
   dependencies:
+    "@popperjs/core": ^2.11.8
     bootstrap: ^5.2.2
     enzyme: ^3.11.0
     enzyme-adapter-react-16: ^1.15.6
