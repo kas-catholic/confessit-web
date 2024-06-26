@@ -1,213 +1,187 @@
 {
-  "navbar": {
-    "prayers": "Oraciones",
-    "help": "Ayuda",
-    "about": "Acerca de",
-    "clear": "Vacíe"
-  },
-  "walkthrough": {
-    "bless_me_father": "Bendíceme, Padre, porque he pecado. Ha pasado ____ desde mi última confesión. Estos son mis pecados:",
-    "walkthrough": "Confese",
-    "in_the_name_of": "En el nombre del Padre, y del Hijo, y del Espiritu Santo. Amen.",
-    "these_are_my_sins": "Estos son mis pecados y los siento de todo corazón.",
-    "your_confessor_may_offer": "(El sacerdote podría ofrecerle algún consejo o tener una breve conversación con usted.)",
-    "your_confessor_will_assign": "(El sacerdote asignará una penitencia). Ahora reze el acto de contrición.",
-    "god_the_father_of_mercies": "Dios, Padre misericordioso…",
-    "amen": "Amen.",
-    "the_lord_has_freed_you": "El Señor los ha librado de sus pecados. Ve en paz.",
-    "thanks_be_to_god": "Gracias a Dios."
-  },
-  "prayers": {
-    "prayer_before_confession_text": "Oh, Espíritu Santo, fuente de toda luz, ven en mi auxilio y permíteme hacer una buena confesión.<br />Trae a mi mente todo lo malo que he hecho y lo bueno que he dejado de hacer.<br />Concédeme, además, una verdadera pena por mis pecados y la gracia de una sincera confesión.<br />María, Madre mía, ayúdame a hacer una buena confesión.<br />Amen.",
-    "act_of_contrition_text": "Dios mío,<br />me arrepiento de todo corazón de todos mis pecados y los aborrezco, porque al pecar, no sólo merezco las penas establecidas por ti justamente,<br />sino principalmente porque te ofendí, a ti sumo Bien y digno de amor por encima de todas las cosas.<br />Por eso propongo firmemente, con ayuda de tu gracia, no pecar más en adelante y huir de toda ocasión de pecado.<br />Amén.",
-    "our_father_text": "Padre nuestro que estás en el cielo, santificado sea tu Nombre;<br />venga a nosotros tu Reino;<br />hágase tu voluntad en la tierra como en el cielo.<br />Danos hoy nuestro pan de cada día;<br />perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden;<br />no nos dejes caer en la tentación, y líbranos del mal.<br />Amén.",
-    "hail_mary_text": "Dios te salve, María, llena eres de gracia;<br />el Señor es contigo.<br />Bendita Tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.<br />Santa María, Madre de Dios,<br />ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte.<br />Amén.",
-    "hail_holy_queen_text": "Dios te salve, Reina y Madre de misericordia,<br />vida, dulzura y esperanza nuestra; Dios te salve.<br />A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando en este valle de lágrimas.<br />Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos; y después de este destierro, muéstranos a Jesús, fruto bendito de tu vientre.<br />¡Oh, clementísima, oh piadosa, oh dulce Virgen María! Ruega por nosotros, Santa Madre de Dios, para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo.<br />Amen.",
-    "prayers": "Oraciones",
-    "prayer_before_confession": "Oración antes de la confesión",
-    "act_of_contrition": "Acto de contrición",
-    "another_act_of_contrition": "Otro acto de contrición",
-    "thanksgiving_after_confession": "Acción de gracias después de la confesión",
-    "our_father": "Padre Nuestro",
-    "hail_mary": "Dios te salve María",
-    "hail_holy_queen": "Dios te salve Reina",
-    "another_act_of_contrition_text": "¡Señor mío, Jesucristo!<br />Dios y Hombre verdadero, Creador, Padre y Redentor mío; por ser Vos quien sois, Bondad infinita, y porque os amo sobre todas las cosas, me pesa de todo corazón de haberos ofendido;<br />también me pesa porque podéis castigarme con las penas del infierno.<br />Ayudado de vuestra divina gracia propongo firmemente nunca más pecar, confesarme y cumplir la penitencia que me fuere impuesta.<br />Amén.",
-    "thanksgiving_after_confession_text": "Te agradezco, Señor, el haberme perdonado mis faltas;<br />haz que te ame cada día más y que siempre haga tu Santísima Voluntad.<br />Virgen Santísima, intercede por mí y guárdame en la gracia de Dios, como estoy en estos momentos.<br />Cuida mis sentidos y mi corazón hasta mi muerte.<br />Amén."
-  },
   "about": {
-    "ccc_quote": "<p>Se le denomina sacramento de conversión porque realiza sacramentalmente la llamada de Jesús a la conversión (cf Mc 1,15), la vuelta al Padre (cf Lc 15,18) del que el hombre se había alejado por el pecado.</p><p>Se denomina sacramento de la penitencia porque consagra un proceso personal y eclesial de conversión, de arrepentimiento y de reparación por parte del cristiano pecador.</p><p>Se le denomina sacramento de la confesión porque la declaración o manifestación, la confesión de los pecados ante el sacerdote, es un elemento esencial de este sacramento. En un sentido profundo este sacramento es también una \"confesión\", reconocimiento y alabanza de la santidad de Dios y de su misericordia para con el hombre pecador.</p><p>Se le denomina sacramento del perdón porque, por la absolución sacramental del sacerdote, Dios concede al penitente \"el perdón y la paz\" (Ritual de la Penitencia, 46, 55).</p><p>Se le denomina sacramento de reconciliación porque otorga al pecador el amor de Dios que reconcilia: \"Dejaos reconciliar con Dios\" (2 Co 5,20). El que vive del amor misericordioso de Dios está pronto a responder a la llamada del Señor: \"Ve primero a reconciliarte con tu hermano\" (Mt 5,24).</p><p>La conversión a Cristo, el nuevo nacimiento por el Bautismo, el don del Espíritu Santo, el Cuerpo y la Sangre de Cristo recibidos como alimento nos han hecho \"santos e inmaculados ante Él\" (Ef 1,4), como la Iglesia misma, esposa de Cristo, es \"santa e inmaculada ante Él\" (Ef 5,27). Sin embargo, la vida nueva recibida en la iniciación cristiana no suprimió la fragilidad y la debilidad de la naturaleza humana, ni la inclinación al pecado que la tradición llama concupiscencia, y que permanece en los bautizados a fin de que sirva de prueba en ellos en el combate de la vida cristiana ayudados por la gracia de Dios (cf DS 1515). Esta lucha es la de la conversión con miras a la santidad y la vida eterna a la que el Señor no cesa de llamarnos (cf DS 1545; LG 40).</p><p>Jesús llama a la conversión. Esta llamada es una parte esencial del anuncio del Reino: \"El tiempo se ha cumplido y el Reino de Dios está cerca; convertíos y creed en la Buena Nueva\" (Mc 1,15). El Bautismo es el lugar principal de la conversión primera y fundamental, pues la llamada de Cristo a la conversión sigue resonando en la vida de los cristianos. Esta segunda conversión es una tarea ininterrumpida para toda la Iglesia que \"recibe en su propio seno a los pecadores\" y que siendo \"santa al mismo tiempo que necesitada de purificación constante, busca sin cesar la penitencia y la renovación\" (LG 8). Este esfuerzo de conversión no es sólo una obra humana. Es el movimiento del \"corazón contrito\" (Sal 51,19), atraído y movido por la gracia (cf Jn 6,44; 12,32) a responder al amor misericordioso de Dios que nos ha amado primero (cf 1 Jn 4,10). San Ambrosio dice acerca de las dos conversiones que, «en la Iglesia, existen el agua y las lágrimas: el agua del Bautismo y las lágrimas de la Penitencia» (Epistula extra collectionem 1 [41], 12).</p><footer>— Catecismo de la Iglesia Católica 1423-1424,1426; cf. 1427-1429</footer>",
-    "if_you_find": "Si encuentra útil esta aplicación, considere <strong>compartirla</strong> con sus amigos y familiares. ¡Cuénte a la gente en Facebook, Reddit, Twitter, en su iglesia o en su grupo de estudio bíblico para ayudar a difundir el mensaje!",
-    "information_you_enter": "La información que ingresa en esta aplicación solo se almacena en su dispositivo. No se envía por Internet. Podemos hacer esto usando una tecnología proporcionada por su navegador web llamada <a>trazo local</a>. No ejecutamos Google Analytics ni ningún otro mecanismo de recopilación de datos en este sitio. Los datos que ingrese se guardarán en su dispositivo hasta que presione <kbd>Borrar</kbd> incluso si cierra la ventana o actualiza la página.",
-    "confessit_is_translated": "ConfessIt está traducido a varios idiomas. Si desea ayudar con este esfuerzo agregando una nueva traducción o mejorando una traducción existente, lea cómo hacerlo en <github>GitHub</github> o comuníquese con nosotros en <osc>Open Source Catholic</osc> en Slack.",
+    "about_confession": "Acerca de la confesión",
+    "about_confession_end": "Cuando usted va a la confesión, por lo general, tendrá la opción de arrodillarse de forma anónima detrás de una pantalla, o sentarse cara a cara con el sacerdote. ¡No se ponga nervioso por ir a la confesión! Cualquier cosa que usted confiese, el sacerdote lo ha oído ya. Recuerde, él está ahí para ayudarlo.",
+    "about_confession_intro": "La confesión es el sacramento con el cual los Católicos obtienen de la misericordia de Dios el perdón de los pecados cometidos contra El y, al mismo tiempo, se reconcilian con la Iglesia, a la que ofendieron con sus pecados. Ella les mueve a conversión con su amor, su ejemplo y sus oraciones.",
     "about_confessit": "Acerca de ConfessIt",
     "about_confessit_text": "ConfessIt es un examen de conciencia <vatican>católico romano</vatican> para computadoras, tabletas y teléfonos. Está diseñado para ser simple y fácil de usar, y puede ayudarle a recordar sus pecados cuando se confiese. También hay un tutorial de confesión que le dice exactamente lo que dirá el sacerdote y cómo debe responder, ¡un gran recurso si no se ha confesado en un tiempo! El examen de conciencia se basa en las enseñanzas fundamentales de la iglesia católica, es fácil de entender y es relevante para los católicos modernos.",
-    "about_confession": "Acerca de la confesión",
-    "about_confession_intro": "La confesión es el sacramento con el cual los Católicos obtienen de la misericordia de Dios el perdón de los pecados cometidos contra El y, al mismo tiempo, se reconcilian con la Iglesia, a la que ofendieron con sus pecados. Ella les mueve a conversión con su amor, su ejemplo y sus oraciones.",
-    "where_to_find": "Los horarios de confesión se enumeran en el boletín de su parroquia local, y puede encontrarlos en línea en el sitio web de su parroquia o en el sitio <mass> masstimes.org</mass> (Estados Unidos). También puede programar una confesión en cualquier momento que desee poniéndose en contacto con su parroquia local.",
-    "about_confession_end": "Cuando usted va a la confesión, por lo general, tendrá la opción de arrodillarse de forma anónima detrás de una pantalla, o sentarse cara a cara con el sacerdote. ¡No se ponga nervioso por ir a la confesión! Cualquier cosa que usted confiese, el sacerdote lo ha oído ya. Recuerde, él está ahí para ayudarlo.",
+    "about_the_developer": "Acerca de el Desarrollador",
     "about_this_app": "Acerca de esta App",
-    "this_app_is_designed": "Esta aplicación está diseñada para ayudar a los católicos a prepararse para el sacramento de la confesión examinando su conciencia. <strong>NO</strong> es un sustituto de la confesión.",
-    "please_be_respectful": "Sea respetuoso con quienes le rodean cuando utilice esta aplicación. Se recomienda que apague su teléfono cuando esté dentro de su iglesia y use esta aplicación antes de llegar. Si usa esta aplicación dentro de su iglesia o durante la confesión, asegúrese de que su teléfono esté en modo silencioso.",
-    "this_website": "Este sitio web, <website>ConfessIt.app</website>, se basa en la <app>Aplicación ConfessIt para Android</app> (creada en 2012 por el mismo desarrollador). Si bien no es (todavía) una reproducción completa, su objetivo es hacer que la aplicación esté disponible para una gama más amplia de usuarios en una gama más amplia de dispositivos. (¡Este sitio funciona en iOS, Android, tabletas y computadoras!)",
-    "privacy": "Privacidad",
-    "open_source": "Fuente Abierta",
-    "confessit_is_open_source": "ConfessIt es de código abierto. Desarrollamos la aplicación en <githubicon /> <github>GitHub</github> y colaboramos en la comunidad <osc>Open Source Catholic</osc> en Slack.",
     "can_i_help_with_translations": "¿Puedo ayudar con las traducciones?",
     "can_i_help_write_code": "¿Puedo ayudar a escribir código?",
-    "we_welcome_new_contributions": "Damos la bienvenida a nuevas contribuciones. Si desea contribuir a ConfessIt, la mejor manera de comenzar es leyer cómo hacerlo en <github>GitHub</github>.",
-    "about_the_developer": "Acerca de el Desarrollador",
+    "ccc_quote": "<p>Se le denomina sacramento de conversión porque realiza sacramentalmente la llamada de Jesús a la conversión (cf Mc 1,15), la vuelta al Padre (cf Lc 15,18) del que el hombre se había alejado por el pecado.</p><p>Se denomina sacramento de la penitencia porque consagra un proceso personal y eclesial de conversión, de arrepentimiento y de reparación por parte del cristiano pecador.</p><p>Se le denomina sacramento de la confesión porque la declaración o manifestación, la confesión de los pecados ante el sacerdote, es un elemento esencial de este sacramento. En un sentido profundo este sacramento es también una \"confesión\", reconocimiento y alabanza de la santidad de Dios y de su misericordia para con el hombre pecador.</p><p>Se le denomina sacramento del perdón porque, por la absolución sacramental del sacerdote, Dios concede al penitente \"el perdón y la paz\" (Ritual de la Penitencia, 46, 55).</p><p>Se le denomina sacramento de reconciliación porque otorga al pecador el amor de Dios que reconcilia: \"Dejaos reconciliar con Dios\" (2 Co 5,20). El que vive del amor misericordioso de Dios está pronto a responder a la llamada del Señor: \"Ve primero a reconciliarte con tu hermano\" (Mt 5,24).</p><p>La conversión a Cristo, el nuevo nacimiento por el Bautismo, el don del Espíritu Santo, el Cuerpo y la Sangre de Cristo recibidos como alimento nos han hecho \"santos e inmaculados ante Él\" (Ef 1,4), como la Iglesia misma, esposa de Cristo, es \"santa e inmaculada ante Él\" (Ef 5,27). Sin embargo, la vida nueva recibida en la iniciación cristiana no suprimió la fragilidad y la debilidad de la naturaleza humana, ni la inclinación al pecado que la tradición llama concupiscencia, y que permanece en los bautizados a fin de que sirva de prueba en ellos en el combate de la vida cristiana ayudados por la gracia de Dios (cf DS 1515). Esta lucha es la de la conversión con miras a la santidad y la vida eterna a la que el Señor no cesa de llamarnos (cf DS 1545; LG 40).</p><p>Jesús llama a la conversión. Esta llamada es una parte esencial del anuncio del Reino: \"El tiempo se ha cumplido y el Reino de Dios está cerca; convertíos y creed en la Buena Nueva\" (Mc 1,15). El Bautismo es el lugar principal de la conversión primera y fundamental, pues la llamada de Cristo a la conversión sigue resonando en la vida de los cristianos. Esta segunda conversión es una tarea ininterrumpida para toda la Iglesia que \"recibe en su propio seno a los pecadores\" y que siendo \"santa al mismo tiempo que necesitada de purificación constante, busca sin cesar la penitencia y la renovación\" (LG 8). Este esfuerzo de conversión no es sólo una obra humana. Es el movimiento del \"corazón contrito\" (Sal 51,19), atraído y movido por la gracia (cf Jn 6,44; 12,32) a responder al amor misericordioso de Dios que nos ha amado primero (cf 1 Jn 4,10). San Ambrosio dice acerca de las dos conversiones que, «en la Iglesia, existen el agua y las lágrimas: el agua del Bautismo y las lágrimas de la Penitencia» (Epistula extra collectionem 1 [41], 12).</p><footer>— Catecismo de la Iglesia Católica 1423-1424,1426; cf. 1427-1429</footer>",
+    "confessit_is_open_source": "ConfessIt es de código abierto. Desarrollamos la aplicación en <githubicon /> <github>GitHub</github> y colaboramos en la comunidad <osc>Open Source Catholic</osc> en Slack.",
+    "confessit_is_translated": "ConfessIt está traducido a varios idiomas. Si desea ayudar con este esfuerzo agregando una nueva traducción o mejorando una traducción existente, lea cómo hacerlo en <github>GitHub</github> o comuníquese con nosotros en <osc>Open Source Catholic</osc> en Slack.",
+    "if_you_find": "Si encuentra útil esta aplicación, considere <strong>compartirla</strong> con sus amigos y familiares. ¡Cuénte a la gente en Facebook, Reddit, Twitter, en su iglesia o en su grupo de estudio bíblico para ayudar a difundir el mensaje!",
+    "information": "Las citas bíblicas en esta aplicación provienen de la Versión Estándar Revisada de la Santa Biblia, Segunda Edición Católica. También se utilizó información del Catecismo de la Iglesia Católica.",
+    "information_you_enter": "La información que ingresa en esta aplicación solo se almacena en su dispositivo. No se envía por Internet. Podemos hacer esto usando una tecnología proporcionada por su navegador web llamada <a>trazo local</a>. No ejecutamos Google Analytics ni ningún otro mecanismo de recopilación de datos en este sitio. Los datos que ingrese se guardarán en su dispositivo hasta que presione <kbd>Borrar</kbd> incluso si cierra la ventana o actualiza la página.",
     "mike_kasberg": "<website>Mike Kasberg</website> desarrolla ConfessIt en su tiempo libre, como una forma de retribuir a la iglesia. También está involucrado en algunos otros proyectos pequeños para apoyar a las organizaciones católicas con tecnología.",
-    "information": "Las citas bíblicas en esta aplicación provienen de la Versión Estándar Revisada de la Santa Biblia, Segunda Edición Católica. También se utilizó información del Catecismo de la Iglesia Católica."
+    "open_source": "Fuente Abierta",
+    "please_be_respectful": "Sea respetuoso con quienes le rodean cuando utilice esta aplicación. Se recomienda que apague su teléfono cuando esté dentro de su iglesia y use esta aplicación antes de llegar. Si usa esta aplicación dentro de su iglesia o durante la confesión, asegúrese de que su teléfono esté en modo silencioso.",
+    "privacy": "Privacidad",
+    "this_app_is_designed": "Esta aplicación está diseñada para ayudar a los católicos a prepararse para el sacramento de la confesión examinando su conciencia. <strong>NO</strong> es un sustituto de la confesión.",
+    "this_website": "Este sitio web, <website>ConfessIt.app</website>, se basa en la <app>Aplicación ConfessIt para Android</app> (creada en 2012 por el mismo desarrollador). Si bien no es (todavía) una reproducción completa, su objetivo es hacer que la aplicación esté disponible para una gama más amplia de usuarios en una gama más amplia de dispositivos. (¡Este sitio funciona en iOS, Android, tabletas y computadoras!)",
+    "we_welcome_new_contributions": "Damos la bienvenida a nuevas contribuciones. Si desea contribuir a ConfessIt, la mejor manera de comenzar es leyer cómo hacerlo en <github>GitHub</github>.",
+    "where_to_find": "Los horarios de confesión se enumeran en el boletín de su parroquia local, y puede encontrarlos en línea en el sitio web de su parroquia o en el sitio <mass> masstimes.org</mass> (Estados Unidos). También puede programar una confesión en cualquier momento que desee poniéndose en contacto con su parroquia local."
+  },
+  "addbutton": {
+    "add": "Añadir",
+    "add-custom-sin": "Añadir pecado personalizado",
+    "cancel": "Action-cancel",
+    "i-sinned-by": "Pequé al…"
+  },
+  "commandments": {
+    "1": {
+      "description": "Soy el Señor tu Dios, que te sacó de la tierra de Egipto, de la casa de servidumbre. No tendrás otros dioses delante de mí... no te inclinarás ante ellos ni los servirás; porque yo, el Señor tu Dios, soy un Dios celoso... mostrando amor inquebrantable a miles de aquellos que me aman y guardan mis mandamientos. (Ex 20:2-6) Los pecados capitales de soberbia y gula a menudo se consideran una violación de este mandamiento.",
+      "text": "Yo soy el Señor tu Dios. No habrá para ti otros dioses delante de mí. (Éx 20,3)",
+      "title": "Primer Mandamiento"
+    },
+    "2": {
+      "description": "No tomarás el nombre del Señor tu Dios en vano; porque no dejará sin castigo al que tome su nombre en vano. (Ex 20:7)",
+      "text": "No tomarás el nombre del Señor tu Dios en vano. (Ex 20:7)",
+      "title": "Segundo Mandamiento"
+    },
+    "3": {
+      "description": "Recuerda el día de reposo para santificarlo. Seis días trabajarás y harás todas tus labores; pero el séptimo día es de reposo para el Señor tu Dios; no harás en él trabajo alguno... Porque en seis días hizo el Señor los cielos y la tierra, el mar y todo lo que hay en ellos, y descansó el séptimo día; por tanto, el Señor bendijo el día de reposo y lo santificó. (Ex 20:8-11)",
+      "text": "Recuerda el día de reposo para santificarlo. (Ex 20:8)",
+      "title": "Tercer Mandamiento"
+    },
+    "4": {
+      "description": "Honra a tu padre y a tu madre, para que tus días se prolonguen en la tierra que el Señor tu Dios te da. (Ex 20:12)",
+      "text": "Honra a tu padre y a tu madre. (Ex 20:12)",
+      "title": "Cuarto Mandamiento"
+    },
+    "5": {
+      "description": "No matarás. (Ex 20:13) El pecado capital de la ira se asocia a menudo con este mandamiento.",
+      "text": "No matarás. (Ex 20:13)",
+      "title": "Quinto Mandamiento"
+    },
+    "6": {
+      "description": "No cometerás adulterio. (Ex 20:14) El pecado capital de la lujuria rompe este mandamiento.",
+      "text": "No cometerás adulterio. (Ex 20:14)",
+      "title": "Sexto Mandamiento"
+    },
+    "7": {
+      "description": "No robarás. (Ex 20:15) Los pecados capitales de la avaricia y la pereza se consideran a menudo como causantes de la ruptura de este mandamiento.",
+      "text": "No robarás. (Ex 20:15)",
+      "title": "Séptimo Mandamiento"
+    },
+    "8": {
+      "description": "No darás falso testimonio contra tu prójimo. (Ex 20:16)",
+      "text": "No darás falso testimonio contra tu prójimo. (Ex 20:16)",
+      "title": "Octavo Mandamiento"
+    },
+    "9": {
+      "description": "No codiciarás la mujer de tu prójimo. (Ex 20:17) El pecado capital de la envidia puede romper este mandamiento.",
+      "text": "No codiciarás la mujer de tu prójimo. (Ex 20:17)",
+      "title": "Noveno Mandamiento"
+    },
+    "10": {
+      "description": "No codiciarás la casa de tu prójimo... ni a su criado, ni a su criada, ni a su buey, ni a su asno, ni nada de lo que es de tu prójimo. (Ex 20:17) El pecado capital de la envidia puede romper este mandamiento.",
+      "text": "No codiciarás los bienes ajenos. (Ex 20:17)",
+      "title": "Décimo Mandamiento"
+    },
+    "11": {
+      "description": "Los preceptos de la Iglesia están establecidos en el contexto de una vida moral ligada y nutrida por la vida litúrgica. El carácter obligatorio de estas leyes positivas decretadas por las autoridades pastorales tiene como objetivo garantizar a los fieles el mínimo muy necesario en el espíritu de oración y esfuerzo moral, en el crecimiento en el amor a Dios y al prójimo (CIC 2041).",
+      "text": "Los preceptos de la Iglesia Católica son los requisitos mínimos que todos los católicos deben cumplir.",
+      "title": "Preceptos de la Iglesia"
+    }
   },
   "examine_list": {
     "examine": "Examine"
   },
-  "sins_list": {
-    "review": "Revise"
-  },
-  "help": {
-    "confessit_help": "Ayuda para ConfessIt",
-    "basic_usage": "Uso básico",
-    "data_persistence": "Persistencia de los datos",
-    "step_4": "Despues de la confesión, usa el boton <strong>Borrar</strong> para vaciar todos los pecados demarcados.",
-    "step_2": "Desliza hacia la siguiente pestaña, <strong>Revisar</strong>, para ver una lista de pecados que has marcado. Puedes revisar esta lista antes o durante la confesión si lo deseas.",
-    "step_3": "Si no estas seguro de lo qué vas a decir en la confesión, pasa a la siguiente pestaña, <strong>Tutorial </strong>, para ver aproximadamente lo que tu y el sacerdote se dirán en la confesión. Puedes revisar esto durante la confesión si lo deseas.",
-    "data_persistence_text": "Los datos que vas ad ingresar se almacenan en tu dispositivo (nunca se envían a través de Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong>, incluso si cierras la ventana o actualizas la página. ¡Asegúrete de borrar tus datos cuando haya terminado si no deseas que otras personas que usan este dispositivo vean tus datos!",
-    "step_1": "En la pestaña <strong>Examen</strong>, marca <strong>Sí</strong> junto a todos los pecados que quieras recordar para confesar."
-  },
-  "welcome": {
-    "title": "¡Bienvenido!",
-    "body": " es una herramienta para ayudar a los católicos romanos a realizar un examen de conciencia antes de ir a confesarse. Esperamos que encuentres esto útil para recordar los pecados que has cometido desde tu última confesión. Simplemente marca la casilla <strong>Sí</strong> al lado de los pecados en la lista de <strong>Examen</strong>, o toca el botón <kbd>+</kbd> en la parte inferior derecha de la aplicación para agregar los tuyos. Luego, desplázate hacia la derecha para <strong>Revisar</strong> tus pecados y <strong>Seguir</strong> los pasos para confesarte. <br /><br />Los datos que ingreses se almacenan en tu dispositivo (<strong>nunca</strong> se envían por Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong> en la configuración de la aplicación, incluso si cierras la ventana o actualizas la página. <br /><br />¡Dios te bendiga en tu camino hacia la santidad!"
-  },
-  "commandments": {
-    "1": {
-      "title": "Primer Mandamiento",
-      "text": "Yo soy el Señor tu Dios. No habrá para ti otros dioses delante de mí. (Éx 20,3)",
-      "description": "Soy el Señor tu Dios, que te sacó de la tierra de Egipto, de la casa de servidumbre. No tendrás otros dioses delante de mí... no te inclinarás ante ellos ni los servirás; porque yo, el Señor tu Dios, soy un Dios celoso... mostrando amor inquebrantable a miles de aquellos que me aman y guardan mis mandamientos. (Ex 20:2-6) Los pecados capitales de soberbia y gula a menudo se consideran una violación de este mandamiento."
-    },
-    "4": {
-      "title": "Cuarto Mandamiento",
-      "text": "Honra a tu padre y a tu madre. (Ex 20:12)",
-      "description": "Honra a tu padre y a tu madre, para que tus días se prolonguen en la tierra que el Señor tu Dios te da. (Ex 20:12)"
-    },
-    "5": {
-      "title": "Quinto Mandamiento",
-      "text": "No matarás. (Ex 20:13)",
-      "description": "No matarás. (Ex 20:13) El pecado capital de la ira se asocia a menudo con este mandamiento."
-    },
-    "6": {
-      "text": "No cometerás adulterio. (Ex 20:14)",
-      "description": "No cometerás adulterio. (Ex 20:14) El pecado capital de la lujuria rompe este mandamiento.",
-      "title": "Sexto Mandamiento"
-    },
-    "7": {
-      "title": "Séptimo Mandamiento",
-      "text": "No robarás. (Ex 20:15)",
-      "description": "No robarás. (Ex 20:15) Los pecados capitales de la avaricia y la pereza se consideran a menudo como causantes de la ruptura de este mandamiento."
-    },
-    "8": {
-      "title": "Octavo Mandamiento",
-      "text": "No darás falso testimonio contra tu prójimo. (Ex 20:16)",
-      "description": "No darás falso testimonio contra tu prójimo. (Ex 20:16)"
-    },
-    "9": {
-      "title": "Noveno Mandamiento",
-      "text": "No codiciarás la mujer de tu prójimo. (Ex 20:17)",
-      "description": "No codiciarás la mujer de tu prójimo. (Ex 20:17) El pecado capital de la envidia puede romper este mandamiento."
-    },
-    "10": {
-      "title": "Décimo Mandamiento",
-      "text": "No codiciarás los bienes ajenos. (Ex 20:17)",
-      "description": "No codiciarás la casa de tu prójimo... ni a su criado, ni a su criada, ni a su buey, ni a su asno, ni nada de lo que es de tu prójimo. (Ex 20:17) El pecado capital de la envidia puede romper este mandamiento."
-    },
-    "11": {
-      "title": "Preceptos de la Iglesia",
-      "text": "Los preceptos de la Iglesia Católica son los requisitos mínimos que todos los católicos deben cumplir.",
-      "description": "Los preceptos de la Iglesia están establecidos en el contexto de una vida moral ligada y nutrida por la vida litúrgica. El carácter obligatorio de estas leyes positivas decretadas por las autoridades pastorales tiene como objetivo garantizar a los fieles el mínimo muy necesario en el espíritu de oración y esfuerzo moral, en el crecimiento en el amor a Dios y al prójimo (CIC 2041)."
-    },
-    "3": {
-      "description": "Recuerda el día de reposo para santificarlo. Seis días trabajarás y harás todas tus labores; pero el séptimo día es de reposo para el Señor tu Dios; no harás en él trabajo alguno... Porque en seis días hizo el Señor los cielos y la tierra, el mar y todo lo que hay en ellos, y descansó el séptimo día; por tanto, el Señor bendijo el día de reposo y lo santificó. (Ex 20:8-11)",
-      "title": "Tercer Mandamiento",
-      "text": "Recuerda el día de reposo para santificarlo. (Ex 20:8)"
-    },
-    "2": {
-      "title": "Segundo Mandamiento",
-      "text": "No tomarás el nombre del Señor tu Dios en vano. (Ex 20:7)",
-      "description": "No tomarás el nombre del Señor tu Dios en vano; porque no dejará sin castigo al que tome su nombre en vano. (Ex 20:7)"
-    }
-  },
-  "addbutton": {
-    "add-custom-sin": "Añadir pecado personalizado",
-    "i-sinned-by": "Pequé al…",
-    "cancel": "Action-cancel",
-    "add": "Añadir"
-  },
   "examineitem": {
     "yes": "Sí"
+  },
+  "help": {
+    "basic_usage": "Uso básico",
+    "confessit_help": "Ayuda para ConfessIt",
+    "data_persistence": "Persistencia de los datos",
+    "data_persistence_text": "Los datos que vas ad ingresar se almacenan en tu dispositivo (nunca se envían a través de Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong>, incluso si cierras la ventana o actualizas la página. ¡Asegúrete de borrar tus datos cuando haya terminado si no deseas que otras personas que usan este dispositivo vean tus datos!",
+    "step_1": "En la pestaña <strong>Examen</strong>, marca <strong>Sí</strong> junto a todos los pecados que quieras recordar para confesar.",
+    "step_2": "Desliza hacia la siguiente pestaña, <strong>Revisar</strong>, para ver una lista de pecados que has marcado. Puedes revisar esta lista antes o durante la confesión si lo deseas.",
+    "step_3": "Si no estas seguro de lo qué vas a decir en la confesión, pasa a la siguiente pestaña, <strong>Tutorial </strong>, para ver aproximadamente lo que tu y el sacerdote se dirán en la confesión. Puedes revisar esto durante la confesión si lo deseas.",
+    "step_4": "Despues de la confesión, usa el boton <strong>Borrar</strong> para vaciar todos los pecados demarcados."
+  },
+  "navbar": {
+    "about": "Acerca de",
+    "clear": "Vacíe",
+    "help": "Ayuda",
+    "prayers": "Oraciones"
+  },
+  "prayers": {
+    "act_of_contrition": "Acto de contrición",
+    "act_of_contrition_text": "Dios mío,<br />me arrepiento de todo corazón de todos mis pecados y los aborrezco, porque al pecar, no sólo merezco las penas establecidas por ti justamente,<br />sino principalmente porque te ofendí, a ti sumo Bien y digno de amor por encima de todas las cosas.<br />Por eso propongo firmemente, con ayuda de tu gracia, no pecar más en adelante y huir de toda ocasión de pecado.<br />Amén.",
+    "another_act_of_contrition": "Otro acto de contrición",
+    "another_act_of_contrition_text": "¡Señor mío, Jesucristo!<br />Dios y Hombre verdadero, Creador, Padre y Redentor mío; por ser Vos quien sois, Bondad infinita, y porque os amo sobre todas las cosas, me pesa de todo corazón de haberos ofendido;<br />también me pesa porque podéis castigarme con las penas del infierno.<br />Ayudado de vuestra divina gracia propongo firmemente nunca más pecar, confesarme y cumplir la penitencia que me fuere impuesta.<br />Amén.",
+    "hail_holy_queen": "Dios te salve Reina",
+    "hail_holy_queen_text": "Dios te salve, Reina y Madre de misericordia,<br />vida, dulzura y esperanza nuestra; Dios te salve.<br />A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando en este valle de lágrimas.<br />Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos; y después de este destierro, muéstranos a Jesús, fruto bendito de tu vientre.<br />¡Oh, clementísima, oh piadosa, oh dulce Virgen María! Ruega por nosotros, Santa Madre de Dios, para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo.<br />Amen.",
+    "hail_mary": "Dios te salve María",
+    "hail_mary_text": "Dios te salve, María, llena eres de gracia;<br />el Señor es contigo.<br />Bendita Tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús.<br />Santa María, Madre de Dios,<br />ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte.<br />Amén.",
+    "our_father": "Padre Nuestro",
+    "our_father_text": "Padre nuestro que estás en el cielo, santificado sea tu Nombre;<br />venga a nosotros tu Reino;<br />hágase tu voluntad en la tierra como en el cielo.<br />Danos hoy nuestro pan de cada día;<br />perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden;<br />no nos dejes caer en la tentación, y líbranos del mal.<br />Amén.",
+    "prayer_before_confession": "Oración antes de la confesión",
+    "prayer_before_confession_text": "Oh, Espíritu Santo, fuente de toda luz, ven en mi auxilio y permíteme hacer una buena confesión.<br />Trae a mi mente todo lo malo que he hecho y lo bueno que he dejado de hacer.<br />Concédeme, además, una verdadera pena por mis pecados y la gracia de una sincera confesión.<br />María, Madre mía, ayúdame a hacer una buena confesión.<br />Amen.",
+    "prayers": "Oraciones",
+    "thanksgiving_after_confession": "Acción de gracias después de la confesión",
+    "thanksgiving_after_confession_text": "Te agradezco, Señor, el haberme perdonado mis faltas;<br />haz que te ame cada día más y que siempre haga tu Santísima Voluntad.<br />Virgen Santísima, intercede por mí y guárdame en la gracia de Dios, como estoy en estos momentos.<br />Cuida mis sentidos y mi corazón hasta mi muerte.<br />Amén."
   },
   "priestbubble": {
     "priest": "Sacerdote"
   },
   "sins": {
     "1": {
+      "detail": "Obedecer en la fe es someterse libremente a la palabra que ha sido escuchada, porque su verdad está garantizada por Dios, que es la Verdad misma (CIC 144). Es importante creer en todas las enseñanzas de la iglesia.",
       "text": "¿Me negué a creer en las enseñanzas de la Iglesia Católica?",
-      "text_past": "Me negué a creer en las enseñanzas de la Iglesia Católica.",
-      "detail": "Obedecer en la fe es someterse libremente a la palabra que ha sido escuchada, porque su verdad está garantizada por Dios, que es la Verdad misma (CIC 144). Es importante creer en todas las enseñanzas de la iglesia."
-    },
-    "42": {
-      "text": "¿Oculté algo intencionalmente en la confesión?",
-      "text_past": "Oculté intencionalmente algo en la confesión."
-    },
-    "4": {
-      "text": "¿Cómo está mi vida de oración? ¿Necesito orar más a menudo?",
-      "detail": "Adorar a Dios, rezarle, ofrecerle la adoración que le corresponde, cumplir las promesas y votos hechos a él son actos de la virtud de la religión que están bajo la obediencia al primer mandamiento (CIC 2135). La oración es importante porque sin ella no podemos tener una relación con Dios.",
-      "text_past": "Necesito rezar más a menudo."
-    },
-    "6": {
-      "text": "¿Utilicé lenguaje grosero?",
-      "text_past": "Utilicé lenguaje grosero."
-    },
-    "8": {
-      "text": "¿Insulté a Dios?",
-      "text_past": "Insulté a Dios.",
-      "detail": "El respeto por Su nombre es una expresión del respeto debido al misterio de Dios mismo y a toda la realidad sagrada que evoca (CIC 2144)."
-    },
-    "33": {
-      "text": "¿Robé algo? Si es así, ¿en qué medida?",
-      "text_past": "Robé algo. (Hasta tal y tal punto.)"
-    },
-    "16": {
-      "text": "¿Desobedecí a algún adulto responsable?",
-      "text_past": "Desobedecí a un adulto responsable."
+      "text_past": "Me negué a creer en las enseñanzas de la Iglesia Católica."
     },
     "2": {
       "detail": "El primer mandamiento prohíbe honrar a dioses distintos del único Señor que se ha revelado a su pueblo (CIC 2110). Es incorrecto practicar una religión diferente al catolicismo porque debilita nuestra relación con nuestro Señor.",
-      "text_past": "Practiqué una religión aparte del catolicismo.",
-      "text": "¿Practiqué alguna religión aparte del catolicismo?"
+      "text": "¿Practiqué alguna religión aparte del catolicismo?",
+      "text_past": "Practiqué una religión aparte del catolicismo."
+    },
+    "3": {
+      "detail": "Presumir de la misericordia de Dios es esperar obtener el perdón sin conversión y la gloria sin mérito (CIC 2092). Es incorrecto hacer algo inmoral porque esperas que Dios te perdone.",
+      "text": "¿Presumí de la misericordia de Dios?",
+      "text_past": "Presumí de la misericordia de Dios."
+    },
+    "4": {
+      "detail": "Adorar a Dios, rezarle, ofrecerle la adoración que le corresponde, cumplir las promesas y votos hechos a él son actos de la virtud de la religión que están bajo la obediencia al primer mandamiento (CIC 2135). La oración es importante porque sin ella no podemos tener una relación con Dios.",
+      "text": "¿Cómo está mi vida de oración? ¿Necesito orar más a menudo?",
+      "text_past": "Necesito rezar más a menudo."
     },
     "5": {
       "text": "Nuestra cultura a menudo entra en conflicto con los ideales católicos. ¿Fallé en defender los valores morales católicos?",
       "text_past": "Fallé en defender los valores morales católicos."
     },
+    "6": {
+      "text": "¿Utilicé lenguaje grosero?",
+      "text_past": "Utilicé lenguaje grosero."
+    },
     "7": {
+      "detail": "El segundo mandamiento prohíbe todo uso indebido del nombre de Dios. La blasfemia es el uso del nombre de Dios, de Jesucristo, de la Virgen María y de los santos de manera ofensiva (CIC 2162).",
       "text": "¿Usé el nombre de Dios sin respeto?",
-      "text_past": "Usé el nombre de Dios sin respeto.",
-      "detail": "El segundo mandamiento prohíbe todo uso indebido del nombre de Dios. La blasfemia es el uso del nombre de Dios, de Jesucristo, de la Virgen María y de los santos de manera ofensiva (CIC 2162)."
+      "text_past": "Usé el nombre de Dios sin respeto."
+    },
+    "8": {
+      "detail": "El respeto por Su nombre es una expresión del respeto debido al misterio de Dios mismo y a toda la realidad sagrada que evoca (CIC 2144).",
+      "text": "¿Insulté a Dios?",
+      "text_past": "Insulté a Dios."
     },
     "9": {
+      "detail": "El primer precepto de la Iglesia católica es \"Asistirás a Misa los domingos y días de precepto y descansarás de trabajos serviles\" (CIC 2042). Como católicos, esperamos con ansias celebrar la Eucaristía todos los domingos. Es pecado faltar a misa porque debilita nuestra relación con Dios.",
       "text": "¿Falté a misa el domingo?",
-      "text_past": "Falté a misa el domingo.",
-      "detail": "El primer precepto de la Iglesia católica es \"Asistirás a Misa los domingos y días de precepto y descansarás de trabajos serviles\" (CIC 2042). Como católicos, esperamos con ansias celebrar la Eucaristía todos los domingos. Es pecado faltar a misa porque debilita nuestra relación con Dios."
+      "text_past": "Falté a misa el domingo."
     },
     "10": {
+      "detail": "El primer precepto de la Iglesia católica es \"Asistirás a Misa los domingos y días de precepto y descansarás de trabajos serviles\" (CIC 2042). Como católicos, esperamos con ansias celebrar la Eucaristía en los días de precepto. Es pecado faltar a misa porque debilita nuestra relación con Dios.",
       "text": "¿Falté a misa en un día de precepto?",
-      "text_past": "Falté a misa en un día de precepto.",
-      "detail": "El primer precepto de la Iglesia católica es \"Asistirás a Misa los domingos y días de precepto y descansarás de trabajos serviles\" (CIC 2042). Como católicos, esperamos con ansias celebrar la Eucaristía en los días de precepto. Es pecado faltar a misa porque debilita nuestra relación con Dios."
+      "text_past": "Falté a misa en un día de precepto."
     },
     "11": {
+      "detail": "Ven a la iglesia temprano, acércate al Señor y confiesa tus pecados, arrepiéntete en oración... Esté presente en la sagrada y divina liturgia, concluya su oración y no se vaya antes de la despedida... (CIC 2178). También es de mala educación y distrae a los demás que están adorando llegar tarde o irse temprano.",
       "text": "¿Llegué tarde a la misa o me fui temprano?",
-      "text_past": "Llegué tarde a la misa o me fui temprano.",
-      "detail": "Ven a la iglesia temprano, acércate al Señor y confiesa tus pecados, arrepiéntete en oración... Esté presente en la sagrada y divina liturgia, concluya su oración y no se vaya antes de la despedida... (CIC 2178). También es de mala educación y distrae a los demás que están adorando llegar tarde o irse temprano."
+      "text_past": "Llegué tarde a la misa o me fui temprano."
     },
     "12": {
       "text": "¿Desobedecí a mis padres?",
@@ -225,30 +199,50 @@
       "text": "¿Descuidé a mi familia?",
       "text_past": "Descuidé a mi familia."
     },
-    "18": {
-      "text": "¿Infringí alguna ley justa?",
-      "text_past": "Infringí una ley justa."
-    },
-    "20": {
-      "text": "¿Tuve un aborto? ¿Participé en un aborto?",
-      "text_past": "Tuve o participé en un aborto."
+    "16": {
+      "text": "¿Desobedecí a algún adulto responsable?",
+      "text_past": "Desobedecí a un adulto responsable."
     },
     "17": {
       "text": "¿Fallé en enseñar a mis hijos sobre su sexualidad humana?",
       "text_past": "No les enseñé a mis hijos sobre su sexualidad humana."
     },
+    "18": {
+      "text": "¿Infringí alguna ley justa?",
+      "text_past": "Infringí una ley justa."
+    },
     "19": {
       "text": "¿Lastimé físicamente a alguien?",
       "text_past": "Lastimé físicamente a alguien."
     },
-    "24": {
-      "text": "¿Abusé de drogas o alcohol?",
-      "text_past": "Abusé de drogas o alcohol."
+    "20": {
+      "text": "¿Tuve un aborto? ¿Participé en un aborto?",
+      "text_past": "Tuve o participé en un aborto."
     },
     "21": {
       "detail": "\"Toda acción que, ya sea en previsión del acto conyugal, en su realización o en el desarrollo de sus consecuencias naturales, propone, ya sea como fin o como medio, hacer imposible la procreación es intrínsecamente mala\" (CIC 2370). \"Las intenciones legítimas por parte de los cónyuges no justifican el recurso a medios moralmente inaceptables (por ejemplo, la esterilización directa o la anticoncepción)\" (CIC 2399). La anticoncepción artificial es incorrecta porque convierte un hermoso acto de amor en algo egoísta.",
       "text": "¿Usé métodos anticonceptivos artificiales?",
       "text_past": "Usé métodos anticonceptivos artificiales."
+    },
+    "22": {
+      "text": "¿Intenté suicidarme?",
+      "text_past": "Intenté suicidarme."
+    },
+    "23": {
+      "text": "¿Participé en la eutanasia?",
+      "text_past": "Participé en la eutanasia."
+    },
+    "24": {
+      "text": "¿Abusé de drogas o alcohol?",
+      "text_past": "Abusé de drogas o alcohol."
+    },
+    "25": {
+      "text": "¿Tuve sexo fuera del matrimonio?",
+      "text_past": "Tuve sexo fuera del matrimonio."
+    },
+    "26": {
+      "text": "¿Soy culpable del pecado de lujuria?",
+      "text_past": "Soy culpable del pecado de lujuria."
     },
     "27": {
       "text": "¿Miré pornografía?",
@@ -270,89 +264,13 @@
       "text": "¿Realicé actos sexualmente inmorales?",
       "text_past": "Realicé actos sexualmente inmorales."
     },
-    "52": {
-      "text_past": "Participé en prácticas ocultistas.",
-      "text": "¿Participé en prácticas ocultas?"
-    },
-    "46": {
-      "text": "¿Voté por un candidato o política que no sostiene mis valores católicos?",
-      "text_past": "Voté por un candidato o política que no defiende mis valores católicos."
-    },
-    "39": {
-      "text": "¿Fallé en recibir la Eucaristía al menos una vez durante la Pascua?",
-      "text_past": "Fallé en recibir la Eucaristía al menos una vez durante la Pascua."
-    },
-    "47": {
-      "text": "¿Escuché música o vi televisión o una película que tuvieron una mala influencia en mí?",
-      "text_past": "Escuché música o vi televisión o una película que tuvo una mala influencia en mí."
-    },
-    "43": {
-      "text": "¿Estuve demasiado ocupado como para descansar y pasar tiempo con mi familia el domingo?",
-      "text_past": "Estuve demasiado ocupado como para descansar y pasar tiempo con mi familia el domingo."
-    },
-    "44": {
-      "text": "¿Sentí celos de la esposa/el esposo o prometida/prometido de alguien más?",
-      "text_past": "Sentí celos de la esposa/el esposo o prometida/prometido de alguien más."
-    },
-    "45": {
-      "text": "¿Sentí celos de algo que pertenece a alguien más?",
-      "text_past": "Sentí celos de algo que pertenece a alguien más."
-    },
-    "49": {
-      "text": "¿Guié a otros al pecado conscientemente?",
-      "text_past": "Guié a otros al pecado conscientemente."
-    },
-    "50": {
-      "text": "¿Fallé en hacer de Dios una prioridad en mi vida?",
-      "text_past": "Fallé en hacer de Dios una prioridad en mi vida."
-    },
-    "51": {
-      "text": "¿He actuado egoístamente?",
-      "text_past": "Actué egoístamente."
-    },
-    "53": {
-      "text": "¿He sido perezoso en el trabajo o en casa?",
-      "text_past": "Fui perezoso en el trabajo o en casa."
-    },
-    "54": {
-      "text": "¿He sido perezoso con mis tareas escolares?",
-      "text_past": "Fui perezoso con mis tareas escolares."
-    },
-    "40": {
-      "text": "¿Dejé de ayunar una hora antes de recibir la Eucaristía?",
-      "text_past": "Fallé en ayunar durante una hora antes de recibir la Eucaristía."
-    },
-    "55": {
-      "text": "¿He sido orgulloso o vanidoso?",
-      "text_past": "Fui orgulloso o vanidoso."
-    },
-    "56": {
-      "text": "¿He cometido el pecado de la gula?",
-      "text_past": "Soy culpable de gula."
-    },
-    "57": {
-      "text": "¿Permití que me controlara la ira?",
-      "text_past": "Permití que me controlara la ira."
-    },
-    "23": {
-      "text_past": "Participé en la eutanasia.",
-      "text": "¿Participé en la eutanasia?"
-    },
-    "22": {
-      "text": "¿Intenté suicidarme?",
-      "text_past": "Intenté suicidarme."
-    },
-    "25": {
-      "text": "¿Tuve sexo fuera del matrimonio?",
-      "text_past": "Tuve sexo fuera del matrimonio."
-    },
-    "26": {
-      "text": "¿Soy culpable del pecado de lujuria?",
-      "text_past": "Soy culpable del pecado de lujuria."
-    },
     "32": {
       "text": "¿Cedí a los besos apasionados por placer?",
       "text_past": "Cedí a los besos apasionados por placer."
+    },
+    "33": {
+      "text": "¿Robé algo? Si es así, ¿en qué medida?",
+      "text_past": "Robé algo. (Hasta tal y tal punto.)"
     },
     "34": {
       "text": "¿Piratié películas, música o software?",
@@ -374,18 +292,100 @@
       "text": "¿Fallé en abstenerme de comer carne los viernes de Cuaresma y el Miércoles de Ceniza?",
       "text_past": "Fallé en abstenerme de comer carne un viernes de Cuaresma o el Miércoles de Ceniza."
     },
+    "39": {
+      "text": "¿Fallé en recibir la Eucaristía al menos una vez durante la Pascua?",
+      "text_past": "Fallé en recibir la Eucaristía al menos una vez durante la Pascua."
+    },
+    "40": {
+      "text": "¿Dejé de ayunar una hora antes de recibir la Eucaristía?",
+      "text_past": "Fallé en ayunar durante una hora antes de recibir la Eucaristía."
+    },
     "41": {
       "text": "¿Recibí la Eucaristía en estado de pecado mortal?",
       "text_past": "Recibí la Eucaristía en estado de pecado mortal."
+    },
+    "42": {
+      "text": "¿Oculté algo intencionalmente en la confesión?",
+      "text_past": "Oculté intencionalmente algo en la confesión."
+    },
+    "43": {
+      "text": "¿Estuve demasiado ocupado como para descansar y pasar tiempo con mi familia el domingo?",
+      "text_past": "Estuve demasiado ocupado como para descansar y pasar tiempo con mi familia el domingo."
+    },
+    "44": {
+      "text": "¿Sentí celos de la esposa/el esposo o prometida/prometido de alguien más?",
+      "text_past": "Sentí celos de la esposa/el esposo o prometida/prometido de alguien más."
+    },
+    "45": {
+      "text": "¿Sentí celos de algo que pertenece a alguien más?",
+      "text_past": "Sentí celos de algo que pertenece a alguien más."
+    },
+    "46": {
+      "text": "¿Voté por un candidato o política que no sostiene mis valores católicos?",
+      "text_past": "Voté por un candidato o política que no defiende mis valores católicos."
+    },
+    "47": {
+      "text": "¿Escuché música o vi televisión o una película que tuvieron una mala influencia en mí?",
+      "text_past": "Escuché música o vi televisión o una película que tuvo una mala influencia en mí."
     },
     "48": {
       "text": "¿Fui avaro o fallé en dar generosamente a mi iglesia y a los pobres?",
       "text_past": "Fui avaro o fallé en dar generosamente a mi iglesia o a los pobres."
     },
-    "3": {
-      "text": "¿Presumí de la misericordia de Dios?",
-      "text_past": "Presumí de la misericordia de Dios.",
-      "detail": "Presumir de la misericordia de Dios es esperar obtener el perdón sin conversión y la gloria sin mérito (CIC 2092). Es incorrecto hacer algo inmoral porque esperas que Dios te perdone."
+    "49": {
+      "text": "¿Guié a otros al pecado conscientemente?",
+      "text_past": "Guié a otros al pecado conscientemente."
+    },
+    "50": {
+      "text": "¿Fallé en hacer de Dios una prioridad en mi vida?",
+      "text_past": "Fallé en hacer de Dios una prioridad en mi vida."
+    },
+    "51": {
+      "text": "¿He actuado egoístamente?",
+      "text_past": "Actué egoístamente."
+    },
+    "52": {
+      "text": "¿Participé en prácticas ocultas?",
+      "text_past": "Participé en prácticas ocultistas."
+    },
+    "53": {
+      "text": "¿He sido perezoso en el trabajo o en casa?",
+      "text_past": "Fui perezoso en el trabajo o en casa."
+    },
+    "54": {
+      "text": "¿He sido perezoso con mis tareas escolares?",
+      "text_past": "Fui perezoso con mis tareas escolares."
+    },
+    "55": {
+      "text": "¿He sido orgulloso o vanidoso?",
+      "text_past": "Fui orgulloso o vanidoso."
+    },
+    "56": {
+      "text": "¿He cometido el pecado de la gula?",
+      "text_past": "Soy culpable de gula."
+    },
+    "57": {
+      "text": "¿Permití que me controlara la ira?",
+      "text_past": "Permití que me controlara la ira."
     }
+  },
+  "sins_list": {
+    "review": "Revise"
+  },
+  "walkthrough": {
+    "amen": "Amen.",
+    "bless_me_father": "Bendíceme, Padre, porque he pecado. Ha pasado ____ desde mi última confesión. Estos son mis pecados:",
+    "god_the_father_of_mercies": "Dios, Padre misericordioso…",
+    "in_the_name_of": "En el nombre del Padre, y del Hijo, y del Espiritu Santo. Amen.",
+    "thanks_be_to_god": "Gracias a Dios.",
+    "the_lord_has_freed_you": "El Señor los ha librado de sus pecados. Ve en paz.",
+    "these_are_my_sins": "Estos son mis pecados y los siento de todo corazón.",
+    "walkthrough": "Confese",
+    "your_confessor_may_offer": "(El sacerdote podría ofrecerle algún consejo o tener una breve conversación con usted.)",
+    "your_confessor_will_assign": "(El sacerdote asignará una penitencia). Ahora reze el acto de contrición."
+  },
+  "welcome": {
+    "body": " es una herramienta para ayudar a los católicos romanos a realizar un examen de conciencia antes de ir a confesarse. Esperamos que encuentres esto útil para recordar los pecados que has cometido desde tu última confesión. Simplemente marca la casilla <strong>Sí</strong> al lado de los pecados en la lista de <strong>Examen</strong>, o toca el botón <kbd>+</kbd> en la parte inferior derecha de la aplicación para agregar los tuyos. Luego, desplázate hacia la derecha para <strong>Revisar</strong> tus pecados y <strong>Seguir</strong> los pasos para confesarte. <br /><br />Los datos que ingreses se almacenan en tu dispositivo (<strong>nunca</strong> se envían por Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong> en la configuración de la aplicación, incluso si cierras la ventana o actualizas la página. <br /><br />¡Dios te bendiga en tu camino hacia la santidad!",
+    "title": "¡Bienvenido!"
   }
 }
