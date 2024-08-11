@@ -1,36 +1,14 @@
 {
   "name": "confessit-web",
-  "version": "0.1.0",
+  "type": "module",
+  "version": "0.2.0",
   "private": true,
-  "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.2.2",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6",
-    "font-awesome": "^4.7.0",
-    "i18next": "^21.5.2",
-    "i18next-browser-languagedetector": "^6.1.2",
-    "i18next-http-backend": "^1.3.1",
-    "i18next-scanner": "^4.2.0",
-    "react": "^16.14.0",
-    "react-bootstrap": "^2.5.0",
-    "react-dom": "^16.14.0",
-    "react-i18next": "^11.14.2",
-    "react-id-swiper": "^4.0.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "5.0.1",
-    "sass": "^1.43.4",
-    "swiper": "^8.0.0"
-  },
-  "resolutions": {
-    "autoprefixer": "10.4.5"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "yarn build && aws s3 sync build/ s3://confessit.app --delete",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
     "lint": "node_modules/.bin/eslint --ext js src",
     "postinstall": "husky install"
   },
@@ -40,17 +18,8 @@
       "jsx-a11y/anchor-has-content": "off"
     }
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "astro": "^4.13.3"
   },
   "devDependencies": {
     "husky": "^8.0.1",

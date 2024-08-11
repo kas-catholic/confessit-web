@@ -7,7 +7,7 @@ We welcome anyone who would like to contribute to this project. Please see our [
 ## Development
 
 1. We highly recommend using [nvm](https://github.com/nvm-sh/nvm) to manage your Node installation. See the [nvm Installation Instructions](https://github.com/nvm-sh/nvm#install--update-script). We have a `.nvmrc` checked in, so running `nvm install` in this project directory after setting up nvm will ensure the correct Node version is installed.
-2. We use [Yarn 2](https://yarnpkg.com/) to manage our dependencies. The [Yarn Installation Instructions](https://yarnpkg.com/getting-started/install) recommend running `corepack enable` to install Yarn.
+2. We use ~[Yarn 2](https://yarnpkg.com/)~ NPM to manage our dependencies. The [Yarn Installation Instructions](https://yarnpkg.com/getting-started/install) recommend running `corepack enable` to install Yarn.
 3. Install the project dependencies with `yarn install`.
 4. Run `yarn start` as described [below](#yarn-start) to build the project and run the development server. You can kill the server with `CTRL-C` and restart it any time with `yarn start` again.
 
@@ -25,41 +25,68 @@ Our `main` branch is continuously deployed via [Netlify](https://www.netlify.com
 
 ---
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-> We don't have any tests yet, but we plan to add some soon.
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Astro documentation](https://docs.astro.build/).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 We're also using [Swiper](https://swiperjs.com/) via [react-id-swiper](https://github.com/kidjp85/react-id-swiper) for the swipable columns.
 
 The app is deployed to <https://confessit.app>, hosted on Netlify.
+
+
+# Astro Starter Kit: Basics
+
+```sh
+npm create astro@latest -- --template basics
+```
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+
+![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   └── Card.astro
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
+
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+
+Any static assets, like images, can be placed in the `public/` directory.
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
