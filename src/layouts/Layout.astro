@@ -17,34 +17,52 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
+		<div class="navbar bg-primary text-primary-content">
+			<div class="navbar-start">
+				<!-- On small screens, show a dropdown menu -->
+				<div class="dropdown">
+					<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+						<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-5 w-5"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M4 6h16M4 12h8m-8 6h16" />
+						</svg>
+					</div>
+					<ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+						<li><a href="/prayers">Prayers</a></li>
+						<li><a href="/prayers">About</a></li>
+						<li><a href="/prayers">Help</a></li>
+						<li><a href="#">Clear</a></li>
+					</ul>
+				</div>
+
+				<a class="btn text-xl" href="/">⛪ ConfessIt</a>
+
+				<!-- On large screens, show a menu -->
+				<div class="hidden lg:flex">
+					<ul class="menu menu-horizontal px-1">
+						<li><a href="/prayers">Prayers</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Help</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="navbar-end">
+				<!-- On large screens, show a menu -->
+				<div class="hidden lg:flex">
+					<a class="btn">Clear</a>
+				</div>
+			</div>
+		</div>
+
 		<slot />
 	</body>
 </html>
-<style is:global>
-	:root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background: #13151a;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
-</style>

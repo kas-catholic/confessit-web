@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@vite-pwa/astro": "^0.4.0",
+    "daisyui": "^4.12.10",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1"
