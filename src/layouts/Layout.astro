@@ -13,7 +13,7 @@ const { title } = Astro.props;
 <html lang={i18next.language}>
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
+		<meta name="description" content={t("about.about_confessit_text").replace(/<\/?vatican>/g, "")} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
@@ -41,10 +41,10 @@ const { title } = Astro.props;
 						</svg>
 					</div>
 					<ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-						<li><a href="/prayers">Prayers</a></li>
-						<li><a href="/prayers">About</a></li>
-						<li><a href="/prayers">Help</a></li>
-						<li><a href="#">Clear</a></li>
+						<li><a href="/prayers">{t('navbar.prayers')}</a></li>
+						<li><a href="/about">{t('navbar.about')}</a></li>
+						<li><a href="/help">{t('navbar.help')}</a></li>
+						<li><a href="#">{t('navbar.clear')}</a></li>
 					</ul>
 				</div>
 
@@ -53,9 +53,9 @@ const { title } = Astro.props;
 				<!-- On large screens, show a menu -->
 				<div class="hidden lg:flex">
 					<ul class="menu menu-horizontal px-1">
-						<li><a href="/prayers">Prayers</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Help</a></li>
+						<li><a href="/prayers">{t('navbar.prayers')}</a></li>
+						<li><a href="/about">{t('navbar.about')}</a></li>
+						<li><a href="/help">{t('navbar.help')}</a></li>
 					</ul>
 				</div>
 			</div>
@@ -64,7 +64,7 @@ const { title } = Astro.props;
 				<!-- On large screens, show a menu -->
 				<div class="hidden lg:flex">
 					<LanguageSelector showFlag={true} class="" />
-					<a class="btn">Clear</a>
+					<a class="btn">{t('navbar.clear')}</a>
 				</div>
 			</div>
 		</div>
