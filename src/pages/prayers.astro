@@ -1,15 +1,16 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Container from "../layouts/Container.astro";
 import i18next, { t, changeLanguage } from "i18next";
 import { Trans, HeadHrefLangs } from "astro-i18next/components";
 
 changeLanguage("en");
 ---
 
-<Layout title="Prayers | ConfessIt">
-  <h1 class="text-4xl">{t("prayers.prayers")}</h1>
+<Container title="Prayers | ConfessIt">
 
-  <div class="prose">
+  <div class="prose mx-auto">
+    <h1 class="text-4xl">{t("prayers.prayers")}</h1>
+    
     <h2 class="text-2xl" id="prayer-before-confession">
       {t("prayers.prayer_before_confession")}
     </h2>
