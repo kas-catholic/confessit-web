@@ -1,5 +1,6 @@
 ---
 import i18next, { t } from "i18next";
+import { HeadHrefLangs, LanguageSelector } from "astro-i18next/components";
 interface Props {
 	title: string;
 }
@@ -16,6 +17,8 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+
+		<HeadHrefLangs />
 	</head>
 	<body>
 		<div class="navbar bg-primary text-primary-content">
@@ -59,6 +62,7 @@ const { title } = Astro.props;
 			<div class="navbar-end">
 				<!-- On large screens, show a menu -->
 				<div class="hidden lg:flex">
+					<LanguageSelector showFlag={true} class="" />
 					<a class="btn">Clear</a>
 				</div>
 			</div>
