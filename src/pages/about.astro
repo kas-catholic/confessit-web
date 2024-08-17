@@ -1,6 +1,14 @@
 ---
-import { changeLanguage } from "i18next";
+import Container from "@layouts/Container.astro";
+import { t, changeLanguage } from "i18next";
+import { Trans } from "astro-i18next/components";
 
 changeLanguage("en");
 ---
 
+<Container title={t("navbar.about")}>
+  <div class="prose mx-auto">
+    <h1>{t("about.about_confessit")}</h1>
+
+  </div>
+</Container>
