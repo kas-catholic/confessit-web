@@ -71,7 +71,9 @@ const ConfessIt = () => {
     <div>
       <h1>ConfessIt Component</h1>
       <Swiper spaceBetween={5} slidesPerView={1} breakpoints={{1024: {slidesPerView: 3, spaceBetween: 10}}}>
-        <SwiperSlide><ExamineList /></SwiperSlide>
+        <SwiperSlide>
+          <ExamineList sinsdb={sinsdb} selectedSinIds={selectedSinIds} onAddSinId={addSinId} onRemoveSinItem={removeSinItem} />
+        </SwiperSlide>
         <SwiperSlide><SinsList /></SwiperSlide>
         <SwiperSlide><Walkthrough /></SwiperSlide>
       </Swiper>
