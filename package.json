@@ -29,6 +29,7 @@
     "i18next": "^22.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-i18next": "^12.3.1",
     "swiper": "^11.1.9",
     "tailwindcss": "^3.4.9"
   },
