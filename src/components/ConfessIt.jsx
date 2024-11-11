@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import { t } from "i18next";
 
 import sinsdb from "@data/sinsdb";
 
@@ -74,7 +75,9 @@ const ConfessIt = () => {
         <SwiperSlide>
           <ExamineList sinsdb={sinsdb} selectedSinIds={selectedSinIds} onAddSinId={addSinId} onRemoveSinItem={removeSinItem} />
         </SwiperSlide>
-        <SwiperSlide><SinsList /></SwiperSlide>
+        <SwiperSlide>
+          <SinsList sinsList={sinsList} onRemoveSinItem={removeSinItem} />
+        </SwiperSlide>
         <SwiperSlide><Walkthrough /></SwiperSlide>
       </Swiper>
     </div>
