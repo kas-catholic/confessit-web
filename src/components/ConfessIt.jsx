@@ -78,7 +78,9 @@ const ConfessIt = () => {
         <SwiperSlide>
           <SinsList sinsList={sinsList} onRemoveSinItem={removeSinItem} />
         </SwiperSlide>
-        <SwiperSlide><Walkthrough /></SwiperSlide>
+        <SwiperSlide>
+          <Walkthrough sinsList={sinsList} />
+        </SwiperSlide>
       </Swiper>
     </div>
   );
