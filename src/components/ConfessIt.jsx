@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/pagination';
 import { t } from "i18next";
 
 import sinsdb from "@data/sinsdb";
@@ -69,20 +71,30 @@ const ConfessIt = () => {
 
 
   return (
-    <div>
-      <h1>ConfessIt Component</h1>
-      <Swiper spaceBetween={5} slidesPerView={1} breakpoints={{1024: {slidesPerView: 3, spaceBetween: 10}}}>
-        <SwiperSlide>
+    <Swiper
+      modules={[Pagination]}
+      spaceBetween={5}
+      slidesPerView={1}
+      breakpoints={{1024: {slidesPerView: 3, spaceBetween: 10}}}
+      pagination={{clickable: true}}
+      className='h-full'
+      >
+      <SwiperSlide className='h-full'>
+        <div className='h-full overflow-y-auto'>
           <ExamineList sinsdb={sinsdb} selectedSinIds={selectedSinIds} onAddSinId={addSinId} onRemoveSinItem={removeSinItem} />
-        </SwiperSlide>
-        <SwiperSlide>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className='h-full overflow-y-auto'>
           <SinsList sinsList={sinsList} onRemoveSinItem={removeSinItem} />
-        </SwiperSlide>
-        <SwiperSlide>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className='h-full overflow-y-auto'>
           <Walkthrough sinsList={sinsList} />
-        </SwiperSlide>
-      </Swiper>
-    </div>
+        </div>
+      </SwiperSlide>
+    </Swiper>
   );
 }
 
