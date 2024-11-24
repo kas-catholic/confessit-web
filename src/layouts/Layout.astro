@@ -54,7 +54,7 @@ const { title, bodyClass = "" } = Astro.props;
 
 				<!-- On large screens, show a menu -->
 				<div class="hidden lg:flex">
-					<ul class="menu menu-horizontal px-1 text-lg">
+					<ul class="menu menu-horizontal px-1 gap-1 text-lg">
 						<li><a href={localizePath("/prayers")}>{t('navbar.prayers')}</a></li>
 						<li><a href={localizePath("/about")}>{t('navbar.about')}</a></li>
 						<li><a href={localizePath("/help")}>{t('navbar.help')}</a></li>
@@ -65,8 +65,10 @@ const { title, bodyClass = "" } = Astro.props;
 			<div class="navbar-end">
 				<!-- On large screens, show a menu -->
 				<div class="hidden lg:flex">
-					<LanguageSelector showFlag={true} class="" />
-					<a class="btn">{t('navbar.clear')}</a>
+					<ul class="menu menu-horizontal px-1 gap-4 text-lg">
+						<li><LanguageSelector showFlag={true} class="select select-bordered bg-primary text-primary-content w-36" /></li>
+						<li><a class="btn btn-error">{t('navbar.clear')}</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
