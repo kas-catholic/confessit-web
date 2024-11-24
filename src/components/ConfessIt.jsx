@@ -73,9 +73,9 @@ const ConfessIt = () => {
   return (
     <Swiper
       modules={[Pagination]}
-      spaceBetween={5}
+      spaceBetween={0}
       slidesPerView={1}
-      breakpoints={{1024: {slidesPerView: 3, spaceBetween: 10}}}
+      breakpoints={{1024: {slidesPerView: 3, spaceBetween: 0}}}
       pagination={{clickable: true}}
       className='h-full'
       >
