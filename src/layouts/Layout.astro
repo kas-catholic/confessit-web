@@ -42,19 +42,19 @@ const { title, bodyClass = "" } = Astro.props;
 								d="M4 6h16M4 12h8m-8 6h16" />
 						</svg>
 					</div>
-					<ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-						<li><a href={localizePath("/prayers")}>{t('navbar.prayers')}</a></li>
-						<li><a href={localizePath("/about")}>{t('navbar.about')}</a></li>
-						<li><a href={localizePath("/help")}>{t('navbar.help')}</a></li>
-						<li><a href={localizePath("#")}>{t('navbar.clear')}</a></li>
+					<ul tabindex="0" class="menu menu-md dropdown-content bg-base-200 rounded-box z-[100] mt-3 w-56 p-4 shadow">
+						<li><a href={localizePath("/prayers")} class="btn btn-secondary text-lg btn-block my-2">{t('navbar.prayers')}</a></li>
+						<li><a href={localizePath("/about")} class="btn btn-secondary text-lg btn-block my-2">{t('navbar.about')}</a></li>
+						<li><a href={localizePath("/help")} class="btn btn-secondary text-lg btn-block my-2">{t('navbar.help')}</a></li>
+						<li><a href={localizePath("#")} class="btn btn-secondary text-lg btn-block my-2">{t('navbar.clear')}</a></li>
 					</ul>
 				</div>
 
-				<a class="btn text-xl" href={localizePath("/")}>⛪ ConfessIt</a>
+				<a class="btn btn-ghost text-2xl" href={localizePath("/")}>⛪ ConfessIt</a>
 
 				<!-- On large screens, show a menu -->
 				<div class="hidden lg:flex">
-					<ul class="menu menu-horizontal px-1">
+					<ul class="menu menu-horizontal px-1 text-lg">
 						<li><a href={localizePath("/prayers")}>{t('navbar.prayers')}</a></li>
 						<li><a href={localizePath("/about")}>{t('navbar.about')}</a></li>
 						<li><a href={localizePath("/help")}>{t('navbar.help')}</a></li>

@@ -10,6 +10,13 @@ export default {
 	plugins: [typography, daisyui],
 	daisyui: {
 		themes: [
+			"retro",
+			"valentine",
+			"lemonade",
+			"nord",
+			"night",
+			"dracula",
+			"dim",
 			{
 				iconfess: {
 					"primary": "#3c005a",
