@@ -1,3 +1,4 @@
+import ListHeader from "@components/ListHeader";
 import SpeechBubble from "@components/SpeechBubble";
 import { Trans } from "react-i18next";
 import { t } from "i18next";
@@ -9,7 +10,7 @@ const Walkthrough = ({ sinsList }) => {
 
   return (
     <div>
-      <h2 className="mt-5">{t("walkthrough.walkthrough")}</h2>
+      <ListHeader>{t("walkthrough.walkthrough")}</ListHeader>
       <SpeechBubble isPriest={true}>{t("walkthrough.in_the_name_of")}</SpeechBubble>
       <SpeechBubble isPriest={false}>{t("walkthrough.bless_me_father")}</SpeechBubble>
 

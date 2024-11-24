@@ -1,5 +1,6 @@
 import { t } from "i18next";
 
+import ListHeader from "@components/ListHeader";
 import ExamineItem from "@components/ExamineItem";
 import CommandmentGroup from "@components/CommandmentGroup";
 
@@ -41,7 +42,7 @@ const ExamineList = ({ sinsdb, selectedSinIds, onAddSinId, onRemoveSinItem }) =>
 
   return (
     <div>
-      <h2 className="mt-5">{t("examine_list.examine")}</h2>
+      <ListHeader>{t("examine_list.examine")}</ListHeader>
       {elements}
     </div>
   );
