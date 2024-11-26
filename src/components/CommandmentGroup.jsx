@@ -1,8 +1,6 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from "react";
 
 const CommandmentGroup = ({ title, text, cmdId, children }) => {
-
-
   // TODO: Use a daisyUI Collapse component to make this group collapsible.
   // Store any necessary collapse state in this component.
   return (
@@ -12,11 +10,9 @@ const CommandmentGroup = ({ title, text, cmdId, children }) => {
         <p>{text}</p>
       </div>
 
-      <div>
-        {children}
-      </div>
+      <div>{children}</div>
     </div>
   );
-}
+};
 
 export default CommandmentGroup;
