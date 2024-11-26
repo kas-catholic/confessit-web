@@ -3,5 +3,5 @@
 
 npx lint-staged
 
-npx i18next-scanner --config i18next-scanner.config-en.js
-npx i18next-scanner --config i18next-scanner.config-langs.js
+npx i18next-scanner --config i18next-scanner.config-en.cjs
+npx i18next-scanner --config i18next-scanner.config-langs.cjs
