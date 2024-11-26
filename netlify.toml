@@ -13,4 +13,4 @@
   publish = "dist/"
 
   # Default build command.
-  command = "npm run build"
+  command = "npx astro-i18next generate && npm run build"
