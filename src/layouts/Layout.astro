@@ -1,7 +1,7 @@
 ---
 import i18next, { t } from "i18next";
 import { localizePath } from "astro-i18next";
-import Trash from "astro-heroicons/mini/Trash.astro";
+import { TrashIcon } from "@heroicons/react/16/solid";
 import { HeadHrefLangs, LanguageSelector } from "astro-i18next/components";
 import "@styles/base.css";
 interface Props {
@@ -110,7 +110,7 @@ const { title, bodyClass = "" } = Astro.props;
             </li>
             <li>
               <a class="btn btn-error"
-                ><Trash class="h-5" />{t("navbar.clear")}</a
+                ><TrashIcon className="h-5" />{t("navbar.clear")}</a
               >
             </li>
           </ul>
