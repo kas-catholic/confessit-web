@@ -5,10 +5,10 @@ const SpeechBubble = ({ isPriest, children }) => {
 
   return (
     <div className={`chat mb-4 ${clazz}`}>
-      {isPriest && <div className="chat-header">{t('priestbubble.priest')}</div>}
-      <div className="chat-bubble chat-bubble-secondary">
-        {children}
-      </div>
+      {isPriest && (
+        <div className="chat-header">{t("priestbubble.priest")}</div>
+      )}
+      <div className="chat-bubble chat-bubble-secondary">{children}</div>
     </div>
   );
 };

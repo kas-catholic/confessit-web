@@ -2,5 +2,5 @@
 export default {
   defaultLocale: "en",
   locales: ["en", "es", "it", "de", "pt-BR"],
-  load: ["server", "client"]
+  load: ["server", "client"],
 };
