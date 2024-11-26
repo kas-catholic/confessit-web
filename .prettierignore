@@ -5,8 +5,11 @@
 # testing
 /coverage
 
+# Astro generated/cache
+/.astro
+
 # production
-/build
+/dist
 
 # Translations don't come in formatted
 /public/locales
