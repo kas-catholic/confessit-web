@@ -1,6 +1,5 @@
 import { t } from "i18next";
 
-import ListHeader from "@components/ListHeader";
 import SinListItem from "@components/SinListItem";
 
 const SinsList = ({ sinsList, onRemoveSinItem }) => {
@@ -12,12 +11,7 @@ const SinsList = ({ sinsList, onRemoveSinItem }) => {
     />
   ));
 
-  return (
-    <div>
-      <ListHeader>{t("sins_list.review")}</ListHeader>
-      {sinCards}
-    </div>
-  );
+  return <div>{sinCards}</div>;
 };
 
 export default SinsList;

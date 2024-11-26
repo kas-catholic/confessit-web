@@ -1,24 +1,34 @@
-import ListHeader from "@components/ListHeader";
 import SpeechBubble from "@components/SpeechBubble";
 import { Trans } from "react-i18next";
 import { t } from "i18next";
 
 const Walkthrough = ({ sinsList }) => {
   const sinCards = sinsList.map((sinItem, index) => (
-    <SpeechBubble isPriest={false} key={index}>{sinItem.text}</SpeechBubble>
+    <SpeechBubble isPriest={false} key={index}>
+      {sinItem.text}
+    </SpeechBubble>
   ));
 
   return (
     <div>
-      <ListHeader>{t("walkthrough.walkthrough")}</ListHeader>
-      <SpeechBubble isPriest={true}>{t("walkthrough.in_the_name_of")}</SpeechBubble>
-      <SpeechBubble isPriest={false}>{t("walkthrough.bless_me_father")}</SpeechBubble>
+      <SpeechBubble isPriest={true}>
+        {t("walkthrough.in_the_name_of")}
+      </SpeechBubble>
+      <SpeechBubble isPriest={false}>
+        {t("walkthrough.bless_me_father")}
+      </SpeechBubble>
 
       {sinCards}
 
-      <SpeechBubble isPriest={false}>{t("walkthrough.these_are_my_sins")}</SpeechBubble>
-      <SpeechBubble isPriest={true}>{t("walkthrough.your_confessor_may_offer")}</SpeechBubble>
-      <SpeechBubble isPriest={true}>{t("walkthrough.your_confessor_will_assign")}</SpeechBubble>
+      <SpeechBubble isPriest={false}>
+        {t("walkthrough.these_are_my_sins")}
+      </SpeechBubble>
+      <SpeechBubble isPriest={true}>
+        {t("walkthrough.your_confessor_may_offer")}
+      </SpeechBubble>
+      <SpeechBubble isPriest={true}>
+        {t("walkthrough.your_confessor_will_assign")}
+      </SpeechBubble>
       <SpeechBubble isPriest={false}>
         <Trans t={t} i18nKey="prayers.act_of_contrition_text">
           My God,
@@ -35,13 +45,18 @@ const Walkthrough = ({ sinsList }) => {
           mercy.
         </Trans>
       </SpeechBubble>
-      <SpeechBubble isPriest={true}>{t("walkthrough.god_the_father_of_mercies")}</SpeechBubble>
+      <SpeechBubble isPriest={true}>
+        {t("walkthrough.god_the_father_of_mercies")}
+      </SpeechBubble>
       <SpeechBubble isPriest={false}>{t("walkthrough.amen")}</SpeechBubble>
-      <SpeechBubble isPriest={true}>{t("walkthrough.the_lord_has_freed_you")}</SpeechBubble>
-      <SpeechBubble isPriest={false}>{t("walkthrough.thanks_be_to_god")}</SpeechBubble>
+      <SpeechBubble isPriest={true}>
+        {t("walkthrough.the_lord_has_freed_you")}
+      </SpeechBubble>
+      <SpeechBubble isPriest={false}>
+        {t("walkthrough.thanks_be_to_god")}
+      </SpeechBubble>
     </div>
   );
 };
 
 export default Walkthrough;
-

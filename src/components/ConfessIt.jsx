@@ -1,12 +1,13 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
+import React, { useState, useEffect, useCallback } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 import { t } from "i18next";
 
 import sinsdb from "@data/sinsdb";
 
+import Column from "@components/Column";
 import ExamineList from "@components/ExamineList";
 import SinsList from "@components/SinsList";
 import Walkthrough from "@components/Walkthrough";
@@ -29,7 +30,10 @@ const ConfessIt = () => {
 
   // Persist state to localStorage whenever it changes
   const persistData = useCallback(() => {
-    localStorage.setItem("state", JSON.stringify({ selectedSinIds, customSins }));
+    localStorage.setItem(
+      "state",
+      JSON.stringify({ selectedSinIds, customSins })
+    );
   }, [selectedSinIds, customSins]);
 
   useEffect(() => {
@@ -37,16 +41,15 @@ const ConfessIt = () => {
   }, [selectedSinIds, customSins, persistData]);
 
   const sinsList = selectedSinIds
-      .map((id) => ({
-        id: id,
-        text: t(`sins.${id}.text_past`),
-      }))
-      .concat(customSins.map((text) => ({ text: text })));
+    .map((id) => ({
+      id: id,
+      text: t(`sins.${id}.text_past`),
+    }))
+    .concat(customSins.map((text) => ({ text: text })));
 
   const addSinId = useCallback((id) => {
     setSelectedSinIds((prev) => [...prev, id]);
   }, []);
-
 
   const removeSinItem = useCallback((sinItem) => {
     if (sinItem.hasOwnProperty("id") && sinItem.id !== null) {
@@ -69,33 +72,37 @@ const ConfessIt = () => {
     setCustomSins([]);
   }, []);
 
-
   return (
     <Swiper
       modules={[Pagination]}
       spaceBetween={0}
       slidesPerView={1}
-      breakpoints={{1024: {slidesPerView: 3, spaceBetween: 0}}}
-      pagination={{clickable: true}}
-      className='h-full'
-      >
-      <SwiperSlide className='h-full'>
-        <div className='h-full overflow-y-auto'>
-          <ExamineList sinsdb={sinsdb} selectedSinIds={selectedSinIds} onAddSinId={addSinId} onRemoveSinItem={removeSinItem} />
-        </div>
+      breakpoints={{ 1024: { slidesPerView: 3, spaceBetween: 0 } }}
+      pagination={{ clickable: true }}
+      className="h-full"
+    >
+      <SwiperSlide className="h-full">
+        <Column title={t("examine_list.examine")}>
+          <ExamineList
+            sinsdb={sinsdb}
+            selectedSinIds={selectedSinIds}
+            onAddSinId={addSinId}
+            onRemoveSinItem={removeSinItem}
+          />
+        </Column>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='h-full overflow-y-auto'>
+        <Column title={t("sins_list.review")}>
           <SinsList sinsList={sinsList} onRemoveSinItem={removeSinItem} />
-        </div>
+        </Column>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='h-full overflow-y-auto'>
+        <Column title={t("walkthrough.walkthrough")}>
           <Walkthrough sinsList={sinsList} />
-        </div>
+        </Column>
       </SwiperSlide>
     </Swiper>
   );
-}
+};
 
 export default ConfessIt;

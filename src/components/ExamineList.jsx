@@ -1,10 +1,14 @@
 import { t } from "i18next";
 
-import ListHeader from "@components/ListHeader";
 import ExamineItem from "@components/ExamineItem";
 import CommandmentGroup from "@components/CommandmentGroup";
 
-const ExamineList = ({ sinsdb, selectedSinIds, onAddSinId, onRemoveSinItem }) => {
+const ExamineList = ({
+  sinsdb,
+  selectedSinIds,
+  onAddSinId,
+  onRemoveSinItem,
+}) => {
   const sins = sinsdb.sins.reduce((result, sin) => {
     if (!result.hasOwnProperty(sin.commandment_id)) {
       result[sin.commandment_id] = [];
@@ -40,12 +44,7 @@ const ExamineList = ({ sinsdb, selectedSinIds, onAddSinId, onRemoveSinItem }) =>
     );
   });
 
-  return (
-    <div>
-      <ListHeader>{t("examine_list.examine")}</ListHeader>
-      {elements}
-    </div>
-  );
-}
+  return <div>{elements}</div>;
+};
 
 export default ExamineList;
