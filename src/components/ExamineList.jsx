@@ -22,7 +22,7 @@ const ExamineList = ({
         key={sin.sin_id}
         onAddSinId={onAddSinId}
         onRemoveSinItem={onRemoveSinItem}
-      />
+      />,
     );
 
     return result;

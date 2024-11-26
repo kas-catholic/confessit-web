@@ -3,10 +3,10 @@ import i18next, { t } from "i18next";
 import { localizePath } from "astro-i18next";
 import Trash from "astro-heroicons/mini/Trash.astro";
 import { HeadHrefLangs, LanguageSelector } from "astro-i18next/components";
-import '@styles/base.css';
+import "@styles/base.css";
 interface Props {
-	title: string;
-	bodyClass?: string;
+  title: string;
+  bodyClass?: string;
 }
 
 const { title, bodyClass = "" } = Astro.props;
@@ -14,66 +14,110 @@ const { title, bodyClass = "" } = Astro.props;
 
 <!doctype html>
 <html lang={i18next.language}>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content={t("about.about_confessit_text").replace(/<\/?vatican>/g, "")} />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content={t("about.about_confessit_text").replace(/<\/?vatican>/g, "")}
+    />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
 
-		<HeadHrefLangs />
-	</head>
-	<body class={bodyClass}>
-		<div class="navbar h-16 bg-primary text-primary-content">
-			<div class="navbar-start">
-				<!-- On small screens, show a dropdown menu -->
-				<div class="dropdown">
-					<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-						<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-5 w-5"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor">
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M4 6h16M4 12h8m-8 6h16" />
-						</svg>
-					</div>
-					<ul tabindex="0" class="menu menu-md dropdown-content bg-base-200 rounded-box z-[100] mt-3 w-56 p-4 shadow">
-						<li><a href={localizePath("/prayers")} class="btn btn-secondary text-lg btn-block my-2">{t('navbar.prayers')}</a></li>
-						<li><a href={localizePath("/about")} class="btn btn-secondary text-lg btn-block my-2">{t('navbar.about')}</a></li>
-						<li><a href={localizePath("/help")} class="btn btn-secondary text-lg btn-block my-2">{t('navbar.help')}</a></li>
-						<li><a href={localizePath("#")} class="btn btn-secondary text-lg btn-block my-2">{t('navbar.clear')}</a></li>
-					</ul>
-				</div>
+    <HeadHrefLangs />
+  </head>
+  <body class={bodyClass}>
+    <div class="navbar h-16 bg-primary text-primary-content">
+      <div class="navbar-start">
+        <!-- On small screens, show a dropdown menu -->
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"></path>
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-md dropdown-content bg-base-200 rounded-box z-[100] mt-3 w-56 p-4 shadow"
+          >
+            <li>
+              <a
+                href={localizePath("/prayers")}
+                class="btn btn-secondary text-lg btn-block my-2"
+                >{t("navbar.prayers")}</a
+              >
+            </li>
+            <li>
+              <a
+                href={localizePath("/about")}
+                class="btn btn-secondary text-lg btn-block my-2"
+                >{t("navbar.about")}</a
+              >
+            </li>
+            <li>
+              <a
+                href={localizePath("/help")}
+                class="btn btn-secondary text-lg btn-block my-2"
+                >{t("navbar.help")}</a
+              >
+            </li>
+            <li>
+              <a
+                href={localizePath("#")}
+                class="btn btn-secondary text-lg btn-block my-2"
+                >{t("navbar.clear")}</a
+              >
+            </li>
+          </ul>
+        </div>
 
-				<a class="btn btn-ghost text-2xl" href={localizePath("/")}>⛪ ConfessIt</a>
+        <a class="btn btn-ghost text-2xl" href={localizePath("/")}
+          >⛪ ConfessIt</a
+        >
 
-				<!-- On large screens, show a menu -->
-				<div class="hidden lg:flex">
-					<ul class="menu menu-horizontal px-1 gap-1 text-lg">
-						<li><a href={localizePath("/prayers")}>{t('navbar.prayers')}</a></li>
-						<li><a href={localizePath("/about")}>{t('navbar.about')}</a></li>
-						<li><a href={localizePath("/help")}>{t('navbar.help')}</a></li>
-					</ul>
-				</div>
-			</div>
+        <!-- On large screens, show a menu -->
+        <div class="hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 gap-1 text-lg">
+            <li>
+              <a href={localizePath("/prayers")}>{t("navbar.prayers")}</a>
+            </li>
+            <li><a href={localizePath("/about")}>{t("navbar.about")}</a></li>
+            <li><a href={localizePath("/help")}>{t("navbar.help")}</a></li>
+          </ul>
+        </div>
+      </div>
 
-			<div class="navbar-end">
-				<!-- On large screens, show a menu -->
-				<div class="hidden lg:flex">
-					<ul class="menu menu-horizontal px-1 gap-4 text-lg">
-						<li><LanguageSelector showFlag={true} class="select select-bordered bg-primary text-primary-content w-36" /></li>
-						<li><a class="btn btn-error"><Trash class="h-5" />{t('navbar.clear')}</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+      <div class="navbar-end">
+        <!-- On large screens, show a menu -->
+        <div class="hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 gap-4 text-lg">
+            <li>
+              <LanguageSelector
+                showFlag={true}
+                class="select select-bordered bg-primary text-primary-content w-36"
+              />
+            </li>
+            <li>
+              <a class="btn btn-error"
+                ><Trash class="h-5" />{t("navbar.clear")}</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-		<slot />
-	</body>
+    <slot />
+  </body>
 </html>

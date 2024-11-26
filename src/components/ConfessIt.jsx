@@ -32,7 +32,7 @@ const ConfessIt = () => {
   const persistData = useCallback(() => {
     localStorage.setItem(
       "state",
-      JSON.stringify({ selectedSinIds, customSins })
+      JSON.stringify({ selectedSinIds, customSins }),
     );
   }, [selectedSinIds, customSins]);
 

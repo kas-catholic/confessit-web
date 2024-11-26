@@ -105,10 +105,10 @@ module.exports = {
     if (count > 0 || transCount > 0) {
       console.log(
         `i18next-scanner: t() count=${chalk.cyan(
-          count
+          count,
         )}, Trans count=${chalk.cyan(transCount)}, file=${chalk.yellow(
-          JSON.stringify(file.relative)
-        )}`
+          JSON.stringify(file.relative),
+        )}`,
       );
     }
 
