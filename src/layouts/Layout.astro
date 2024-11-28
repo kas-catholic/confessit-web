@@ -26,6 +26,10 @@ const { title, bodyClass = "" } = Astro.props;
     <title>{title}</title>
 
     <HeadHrefLangs />
+
+    <!-- Temp! Only for dev for now, to experiment with colors -->
+    <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"
+    ></script>
   </head>
   <body class={bodyClass}>
     <div class="navbar h-16 bg-primary text-primary-content">
@@ -102,6 +106,22 @@ const { title, bodyClass = "" } = Astro.props;
         <!-- On large screens, show a menu -->
         <div class="hidden lg:flex">
           <ul class="menu menu-horizontal px-1 gap-4 text-lg">
+            <!-- During Dev Only: Theme Changer for experimenting with colors -->
+            <li>
+              <select
+                data-choose-theme
+                class="select select-bordered bg-primary text-primary-content w-36"
+              >
+                <option value="retro">Retro</option>
+                <option value="valentine">Valentine</option>
+                <option value="lemonade">Lemonade</option>
+                <option value="nord">Nord</option>
+                <option value="night">Night</option>
+                <option value="dracula">Dracula</option>
+                <option value="dim">Dim</option>
+              </select>
+            </li>
+
             <li>
               <LanguageSelector
                 showFlag={true}
