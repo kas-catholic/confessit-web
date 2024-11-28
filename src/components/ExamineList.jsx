@@ -39,7 +39,7 @@ const ExamineList = ({
         cmdId={c.commandment_id}
         key={c.commandment_id}
       >
-        <div>{sins[c.commandment_id]}</div>
+        {sins[c.commandment_id]}
       </CommandmentGroup>
     );
   });

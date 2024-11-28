@@ -16,16 +16,21 @@ const ExamineItem = ({
   };
 
   return (
-    <div className="bg-green-200">
+    <div className="border-2 p-2 border-base-300 first:rounded-t-md last:rounded-b-md">
       {text}
       <div className="md-checkbox">
-        <input
-          id={`checkitem:${sinId}`}
-          type="checkbox"
-          checked={selected}
-          onChange={handleClick}
-        />
-        <label htmlFor={`checkitem:${sinId}`}>{t("examineitem.yes")}</label>
+        <div class="form-control w-20 ms-auto">
+          <label className="cursor-pointer label">
+            <span class="label-text text-lg">{t("examineitem.yes")}</span>
+            <input
+              id={`checkitem:${sinId}`}
+              type="checkbox"
+              checked={selected}
+              onChange={handleClick}
+              className="checkbox checkbox-primary checkbox-lg"
+            />
+          </label>
+        </div>
       </div>
     </div>
   );
