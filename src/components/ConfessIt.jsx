@@ -7,6 +7,7 @@ import { t } from "i18next";
 
 import sinsdb from "@data/sinsdb";
 
+import AddSinModal from "@components/AddSinModal";
 import Column from "@components/Column";
 import ExamineList from "@components/ExamineList";
 import SinsList from "@components/SinsList";
@@ -67,8 +68,6 @@ const ConfessIt = () => {
     setCustomSins((prev) => prev.filter((s) => s !== text));
   }, []);
 
-  const clearAll = useCallback(() => {}, []);
-
   useEffect(() => {
     const clearAll = (event) => {
       setSelectedSinIds([]);
@@ -80,35 +79,38 @@ const ConfessIt = () => {
   }, []);
 
   return (
-    <Swiper
-      modules={[Pagination]}
-      spaceBetween={0}
-      slidesPerView={1}
-      breakpoints={{ 1024: { slidesPerView: 3, spaceBetween: 0 } }}
-      pagination={{ clickable: true }}
-      className="h-full"
-    >
-      <SwiperSlide className="h-full">
-        <Column title={t("examine_list.examine")}>
-          <ExamineList
-            sinsdb={sinsdb}
-            selectedSinIds={selectedSinIds}
-            onAddSinId={addSinId}
-            onRemoveSinItem={removeSinItem}
-          />
-        </Column>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Column title={t("sins_list.review")}>
-          <SinsList sinsList={sinsList} onRemoveSinItem={removeSinItem} />
-        </Column>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Column title={t("walkthrough.walkthrough")}>
-          <Walkthrough sinsList={sinsList} />
-        </Column>
-      </SwiperSlide>
-    </Swiper>
+    <div className="w-full h-full">
+      <Swiper
+        modules={[Pagination]}
+        spaceBetween={0}
+        slidesPerView={1}
+        breakpoints={{ 1024: { slidesPerView: 3, spaceBetween: 0 } }}
+        pagination={{ clickable: true }}
+        className="h-full"
+      >
+        <SwiperSlide className="h-full">
+          <Column title={t("examine_list.examine")}>
+            <ExamineList
+              sinsdb={sinsdb}
+              selectedSinIds={selectedSinIds}
+              onAddSinId={addSinId}
+              onRemoveSinItem={removeSinItem}
+            />
+          </Column>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Column title={t("sins_list.review")}>
+            <SinsList sinsList={sinsList} onRemoveSinItem={removeSinItem} />
+          </Column>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Column title={t("walkthrough.walkthrough")}>
+            <Walkthrough sinsList={sinsList} />
+          </Column>
+        </SwiperSlide>
+      </Swiper>
+      <AddSinModal addCustomSin={addCustomSin} />
+    </div>
   );
 };
 

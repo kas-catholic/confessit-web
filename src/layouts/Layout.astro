@@ -1,7 +1,7 @@
 ---
 import i18next, { t } from "i18next";
 import { localizePath } from "astro-i18next";
-import { TrashIcon } from "@heroicons/react/16/solid";
+import { TrashIcon, PlusIcon } from "@heroicons/react/16/solid";
 import { HeadHrefLangs, LanguageSelector } from "astro-i18next/components";
 import "@styles/base.css";
 interface Props {
@@ -129,6 +129,16 @@ const { title, bodyClass = "" } = Astro.props;
             </li>
             <li>
               <button
+                id="add-sin-button"
+                class="btn btn-secondary"
+                title={t("addbutton.add-custom-sin")}
+                onclick="AddSinModal.showModal()"
+              >
+                <PlusIcon className="h-5" />
+              </button>
+            </li>
+            <li>
+              <button
                 id="clear-button"
                 class="btn btn-error"
                 title={t("navbar.clear")}
@@ -149,6 +159,12 @@ const { title, bodyClass = "" } = Astro.props;
         const event = new CustomEvent("clearButtonClicked");
         window.dispatchEvent(event);
       });
+
+      // const addSinButton = document.getElementById("add-sin-button");
+      // addSinButton.addEventListener("click", () => {
+      //   const event = new CustomEvent("addSinButtonClicked");
+      //   window.dispatchEvent(event);
+      // });
     </script>
   </body>
 </html>
