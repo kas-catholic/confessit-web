@@ -67,9 +67,16 @@ const ConfessIt = () => {
     setCustomSins((prev) => prev.filter((s) => s !== text));
   }, []);
 
-  const clearAll = useCallback(() => {
-    setSelectedSinIds([]);
-    setCustomSins([]);
+  const clearAll = useCallback(() => {}, []);
+
+  useEffect(() => {
+    const clearAll = (event) => {
+      setSelectedSinIds([]);
+      setCustomSins([]);
+    };
+
+    window.addEventListener("clearButtonClicked", clearAll);
+    return () => window.removeEventListener("clearButtonClicked", clearAll);
   }, []);
 
   return (

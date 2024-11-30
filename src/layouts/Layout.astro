@@ -128,9 +128,13 @@ const { title, bodyClass = "" } = Astro.props;
               />
             </li>
             <li>
-              <a class="btn btn-error"
-                ><TrashIcon className="h-5" />{t("navbar.clear")}</a
+              <button
+                id="clear-button"
+                class="btn btn-error"
+                title={t("navbar.clear")}
               >
+                <TrashIcon className="h-5" />
+              </button>
             </li>
           </ul>
         </div>
@@ -138,5 +142,13 @@ const { title, bodyClass = "" } = Astro.props;
     </div>
 
     <slot />
+
+    <script>
+      const clearButton = document.getElementById("clear-button");
+      clearButton.addEventListener("click", () => {
+        const event = new CustomEvent("clearButtonClicked");
+        window.dispatchEvent(event);
+      });
+    </script>
   </body>
 </html>
