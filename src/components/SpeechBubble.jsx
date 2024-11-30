@@ -1,7 +1,7 @@
 import { t } from "i18next";
 
 const SpeechBubble = ({ isPriest, children }) => {
-  const clazz = isPriest ? "chat-start" : "chat-end";
+  const clazz = isPriest ? "chat-start" : "chat-end font-bold";
   const bubbleClass = isPriest ? "chat-bubble-secondary" : "chat-bubble-accent";
 
   return (
