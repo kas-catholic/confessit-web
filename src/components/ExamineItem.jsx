@@ -25,7 +25,7 @@ const ExamineItem = ({
           onChange={handleClick}
           className="checkbox checkbox-primary checkbox-lg me-4"
         />
-        <span class="label-text text-lg">{text}</span>
+        <span className="label-text text-lg">{text}</span>
       </label>
     </div>
   );
