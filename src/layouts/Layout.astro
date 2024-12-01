@@ -127,25 +127,33 @@ const { title, bodyClass = "" } = Astro.props;
                 class="select select-bordered bg-primary text-primary-content w-36"
               />
             </li>
-            <li>
-              <button
-                id="add-sin-button"
-                class="btn btn-secondary"
-                title={t("addbutton.add-custom-sin")}
-                onclick="AddSinModal.showModal()"
-              >
-                <PlusIcon className="h-5" />
-              </button>
-            </li>
-            <li>
-              <button
-                id="clear-button"
-                class="btn btn-error"
-                title={t("navbar.clear")}
-              >
-                <TrashIcon className="h-5" />
-              </button>
-            </li>
+            {
+              Astro.url.pathname == "/" && (
+                <li>
+                  <button
+                    id="add-sin-button"
+                    class="btn btn-secondary"
+                    title={t("addbutton.add-custom-sin")}
+                    onclick="AddSinModal.showModal()"
+                  >
+                    <PlusIcon className="h-5" />
+                  </button>
+                </li>
+              )
+            }
+            {
+              Astro.url.pathname == "/" && (
+                <li>
+                  <button
+                    id="clear-button"
+                    class="btn btn-error"
+                    title={t("navbar.clear")}
+                  >
+                    <TrashIcon className="h-5" />
+                  </button>
+                </li>
+              )
+            }
           </ul>
         </div>
       </div>
