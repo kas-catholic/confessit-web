@@ -16,16 +16,16 @@ const ExamineItem = ({
   };
 
   return (
-    <div className="form-control border-2 border-base-300 first:rounded-t-md last:rounded-b-md">
-      <label className="cursor-pointer label p-4 justify-start min-h-24">
+    <div className="form-control">
+      <label className="cursor-pointer label py-2 px-0 justify-start min-h-20 lg:min-h-12">
         <input
           id={`checkitem:${sinId}`}
           type="checkbox"
           checked={selected}
           onChange={handleClick}
-          className="checkbox checkbox-primary checkbox-lg me-4"
+          className="checkbox checkbox-primary me-4"
         />
-        <span className="label-text text-lg">{text}</span>
+        <span className="label-text">{text}</span>
       </label>
     </div>
   );
