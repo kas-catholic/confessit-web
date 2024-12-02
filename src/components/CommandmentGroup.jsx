@@ -13,7 +13,7 @@ const CommandmentGroup = ({ title, text, cmdId, children }) => {
       </div>
 
       <div className="collapse-content">
-        <div className="flex flex-col pt-4">{children}</div>
+        <div className="flex flex-col pt-2">{children}</div>
       </div>
     </div>
   );
