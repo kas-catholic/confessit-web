@@ -17,7 +17,7 @@ const ExamineItem = ({
 
   return (
     <div className="form-control">
-      <label className="cursor-pointer label py-2 px-0 justify-start min-h-20 lg:min-h-12">
+      <label className="cursor-pointer label py-2 px-0 justify-start min-h-14">
         <input
           id={`checkitem:${sinId}`}
           type="checkbox"
