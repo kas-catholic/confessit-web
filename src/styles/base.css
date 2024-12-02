@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    font-family: Superclarendon, "Bookman Old Style", "URW Bookman",
-      "URW Bookman L", "Georgia Pro", Georgia, serif;
+    font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052,
+      serif;
   }
 }
