@@ -3,7 +3,7 @@ import { t } from "i18next";
 import SinListItem from "@components/SinListItem";
 
 const SinsList = ({ sinsList, onRemoveSinItem }) => {
-  const sinCards = sinsList.map((sinItem, index) => (
+  const sinItems = sinsList.map((sinItem, index) => (
     <SinListItem
       sinItem={sinItem}
       onRemoveSinItem={onRemoveSinItem}
@@ -11,7 +11,11 @@ const SinsList = ({ sinsList, onRemoveSinItem }) => {
     />
   ));
 
-  return <div>{sinCards}</div>;
+  return (
+    <div className="bg-base-200 flex flex-col py-4 px-4 rounded-none lg:rounded-md min-h-screen lg:min-h-0">
+      {sinItems}
+    </div>
+  );
 };
 
 export default SinsList;
