@@ -2,14 +2,14 @@ import { t } from "i18next";
 
 const SpeechBubble = ({ isPriest, children }) => {
   const clazz = isPriest ? "chat-start" : "chat-end font-bold";
-  const bubbleClass = isPriest ? "chat-bubble-secondary" : "chat-bubble-accent";
+  const bubbleClass = isPriest ? "" : "chat-bubble-primary";
 
   return (
     <div className={`chat mb-4 ${clazz}`}>
       {isPriest && (
         <div className="chat-header">{t("priestbubble.priest")}</div>
       )}
-      <div className={`chat-bubble ${bubbleClass}`}>{children}</div>
+      <div className={`chat-bubble p-4 ${bubbleClass}`}>{children}</div>
     </div>
   );
 };
