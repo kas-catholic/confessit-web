@@ -6,11 +6,11 @@ const SinListItem = ({ sinItem, onRemoveSinItem }) => {
   };
 
   return (
-    <div className="py-2 min-h-20 lg:min-h-12 px-0 bg-base-200 rounded-md flex flex-row gap-4 items-center">
+    <div className="bg-base-200 p-4 min-h-20 lg:min-h-12 rounded-md flex flex-row gap-4 items-center">
+      <div className="flex-1">{sinItem.text}</div>
       <a className="btn btn-error btn-sm h-full w-10" onClick={handleDelete}>
         <TrashIcon className="h-5" />
       </a>
-      <div className="flex-1">{sinItem.text}</div>
     </div>
   );
 };

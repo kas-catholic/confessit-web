@@ -11,11 +11,7 @@ const SinsList = ({ sinsList, onRemoveSinItem }) => {
     />
   ));
 
-  return (
-    <div className="bg-base-200 flex flex-col py-4 px-4 rounded-none lg:rounded-md min-h-screen lg:min-h-0">
-      {sinItems}
-    </div>
-  );
+  return <div className="flex flex-col px-4 gap-4">{sinItems}</div>;
 };
 
 export default SinsList;
