@@ -103,61 +103,53 @@ const { title, bodyClass = "" } = Astro.props;
 
       <div class="navbar-end">
         <!-- On large screens, show a menu -->
-        <div class="hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 gap-4 text-lg">
-            <!-- During Dev Only: Theme Changer for experimenting with colors -->
-            <li>
-              <select
-                data-choose-theme
-                class="select select-bordered bg-primary text-primary-content w-36"
-              >
-                <option value="retro">Retro</option>
-                <option value="valentine">Valentine</option>
-                <option value="lemonade">Lemonade</option>
-                <option value="nord">Nord</option>
-                <option value="night">Night</option>
-                <option value="dracula">Dracula</option>
-                <option value="dim">Dim</option>
-                <option value="confessit">ConfessIt</option>
-                <option value="confessitretro">ConfessIt Retro</option>
-                <option value="iconfess">iConfess</option>
-              </select>
-            </li>
+        <div class="hidden lg:flex gap-4">
+          <!-- During Dev Only: Theme Changer for experimenting with colors -->
+          <select
+            data-choose-theme
+            class="select select-bordered bg-primary text-primary-content w-42"
+          >
+            <option value="retro">Retro</option>
+            <option value="valentine">Valentine</option>
+            <option value="lemonade">Lemonade</option>
+            <option value="nord">Nord</option>
+            <option value="night">Night</option>
+            <option value="dracula">Dracula</option>
+            <option value="dim">Dim</option>
+            <option value="confessit">ConfessIt</option>
+            <option value="confessitretro">ConfessIt Retro</option>
+            <option value="iconfess">iConfess</option>
+          </select>
 
-            <li>
-              <LanguageSelector
-                showFlag={true}
-                class="select select-bordered bg-primary text-primary-content w-36"
-              />
-            </li>
-            {
-              Astro.url.pathname == "/" && (
-                <li>
-                  <button
-                    id="add-sin-button"
-                    class="btn btn-secondary"
-                    title={t("addbutton.add-custom-sin")}
-                    onclick="AddSinModal.showModal()"
-                  >
-                    <PlusIcon className="h-5" />
-                  </button>
-                </li>
-              )
-            }
-            {
-              Astro.url.pathname == "/" && (
-                <li>
-                  <button
-                    id="clear-button"
-                    class="btn btn-error"
-                    title={t("navbar.clear")}
-                  >
-                    <TrashIcon className="h-5" />
-                  </button>
-                </li>
-              )
-            }
-          </ul>
+          <LanguageSelector
+            showFlag={true}
+            class="select select-bordered bg-primary text-primary-content w-36"
+          />
+
+          {
+            Astro.url.pathname == "/" && (
+              <button
+                id="add-sin-button"
+                class="btn btn-secondary"
+                title={t("addbutton.add-custom-sin")}
+                onclick="AddSinModal.showModal()"
+              >
+                <PlusIcon className="h-5" />
+              </button>
+            )
+          }
+
+          {
+            Astro.url.pathname == "/" && (
+              <button
+                id="clear-button"
+                class="btn btn-error"
+                title={t("navbar.clear")}
+              >
+                <TrashIcon className="h-5" />
+              </button>
+            )
+          }
         </div>
       </div>
     </div>
