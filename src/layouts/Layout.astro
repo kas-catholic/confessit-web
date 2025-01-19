@@ -52,35 +52,22 @@ const { title, bodyClass = "" } = Astro.props;
             </svg>
           </summary>
           <ul
-            class="menu menu-md dropdown-content bg-base-200 rounded-box z-[100] mt-3 w-56 p-4 shadow"
+            class="menu menu-lg dropdown-content bg-base-200 rounded-box z-[100] mt-3 w-56 p-4 shadow"
           >
             <li>
-              <a
-                href={localizePath("/prayers")}
-                class="btn btn-secondary text-lg btn-block my-2"
-                >{t("navbar.prayers")}</a
-              >
+              <a href={localizePath("/prayers")}>{t("navbar.prayers")}</a>
             </li>
             <li>
-              <a
-                href={localizePath("/about")}
-                class="btn btn-secondary text-lg btn-block my-2"
-                >{t("navbar.about")}</a
-              >
+              <a href={localizePath("/about")}>{t("navbar.about")}</a>
             </li>
             <li>
-              <a
-                href={localizePath("/help")}
-                class="btn btn-secondary text-lg btn-block my-2"
-                >{t("navbar.help")}</a
-              >
+              <a href={localizePath("/help")}>{t("navbar.help")}</a>
             </li>
             <li>
-              <a
-                href={localizePath("#")}
-                class="btn btn-secondary text-lg btn-block my-2"
-                >{t("navbar.clear")}</a
-              >
+              <LanguageSelector
+                showFlag={true}
+                class="select select-sm text-xs select-bordered mt-8 py-1 w-42"
+              />
             </li>
           </ul>
         </details>
@@ -103,11 +90,11 @@ const { title, bodyClass = "" } = Astro.props;
 
       <div class="navbar-end">
         <!-- On large screens, show a menu -->
-        <div class="hidden lg:flex gap-4">
+        <div class="flex gap-4">
           <!-- During Dev Only: Theme Changer for experimenting with colors -->
           <select
             data-choose-theme
-            class="select select-bordered bg-primary text-primary-content w-42 border-primary-content focus:border-primary-content"
+            class="hidden lg:inline-flex select select-bordered bg-primary text-primary-content w-42 border-primary-content focus:border-primary-content"
           >
             <option value="retro">Retro</option>
             <option value="valentine">Valentine</option>
@@ -123,7 +110,7 @@ const { title, bodyClass = "" } = Astro.props;
 
           <LanguageSelector
             showFlag={true}
-            class="select select-bordered bg-primary text-primary-content w-36 border-primary-content focus:border-primary-content"
+            class="hidden lg:inline-flex select select-bordered bg-primary text-primary-content w-36 border-primary-content focus:border-primary-content"
           />
 
           {
@@ -162,12 +149,6 @@ const { title, bodyClass = "" } = Astro.props;
         const event = new CustomEvent("clearButtonClicked");
         window.dispatchEvent(event);
       });
-
-      // const addSinButton = document.getElementById("add-sin-button");
-      // addSinButton.addEventListener("click", () => {
-      //   const event = new CustomEvent("addSinButtonClicked");
-      //   window.dispatchEvent(event);
-      // });
     </script>
   </body>
 </html>
