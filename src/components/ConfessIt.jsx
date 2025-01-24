@@ -12,6 +12,7 @@ import Column from "@components/Column";
 import ExamineList from "@components/ExamineList";
 import SinsList from "@components/SinsList";
 import Walkthrough from "@components/Walkthrough";
+import WelcomeModal from "@components/WelcomeModal";
 
 const ConfessIt = () => {
   const sinsById = new Map(sinsdb.sins.map((s) => [s.sin_id, s]));
@@ -110,6 +111,7 @@ const ConfessIt = () => {
         </SwiperSlide>
       </Swiper>
       <AddSinModal addCustomSin={addCustomSin} />
+      <WelcomeModal />
     </div>
   );
 };

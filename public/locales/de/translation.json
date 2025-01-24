@@ -433,6 +433,7 @@
   },
   "welcome": {
     "body": " Es ist ein Hilfsmittel, das römisch-katholischen Katholiken dabei hilft, ihr Gewissen zu prüfen, bevor sie zur Beichte gehen. Wir hoffen, dass es Ihnen helfen kann, die seit Ihrer letzten Beichte begangenen Sünden zu verstehen. Aktivieren Sie einfach das Kästchen <strong>Ja</strong> neben den Sünden in der Liste <strong>Überprüfen</strong> oder tippen Sie unten rechts in der App auf die Schaltfläche <kbd>+</kbd>, um eine Sünde hinzuzufügen personalisiert. Wischen Sie dann nach rechts zur Registerkarte <strong>Überprüfen</strong>, um die Liste Ihrer Sünden anzuzeigen, und kehren Sie dann zur Registerkarte <strong>Bekennen</strong> zurück, um das Beichtritual noch einmal durchzugehen. <br /><br />Die von Ihnen eingegebenen Daten werden nur auf Ihrem Gerät gespeichert (sie werden <strong>niemals</strong> über das Internet übertragen). Die von Ihnen eingegebenen Daten bleiben in der App erhalten, auch wenn Sie das Fenster schließen oder die Seite neu laden, bis Sie in den App-Einstellungen <strong>Leer</strong> wählen.<br /><br />Möge der Herr Sie segnen Dein Weg zur Heiligkeit!",
+    "ok": "",
     "title": "Willkommen!"
   }
 }
