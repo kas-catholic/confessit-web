@@ -433,6 +433,7 @@
   },
   "welcome": {
     "body": " è uno strumento per assistere Cattolici romani nell'esame di coscienza prima di andare alla confessione. Speriamo che possa esserti d'aiuto nel fare mente locale dei peccati commessi dall'ultima confessione. Semplicemente puoi spuntare la casella <strong>Sì</strong> accanto ai peccati nell'elenco <strong>Esamina</strong>, oppure toccare il pulsante <kbd>+</kbd> in fondo a destra all'app per aggiungerne uno personalizzato. Poi, scorri verso destra alla scheda <strong>Revisiona</strong> per visualizzare l'elenco dei tuoi peccati, e poi di nuovo alla scheda <strong>Confessa</strong> per rivedere il rito della confessione. <br /><br />I dati da te immessi sono immagazzinati soltanto sul tuo dispositivo (<strong>mai</strong> verranno trasmessi via internet). I dati da te immessi permangono nell'app, anche se chiudi la finestra o ricarichi la pagina, fino a quando non scegli <strong>Svuota</strong> dalle impostazioni dell'app.<br /><br />Che il Signore ti benedica nel tuo cammino verso la santità!",
+    "ok": "",
     "title": "Benvenuto!"
   }
 }

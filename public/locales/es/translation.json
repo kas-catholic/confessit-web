@@ -386,6 +386,7 @@
   },
   "welcome": {
     "body": " es una herramienta para ayudar a los católicos romanos a realizar un examen de conciencia antes de ir a confesarse. Esperamos que encuentres esto útil para recordar los pecados que has cometido desde tu última confesión. Simplemente marca la casilla <strong>Sí</strong> al lado de los pecados en la lista de <strong>Examen</strong>, o toca el botón <kbd>+</kbd> en la parte inferior derecha de la aplicación para agregar los tuyos. Luego, desplázate hacia la derecha para <strong>Revisar</strong> tus pecados y <strong>Seguir</strong> los pasos para confesarte. <br /><br />Los datos que ingreses se almacenan en tu dispositivo (<strong>nunca</strong> se envían por Internet). Los datos que ingreses se guardarán hasta que presiones <strong>Borrar</strong> en la configuración de la aplicación, incluso si cierras la ventana o actualizas la página. <br /><br />¡Dios te bendiga en tu camino hacia la santidad!",
+    "ok": "",
     "title": "¡Bienvenido!"
   }
 }
