@@ -1,8 +1,8 @@
 import SpeechBubble from "@components/SpeechBubble";
-import { Trans } from "react-i18next";
-import { t } from "i18next";
+import { useTranslation, Trans } from "react-i18next";
 
 const Walkthrough = ({ sinsList }) => {
+  const { t } = useTranslation();
   const sinCards = sinsList.map((sinItem, index) => (
     <SpeechBubble isPriest={false} key={index}>
       {sinItem.text}
