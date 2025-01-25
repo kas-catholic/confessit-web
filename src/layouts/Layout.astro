@@ -32,7 +32,7 @@ const { title, bodyClass = "" } = Astro.props;
     ></script>
   </head>
   <body class={bodyClass}>
-    <div class="navbar h-16 bg-primary text-primary-content">
+    <div class="navbar h-16 bg-base-300 text-base-content">
       <div class="navbar-start">
         <!-- On small screens, show a dropdown menu -->
         <details class="dropdown">
@@ -94,7 +94,7 @@ const { title, bodyClass = "" } = Astro.props;
           <!-- During Dev Only: Theme Changer for experimenting with colors -->
           <select
             data-choose-theme
-            class="hidden lg:inline-flex select select-bordered bg-primary text-primary-content w-42 border-primary-content focus:border-primary-content"
+            class="hidden lg:inline-flex select select-bordered w-42"
           >
             <option value="retro">Retro</option>
             <option value="valentine">Valentine</option>
@@ -110,7 +110,7 @@ const { title, bodyClass = "" } = Astro.props;
 
           <LanguageSelector
             showFlag={true}
-            class="hidden lg:inline-flex select select-bordered bg-primary text-primary-content w-36 border-primary-content focus:border-primary-content"
+            class="hidden lg:inline-flex select select-bordered w-36"
           />
 
           {
