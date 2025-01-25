@@ -93,7 +93,7 @@ const { title, bodyClass = "" } = Astro.props;
           />
 
           {
-            Astro.url.pathname == "/" && (
+            Astro.url.pathname == localizePath("/") && (
               <button
                 id="add-sin-button"
                 class="btn btn-secondary"
@@ -106,7 +106,7 @@ const { title, bodyClass = "" } = Astro.props;
           }
 
           {
-            Astro.url.pathname == "/" && (
+            Astro.url.pathname == localizePath("/") && (
               <button
                 id="clear-button"
                 class="btn btn-accent"
@@ -124,10 +124,12 @@ const { title, bodyClass = "" } = Astro.props;
 
     <script>
       const clearButton = document.getElementById("clear-button");
-      clearButton.addEventListener("click", () => {
-        const event = new CustomEvent("clearButtonClicked");
-        window.dispatchEvent(event);
-      });
+      if (clearButton) {
+        clearButton.addEventListener("click", () => {
+          const event = new CustomEvent("clearButtonClicked");
+          window.dispatchEvent(event);
+        });
+      }
     </script>
   </body>
 </html>
