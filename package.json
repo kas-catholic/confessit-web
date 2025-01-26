@@ -19,12 +19,12 @@
     }
   },
   "dependencies": {
-    "@astrojs/react": "^3.6.2",
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/react": "^4.1.6",
+    "@astrojs/tailwind": "^5.1.5",
     "@heroicons/react": "^2.2.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "astro": "^4.13.3",
+    "astro": "^5.1.9",
     "astro-i18next": "^1.0.0-beta.21",
     "i18next": "^22.0.0",
     "react": "^18.3.1",
