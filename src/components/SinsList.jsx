@@ -1,5 +1,3 @@
-import { t } from "i18next";
-
 import SinListItem from "@components/SinListItem";
 
 const SinsList = ({ sinsList, onRemoveSinItem }) => {
