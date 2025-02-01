@@ -19,7 +19,7 @@
     }
   },
   "dependencies": {
-    "@astrojs/react": "^4.1.6",
+    "@astrojs/react": "^4.2.0",
     "@astrojs/tailwind": "^5.1.5",
     "@heroicons/react": "^2.2.0",
     "@types/react": "^18.3.3",
