@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.14",
-    "@vite-pwa/astro": "^0.4.0",
+    "@vite-pwa/astro": "^0.5.0",
     "daisyui": "^4.12.10",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
