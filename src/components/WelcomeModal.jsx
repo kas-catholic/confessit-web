@@ -1,18 +1,17 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { Trans, useTranslation } from "react-i18next";
 
 const WelcomeModal = () => {
   const { t } = useTranslation();
-  const [show, setShow] = useState(false);
 
   const handleClose = () => {
-    setShow(false);
     localStorage.setItem("confessit.welcome", true);
   };
 
   useEffect(() => {
     const hasSeenWelcome = localStorage.getItem("confessit.welcome");
     if (!hasSeenWelcome) {
+      // eslint-disable-next-line no-undef
       WelcomeModalId.showModal();
     }
   }, []);
@@ -25,10 +24,10 @@ const WelcomeModal = () => {
           <span className="text-primary font-bold">ConfessIt</span>{" "}
           <Trans t={t} i18nKey="welcome.body">
             is a tool to help Roman Catholics walk through an examination of
-            conscience prior to going to confession. We hope you'll find this
-            useful to help remember sins you've committed since your last
-            confession. Just check the <strong>Yes</strong> box next to sins in
-            the <strong>Examine</strong> list, or tap the{" "}
+            conscience prior to going to confession. We hope you&apos;ll find
+            this useful to help remember sins you&apos;ve committed since your
+            last confession. Just check the <strong>Yes</strong> box next to
+            sins in the <strong>Examine</strong> list, or tap the{" "}
             <kbd className="kbd kbd-sm">+</kbd> button to add your own. Then,
             scroll to the right to <strong>Review</strong>
             your sins and <strong>Walkthrough</strong> the steps of going to

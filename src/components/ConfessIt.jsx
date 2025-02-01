@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
@@ -15,8 +15,6 @@ import Walkthrough from "@components/Walkthrough";
 import WelcomeModal from "@components/WelcomeModal";
 
 const ConfessIt = () => {
-  const sinsById = new Map(sinsdb.sins.map((s) => [s.sin_id, s]));
-
   const [selectedSinIds, setSelectedSinIds] = useState([]);
   const [customSins, setCustomSins] = useState([]);
 
@@ -54,7 +52,7 @@ const ConfessIt = () => {
   }, []);
 
   const removeSinItem = useCallback((sinItem) => {
-    if (sinItem.hasOwnProperty("id") && sinItem.id !== null) {
+    if ("id" in sinItem && sinItem.id !== null) {
       setSelectedSinIds((prev) => prev.filter((s) => s !== sinItem.id));
     } else {
       removeCustomSin(sinItem.text);
@@ -70,7 +68,7 @@ const ConfessIt = () => {
   }, []);
 
   useEffect(() => {
-    const clearAll = (event) => {
+    const clearAll = () => {
       setSelectedSinIds([]);
       setCustomSins([]);
     };

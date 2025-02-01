@@ -10,7 +10,7 @@ const ExamineList = ({
   onRemoveSinItem,
 }) => {
   const sins = sinsdb.sins.reduce((result, sin) => {
-    if (!result.hasOwnProperty(sin.commandment_id)) {
+    if (!(sin.commandment_id in result)) {
       result[sin.commandment_id] = [];
     }
 

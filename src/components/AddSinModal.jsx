@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { t } from "i18next";
 
 const AddSinModal = ({ addCustomSin }) => {
