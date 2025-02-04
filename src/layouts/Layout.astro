@@ -94,7 +94,8 @@ const { title, bodyClass = "" } = Astro.props;
           />
 
           {
-            Astro.url.pathname == localizePath("/") && (
+            (Astro.url.pathname == localizePath("/") ||
+              Astro.url.pathname == `${localizePath("/")}/`) && (
               <button
                 id="add-sin-button"
                 class="btn btn-secondary"
@@ -107,7 +108,8 @@ const { title, bodyClass = "" } = Astro.props;
           }
 
           {
-            Astro.url.pathname == localizePath("/") && (
+            (Astro.url.pathname == localizePath("/") ||
+              Astro.url.pathname == `${localizePath("/")}/`) && (
               <button
                 id="clear-button"
                 class="btn btn-accent"
