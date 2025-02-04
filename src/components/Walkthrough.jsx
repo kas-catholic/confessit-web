@@ -12,22 +12,37 @@ const Walkthrough = ({ sinsList }) => {
   return (
     <div>
       <SpeechBubble isPriest={true}>
-        {t("walkthrough.in_the_name_of")}
+        {t(
+          "walkthrough.in_the_name_of",
+          "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+        )}
       </SpeechBubble>
       <SpeechBubble isPriest={false}>
-        {t("walkthrough.bless_me_father")}
+        {t(
+          "walkthrough.bless_me_father",
+          "Bless me father, for I have sinned. It has been ____ since my last confession, and these are my sins:",
+        )}
       </SpeechBubble>
 
       {sinCards}
 
       <SpeechBubble isPriest={false}>
-        {t("walkthrough.these_are_my_sins")}
+        {t(
+          "walkthrough.these_are_my_sins",
+          "These are my sins, and I am sorry for them with all my heart.",
+        )}
       </SpeechBubble>
       <SpeechBubble isPriest={true}>
-        {t("walkthrough.your_confessor_may_offer")}
+        {t(
+          "walkthrough.your_confessor_may_offer",
+          "(Your confessor may offer you some advice or have a short conversation with you.)",
+        )}
       </SpeechBubble>
       <SpeechBubble isPriest={true}>
-        {t("walkthrough.your_confessor_will_assign")}
+        {t(
+          "walkthrough.your_confessor_will_assign",
+          "(Your confessor will assign you penance.) Now pray the act of contrition.",
+        )}
       </SpeechBubble>
       <SpeechBubble isPriest={false}>
         <Trans t={t} i18nKey="prayers.act_of_contrition_text">
@@ -48,12 +63,17 @@ const Walkthrough = ({ sinsList }) => {
       <SpeechBubble isPriest={true}>
         {t("walkthrough.god_the_father_of_mercies")}
       </SpeechBubble>
-      <SpeechBubble isPriest={false}>{t("walkthrough.amen")}</SpeechBubble>
+      <SpeechBubble isPriest={false}>
+        {t("walkthrough.amen", "Amen.")}
+      </SpeechBubble>
       <SpeechBubble isPriest={true}>
-        {t("walkthrough.the_lord_has_freed_you")}
+        {t(
+          "walkthrough.the_lord_has_freed_you",
+          "The Lord has freed you from sin. Go in peace.",
+        )}
       </SpeechBubble>
       <SpeechBubble isPriest={false}>
-        {t("walkthrough.thanks_be_to_god")}
+        {t("walkthrough.thanks_be_to_god", "Thanks be to God.")}
       </SpeechBubble>
     </div>
   );

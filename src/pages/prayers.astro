@@ -6,44 +6,51 @@ import { Trans } from "astro-i18next/components";
 changeLanguage("en");
 ---
 
-<Container title={t("navbar.prayers")}>
+<Container title={t("navbar.prayers", "Prayers")}>
   <div class="prose lg:prose-lg mx-auto max-w-[48rem]">
-    <h1>{t("prayers.prayers")}</h1>
+    <h1>{t("prayers.prayers", "Prayers")}</h1>
 
     <ul>
       <li>
         <a href="#prayer-before-confession">
-          {t("prayers.prayer_before_confession")}
+          {t("prayers.prayer_before_confession", "Prayer Before Confession")}
         </a>
       </li>
       <li>
         <a href="#act-of-contrition">
-          {t("prayers.act_of_contrition")}
+          {t("prayers.act_of_contrition", "Act Of Contrition")}
         </a>
       </li>
       <li>
         <a href="#another-act-of-contrition">
-          {t("prayers.another_act_of_contrition")}
+          {t("prayers.another_act_of_contrition", "Another Act Of Contrition")}
         </a>
       </li>
       <li>
         <a href="#thanksgiving-after-confession">
-          {t("prayers.thanksgiving_after_confession")}
+          {
+            t(
+              "prayers.thanksgiving_after_confession",
+              "Thanksgiving After Confession",
+            )
+          }
         </a>
       </li>
       <li>
-        <a href="#our-father">{t("prayers.our_father")}</a>
+        <a href="#our-father">{t("prayers.our_father", "Our Father")}</a>
       </li>
       <li>
-        <a href="#hail-mary">{t("prayers.hail_mary")}</a>
+        <a href="#hail-mary">{t("prayers.hail_mary", "Hail Mary")}</a>
       </li>
       <li>
-        <a href="#hail-holy-queen">{t("prayers.hail_holy_queen")}</a>
+        <a href="#hail-holy-queen"
+          >{t("prayers.hail_holy_queen", "Hail Holy Queen")}</a
+        >
       </li>
     </ul>
 
     <h2 id="prayer-before-confession">
-      {t("prayers.prayer_before_confession")}
+      {t("prayers.prayer_before_confession", "Prayer Before Confession")}
     </h2>
     <p>
       <Trans i18nKey="prayers.prayer_before_confession_text">
@@ -64,7 +71,7 @@ changeLanguage("en");
     </p>
 
     <h2 id="act-of-contrition">
-      {t("prayers.act_of_contrition")}
+      {t("prayers.act_of_contrition", "Act Of Contrition")}
     </h2>
     <p>
       <Trans i18nKey="prayers.act_of_contrition_text">
@@ -83,7 +90,7 @@ changeLanguage("en");
     </p>
 
     <h2 id="another-act-of-contrition">
-      {t("prayers.another_act_of_contrition")}
+      {t("prayers.another_act_of_contrition", "Another Act Of Contrition")}
     </h2>
     <p>
       <Trans i18nKey="prayers.another_act_of_contrition_text">
@@ -103,7 +110,12 @@ changeLanguage("en");
     </p>
 
     <h2 id="thanksgiving-after-confession">
-      {t("prayers.thanksgiving_after_confession")}
+      {
+        t(
+          "prayers.thanksgiving_after_confession",
+          "Thanksgiving After Confession",
+        )
+      }
     </h2>
     <p>
       <Trans i18nKey="prayers.thanksgiving_after_confession_text">
@@ -127,7 +139,7 @@ changeLanguage("en");
     </p>
 
     <h2 id="our-father">
-      {t("prayers.our_father")}
+      {t("prayers.our_father", "Our Father")}
     </h2>
     <p>
       <Trans i18nKey="prayers.our_father_text">
@@ -148,7 +160,7 @@ changeLanguage("en");
     </p>
 
     <h2 id="hail-mary">
-      {t("prayers.hail_mary")}
+      {t("prayers.hail_mary", "Hail Mary")}
     </h2>
     <p>
       <Trans i18nKey="prayers.hail_mary_text">
@@ -167,7 +179,7 @@ changeLanguage("en");
     </p>
 
     <h2 id="hail-holy-queen">
-      {t("prayers.hail_holy_queen")}
+      {t("prayers.hail_holy_queen", "Hail Holy Queen")}
     </h2>
     <p>
       <Trans i18nKey="prayers.hail_holy_queen_text">
