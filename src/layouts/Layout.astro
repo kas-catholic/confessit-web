@@ -18,7 +18,7 @@ const { title, bodyClass = "" } = Astro.props;
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content={t("about.about_confessit_text").replace(/<\/?vatican>/g, "")}
+      content={t("about.about_confessit_text").replace(/<\/?\d+>/g, "")}
     />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
