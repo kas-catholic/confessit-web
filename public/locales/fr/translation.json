@@ -1,0 +1,389 @@
+{
+  "about": {
+    "about_confession": "",
+    "about_confession_end": "",
+    "about_confession_intro": "",
+    "about_confessit": "",
+    "about_confessit_text": "",
+    "about_the_developer": "",
+    "about_this_app": "",
+    "can_i_help_with_translations": "",
+    "can_i_help_write_code": "",
+    "ccc_quote": "",
+    "confessit_is_open_source": "",
+    "confessit_is_translated": "",
+    "if_you_find": "",
+    "information": "",
+    "information_you_enter": "",
+    "mike_kasberg": "",
+    "open_source": "",
+    "please_be_respectful": "",
+    "privacy": "",
+    "this_app_is_designed": "",
+    "this_website": "",
+    "we_welcome_new_contributions": "",
+    "where_to_find": ""
+  },
+  "addbutton": {
+    "add": "",
+    "add-custom-sin": "",
+    "cancel": "",
+    "i-sinned-by": ""
+  },
+  "commandments": {
+    "1": {
+      "description": "",
+      "text": "",
+      "title": ""
+    },
+    "2": {
+      "description": "",
+      "text": "",
+      "title": ""
+    },
+    "3": {
+      "description": "",
+      "text": "",
+      "title": ""
+    },
+    "4": {
+      "description": "",
+      "text": "",
+      "title": ""
+    },
+    "5": {
+      "description": "",
+      "text": "",
+      "title": ""
+    },
+    "6": {
+      "description": "",
+      "text": "",
+      "title": ""
+    },
+    "7": {
+      "description": "",
+      "text": "",
+      "title": ""
+    },
+    "8": {
+      "description": "",
+      "text": "",
+      "title": ""
+    },
+    "9": {
+      "description": "",
+      "text": "",
+      "title": ""
+    },
+    "10": {
+      "description": "",
+      "text": "",
+      "title": ""
+    },
+    "11": {
+      "description": "",
+      "text": "",
+      "title": ""
+    }
+  },
+  "examine_list": {
+    "examine": ""
+  },
+  "help": {
+    "basic_usage": "",
+    "confessit_help": "",
+    "data_persistence": "",
+    "data_persistence_text": "",
+    "step_1": "",
+    "step_2": "",
+    "step_3": "",
+    "step_4": ""
+  },
+  "navbar": {
+    "about": "",
+    "clear": "",
+    "help": "",
+    "prayers": ""
+  },
+  "prayers": {
+    "act_of_contrition": "",
+    "act_of_contrition_text": "",
+    "another_act_of_contrition": "",
+    "another_act_of_contrition_text": "",
+    "hail_holy_queen": "",
+    "hail_holy_queen_text": "",
+    "hail_mary": "",
+    "hail_mary_text": "",
+    "our_father": "",
+    "our_father_text": "",
+    "prayer_before_confession": "",
+    "prayer_before_confession_text": "",
+    "prayers": "",
+    "thanksgiving_after_confession": "",
+    "thanksgiving_after_confession_text": ""
+  },
+  "priestbubble": {
+    "priest": ""
+  },
+  "sins": {
+    "1": {
+      "detail": "",
+      "text": "",
+      "text_past": ""
+    },
+    "2": {
+      "detail": "",
+      "text": "",
+      "text_past": ""
+    },
+    "3": {
+      "detail": "",
+      "text": "",
+      "text_past": ""
+    },
+    "4": {
+      "detail": "",
+      "text": "",
+      "text_past": ""
+    },
+    "5": {
+      "text": "",
+      "text_past": ""
+    },
+    "6": {
+      "text": "",
+      "text_past": ""
+    },
+    "7": {
+      "detail": "",
+      "text": "",
+      "text_past": ""
+    },
+    "8": {
+      "detail": "",
+      "text": "",
+      "text_past": ""
+    },
+    "9": {
+      "detail": "",
+      "text": "",
+      "text_past": ""
+    },
+    "10": {
+      "detail": "",
+      "text": "",
+      "text_past": ""
+    },
+    "11": {
+      "detail": "",
+      "text": "",
+      "text_past": ""
+    },
+    "12": {
+      "text": "",
+      "text_past": ""
+    },
+    "13": {
+      "text": "",
+      "text_past": ""
+    },
+    "14": {
+      "text": "",
+      "text_past": ""
+    },
+    "15": {
+      "text": "",
+      "text_past": ""
+    },
+    "16": {
+      "text": "",
+      "text_past": ""
+    },
+    "17": {
+      "text": "",
+      "text_past": ""
+    },
+    "18": {
+      "text": "",
+      "text_past": ""
+    },
+    "19": {
+      "text": "",
+      "text_past": ""
+    },
+    "20": {
+      "text": "",
+      "text_past": ""
+    },
+    "21": {
+      "detail": "",
+      "text": "",
+      "text_past": ""
+    },
+    "22": {
+      "text": "",
+      "text_past": ""
+    },
+    "23": {
+      "text": "",
+      "text_past": ""
+    },
+    "24": {
+      "text": "",
+      "text_past": ""
+    },
+    "25": {
+      "text": "",
+      "text_past": ""
+    },
+    "26": {
+      "text": "",
+      "text_past": ""
+    },
+    "27": {
+      "text": "",
+      "text_past": ""
+    },
+    "28": {
+      "text": "",
+      "text_past": ""
+    },
+    "29": {
+      "text": "",
+      "text_past": ""
+    },
+    "30": {
+      "text": "",
+      "text_past": ""
+    },
+    "31": {
+      "text": "",
+      "text_past": ""
+    },
+    "32": {
+      "text": "",
+      "text_past": ""
+    },
+    "33": {
+      "text": "",
+      "text_past": ""
+    },
+    "34": {
+      "text": "",
+      "text_past": ""
+    },
+    "35": {
+      "text": "",
+      "text_past": ""
+    },
+    "36": {
+      "text": "",
+      "text_past": ""
+    },
+    "37": {
+      "text": "",
+      "text_past": ""
+    },
+    "38": {
+      "text": "",
+      "text_past": ""
+    },
+    "39": {
+      "text": "",
+      "text_past": ""
+    },
+    "40": {
+      "text": "",
+      "text_past": ""
+    },
+    "41": {
+      "text": "",
+      "text_past": ""
+    },
+    "42": {
+      "text": "",
+      "text_past": ""
+    },
+    "43": {
+      "text": "",
+      "text_past": ""
+    },
+    "44": {
+      "text": "",
+      "text_past": ""
+    },
+    "45": {
+      "text": "",
+      "text_past": ""
+    },
+    "46": {
+      "text": "",
+      "text_past": ""
+    },
+    "47": {
+      "text": "",
+      "text_past": ""
+    },
+    "48": {
+      "text": "",
+      "text_past": ""
+    },
+    "49": {
+      "text": "",
+      "text_past": ""
+    },
+    "50": {
+      "text": "",
+      "text_past": ""
+    },
+    "51": {
+      "text": "",
+      "text_past": ""
+    },
+    "52": {
+      "text": "",
+      "text_past": ""
+    },
+    "53": {
+      "text": "",
+      "text_past": ""
+    },
+    "54": {
+      "text": "",
+      "text_past": ""
+    },
+    "55": {
+      "text": "",
+      "text_past": ""
+    },
+    "56": {
+      "text": "",
+      "text_past": ""
+    },
+    "57": {
+      "text": "",
+      "text_past": ""
+    }
+  },
+  "sins_list": {
+    "review": ""
+  },
+  "walkthrough": {
+    "amen": "",
+    "bless_me_father": "",
+    "god_the_father_of_mercies": "",
+    "in_the_name_of": "",
+    "thanks_be_to_god": "",
+    "the_lord_has_freed_you": "",
+    "these_are_my_sins": "",
+    "walkthrough": "",
+    "your_confessor_may_offer": "",
+    "your_confessor_will_assign": ""
+  },
+  "welcome": {
+    "body": "",
+    "ok": "",
+    "title": ""
+  }
+}

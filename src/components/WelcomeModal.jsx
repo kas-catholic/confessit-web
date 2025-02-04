@@ -19,7 +19,7 @@ const WelcomeModal = () => {
   return (
     <dialog id="WelcomeModalId" className="modal modal-bottom lg:modal-middle">
       <div className="modal-box">
-        <h3 className="text-lg font-bold">{t("welcome.title")}</h3>
+        <h3 className="text-lg font-bold">{t("welcome.title", "Welcome!")}</h3>
         <p>
           <span className="text-primary font-bold">ConfessIt</span>{" "}
           <Trans t={t} i18nKey="welcome.body">
@@ -46,7 +46,7 @@ const WelcomeModal = () => {
         <div className="modal-action">
           <form method="dialog">
             <button className="btn btn-primary" onClick={handleClose}>
-              {t("welcome.ok")}
+              {t("welcome.ok", "OK")}
             </button>
           </form>
         </div>

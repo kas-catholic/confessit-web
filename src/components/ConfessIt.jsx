@@ -88,7 +88,7 @@ const ConfessIt = () => {
         className="h-full"
       >
         <SwiperSlide className="h-full">
-          <Column title={t("examine_list.examine")}>
+          <Column title={t("examine_list.examine", "Examine")}>
             <ExamineList
               sinsdb={sinsdb}
               selectedSinIds={selectedSinIds}
@@ -98,12 +98,12 @@ const ConfessIt = () => {
           </Column>
         </SwiperSlide>
         <SwiperSlide>
-          <Column title={t("sins_list.review")}>
+          <Column title={t("sins_list.review", "Review")}>
             <SinsList sinsList={sinsList} onRemoveSinItem={removeSinItem} />
           </Column>
         </SwiperSlide>
         <SwiperSlide>
-          <Column title={t("walkthrough.walkthrough")}>
+          <Column title={t("walkthrough.walkthrough", "Walkthrough")}>
             <Walkthrough sinsList={sinsList} />
           </Column>
         </SwiperSlide>

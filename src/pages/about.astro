@@ -6,9 +6,9 @@ import { Trans } from "astro-i18next/components";
 changeLanguage("en");
 ---
 
-<Container title={t("navbar.about")}>
+<Container title={t("navbar.about", "About")}>
   <div class="prose lg:prose-lg mx-auto max-w-[48rem]">
-    <h1>{t("about.about_confessit")}</h1>
+    <h1>{t("about.about_confessit", "About ConfessIt")}</h1>
 
     <p>
       <Trans i18nKey="about.about_confessit_text">
@@ -25,9 +25,16 @@ changeLanguage("en");
       </Trans>
     </p>
 
-    <h2>{t("about.about_confession")}</h2>
+    <h2>{t("about.about_confession", "About Confession")}</h2>
 
-    <p>{t("about.about_confession_intro")}</p>
+    <p>
+      {
+        t(
+          "about.about_confession_intro",
+          "Confession is the holy sacrament by which Catholics obtain pardon from God's mercy for their sins, and are thus reconciled with the Church, the community of believers, the Body of Christ.",
+        )
+      }
+    </p>
     <blockquote>
       <Trans i18nKey="about.ccc_quote">
         <p>
@@ -106,9 +113,16 @@ changeLanguage("en");
       </Trans>
     </p>
 
-    <p>{t("about.about_confession_end")}</p>
+    <p>
+      {
+        t(
+          "about.about_confession_end",
+          "When you go to confession, typically, you will have the choice of kneeling anonymously behind a screen or sitting face-to-face with your confessor.Don't be nervous about going to confession! Whatever you confess, your priest has heard it before. Remember, he is there to help you.",
+        )
+      }
+    </p>
 
-    <h2>{t("about.about_this_app")}</h2>
+    <h2>{t("about.about_this_app", "About This App")}</h2>
 
     <p>
       <Trans i18nKey="about.this_app_is_designed">
@@ -118,7 +132,14 @@ changeLanguage("en");
       </Trans>
     </p>
 
-    <p>{t("about.please_be_respectful")}</p>
+    <p>
+      {
+        t(
+          "about.please_be_respectful",
+          "Please be respectful of those around you when you use this app. I recommend that you turn your phone off when you're inside your church, and use this app before you arrive. If you do use this app inside your church or during confession, please ensure your phone is in silent mode.",
+        )
+      }
+    </p>
 
     <p>
       <Trans i18nKey="about.this_website">
@@ -144,7 +165,7 @@ changeLanguage("en");
       </Trans>
     </p>
 
-    <h2>{t("about.privacy")}</h2>
+    <h2>{t("about.privacy", "Privacy")}</h2>
     <p>
       <Trans i18nKey="about.information_you_enter">
         Information you enter into this app is only stored on your device. It is
@@ -158,7 +179,7 @@ changeLanguage("en");
       </Trans>
     </p>
 
-    <h2>{t("about.open_source")}</h2>
+    <h2>{t("about.open_source", "Open Source")}</h2>
     <p>
       <Trans i18nKey="about.confessit_is_open_source">
         ConfessIt is open source. We develop the app on
@@ -170,7 +191,9 @@ changeLanguage("en");
       </Trans>
     </p>
 
-    <h3>{t("about.can_i_help_with_translations")}</h3>
+    <h3>
+      {t("about.can_i_help_with_translations", "Can I help with translations?")}
+    </h3>
     <p>
       <Trans i18nKey="about.confessit_is_translated">
         ConfessIt is translated into multiple languages. If you'd like to help
@@ -186,7 +209,7 @@ changeLanguage("en");
       </Trans>
     </p>
 
-    <h3>{t("about.can_i_help_write_code")}</h3>
+    <h3>{t("about.can_i_help_write_code", "Can I help write code?")}</h3>
     <p>
       <Trans i18nKey="about.we_welcome_new_contributions">
         We welcome new contributions. If you'd like to contribute to ConfessIt,
@@ -197,7 +220,7 @@ changeLanguage("en");
       </Trans>
     </p>
 
-    <h3>{t("about.about_the_developer")}</h3>
+    <h3>{t("about.about_the_developer", "About the Developer")}</h3>
     <p>
       <Trans i18nKey="about.mike_kasberg">
         <a href="https://www.mikekasberg.com">Mike Kasberg</a> develops ConfessIt
@@ -208,6 +231,13 @@ changeLanguage("en");
 
     <hr />
 
-    <p>{t("about.information")}</p>
+    <p>
+      {
+        t(
+          "about.information",
+          "Bible quotes in this app come from the Revised Standard Version of the Holy Bible, Second Catholic Edition. Information from the Catechism of the Catholic Church was also used.",
+        )
+      }
+    </p>
   </div>
 </Container>

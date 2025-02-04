@@ -6,11 +6,11 @@ import { Trans } from "astro-i18next/components";
 changeLanguage("en");
 ---
 
-<Container title={t("navbar.help")}>
+<Container title={t("navbar.help", "Help")}>
   <div class="prose mx-auto">
-    <h1>{t("help.confessit_help")}</h1>
+    <h1>{t("help.confessit_help", "ConfessIt Help")}</h1>
 
-    <h2>{t("help.basic_usage")}</h2>
+    <h2>{t("help.basic_usage", "Basic Usage")}</h2>
 
     <ol>
       <li>
@@ -43,7 +43,7 @@ changeLanguage("en");
       </li>
     </ol>
 
-    <h2>{t("help.data_persistence")}</h2>
+    <h2>{t("help.data_persistence", "Data Persistence")}</h2>
 
     <p>
       <Trans i18nKey="help.data_persistence_text">
