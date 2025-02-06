@@ -62,7 +62,8 @@ const { title, bodyClass = "" } = Astro.props;
             <li>
               <LanguageSelector
                 showFlag={true}
-                class="select select-sm text-xs select-bordered mt-8 py-1 w-42"
+                class="select select-sm text-xs select-bordered mt-8 py-1 w-42 font-noto"
+                languageMapping={{ "pt-BR": "Português" }}
               />
             </li>
           </ul>
@@ -89,7 +90,7 @@ const { title, bodyClass = "" } = Astro.props;
         <div class="flex gap-4">
           <LanguageSelector
             showFlag={true}
-            class="hidden lg:inline-flex select select-bordered w-36"
+            class="hidden lg:inline-flex select select-bordered w-36 font-noto"
             languageMapping={{ "pt-BR": "Português" }}
           />
 
