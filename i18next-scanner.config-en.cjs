@@ -7,6 +7,43 @@
 const chalk = require("chalk");
 const path = require("path");
 const HTML = require("html-parse-stringify");
+const transCompOptions = {
+  component: "Trans",
+  i18nKey: "i18nKey",
+  defaultsKey: "defaults",
+  extensions: [".js", ".jsx", ".astro"],
+  fallbackKey: function (ns, value) {
+    return sha1(value);
+  },
+  // https://react.i18next.com/latest/trans-component#usage-with-simple-html-elements-like-less-than-br-greater-than-and-others-v10.4.0
+  supportBasicHtmlNodes: true, // Enables keeping the name of simple nodes (e.g. <br/>) in translations instead of indexed keys.
+  keepBasicHtmlNodesFor: [
+    "br",
+    "strong",
+    "i",
+    "p",
+    "vatican",
+    "github",
+    "mass",
+    "osc",
+    "website",
+    "app",
+    "a",
+    "kbd",
+    "code",
+    "footer",
+    "githubicon",
+  ], // Which nodes are allowed to be kept in translations during defaultValue generation of <Trans>.
+  // https://github.com/acornjs/acorn/tree/master/acorn#interface
+  acorn: {
+    ecmaVersion: 2020,
+    sourceType: "module", // defaults to 'module'
+  },
+};
+const funcOptions = {
+  list: ["i18next.t", "i18n.t", "t"],
+  extensions: [".js", ".jsx", ".astro"],
+};
 
 module.exports = {
   input: [
@@ -67,10 +104,7 @@ module.exports = {
       //console.log(`${currentTime} i18next-scanner: file contents stripped of Astro frontmatter: ${frontMatterStripped}`);
       parser.parseFuncFromString(
         frontMatterStripped,
-        {
-          list: ["i18next.t", "i18n.t", "t"],
-          extensions: [".js", ".jsx", ".astro"],
-        },
+        funcOptions,
         (key, options) => {
           parser.set(key, options);
           ++count;
@@ -83,39 +117,7 @@ module.exports = {
             //console.log(`${currentTime} i18next-scanner: Parsing Trans in ${file.path}...`, content);
             parser.parseTransFromString(
               content,
-              {
-                component: "Trans",
-                i18nKey: "i18nKey",
-                defaultsKey: "defaults",
-                extensions: [".js", ".jsx", ".astro"],
-                fallbackKey: function (ns, value) {
-                  return sha1(value);
-                },
-                // https://react.i18next.com/latest/trans-component#usage-with-simple-html-elements-like-less-than-br-greater-than-and-others-v10.4.0
-                supportBasicHtmlNodes: true, // Enables keeping the name of simple nodes (e.g. <br/>) in translations instead of indexed keys.
-                keepBasicHtmlNodesFor: [
-                  "br",
-                  "strong",
-                  "i",
-                  "p",
-                  "vatican",
-                  "github",
-                  "mass",
-                  "osc",
-                  "website",
-                  "app",
-                  "a",
-                  "kbd",
-                  "code",
-                  "footer",
-                  "githubicon",
-                ], // Which nodes are allowed to be kept in translations during defaultValue generation of <Trans>.
-                // https://github.com/acornjs/acorn/tree/master/acorn#interface
-                acorn: {
-                  ecmaVersion: 2020,
-                  sourceType: "module", // defaults to 'module'
-                },
-              },
+              transCompOptions,
               (key, options) => {
                 parser.set(key, options);
                 ++transCount;
@@ -140,52 +142,13 @@ module.exports = {
       console.log(
         `${currentTime} i18next-scanner: Parsing js or jsx file ${file.relative}...`,
       );
-      parser.parseFuncFromString(
-        temp_content,
-        {
-          list: ["i18next.t", "i18n.t", "t"],
-          extensions: [".js", ".jsx", ".astro"],
-        },
-        (key, options) => {
-          parser.set(key, options);
-          ++count;
-        },
-      );
+      parser.parseFuncFromString(temp_content, funcOptions, (key, options) => {
+        parser.set(key, options);
+        ++count;
+      });
       parser.parseTransFromString(
         temp_content,
-        {
-          component: "Trans",
-          i18nKey: "i18nKey",
-          defaultsKey: "defaults",
-          extensions: [".js", ".jsx", ".astro"],
-          fallbackKey: function (ns, value) {
-            return sha1(value);
-          },
-          // https://react.i18next.com/latest/trans-component#usage-with-simple-html-elements-like-less-than-br-greater-than-and-others-v10.4.0
-          supportBasicHtmlNodes: true, // Enables keeping the name of simple nodes (e.g. <br/>) in translations instead of indexed keys.
-          keepBasicHtmlNodesFor: [
-            "br",
-            "strong",
-            "i",
-            "p",
-            "vatican",
-            "github",
-            "mass",
-            "osc",
-            "website",
-            "app",
-            "a",
-            "kbd",
-            "code",
-            "footer",
-            "githubicon",
-          ], // Which nodes are allowed to be kept in translations during defaultValue generation of <Trans>.
-          // https://github.com/acornjs/acorn/tree/master/acorn#interface
-          acorn: {
-            ecmaVersion: 2020,
-            sourceType: "module", // defaults to 'module'
-          },
-        },
+        transCompOptions,
         (key, options) => {
           parser.set(key, options);
           ++transCount;
@@ -195,7 +158,7 @@ module.exports = {
 
     if (count > 0 || transCount > 0) {
       console.log(
-        `i18next-scanner: t() count=${chalk.cyan(
+        `${currentTime} i18next-scanner: t() count=${chalk.cyan(
           count,
         )}, Trans count=${chalk.cyan(transCount)}, file=${chalk.yellow(
           JSON.stringify(file.relative),
