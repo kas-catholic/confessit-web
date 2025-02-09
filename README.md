@@ -14,6 +14,19 @@ This project is a [progressive web app](https://vite-pwa-org.netlify.app/) [Astr
 
 See [CONTRIBUTING](CONTRIBUTING.md) for more information about how to contribute to the development of ConfessIt.
 
+### I18n
+
+We use [astro-i18next](https://astro-i18next.yassinedoghri.com/) (not officially
+part of i18next) for i18n, along with
+[react-i18next](https://react.i18next.com/) for the React portions of our app.
+Astro pages are generated statically. The English versions are the source code,
+non-English versions are generated from the English versions using `npx
+astro-i18next generate`. Astro itself is basically unaware that these are
+translated/generated pages, and treats them like any other astro file. So
+they'll work with any Astro command like `npm run dev`, but you need to re-run
+`npx astro-i18next generate` any time you modify the English source, because
+nothing is watching those files to update the translated versions.
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
