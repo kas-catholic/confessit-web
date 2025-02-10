@@ -10,7 +10,7 @@
 
 @layer base {
   html {
-    font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052,
-      serif;
+    font-family:
+      "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
   }
 }
