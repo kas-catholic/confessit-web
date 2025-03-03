@@ -8,7 +8,7 @@ const SinListItem = ({ sinItem, onRemoveSinItem }) => {
   return (
     <div className="bg-base-200 p-4 min-h-14 rounded-md flex flex-row gap-4 items-center">
       <div className="flex-1">{sinItem.text}</div>
-      <a className="btn btn-accent btn-sm h-full w-10" onClick={handleDelete}>
+      <a className="btn btn-accent btn-sm h-8 w-10" onClick={handleDelete}>
         <TrashIcon className="h-5" />
       </a>
     </div>
