@@ -54,7 +54,22 @@ const { title, bodyClass = "" } = Astro.props;
               <a href={localizePath("/prayers")}>{t("navbar.prayers")}</a>
             </li>
             <li>
-              <a href={localizePath("/about")}>{t("navbar.about")}</a>
+              <details>
+                <summary>{t("navbar.about")}</summary>
+                <ul class="p-2">
+                  <li><a href={localizePath("/about")}>ConfessIt</a></li>
+                  <li>
+                    <a href={localizePath("/about-confession")}
+                      >{t("navbar.confession")}</a
+                    >
+                  </li>
+                  <li>
+                    <a href={localizePath("/about-confessit-android")}
+                      >{t("navbar.confessit_android")}</a
+                    >
+                  </li>
+                </ul>
+              </details>
             </li>
             <li>
               <a href={localizePath("/help")}>{t("navbar.help")}</a>
@@ -74,12 +89,29 @@ const { title, bodyClass = "" } = Astro.props;
         >
 
         <!-- On large screens, show a menu -->
-        <div class="hidden lg:flex">
+        <div class="hidden lg:flex z-50">
           <ul class="menu menu-horizontal px-1 gap-1 text-lg">
             <li>
               <a href={localizePath("/prayers")}>{t("navbar.prayers")}</a>
             </li>
-            <li><a href={localizePath("/about")}>{t("navbar.about")}</a></li>
+            <li>
+              <details>
+                <summary>{t("navbar.about")}</summary>
+                <ul class="bg-base-200 rounded-t-none p-2 w-60">
+                  <li><a href={localizePath("/about")}>ConfessIt</a></li>
+                  <li>
+                    <a href={localizePath("/about-confession")}
+                      >{t("navbar.confession")}</a
+                    >
+                  </li>
+                  <li>
+                    <a href={localizePath("/about-confessit-android")}
+                      >{t("navbar.confessit_android")}</a
+                    >
+                  </li>
+                </ul>
+              </details>
+            </li>
             <li><a href={localizePath("/help")}>{t("navbar.help")}</a></li>
           </ul>
         </div>
