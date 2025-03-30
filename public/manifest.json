@@ -1,5 +1,8 @@
 {
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "name": "ConfessIt",
+  "short_name": "ConfessIt",
+  "description": "A Roman Catholic examination of conscience",
   "icons": [
     {
       "src": "favicon.ico",
@@ -17,8 +20,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#3c005a",
-  "background_color": "#f0dacc"
+  "theme_color": "#dcbda9",
+  "background_color": "#fff9f2"
 }
