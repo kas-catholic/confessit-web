@@ -10,7 +10,7 @@ export default defineConfig({
   integrations: [react(), AstroPWA(), astroI18next()],
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "es"],
+    locales: ["de", "en", "es", "it", "pt-BR"],
   },
   vite: {
     plugins: [tailwindcss()],
