@@ -3,9 +3,11 @@ import react from "@astrojs/react";
 import tailwindcss from "@tailwindcss/vite";
 import AstroPWA from "@vite-pwa/astro";
 import astroI18next from "astro-i18next";
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://confessit.app",
   output: "static",
   integrations: [
     react(),
@@ -14,6 +16,18 @@ export default defineConfig({
       manifest: false,
     }),
     astroI18next(),
+    sitemap({
+      i18n: {
+        defaultLocale: "en",
+        locales: {
+          en: "en-US",
+          es: "es-US",
+          de: "de-DE",
+          it: "it-IT",
+          "pt-BR": "pt-BR",
+        },
+      },
+    }),
   ],
   i18n: {
     defaultLocale: "en",
