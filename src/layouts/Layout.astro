@@ -93,9 +93,25 @@ const { title, bodyClass = "" } = Astro.props;
           </ul>
         </details>
 
-        <a class="btn btn-ghost text-2xl" href={localizePath("/")}
-          >⛪ ConfessIt</a
-        >
+        {/* Use h1 only on the homepage (SEO) */}
+        {
+          (Astro.url.pathname == localizePath("/") ||
+            Astro.url.pathname == `${localizePath("/")}/`) && (
+            <h1>
+              <a class="btn btn-ghost text-2xl" href={localizePath("/")}>
+                ⛪ ConfessIt
+              </a>
+            </h1>
+          )
+        }
+        {
+          Astro.url.pathname != localizePath("/") &&
+            Astro.url.pathname != `${localizePath("/")}/` && (
+              <a class="btn btn-ghost text-2xl" href={localizePath("/")}>
+                ⛪ ConfessIt
+              </a>
+            )
+        }
 
         <!-- On large screens, show a menu -->
         <div class="hidden lg:flex z-50">
