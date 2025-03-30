@@ -3,7 +3,6 @@ import i18next, { t } from "i18next";
 import { localizePath } from "astro-i18next";
 import { TrashIcon, PlusIcon } from "@heroicons/react/16/solid";
 import { HeadHrefLangs, LanguageSelector } from "astro-i18next/components";
-import { pwaInfo } from "virtual:pwa-info";
 
 import "@styles/base.css";
 interface Props {
@@ -12,6 +11,7 @@ interface Props {
 }
 
 const { title, bodyClass = "" } = Astro.props;
+const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
@@ -31,6 +31,7 @@ const { title, bodyClass = "" } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
 
+    <link rel="canonical" href={cannonicalUrl} />
     <HeadHrefLangs />
 
     <script src="/src/pwa.ts"></script>
