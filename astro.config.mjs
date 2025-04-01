@@ -8,7 +8,10 @@ import astroI18next from "astro-i18next";
 export default defineConfig({
   site: "https://confessit.app",
   output: "static",
-  trailingSlash: "never",
+  trailingSlash: "always",
+  build: {
+    format: "directory",
+  },
   integrations: [
     react(),
     AstroPWA({
