@@ -14,3 +14,9 @@
 
   # Default build command.
   command = "npx astro-i18next generate && npm run build"
+
+[[redirects]]
+  # Ensure we never have a trailing slash (it renders the wrong page)
+  from = "/*/"
+  to = "/:splat"
+  status = 301
