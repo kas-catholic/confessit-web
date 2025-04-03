@@ -12,14 +12,7 @@ export default defineConfig({
   build: {
     format: "directory",
   },
-  integrations: [
-    react(),
-    AstroPWA({
-      registerType: "autoUpdate",
-      manifest: false,
-    }),
-    astroI18next(),
-  ],
+  integrations: [react(), astroI18next()],
   i18n: {
     defaultLocale: "en",
     locales: ["de", "en", "es", "it", "pt-BR"],
