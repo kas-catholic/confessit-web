@@ -35,6 +35,11 @@ const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <HeadHrefLangs />
 
     <link rel="manifest" href="/manifest.json" />
+
+    <meta name="og:title" content={title} />
+    <meta name="og:image" content="/social_image.png" />
+    <meta name="og:url" content={cannonicalUrl} />
+    <meta name="og:type" content="website" />
   </head>
   <body class={bodyClass}>
     <div class="navbar h-16 bg-base-300 text-base-content">
