@@ -1,16 +1,42 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "confessit";
+  default: true;
+  color-scheme: "light";
 
-@font-face {
-  font-family: "Noto Color Emoji";
-  unicode-range: U+1F1E6-1F1FF;
-  src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+  --color-primary: #3c005a;
+  --color-primary-content: #ffffff;
+  --color-secondary: #a4cbb4;
+  --color-secondary-content: #282425;
+  --color-accent: #cb5365;
+  --color-accent-content: #282425;
+  --color-neutral: #f0dacc;
+  --color-neutral-content: #282425;
+  --color-base-100: #fff9f2;
+  --color-base-200: #f0dacc;
+  --color-base-300: #dcbda9;
+  --color-base-content: #282425;
+  --color-info: #2563eb;
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-error: oklch(65.72% 0.199 27.33);
 }
 
+@source '../**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}';
+
 @layer base {
+  @font-face {
+    font-family: "Noto Color Emoji";
+    unicode-range: U+1F1E6-1F1FF;
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap")
+      format("woff2");
+  }
+
   html {
     font-family:
-      "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
+      "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif,
+      "Noto Color Emoji";
   }
 }

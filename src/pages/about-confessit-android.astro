@@ -1,0 +1,56 @@
+---
+import Container from "@layouts/Container.astro";
+import { t, changeLanguage } from "i18next";
+import { Image } from "astro:assets";
+import androidIcon from "@images/android_icon.png";
+
+changeLanguage("en");
+---
+
+<Container title={t("navbar.confessit_android", "ConfessIt for Android")}>
+  <div class="prose lg:prose-lg mx-auto max-w-[48rem]">
+    <h1>{t("navbar.confessit_android", "ConfessIt for Android")}</h1>
+
+    <p>
+      {
+        t(
+          "about_confessit_android.is_the_original",
+          "ConfessIt for Android is the original version of ConfessIt, and remains available in the Play store as a native Android app.",
+        )
+      }
+    </p>
+
+    <div class="flex flex-col items-center">
+      <a
+        href="https://play.google.com/store/apps/details?id=com.mikekasberg.confessit"
+      >
+        <Image src={androidIcon} alt="ConfessIt for Android app icon" />
+      </a>
+
+      <a
+        href="https://play.google.com/store/apps/details?id=com.mikekasberg.confessit&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"
+      >
+        <img
+          width="185px"
+          height="60px"
+          alt="Get it on Google Play"
+          src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png"
+        />
+      </a>
+    </div>
+
+    <h2>{t("about_confessit_android.privacy_policy", "Privacy Policy")}</h2>
+    <p>
+      {t("about_confessit_android.privacy_policy_details")}
+    </p>
+
+    <p class="text-xs">
+      {
+        t(
+          "about_confessit_android.google_tm",
+          "Android, Google Play and the Google Play logo are trademarks of Google Inc.",
+        )
+      }
+    </p>
+  </div>
+</Container>

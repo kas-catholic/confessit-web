@@ -10,8 +10,11 @@
     "can_i_help_with_translations": "",
     "can_i_help_write_code": "",
     "ccc_quote": "",
+    "confessit_history": "",
     "confessit_is_open_source": "",
     "confessit_is_translated": "",
+    "confessit_web_history": "",
+    "history": "",
     "if_you_find": "",
     "information": "",
     "information_you_enter": "",
@@ -19,10 +22,24 @@
     "open_source": "",
     "please_be_respectful": "",
     "privacy": "",
+    "testimonial_1": "",
+    "testimonial_1_author": "",
+    "testimonial_2": "",
+    "testimonial_2_author": "",
+    "testimonial_3": "",
+    "testimonial_3_author": "",
+    "testimonial_4": "",
+    "testimonial_4_author": "",
     "this_app_is_designed": "",
     "this_website": "",
     "we_welcome_new_contributions": "",
     "where_to_find": ""
+  },
+  "about_confessit_android": {
+    "google_tm": "",
+    "is_the_original": "",
+    "privacy_policy": "",
+    "privacy_policy_details": ""
   },
   "addbutton": {
     "add": "",
@@ -103,6 +120,8 @@
   "navbar": {
     "about": "",
     "clear": "",
+    "confession": "",
+    "confessit_android": "",
     "help": "",
     "prayers": ""
   },
