@@ -1,11 +1,36 @@
 import SpeechBubble from "@components/SpeechBubble";
+import { useEffect, useState } from "react";
 import { useTranslation, Trans } from "react-i18next";
 
 const Walkthrough = ({ sinsList }) => {
   const { t } = useTranslation();
-  const sinCards = sinsList.map((sinItem, index) => (
+
+  const [sins, setSins] = useState([""]);
+
+  useEffect(() => {
+    setSins(sinsList.map((e) => e.text));
+
+    const observer = new MutationObserver(() => {
+      const domOrder = Array.from(document.querySelectorAll("[data-id]")).map(
+        (el) => el.dataset.id,
+      );
+
+      if (domOrder.length === sinsList.length) {
+        setSins(domOrder);
+      }
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
+
+    return () => observer.disconnect();
+  }, [sinsList.length]);
+
+  const sinCards = sins.map((sinItem, index) => (
     <SpeechBubble isPriest={false} key={index}>
-      {sinItem.text}
+      {sinItem}
     </SpeechBubble>
   ));
 
