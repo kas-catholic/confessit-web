@@ -18,6 +18,8 @@ const ConfessIt = () => {
   const [selectedSinIds, setSelectedSinIds] = useState([]);
   const [customSins, setCustomSins] = useState([]);
 
+  const [sinsListVersion, setSinsListVersion] = useState(0);
+
   // Load state from localStorage on component mount
   useEffect(() => {
     const storedState = localStorage.getItem("state");
@@ -40,6 +42,10 @@ const ConfessIt = () => {
     persistData();
   }, [selectedSinIds, customSins, persistData]);
 
+  function increaseSinsListVersion() {
+    setSinsListVersion((current) => current + 1);
+  }
+
   const sinsList = selectedSinIds
     .map((id) => ({
       id: id,
@@ -57,6 +63,8 @@ const ConfessIt = () => {
     } else {
       removeCustomSin(sinItem.text);
     }
+
+    increaseSinsListVersion();
   }, []);
 
   const addCustomSin = useCallback((text) => {
@@ -65,6 +73,8 @@ const ConfessIt = () => {
 
   const removeCustomSin = useCallback((text) => {
     setCustomSins((prev) => prev.filter((s) => s !== text));
+
+    increaseSinsListVersion();
   }, []);
 
   useEffect(() => {
@@ -99,7 +109,11 @@ const ConfessIt = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Column title={t("sins_list.review", "Review")}>
-            <SinsList sinsList={sinsList} onRemoveSinItem={removeSinItem} />
+            <SinsList
+              key={sinsListVersion}
+              sinsList={sinsList}
+              onRemoveSinItem={removeSinItem}
+            />
           </Column>
         </SwiperSlide>
         <SwiperSlide>

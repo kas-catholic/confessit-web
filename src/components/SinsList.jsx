@@ -6,6 +6,7 @@ const SinsList = ({ sinsList, onRemoveSinItem }) => {
       sinItem={sinItem}
       onRemoveSinItem={onRemoveSinItem}
       key={index}
+      index={index}
     />
   ));
 
