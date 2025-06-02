@@ -22,7 +22,7 @@
     "@astrojs/react": "^4.2.2",
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "4.0.9",
-    "@types/react": "^19.0.0",
+    "@types/react": "^19.1.6",
     "@types/react-dom": "^19.0.0",
     "astro": "^5.5.5",
     "astro-i18next": "^1.0.0-beta.21",
