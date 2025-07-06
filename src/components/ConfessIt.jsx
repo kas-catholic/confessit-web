@@ -17,7 +17,7 @@ import WelcomeModal from "@components/WelcomeModal";
 const ConfessIt = () => {
   const [selectedSinIds, setSelectedSinIds] = useState([]);
   const [customSins, setCustomSins] = useState([]);
-
+  const [lastConfessionDate, setLastConfessionDate] = useState(null);
   // Load state from localStorage on component mount
   useEffect(() => {
     const storedState = localStorage.getItem("state");
@@ -26,6 +26,9 @@ const ConfessIt = () => {
       setSelectedSinIds(parsedState.selectedSinIds || []);
       setCustomSins(parsedState.customSins || []);
     }
+
+    const lastConfessionDateStr = localStorage.getItem("lastConfessionDate");
+    setLastConfessionDate(lastConfessionDateStr ?? null);
   }, []);
 
   // Persist state to localStorage whenever it changes
@@ -77,6 +80,23 @@ const ConfessIt = () => {
     return () => window.removeEventListener("clearButtonClicked", clearAll);
   }, []);
 
+  const handleFinishConfession = useCallback(() => {
+    const now = new Date();
+    const formattedDate = now.toISOString().slice(0, 10);
+
+    localStorage.setItem("lastConfessionDate", formattedDate);
+    setLastConfessionDate(formattedDate);
+    setSelectedSinIds([]);
+    setCustomSins([]);
+  }, [t]);
+
+  const handleClearAllData = useCallback(() => {
+    localStorage.clear();
+    setSelectedSinIds([]);
+    setCustomSins([]);
+    setLastConfessionDate(null);
+  }, []);
+
   return (
     <div className="w-full h-full">
       <Swiper
@@ -99,7 +119,13 @@ const ConfessIt = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Column title={t("sins_list.review", "Review")}>
-            <SinsList sinsList={sinsList} onRemoveSinItem={removeSinItem} />
+            <SinsList
+              sinsList={sinsList}
+              onRemoveSinItem={removeSinItem}
+              onFinishConfession={handleFinishConfession}
+              onClearAllData={handleClearAllData}
+              lastConfessionDate={lastConfessionDate}
+            />
           </Column>
         </SwiperSlide>
         <SwiperSlide>
