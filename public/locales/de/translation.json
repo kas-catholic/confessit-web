@@ -436,6 +436,9 @@
     }
   },
   "sins_list": {
+    "clear_all_data": "Alle Daten löschen",
+    "finish_confession": "Beichte beenden",
+    "last_confession_on": "Deine letzte Beichte war am {{date}}.",
     "review": "Überprufen"
   },
   "walkthrough": {

@@ -389,6 +389,9 @@
     }
   },
   "sins_list": {
+    "clear_all_data": "Borrar todos los datos",
+    "finish_confession": "Terminar confesión",
+    "last_confession_on": "Tu última confesión fue el {{date}}.",
     "review": "Revise"
   },
   "walkthrough": {

@@ -436,6 +436,9 @@
     }
   },
   "sins_list": {
+    "clear_all_data": "Cancella tutti i dati",
+    "finish_confession": "Concludi la confessione",
+    "last_confession_on": "La tua ultima confessione è stata il {{date}}.",
     "review": "Revisiona"
   },
   "walkthrough": {

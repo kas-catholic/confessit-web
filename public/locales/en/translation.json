@@ -120,6 +120,7 @@
     "step_3": "If you're unsure what to say in confession, swipe to the next tab, <strong>Walkthrough</strong>, to see roughly what you and the priest will say to each other in confession. You can review this during confession if you wish.",
     "step_4": "After you've gone to confession, use the <strong>Clear</strong> button to clear all the sins you've marked."
   },
+  "language": "en",
   "navbar": {
     "about": "About",
     "clear": "Clear",
@@ -436,6 +437,9 @@
     }
   },
   "sins_list": {
+    "clear_all_data": "Clear All Data",
+    "finish_confession": "Finish Confession",
+    "last_confession_on": "Your last confession was on {{date}}.",
     "review": "Review"
   },
   "walkthrough": {
