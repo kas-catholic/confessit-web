@@ -91,7 +91,7 @@ const ConfessIt = () => {
   }, [t]);
 
   const handleClearAllData = useCallback(() => {
-    localStorage.clear();
+    localStorage.removeItem("lastConfessionDate");
     setSelectedSinIds([]);
     setCustomSins([]);
     setLastConfessionDate(null);
