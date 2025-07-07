@@ -13,7 +13,7 @@
   publish = "dist/"
 
   # Default build command.
-  command = "npx astro-i18next generate && npm run build"
+  command = "npm run i18n:generate && npm run build"
 
 [[redirects]]
   # Ensure we always have a trailing slash
