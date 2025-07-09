@@ -169,33 +169,9 @@ const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
               </button>
             )
           }
-
-          {
-            (Astro.url.pathname == localizePath("/") ||
-              Astro.url.pathname == `${localizePath("/")}/`) && (
-              <button
-                id="clear-button"
-                class="btn btn-accent"
-                title={t("navbar.clear", "Clear")}
-              >
-                <TrashIcon className="h-5" />
-              </button>
-            )
-          }
         </div>
       </div>
     </div>
-
     <slot />
-
-    <script>
-      const clearButton = document.getElementById("clear-button");
-      if (clearButton) {
-        clearButton.addEventListener("click", () => {
-          const event = new CustomEvent("clearButtonClicked");
-          window.dispatchEvent(event);
-        });
-      }
-    </script>
   </body>
 </html>

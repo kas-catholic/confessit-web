@@ -70,16 +70,6 @@ const ConfessIt = () => {
     setCustomSins((prev) => prev.filter((s) => s !== text));
   }, []);
 
-  useEffect(() => {
-    const clearAll = () => {
-      setSelectedSinIds([]);
-      setCustomSins([]);
-    };
-
-    window.addEventListener("clearButtonClicked", clearAll);
-    return () => window.removeEventListener("clearButtonClicked", clearAll);
-  }, []);
-
   const handleFinishConfession = useCallback(() => {
     const now = new Date();
     const formattedDate = now.toISOString().slice(0, 10);
