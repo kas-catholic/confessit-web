@@ -120,7 +120,10 @@ const ConfessIt = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Column title={t("walkthrough.walkthrough", "Walkthrough")}>
-            <Walkthrough sinsList={sinsList} />
+            <Walkthrough
+              sinsList={sinsList}
+              lastConfessionDate={lastConfessionDate}
+            />
           </Column>
         </SwiperSlide>
       </Swiper>
