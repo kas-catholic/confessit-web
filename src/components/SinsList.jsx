@@ -19,23 +19,17 @@ const SinsList = ({
   ));
 
   const locale = i18next.language;
-  let formattedDate = null;
-  if (lastConfessionDate) {
-    const dateObj = new Date(lastConfessionDate);
-    formattedDate = dateObj.toLocaleDateString(locale, {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
-  }
-
   return (
     <div className="flex flex-col px-4 gap-4">
       {lastConfessionDate && (
         <div className="text-center text-base-content/80 mb-2">
           {t("sins_list.last_confession_on", {
             defaultValue: "Your last confession was on {{date}}.",
-            date: formattedDate,
+            date: lastConfessionDate.toLocaleDateString(locale, {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            }),
           })}
         </div>
       )}

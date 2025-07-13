@@ -28,7 +28,9 @@ const ConfessIt = () => {
     }
 
     const lastConfessionDateStr = localStorage.getItem("lastConfessionDate");
-    setLastConfessionDate(lastConfessionDateStr ?? null);
+    if (lastConfessionDateStr) {
+      setLastConfessionDate(new Date(lastConfessionDateStr));
+    }
   }, []);
 
   // Persist state to localStorage whenever it changes
@@ -72,10 +74,9 @@ const ConfessIt = () => {
 
   const handleFinishConfession = useCallback(() => {
     const now = new Date();
-    const formattedDate = now.toISOString().slice(0, 10);
 
-    localStorage.setItem("lastConfessionDate", formattedDate);
-    setLastConfessionDate(formattedDate);
+    localStorage.setItem("lastConfessionDate", now);
+    setLastConfessionDate(now);
     setSelectedSinIds([]);
     setCustomSins([]);
   }, [t]);
