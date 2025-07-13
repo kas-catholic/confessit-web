@@ -22,6 +22,7 @@ const Walkthrough = ({ sinsList, lastConfessionDate }) => {
     const diffDays = Math.floor(
       (now - lastConfessionTimestamp) / MILLISECONDS_PER_DAY,
     );
+
     if (diffDays <= 0) {
       return "____";
     }
@@ -37,7 +38,7 @@ const Walkthrough = ({ sinsList, lastConfessionDate }) => {
       duration.days = diffDays;
     }
 
-    return new Intl.DurationFormat(locale).format(duration);
+    return new Intl.DurationFormat(locale, { style: "long" }).format(duration);
   };
 
   return (
