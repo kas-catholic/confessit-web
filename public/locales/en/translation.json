@@ -120,6 +120,7 @@
     "step_3": "If you're unsure what to say in confession, swipe to the next tab, <strong>Walkthrough</strong>, to see roughly what you and the priest will say to each other in confession. You can review this during confession if you wish.",
     "step_4": "After you've gone to confession, use the <strong>Clear</strong> button to clear all the sins you've marked."
   },
+  "language": "en",
   "navbar": {
     "about": "About",
     "clear": "Clear",
@@ -436,11 +437,14 @@
     }
   },
   "sins_list": {
+    "clear_all_data": "Clear All Data",
+    "finish_confession": "Finish Confession",
+    "last_confession_on": "Your last confession was on {{date}}.",
     "review": "Review"
   },
   "walkthrough": {
     "amen": "Amen.",
-    "bless_me_father": "Bless me father, for I have sinned. It has been ____ since my last confession, and these are my sins:",
+    "bless_me_father": "Bless me father, for I have sinned. It has been {{timeSinceLastConfession}} since my last confession, and these are my sins:",
     "god_the_father_of_mercies": "God, the Father of mercies…",
     "in_the_name_of": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
     "thanks_be_to_god": "Thanks be to God.",

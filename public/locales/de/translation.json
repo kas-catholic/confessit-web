@@ -436,11 +436,14 @@
     }
   },
   "sins_list": {
+    "clear_all_data": "Alle Daten löschen",
+    "finish_confession": "Beichte beenden",
+    "last_confession_on": "Deine letzte Beichte war am {{date}}.",
     "review": "Überprufen"
   },
   "walkthrough": {
     "amen": "Amen.",
-    "bless_me_father": "Segne mich Vater, denn ich habe gesündigt. Es ist ____ seit meiner letzten Beichte gewesen, und das sind meine Sünden:",
+    "bless_me_father": "Segne mich Vater, denn ich habe gesündigt. Es ist {{timeSinceLastConfession}} seit meiner letzten Beichte gewesen, und das sind meine Sünden:",
     "god_the_father_of_mercies": "Gott, der Vater der Barmherzigkeit…",
     "in_the_name_of": "Im Namen des Vaters und des Sohnes und des Heiligen Geistes. Amen.",
     "thanks_be_to_god": "Dank sei Gott dem Herrn.",

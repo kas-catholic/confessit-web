@@ -17,7 +17,7 @@ import WelcomeModal from "@components/WelcomeModal";
 const ConfessIt = () => {
   const [selectedSinIds, setSelectedSinIds] = useState([]);
   const [customSins, setCustomSins] = useState([]);
-
+  const [lastConfessionDate, setLastConfessionDate] = useState(null);
   // Load state from localStorage on component mount
   useEffect(() => {
     const storedState = localStorage.getItem("state");
@@ -25,6 +25,11 @@ const ConfessIt = () => {
       const parsedState = JSON.parse(storedState);
       setSelectedSinIds(parsedState.selectedSinIds || []);
       setCustomSins(parsedState.customSins || []);
+    }
+
+    const lastConfessionDateStr = localStorage.getItem("lastConfessionDate");
+    if (lastConfessionDateStr) {
+      setLastConfessionDate(new Date(lastConfessionDateStr));
     }
   }, []);
 
@@ -67,14 +72,20 @@ const ConfessIt = () => {
     setCustomSins((prev) => prev.filter((s) => s !== text));
   }, []);
 
-  useEffect(() => {
-    const clearAll = () => {
-      setSelectedSinIds([]);
-      setCustomSins([]);
-    };
+  const handleFinishConfession = useCallback(() => {
+    const now = new Date();
 
-    window.addEventListener("clearButtonClicked", clearAll);
-    return () => window.removeEventListener("clearButtonClicked", clearAll);
+    localStorage.setItem("lastConfessionDate", now);
+    setLastConfessionDate(now);
+    setSelectedSinIds([]);
+    setCustomSins([]);
+  }, [t]);
+
+  const handleClearAllData = useCallback(() => {
+    localStorage.removeItem("lastConfessionDate");
+    setSelectedSinIds([]);
+    setCustomSins([]);
+    setLastConfessionDate(null);
   }, []);
 
   return (
@@ -99,12 +110,21 @@ const ConfessIt = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Column title={t("sins_list.review", "Review")}>
-            <SinsList sinsList={sinsList} onRemoveSinItem={removeSinItem} />
+            <SinsList
+              sinsList={sinsList}
+              onRemoveSinItem={removeSinItem}
+              onFinishConfession={handleFinishConfession}
+              onClearAllData={handleClearAllData}
+              lastConfessionDate={lastConfessionDate}
+            />
           </Column>
         </SwiperSlide>
         <SwiperSlide>
           <Column title={t("walkthrough.walkthrough", "Walkthrough")}>
-            <Walkthrough sinsList={sinsList} />
+            <Walkthrough
+              sinsList={sinsList}
+              lastConfessionDate={lastConfessionDate}
+            />
           </Column>
         </SwiperSlide>
       </Swiper>

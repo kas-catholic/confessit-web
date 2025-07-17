@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "npx eslint src",
-    "prepare": "husky"
+    "prepare": "husky",
+    "i18n:generate": "astro-i18next generate"
   },
   "eslintConfig": {
     "extends": "react-app",

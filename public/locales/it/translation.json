@@ -436,11 +436,14 @@
     }
   },
   "sins_list": {
+    "clear_all_data": "Cancella tutti i dati",
+    "finish_confession": "Concludi la confessione",
+    "last_confession_on": "La tua ultima confessione è stata il {{date}}.",
     "review": "Revisiona"
   },
   "walkthrough": {
     "amen": "Amen.",
-    "bless_me_father": "Benedicimi Padre, perché ho peccato. Sono ____ dall'ultima confessione. Questi sono i miei peccati:",
+    "bless_me_father": "Benedicimi Padre, perché ho peccato. Sono {{timeSinceLastConfession}} dall'ultima confessione. Questi sono i miei peccati:",
     "god_the_father_of_mercies": "Dio, Padre di misericordia…",
     "in_the_name_of": "Nel nome del Padre, e del Figlio, e dello Spirito Santo. Amen.",
     "thanks_be_to_god": "Lodiamo il Signore perché è buono.",

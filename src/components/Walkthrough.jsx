@@ -1,13 +1,45 @@
 import SpeechBubble from "@components/SpeechBubble";
+import i18next from "i18next";
 import { useTranslation, Trans } from "react-i18next";
 
-const Walkthrough = ({ sinsList }) => {
+const MILLISECONDS_PER_DAY = 1000 * 60 * 60 * 24;
+const Walkthrough = ({ sinsList, lastConfessionDate }) => {
   const { t } = useTranslation();
   const sinCards = sinsList.map((sinItem, index) => (
     <SpeechBubble isPriest={false} key={index}>
       {sinItem.text}
     </SpeechBubble>
   ));
+
+  const getTimeSinceLastConfession = () => {
+    if (!lastConfessionDate) {
+      return "____";
+    }
+    const locale = i18next.language;
+    const now = new Date().getTime();
+    const lastConfessionTimestamp = new Date(lastConfessionDate).getTime();
+
+    const diffDays = Math.floor(
+      (now - lastConfessionTimestamp) / MILLISECONDS_PER_DAY,
+    );
+
+    if (diffDays <= 0) {
+      return "____";
+    }
+
+    const duration = {};
+    if (diffDays >= 365) {
+      duration.years = Math.floor(diffDays / 365);
+    } else if (diffDays >= 30) {
+      duration.months = Math.floor(diffDays / 30);
+    } else if (diffDays >= 7) {
+      duration.weeks = Math.floor(diffDays / 7);
+    } else {
+      duration.days = diffDays;
+    }
+
+    return new Intl.DurationFormat(locale, { style: "long" }).format(duration);
+  };
 
   return (
     <div>
@@ -18,10 +50,11 @@ const Walkthrough = ({ sinsList }) => {
         )}
       </SpeechBubble>
       <SpeechBubble isPriest={false}>
-        {t(
-          "walkthrough.bless_me_father",
-          "Bless me father, for I have sinned. It has been ____ since my last confession, and these are my sins:",
-        )}
+        {t("walkthrough.bless_me_father", {
+          defaultValue:
+            "Bless me father, for I have sinned. It has been {{timeSinceLastConfession}} since my last confession, and these are my sins:",
+          timeSinceLastConfession: getTimeSinceLastConfession(),
+        })}
       </SpeechBubble>
 
       {sinCards}
