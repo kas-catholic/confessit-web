@@ -35,7 +35,7 @@
     "tailwindcss": "4.0.9"
   },
   "devDependencies": {
-    "@eslint/js": "^9.23.0",
+    "@eslint/js": "^9.32.0",
     "@tailwindcss/typography": "^0.5.16",
     "@vite-pwa/astro": "^0.5.0",
     "daisyui": "^5.0.35",
