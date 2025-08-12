@@ -24,7 +24,7 @@ non-English versions are generated from the English versions using `npx
 astro-i18next generate`. Astro itself is basically unaware that these are
 translated/generated pages, and treats them like any other astro file. So
 they'll work with any Astro command like `npm run dev`, but you need to re-run
-`npx astro-i18next generate` any time you modify the English source, because
+`npm run i18n:generate` any time you modify the English source, because
 nothing is watching those files to update the translated versions.
 
 ## 🧞 Commands
@@ -39,6 +39,9 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm run prettier`        | Run prettier check                               |
+| `npm run prettier:fix`    | Run prettier fix                                 |
+| `npm run i18n:generate`   | Generate i18n translation files                  |
 
 ## Translations
 
