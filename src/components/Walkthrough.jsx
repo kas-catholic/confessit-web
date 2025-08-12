@@ -37,7 +37,7 @@ const Walkthrough = ({ sinsList, lastConfessionDate }) => {
       (now - lastConfessionTimestamp) / MILLISECONDS_PER_DAY,
     );
 
-    if(diffDays <= 0) return defaultValues;
+    if (diffDays <= 0) return defaultValues;
 
     const units = [
       { min: 365, key: "years", plural: "years", singular: "year" },
