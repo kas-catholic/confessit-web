@@ -37,11 +37,13 @@ const Walkthrough = ({ sinsList, lastConfessionDate }) => {
       (now - lastConfessionTimestamp) / MILLISECONDS_PER_DAY,
     );
 
+    if(diffDays <= 0) return defaultValues;
+
     const units = [
       { min: 365, key: "years", plural: "years", singular: "year" },
       { min: 30, key: "months", plural: "months", singular: "month" },
       { min: 7, key: "weeks", plural: "weeks", singular: "week" },
-      { min: 0, key: "days", plural: "days", singular: "day" },
+      { min: 1, key: "days", plural: "days", singular: "day" },
     ];
 
     for (const unit of units) {
@@ -55,7 +57,6 @@ const Walkthrough = ({ sinsList, lastConfessionDate }) => {
         };
       }
     }
-    return defaultValues;
   };
 
   return (
