@@ -6,8 +6,8 @@ import { useTranslation, Trans } from "react-i18next";
 const MILLISECONDS_PER_DAY = 1000 * 60 * 60 * 24;
 const Walkthrough = ({ sinsList, lastConfessionDate }) => {
   const { t } = useTranslation();
-  const [timeUnit, setTimeUnit] = useState("day");
-  const [timeSinceLastConfession, setTimeSinceLastConfession] = useState("__");
+  const [timeUnit, setTimeUnit] = useState("unkown");
+  const [timeSinceLastConfession, setTimeSinceLastConfession] = useState(0);
 
   const sinCards = sinsList.map((sinItem, index) => (
     <SpeechBubble isPriest={false} key={index}>
@@ -16,44 +16,39 @@ const Walkthrough = ({ sinsList, lastConfessionDate }) => {
   ));
 
   useEffect(() => {
-    const { timeSinceLastConfession, timeUnit } =
-      calculateTimeSinceLastConfession();
-    setTimeSinceLastConfession(timeSinceLastConfession);
+    const { count, timeUnit } = calculateTimeSinceLastConfession();
+    setTimeSinceLastConfession(count);
     setTimeUnit(timeUnit);
   }, [lastConfessionDate, i18next.language]);
 
   const calculateTimeSinceLastConfession = () => {
-    const defaultValues = {
-      timeSinceLastConfession: "____",
-      timeUnit: "day",
-    };
+    const defaultResponse = { count: 0, timeUnit: "unkown" };
+    if (!lastConfessionDate) {
+      return defaultResponse;
+    }
 
-    if (!lastConfessionDate) return defaultValues;
-
-    const locale = i18next.language;
     const now = new Date().getTime();
     const lastConfessionTimestamp = new Date(lastConfessionDate).getTime();
     const diffDays = Math.floor(
       (now - lastConfessionTimestamp) / MILLISECONDS_PER_DAY,
     );
 
-    if (diffDays <= 0) return defaultValues;
+    if (diffDays <= 0 || isNaN(diffDays)) {
+      return defaultResponse;
+    }
 
     const units = [
-      { min: 365, key: "years", plural: "years", singular: "year" },
-      { min: 30, key: "months", plural: "months", singular: "month" },
-      { min: 7, key: "weeks", plural: "weeks", singular: "week" },
-      { min: 1, key: "days", plural: "days", singular: "day" },
+      { min: 365, key: "year" },
+      { min: 30, key: "month" },
+      { min: 7, key: "week" },
+      { min: 1, key: "day" },
     ];
 
     for (const unit of units) {
       if (diffDays >= unit.min) {
-        const value = Math.floor(diffDays / unit.min);
         return {
-          timeUnit: value > 1 ? unit.plural : unit.singular,
-          timeSinceLastConfession: new Intl.DurationFormat(locale, {
-            style: "long",
-          }).format({ [unit.key]: value }),
+          count: Math.floor(diffDays / unit.min),
+          timeUnit: unit.key,
         };
       }
     }
@@ -70,8 +65,8 @@ const Walkthrough = ({ sinsList, lastConfessionDate }) => {
       <SpeechBubble isPriest={false}>
         {t(`walkthrough.bless_me_father_${timeUnit}`, {
           defaultValue:
-            "Bless me father, for I have sinned. It has been {{timeSinceLastConfession}} since my last confession, and these are my sins:",
-          timeSinceLastConfession,
+            "Bless me father, for I have sinned. It has been {{count}} since my last confession, and these are my sins:",
+          count: timeSinceLastConfession,
         })}
       </SpeechBubble>
 
