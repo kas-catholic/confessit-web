@@ -10,6 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "npx eslint src",
+    "prettier": " npx prettier . --check",
+    "prettier:fix": " npx prettier . --write",
     "prepare": "husky",
     "i18n:generate": "astro-i18next generate"
   },

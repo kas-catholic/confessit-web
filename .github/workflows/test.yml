@@ -30,4 +30,4 @@ jobs:
       #   run: yarn test
 
       - name: Prettier Check
-        run: npx prettier . --check
+        run: npm run prettier
