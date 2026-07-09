@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
@@ -15,61 +15,79 @@ import Walkthrough from "@components/Walkthrough";
 import WelcomeModal from "@components/WelcomeModal";
 
 const ConfessIt = () => {
-  const [selectedSinIds, setSelectedSinIds] = useState([]);
-  const [customSins, setCustomSins] = useState([]);
+  const [sinsList, setSinsList] = useState([]);
   const [lastConfessionDate, setLastConfessionDate] = useState(null);
-  // Load state from localStorage on component mount
+
+  const hasHydrated = useRef(false);
+
   useEffect(() => {
     const storedState = localStorage.getItem("state");
+
     if (storedState) {
       const parsedState = JSON.parse(storedState);
-      setSelectedSinIds(parsedState.selectedSinIds || []);
-      setCustomSins(parsedState.customSins || []);
+
+      if (Array.isArray(parsedState.sinsList)) {
+        setSinsList(parsedState.sinsList);
+      } else {
+        const migrated = (parsedState.selectedSinIds || []).map((id) => ({
+          id,
+          text: t(`sins.${id}.text_past`),
+          type: "sin",
+        }));
+        const storedCustomSins = parsedState.customSins || [];
+        storedCustomSins.forEach((s) => {
+          migrated.push(
+            typeof s === "string"
+              ? {
+                  id: `custom-${crypto.randomUUID()}`,
+                  text: s,
+                  type: "custom",
+                }
+              : { ...s, type: "custom" },
+          );
+        });
+
+        setSinsList(migrated);
+      }
     }
 
     const lastConfessionDateStr = localStorage.getItem("lastConfessionDate");
     if (lastConfessionDateStr) {
       setLastConfessionDate(new Date(lastConfessionDateStr));
     }
+    hasHydrated.current = true;
   }, []);
 
-  // Persist state to localStorage whenever it changes
+  // Persist state to localStorage whenever it changes (after hydration).
   const persistData = useCallback(() => {
-    localStorage.setItem(
-      "state",
-      JSON.stringify({ selectedSinIds, customSins }),
-    );
-  }, [selectedSinIds, customSins]);
+    localStorage.setItem("state", JSON.stringify({ sinsList }));
+  }, [sinsList]);
 
   useEffect(() => {
+    if (!hasHydrated.current) return;
     persistData();
-  }, [selectedSinIds, customSins, persistData]);
-
-  const sinsList = selectedSinIds
-    .map((id) => ({
-      id: id,
-      text: t(`sins.${id}.text_past`),
-    }))
-    .concat(customSins.map((text) => ({ text: text })));
+  }, [sinsList, persistData]);
 
   const addSinId = useCallback((id) => {
-    setSelectedSinIds((prev) => [...prev, id]);
+    setSinsList((prev) => [
+      ...prev,
+      { id, text: t(`sins.${id}.text_past`), type: "sin" },
+    ]);
   }, []);
 
   const removeSinItem = useCallback((sinItem) => {
-    if ("id" in sinItem && sinItem.id !== null) {
-      setSelectedSinIds((prev) => prev.filter((s) => s !== sinItem.id));
-    } else {
-      removeCustomSin(sinItem.text);
-    }
+    setSinsList((prev) => prev.filter((s) => s.id !== sinItem.id));
   }, []);
 
   const addCustomSin = useCallback((text) => {
-    setCustomSins((prev) => [...prev, text]);
+    setSinsList((prev) => [
+      ...prev,
+      { id: `custom-${crypto.randomUUID()}`, text, type: "custom" },
+    ]);
   }, []);
 
-  const removeCustomSin = useCallback((text) => {
-    setCustomSins((prev) => prev.filter((s) => s !== text));
+  const handleReorderSinsList = useCallback((newOrder) => {
+    setSinsList(newOrder);
   }, []);
 
   const handleFinishConfession = useCallback(() => {
@@ -77,14 +95,12 @@ const ConfessIt = () => {
 
     localStorage.setItem("lastConfessionDate", now);
     setLastConfessionDate(now);
-    setSelectedSinIds([]);
-    setCustomSins([]);
+    setSinsList([]);
   }, [t]);
 
   const handleClearAllData = useCallback(() => {
     localStorage.removeItem("lastConfessionDate");
-    setSelectedSinIds([]);
-    setCustomSins([]);
+    setSinsList([]);
     setLastConfessionDate(null);
   }, []);
 
@@ -102,7 +118,9 @@ const ConfessIt = () => {
           <Column title={t("examine_list.examine", "Examine")}>
             <ExamineList
               sinsdb={sinsdb}
-              selectedSinIds={selectedSinIds}
+              selectedSinIds={sinsList
+                .filter((s) => s.type === "sin")
+                .map((s) => s.id)}
               onAddSinId={addSinId}
               onRemoveSinItem={removeSinItem}
             />
@@ -112,6 +130,7 @@ const ConfessIt = () => {
           <Column title={t("sins_list.review", "Review")}>
             <SinsList
               sinsList={sinsList}
+              onReorder={handleReorderSinsList}
               onRemoveSinItem={removeSinItem}
               onFinishConfession={handleFinishConfession}
               onClearAllData={handleClearAllData}
