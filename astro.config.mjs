@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
 import tailwindcss from "@tailwindcss/vite";
-import astroI18next from "astro-i18next";
+import { paraglideVitePlugin } from "@inlang/paraglide-js";
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,12 +11,22 @@ export default defineConfig({
   build: {
     format: "directory",
   },
-  integrations: [react(), astroI18next()],
+  integrations: [react()],
   i18n: {
     defaultLocale: "en",
     locales: ["de", "en", "es", "it", "pt-BR"],
+    routing: {
+      prefixDefaultLocale: false,
+    },
   },
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [
+      tailwindcss(),
+      paraglideVitePlugin({
+        project: "./project.inlang",
+        outdir: "./src/paraglide",
+        strategy: ["url", "globalVariable", "baseLocale"],
+      }),
+    ],
   },
 });
