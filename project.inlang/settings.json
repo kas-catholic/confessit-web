@@ -3,9 +3,9 @@
   "baseLocale": "en",
   "locales": ["en", "es", "it", "de", "pt-BR"],
   "modules": [
-    "https://cdn.jsdelivr.net/npm/@inlang/plugin-i18next@latest/dist/index.js"
+    "https://cdn.jsdelivr.net/npm/@inlang/plugin-message-format@latest/dist/index.js"
   ],
-  "plugin.inlang.i18next": {
+  "plugin.inlang.messageFormat": {
     "pathPattern": "./public/locales/{locale}/translation.json"
   }
 }
