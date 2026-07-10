@@ -1,9 +1,9 @@
 ---
 import Container from "@layouts/Container.astro";
 import AboutAndroidPage from "@components/pages/AboutAndroidPage.astro";
-import { t } from "i18next";
+import { m } from "../paraglide/messages.js";
 ---
 
-<Container title={t("navbar.confessit_android", "ConfessIt for Android")}>
+<Container title={m["navbar.confessit_android"]()}>
   <AboutAndroidPage />
 </Container>

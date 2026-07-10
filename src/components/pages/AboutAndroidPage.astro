@@ -1,19 +1,14 @@
 ---
-import { t } from "i18next";
+import { m } from "../../paraglide/messages.js";
 import { Image } from "astro:assets";
 import androidIcon from "@images/android_icon.png";
 ---
 
 <div class="prose lg:prose-lg mx-auto max-w-[48rem]">
-  <h1>{t("navbar.confessit_android", "ConfessIt for Android")}</h1>
+  <h1>{m["navbar.confessit_android"]()}</h1>
 
   <p>
-    {
-      t(
-        "about_confessit_android.is_the_original",
-        "ConfessIt for Android is the original version of ConfessIt, and remains available in the Play store as a native Android app.",
-      )
-    }
+    {m["about_confessit_android.is_the_original"]()}
   </p>
 
   <div class="flex flex-col items-center">
@@ -35,17 +30,12 @@ import androidIcon from "@images/android_icon.png";
     </a>
   </div>
 
-  <h2>{t("about_confessit_android.privacy_policy", "Privacy Policy")}</h2>
+  <h2>{m["about_confessit_android.privacy_policy"]()}</h2>
   <p>
-    {t("about_confessit_android.privacy_policy_details")}
+    {m["about_confessit_android.privacy_policy_details"]()}
   </p>
 
   <p class="text-xs">
-    {
-      t(
-        "about_confessit_android.google_tm",
-        "Android, Google Play and the Google Play logo are trademarks of Google Inc.",
-      )
-    }
+    {m["about_confessit_android.google_tm"]()}
   </p>
 </div>

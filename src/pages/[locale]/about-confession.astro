@@ -2,11 +2,11 @@
 import Container from "@layouts/Container.astro";
 import AboutConfessionPage from "@components/pages/AboutConfessionPage.astro";
 import { localeStaticPaths } from "@i18n/paths";
-import { t } from "i18next";
+import { m } from "../../paraglide/messages.js";
 
 export const getStaticPaths = localeStaticPaths;
 ---
 
-<Container title={t("about.about_confession", "About Confession")}>
+<Container title={m["about.about_confession"]()}>
   <AboutConfessionPage />
 </Container>

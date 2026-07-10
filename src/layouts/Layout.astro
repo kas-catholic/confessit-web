@@ -1,8 +1,8 @@
 ---
 import i18next, { t } from "i18next";
+import { m } from "../paraglide/messages.js";
 import { localizePath } from "astro-i18next";
 import { TrashIcon, PlusIcon } from "@heroicons/react/16/solid";
-import { HeadHrefLangs, LanguageSelector } from "astro-i18next/components";
 
 import "@styles/base.css";
 interface Props {
@@ -20,7 +20,7 @@ const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content={t("about.about_confessit_text").replace(/<\/?\d+>/g, "")}
+      content={m["about.about_confessit_text"]().replace(/<[^>]+>/g, "")}
     />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -32,7 +32,6 @@ const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <title>{title}</title>
 
     <link rel="canonical" href={cannonicalUrl} />
-    <HeadHrefLangs />
 
     <link rel="manifest" href="/manifest.json" />
 
@@ -87,13 +86,6 @@ const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
             </li>
             <li>
               <a href={localizePath("/help")}>{t("navbar.help")}</a>
-            </li>
-            <li>
-              <LanguageSelector
-                showFlag={true}
-                class="select select-sm text-xs select-bordered mt-8 py-1 w-42 font-noto"
-                languageMapping={{ "pt-BR": "Português" }}
-              />
             </li>
           </ul>
         </details>
@@ -150,12 +142,6 @@ const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
       <div class="navbar-end">
         <!-- On large screens, show a menu -->
         <div class="flex gap-4">
-          <LanguageSelector
-            showFlag={true}
-            class="hidden lg:inline-flex select select-bordered w-36 font-noto"
-            languageMapping={{ "pt-BR": "Português" }}
-          />
-
           {
             (Astro.url.pathname == localizePath("/") ||
               Astro.url.pathname == `${localizePath("/")}/`) && (
