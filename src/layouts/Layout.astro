@@ -1,7 +1,8 @@
 ---
-import i18next, { t } from "i18next";
 import { m } from "../paraglide/messages.js";
-import { localizePath } from "astro-i18next";
+import { getLocale, localizeHref, locales } from "../paraglide/runtime.js";
+import localeEmoji from "locale-emoji";
+import ISO6391 from "iso-639-1";
 import { TrashIcon, PlusIcon } from "@heroicons/react/16/solid";
 
 import "@styles/base.css";
@@ -11,11 +12,18 @@ interface Props {
 }
 
 const { title, bodyClass = "" } = Astro.props;
+const currentLocale = getLocale();
 const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
+
+function localizedPath(path: string, locale?: string): string {
+  const result = locale ? localizeHref(path, { locale }) : localizeHref(path);
+  if (result === "/") return "/";
+  return result.endsWith("/") ? result : result + "/";
+}
 ---
 
 <!doctype html>
-<html lang={i18next.language}>
+<html lang={currentLocale}>
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -32,6 +40,15 @@ const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
     <title>{title}</title>
 
     <link rel="canonical" href={cannonicalUrl} />
+    {
+      locales.map((lng) => (
+        <link
+          rel="alternate"
+          hreflang={lng}
+          href={new URL(localizedPath(Astro.url.pathname, lng), Astro.site).href}
+        />
+      ))
+    }
 
     <link rel="manifest" href="/manifest.json" />
 
@@ -64,77 +81,99 @@ const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
             class="menu menu-lg dropdown-content bg-base-200 rounded-box z-100 mt-3 w-56 p-4 shadow"
           >
             <li>
-              <a href={localizePath("/prayers")}>{t("navbar.prayers")}</a>
+              <a href={localizedPath("/prayers/")}>{m["navbar.prayers"]()}</a>
             </li>
             <li>
               <details>
-                <summary>{t("navbar.about")}</summary>
+                <summary>{m["navbar.about"]()}</summary>
                 <ul class="p-2">
-                  <li><a href={localizePath("/about")}>ConfessIt</a></li>
+                  <li><a href={localizedPath("/about/")}>ConfessIt</a></li>
                   <li>
-                    <a href={localizePath("/about-confession")}
-                      >{t("navbar.confession")}</a
+                    <a href={localizedPath("/about-confession/")}
+                      >{m["navbar.confession"]()}</a
                     >
                   </li>
                   <li>
-                    <a href={localizePath("/about-confessit-android")}
-                      >{t("navbar.confessit_android")}</a
+                    <a href={localizedPath("/about-confessit-android/")}
+                      >{m["navbar.confessit_android"]()}</a
                     >
                   </li>
                 </ul>
               </details>
             </li>
             <li>
-              <a href={localizePath("/help")}>{t("navbar.help")}</a>
+              <a href={localizedPath("/help/")}>{m["navbar.help"]()}</a>
+            </li>
+            <li>
+              <select
+                onchange="location = this.value;"
+                class="select select-sm text-xs select-bordered mt-8 py-1 w-42 font-noto"
+              >
+                {
+                  locales.map((lng) => {
+                    const flag = localeEmoji(lng) ? localeEmoji(lng) + " " : "";
+                    const nativeName =
+                      lng === "pt-BR"
+                        ? "Português"
+                        : ISO6391.getNativeName(lng) || lng;
+                    return (
+                      <option
+                        value={localizedPath(Astro.url.pathname, lng)}
+                        selected={lng === currentLocale}
+                      >
+                        {flag + nativeName}
+                      </option>
+                    );
+                  })
+                }
+              </select>
             </li>
           </ul>
         </details>
 
         {/* Use h1 only on the homepage (SEO) */}
         {
-          (Astro.url.pathname == localizePath("/") ||
-            Astro.url.pathname == `${localizePath("/")}/`) && (
+          Astro.url.pathname === localizedPath("/") && (
             <h1>
-              <a class="btn btn-ghost text-2xl" href={localizePath("/")}>
+              <a class="btn btn-ghost text-2xl" href={localizedPath("/")}>
                 ⛪ ConfessIt
               </a>
             </h1>
           )
         }
         {
-          Astro.url.pathname != localizePath("/") &&
-            Astro.url.pathname != `${localizePath("/")}/` && (
-              <a class="btn btn-ghost text-2xl" href={localizePath("/")}>
-                ⛪ ConfessIt
-              </a>
-            )
+          Astro.url.pathname !== localizedPath("/") && (
+            <a class="btn btn-ghost text-2xl" href={localizedPath("/")}>
+              ⛪ ConfessIt
+            </a>
+          )
         }
 
         <!-- On large screens, show a menu -->
         <div class="hidden lg:flex z-50">
           <ul class="menu menu-horizontal px-1 gap-1 text-lg">
             <li>
-              <a href={localizePath("/prayers")}>{t("navbar.prayers")}</a>
+              <a href={localizedPath("/prayers/")}>{m["navbar.prayers"]()}</a>
             </li>
             <li>
               <details>
-                <summary>{t("navbar.about")}</summary>
+                <summary>{m["navbar.about"]()}</summary>
                 <ul class="bg-base-200 rounded-t-none p-2 w-60">
-                  <li><a href={localizePath("/about")}>ConfessIt</a></li>
+                  <li><a href={localizedPath("/about/")}>ConfessIt</a></li>
                   <li>
-                    <a href={localizePath("/about-confession")}
-                      >{t("navbar.confession")}</a
+                    <a href={localizedPath("/about-confession/")}
+                      >{m["navbar.confession"]()}</a
                     >
                   </li>
                   <li>
-                    <a href={localizePath("/about-confessit-android")}
-                      >{t("navbar.confessit_android")}</a
+                    <a href={localizedPath("/about-confessit-android/")}
+                      >{m["navbar.confessit_android"]()}</a
                     >
                   </li>
                 </ul>
               </details>
             </li>
-            <li><a href={localizePath("/help")}>{t("navbar.help")}</a></li>
+            <li><a href={localizedPath("/help/")}>{m["navbar.help"]()}</a></li>
           </ul>
         </div>
       </div>
@@ -143,18 +182,39 @@ const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
         <!-- On large screens, show a menu -->
         <div class="flex gap-4">
           {
-            (Astro.url.pathname == localizePath("/") ||
-              Astro.url.pathname == `${localizePath("/")}/`) && (
+            Astro.url.pathname === localizedPath("/") && (
               <button
                 id="add-sin-button"
                 class="btn btn-secondary"
-                title={t("addbutton.add-custom-sin")}
+                title={m["addbutton.add-custom-sin"]()}
                 onclick="AddSinModal.showModal()"
               >
                 <PlusIcon className="h-5" />
               </button>
             )
           }
+          <select
+            onchange="location = this.value;"
+            class="hidden lg:inline-flex select select-bordered w-36 font-noto"
+          >
+            {
+              locales.map((lng) => {
+                const flag = localeEmoji(lng) ? localeEmoji(lng) + " " : "";
+                const nativeName =
+                  lng === "pt-BR"
+                    ? "Português"
+                    : ISO6391.getNativeName(lng) || lng;
+                return (
+                  <option
+                    value={localizedPath(Astro.url.pathname, lng)}
+                    selected={lng === currentLocale}
+                  >
+                    {flag + nativeName}
+                  </option>
+                );
+              })
+            }
+          </select>
         </div>
       </div>
     </div>
