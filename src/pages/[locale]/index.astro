@@ -1,6 +1,9 @@
 ---
 import Layout from "@layouts/Layout.astro";
 import HomePage from "@components/pages/HomePage.astro";
+import { localeStaticPaths } from "@i18n/paths";
+
+export const getStaticPaths = localeStaticPaths;
 ---
 
 <Layout title="ConfessIt" bodyClass="h-[100dvh] overflow-hidden flex flex-col">
