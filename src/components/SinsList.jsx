@@ -1,8 +1,8 @@
 import { DragDropProvider } from "@dnd-kit/react";
 import { move } from "@dnd-kit/helpers";
 import SinListItem from "@components/SinListItem";
-import i18next from "i18next";
-import { useTranslation } from "react-i18next";
+import { m } from "../paraglide/messages.js";
+import { getLocale } from "../paraglide/runtime.js";
 
 const SinsList = ({
   sinsList,
@@ -12,8 +12,6 @@ const SinsList = ({
   onClearAllData,
   lastConfessionDate,
 }) => {
-  const { t } = useTranslation();
-
   const handleDragEnd = (event) => {
     const next = move(sinsList, event);
     if (next === sinsList) return;
@@ -31,14 +29,13 @@ const SinsList = ({
     />
   ));
 
-  const locale = i18next.language;
+  const locale = getLocale();
   return (
     <DragDropProvider onDragEnd={handleDragEnd}>
       <div className="flex flex-col px-4 gap-4">
         {lastConfessionDate && (
           <div className="text-center text-base-content/80 mb-2">
-            {t("sins_list.last_confession_on", {
-              defaultValue: "Your last confession was on {{date}}.",
+            {m["sins_list.last_confession_on"]({
               date: lastConfessionDate.toLocaleDateString(locale, {
                 year: "numeric",
                 month: "long",
@@ -54,7 +51,7 @@ const SinsList = ({
               className="btn btn-primary w-full max-w-xs"
               onClick={onFinishConfession}
             >
-              {t("sins_list.finish_confession", "Finish Confession")}
+              {m["sins_list.finish_confession"]() ?? "Finish Confession"}
             </button>
           )}
           {onClearAllData && (
@@ -62,7 +59,7 @@ const SinsList = ({
               className="btn btn-outline w-full max-w-xs"
               onClick={onClearAllData}
             >
-              {t("sins_list.clear_all_data", "Clear All Data")}
+              {m["sins_list.clear_all_data"]() ?? "Clear All Data"}
             </button>
           )}
         </div>
