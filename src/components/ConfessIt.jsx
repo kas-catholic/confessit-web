@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import { t } from "i18next";
+import { m } from "../paraglide/messages.js";
 
 import sinsdb from "@data/sinsdb";
 
@@ -34,7 +34,7 @@ const ConfessIt = () => {
         } else {
           const migrated = (parsedState.selectedSinIds || []).map((id) => ({
             id,
-            text: t(`sins.${id}.text_past`),
+            text: m[`sins.${id}.text_past`](),
             type: "sin",
           }));
           const storedCustomSins = parsedState.customSins || [];
@@ -80,7 +80,7 @@ const ConfessIt = () => {
   const addSinId = useCallback((id) => {
     setSinsList((prev) => [
       ...prev,
-      { id, text: t(`sins.${id}.text_past`), type: "sin" },
+      { id, text: m[`sins.${id}.text_past`](), type: "sin" },
     ]);
   }, []);
 
@@ -105,7 +105,7 @@ const ConfessIt = () => {
     localStorage.setItem("lastConfessionDate", now);
     setLastConfessionDate(now);
     setSinsList([]);
-  }, [t]);
+  }, []);
 
   const handleClearAllData = useCallback(() => {
     localStorage.removeItem("lastConfessionDate");
@@ -124,7 +124,7 @@ const ConfessIt = () => {
         className="h-full"
       >
         <SwiperSlide className="h-full">
-          <Column title={t("examine_list.examine", "Examine")}>
+          <Column title={m["examine_list.examine"]() ?? "Examine"}>
             <ExamineList
               sinsdb={sinsdb}
               selectedSinIds={sinsList
@@ -136,7 +136,7 @@ const ConfessIt = () => {
           </Column>
         </SwiperSlide>
         <SwiperSlide>
-          <Column title={t("sins_list.review", "Review")}>
+          <Column title={m["sins_list.review"]() ?? "Review"}>
             <SinsList
               sinsList={sinsList}
               onReorder={handleReorderSinsList}
@@ -148,7 +148,7 @@ const ConfessIt = () => {
           </Column>
         </SwiperSlide>
         <SwiperSlide>
-          <Column title={t("walkthrough.walkthrough", "Walkthrough")}>
+          <Column title={m["walkthrough.walkthrough"]() ?? "Walkthrough"}>
             <Walkthrough
               sinsList={sinsList}
               lastConfessionDate={lastConfessionDate}
