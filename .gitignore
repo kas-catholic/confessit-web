@@ -28,3 +28,6 @@ pnpm-debug.log*
 # https://github.com/yassinedoghri/astro-i18next?tab=readme-ov-file#generate
 src/pages/??/
 src/pages/??-??/
+
+# Paraglide generated files
+src/paraglide/
