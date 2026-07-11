@@ -24,30 +24,36 @@ const ConfessIt = () => {
     const storedState = localStorage.getItem("state");
 
     if (storedState) {
-      const parsedState = JSON.parse(storedState);
+      try {
+        const parsedState = JSON.parse(storedState);
 
-      if (Array.isArray(parsedState.sinsList)) {
-        setSinsList(parsedState.sinsList);
-      } else {
-        const migrated = (parsedState.selectedSinIds || []).map((id) => ({
-          id,
-          text: t(`sins.${id}.text_past`),
-          type: "sin",
-        }));
-        const storedCustomSins = parsedState.customSins || [];
-        storedCustomSins.forEach((s) => {
-          migrated.push(
-            typeof s === "string"
-              ? {
-                  id: `custom-${crypto.randomUUID()}`,
-                  text: s,
-                  type: "custom",
-                }
-              : { ...s, type: "custom" },
-          );
-        });
+        if (parsedState.version === 1) {
+          if (Array.isArray(parsedState.data?.sinsList)) {
+            setSinsList(parsedState.data.sinsList);
+          }
+        } else {
+          const migrated = (parsedState.selectedSinIds || []).map((id) => ({
+            id,
+            text: t(`sins.${id}.text_past`),
+            type: "sin",
+          }));
+          const storedCustomSins = parsedState.customSins || [];
+          storedCustomSins.forEach((s) => {
+            migrated.push(
+              typeof s === "string"
+                ? {
+                    id: `custom-${crypto.randomUUID()}`,
+                    text: s,
+                    type: "custom",
+                  }
+                : { ...s, type: "custom" },
+            );
+          });
 
-        setSinsList(migrated);
+          setSinsList(migrated);
+        }
+      } catch {
+        console.warn("Failed to load persisted state; starting fresh.");
       }
     }
 
@@ -60,7 +66,10 @@ const ConfessIt = () => {
 
   // Persist state to localStorage whenever it changes (after hydration).
   const persistData = useCallback(() => {
-    localStorage.setItem("state", JSON.stringify({ sinsList }));
+    localStorage.setItem(
+      "state",
+      JSON.stringify({ version: 1, data: { sinsList } }),
+    );
   }, [sinsList]);
 
   useEffect(() => {
