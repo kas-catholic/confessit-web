@@ -16,9 +16,7 @@ const AddSinModal = ({ addCustomSin }) => {
   return (
     <dialog id="AddSinModal" className="modal modal-bottom lg:modal-middle">
       <div className="modal-box">
-        <h3 className="text-lg font-bold">
-          {m["addbutton.add-custom-sin"]()}
-        </h3>
+        <h3 className="text-lg font-bold">{m["addbutton.add-custom-sin"]()}</h3>
         <textarea
           className="my-4 textarea textarea-bordered w-full"
           value={inputValue}
