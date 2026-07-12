@@ -2,7 +2,11 @@ import { TrashIcon } from "@heroicons/react/16/solid";
 import { useSortable } from "@dnd-kit/react/sortable";
 
 const GripIcon = () => (
-  <svg viewBox="0 0 12 12" fill="currentColor" className="w-4 h-4">
+  <svg
+    viewBox="0 0 12 12"
+    fill="currentColor"
+    className="w-6 h-6 md:w-4 md:h-4"
+  >
     <circle cx="2" cy="2" r="1.2" />
     <circle cx="6" cy="2" r="1.2" />
     <circle cx="2" cy="6" r="1.2" />
@@ -28,7 +32,7 @@ const SinListItem = ({ sinItem, onRemoveSinItem, id, index }) => {
     >
       <div
         ref={handleRef}
-        className="cursor-grab active:cursor-grabbing text-base-content/40 hover:text-base-content/70 shrink-0 p-1"
+        className="cursor-grab active:cursor-grabbing text-base-content/40 hover:text-base-content/70 shrink-0 p-2 md:p-1 touch-none select-none swiper-no-swiping"
         aria-label="Drag to reorder"
       >
         <GripIcon />
