@@ -1,6 +1,9 @@
 ---
 import { m } from "../paraglide/messages.js";
-export interface Props { key: string; }
+export interface Props {
+  key: string;
+}
 const { key } = Astro.props;
 ---
+
 <Fragment set:html={m[key]()} />

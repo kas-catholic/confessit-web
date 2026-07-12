@@ -45,7 +45,9 @@ function localizedPath(path: string, locale?: string): string {
         <link
           rel="alternate"
           hreflang={lng}
-          href={new URL(localizedPath(Astro.url.pathname, lng), Astro.site).href}
+          href={
+            new URL(localizedPath(Astro.url.pathname, lng), Astro.site).href
+          }
         />
       ))
     }

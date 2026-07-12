@@ -63,14 +63,16 @@ const Walkthrough = ({ sinsList, lastConfessionDate }) => {
         {m["walkthrough.your_confessor_will_assign"]()}
       </SpeechBubble>
       <SpeechBubble isPriest={false}>
-        <span dangerouslySetInnerHTML={{ __html: m["prayers.act_of_contrition_text"]() }} />
+        <span
+          dangerouslySetInnerHTML={{
+            __html: m["prayers.act_of_contrition_text"](),
+          }}
+        />
       </SpeechBubble>
       <SpeechBubble isPriest={true}>
         {m["walkthrough.god_the_father_of_mercies"]()}
       </SpeechBubble>
-      <SpeechBubble isPriest={false}>
-        {m["walkthrough.amen"]()}
-      </SpeechBubble>
+      <SpeechBubble isPriest={false}>{m["walkthrough.amen"]()}</SpeechBubble>
       <SpeechBubble isPriest={true}>
         {m["walkthrough.the_lord_has_freed_you"]()}
       </SpeechBubble>
