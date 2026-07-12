@@ -121,6 +121,7 @@ const ConfessIt = () => {
         slidesPerView={1}
         breakpoints={{ 1024: { slidesPerView: 3, spaceBetween: 0 } }}
         pagination={{ clickable: true }}
+        noSwiping={true}
         className="h-full"
       >
         <SwiperSlide className="h-full">
