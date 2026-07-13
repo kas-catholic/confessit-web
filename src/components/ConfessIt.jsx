@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import { m } from "../paraglide/messages.js";
 
 import sinsdb from "@data/sinsdb";
+import { buildMarkdown, downloadFile, copyToClipboard } from "@utils/export.js";
 
 import AddSinModal from "@components/AddSinModal";
 import Column from "@components/Column";
@@ -78,9 +79,15 @@ const ConfessIt = () => {
   }, [sinsList, persistData]);
 
   const addSinId = useCallback((id) => {
+    const sin = sinsdb.sins.find((s) => s.sin_id === id);
     setSinsList((prev) => [
       ...prev,
-      { id, text: m[`sins.${id}.text_past`](), type: "sin" },
+      {
+        id,
+        text: m[`sins.${id}.text_past`](),
+        type: "sin",
+        commandment_id: sin?.commandment_id,
+      },
     ]);
   }, []);
 
@@ -113,6 +120,18 @@ const ConfessIt = () => {
     setLastConfessionDate(null);
   }, []);
 
+  const handleDownloadSins = useCallback(() => {
+    const markdown = buildMarkdown(sinsList, (key) => m[key]());
+
+    downloadFile(markdown, "confession.md");
+  }, [sinsList]);
+
+  const handleCopySins = useCallback(async () => {
+    const markdown = buildMarkdown(sinsList, (key) => m[key]());
+
+    return await copyToClipboard(markdown);
+  }, [sinsList]);
+
   return (
     <div className="w-full h-full">
       <Swiper
@@ -144,6 +163,8 @@ const ConfessIt = () => {
               onRemoveSinItem={removeSinItem}
               onFinishConfession={handleFinishConfession}
               onClearAllData={handleClearAllData}
+              onDownloadSins={handleDownloadSins}
+              onCopySins={handleCopySins}
               lastConfessionDate={lastConfessionDate}
             />
           </Column>
