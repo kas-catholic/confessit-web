@@ -78,9 +78,15 @@ const ConfessIt = () => {
   }, [sinsList, persistData]);
 
   const addSinId = useCallback((id) => {
+    const sin = sinsdb.sins.find((s) => s.sin_id === id);
     setSinsList((prev) => [
       ...prev,
-      { id, text: m[`sins.${id}.text_past`](), type: "sin" },
+      {
+        id,
+        text: m[`sins.${id}.text_past`](),
+        type: "sin",
+        commandment_id: sin?.commandment_id,
+      },
     ]);
   }, []);
 
