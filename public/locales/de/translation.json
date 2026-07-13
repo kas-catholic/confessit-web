@@ -437,6 +437,12 @@
   },
   "sins_list": {
     "clear_all_data": "Alle Daten löschen",
+    "copy_to_clipboard": "In die Zwischenablage kopieren",
+    "copied_to_clipboard": "In die Zwischenablage kopiert!",
+    "export": "Exportieren",
+    "export_as_pdf": "Als PDF exportieren",
+    "export_as_text": "Als Text exportieren",
+    "failed_to_copy": "Kopieren fehlgeschlagen",
     "finish_confession": "Beichte beenden",
     "last_confession_on": "Deine letzte Beichte war am {date}.",
     "review": "Überprufen"
