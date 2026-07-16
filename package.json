@@ -32,7 +32,7 @@
     "locale-emoji": "^0.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "swiper": "^11.2.10",
+    "swiper": "^14.0.5",
     "tailwindcss": "4.1.13"
   },
   "devDependencies": {
@@ -57,8 +57,8 @@
     ]
   },
   "allowScripts": {
-    "esbuild@0.27.7": true,
     "esbuild@0.25.12": true,
-    "sharp@0.34.5": true
+    "sharp@0.34.5": true,
+    "esbuild@0.28.1": true
   }
 }
