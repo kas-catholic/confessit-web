@@ -10,7 +10,6 @@ It is 100% Static Site Generation (SSG). NO Server Side Rendering (SSR).
 - TailwindCSS (Vite)
 - DaisyUI - https://daisyui.com/llms.txt
 - Paraglide JS - https://paraglidejs.com/astro
-- Vite-PWA
 - Swiper JS (for main swipeable view)
 
 ## Quick Start
