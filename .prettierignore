@@ -13,3 +13,6 @@
 
 # Translations don't come in formatted
 /public/locales
+
+# Generated inlang files
+/project.inlang

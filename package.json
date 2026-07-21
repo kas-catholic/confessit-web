@@ -10,6 +10,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "npx eslint src",
+    "check": "astro check",
     "prepare": "husky"
   },
   "eslintConfig": {
@@ -36,7 +37,8 @@
     "tailwindcss": "4.1.13"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
+    "@astrojs/check": "^0.9.9",
+    "@eslint/js": "^9.39.5",
     "@tailwindcss/typography": "^0.5.16",
     "daisyui": "^5.6.18",
     "eslint": "^9.39.5",
@@ -46,7 +48,8 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
     "prettier": "^3.9.5",
-    "prettier-plugin-astro": "^0.14.1"
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript": "^5.9.3"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
