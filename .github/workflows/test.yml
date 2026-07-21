@@ -26,6 +26,9 @@ jobs:
       - name: Run Linter (eslint)
         run: npm run lint
 
+      - name: Astro Check
+        run: npm run check
+
       # - name: Run Tests
       #   run: yarn test
 
