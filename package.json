@@ -25,7 +25,7 @@
     "@dnd-kit/react": "^0.5.0",
     "@heroicons/react": "^2.2.0",
     "@inlang/paraglide-js": "^2.22.0",
-    "@tailwindcss/vite": "4.0.9",
+    "@tailwindcss/vite": "4.3.3",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "astro": "^7.0.9",
