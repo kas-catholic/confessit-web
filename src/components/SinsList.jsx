@@ -3,9 +3,8 @@ import { move } from "@dnd-kit/helpers";
 import SinListItem from "@components/SinListItem";
 import { m } from "../paraglide/messages.js";
 import { getLocale } from "../paraglide/runtime.js";
-import { jsPDF } from "jspdf";
 import { useState } from "react";
-import sinsdb from "@data/sinsdb";
+import { buildMarkdown, downloadFile, copyToClipboard } from "@utils/export.js";
 
 const SinsList = ({
   sinsList,
@@ -37,128 +36,20 @@ const SinsList = ({
     />
   ));
 
-  // Helper to get the text content for export, grouped by commandment
-  const getContentText = () => {
-    const grouped = {};
-    const customs = [];
-
-    for (const item of sinsList) {
-      const cmdId =
-        item.commandment_id ??
-        sinsdb.sins.find((s) => s.sin_id === item.id)?.commandment_id;
-      if (cmdId) {
-        if (!grouped[cmdId]) grouped[cmdId] = [];
-        grouped[cmdId].push(item.text);
-      } else {
-        customs.push(item.text);
-      }
-    }
-
-    const lines = [];
-    for (const cmd of sinsdb.commandments) {
-      const sins = grouped[cmd.commandment_id];
-      if (!sins || sins.length === 0) continue;
-      lines.push(m[`commandments.${cmd.commandment_id}.title`]());
-      for (const text of sins) {
-        lines.push(`  ${text}`);
-      }
-      lines.push("");
-    }
-    for (const text of customs) {
-      lines.push(text);
-    }
-
-    return lines.join("\n").trimEnd();
-  };
-
   const handleExportText = () => {
-    const text = getContentText();
-    const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.setAttribute("href", url);
-    link.setAttribute("download", "confession.txt");
-    link.style.visibility = "hidden";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
-  };
-
-  const handleExportPDF = () => {
-    const doc = new jsPDF();
-    let y = 20;
-    const lineHeight = 10;
-    const pageLimit = 280;
-
-    const grouped = {};
-    const customs = [];
-
-    for (const item of sinsList) {
-      const cmdId =
-        item.commandment_id ??
-        sinsdb.sins.find((s) => s.sin_id === item.id)?.commandment_id;
-      if (cmdId) {
-        if (!grouped[cmdId]) grouped[cmdId] = [];
-        grouped[cmdId].push(item.text);
-      } else {
-        customs.push(item.text);
-      }
-    }
-
-    const drawLine = (text, bold) => {
-      if (y > pageLimit) {
-        doc.addPage();
-        y = 20;
-      }
-      doc.setFont("helvetica", bold ? "bold" : "normal");
-      doc.setFontSize(bold ? 13 : 12);
-      doc.text(text, 20, y);
-      y += lineHeight;
-    };
-
-    for (const cmd of sinsdb.commandments) {
-      const sins = grouped[cmd.commandment_id];
-
-      if (!sins || sins.length === 0) continue;
-
-      drawLine(m[`commandments.${cmd.commandment_id}.title`](), true);
-
-      for (const text of sins) {
-        drawLine(`  ${text}`, false);
-      }
-
-      y += 4;
-    }
-
-    for (const text of customs) {
-      drawLine(text, false);
-    }
-
-    doc.save("confession.pdf");
+    const md = buildMarkdown(sinsList, (key) => m[key]());
+    downloadFile(md, "confession.md");
   };
 
   const handleCopyToClipboard = async () => {
-    const text = getContentText();
+    const md = buildMarkdown(sinsList, (key) => m[key]());
+    const ok = await copyToClipboard(md);
 
-    try {
-      if (navigator.clipboard && window.isSecureContext) {
-        await navigator.clipboard.writeText(text);
-      } else {
-        const textarea = document.createElement("textarea");
-        textarea.value = text;
-        textarea.style.position = "fixed";
-        textarea.style.left = "-9999px";
-        document.body.appendChild(textarea);
-        textarea.select();
-        document.execCommand("copy");
-        document.body.removeChild(textarea);
-      }
-
-      showToastMessage(m["sins_list.copied_to_clipboard"]());
-    } catch {
-      showToastMessage(m["sins_list.failed_to_copy"]());
-    }
+    showToastMessage(
+      ok
+        ? m["sins_list.copied_to_clipboard"]()
+        : m["sins_list.failed_to_copy"](),
+    );
   };
 
   const showToastMessage = (message) => {
@@ -234,15 +125,6 @@ const SinsList = ({
                     }}
                   >
                     {m["sins_list.export_as_text"]()}
-                  </button>
-                  <button
-                    className="flex w-full px-4 py-2 text-left text-base-content hover:bg-base-200 cursor-pointer"
-                    onClick={() => {
-                      handleExportPDF();
-                      setShowExportOptions(false);
-                    }}
-                  >
-                    {m["sins_list.export_as_pdf"]()}
                   </button>
                   <button
                     className="flex w-full px-4 py-2 text-left text-base-content hover:bg-base-200 cursor-pointer"

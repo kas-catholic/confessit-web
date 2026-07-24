@@ -390,7 +390,6 @@
     "copy_to_clipboard": "Copier dans le presse-papiers",
     "copied_to_clipboard": "Copié dans le presse-papiers !",
     "export": "Exporter",
-    "export_as_pdf": "Exporter en PDF",
     "export_as_text": "Exporter en texte",
     "failed_to_copy": "Échec de la copie",
     "finish_confession": "Terminer la confession",
