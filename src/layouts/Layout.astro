@@ -3,7 +3,7 @@ import { m } from "../paraglide/messages.js";
 import { getLocale, localizeHref, locales } from "../paraglide/runtime.js";
 import localeEmoji from "locale-emoji";
 import ISO6391 from "iso-639-1";
-import { TrashIcon, PlusIcon } from "@heroicons/react/16/solid";
+import { PlusIcon } from "@heroicons/react/16/solid";
 
 import "@styles/base.css";
 interface Props {
@@ -16,7 +16,9 @@ const currentLocale = getLocale();
 const cannonicalUrl = new URL(Astro.url.pathname, Astro.site);
 
 function localizedPath(path: string, locale?: string): string {
-  const result = locale ? localizeHref(path, { locale }) : localizeHref(path);
+  const result = locale
+    ? localizeHref(path, { locale: locale as (typeof locales)[number] })
+    : localizeHref(path);
   if (result === "/") return "/";
   return result.endsWith("/") ? result : result + "/";
 }

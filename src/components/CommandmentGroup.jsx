@@ -5,7 +5,7 @@ const CommandmentGroup = ({ title, text, children }) => {
     <div className="collapse collapse-arrow mb-8 bg-base-200 rounded-none lg:rounded-md">
       <input type="checkbox" defaultChecked />
 
-      <div className="collapse-title bg-base-300">
+      <div className="collapse-title bg-base-300 rounded-none lg:rounded-t-md">
         <h3 className="text-2xl">{title}</h3>
         <p>{text}</p>
       </div>

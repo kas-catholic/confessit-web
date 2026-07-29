@@ -2,13 +2,14 @@
 
 ConfessIt is a Catholic examination of conscience progressive web app.
 
+It is 100% Static Site Generation (SSG). NO Server Side Rendering (SSR).
+
 ## Tools
 
 - [Astro](https://astro.build/)
 - TailwindCSS (Vite)
 - DaisyUI - https://daisyui.com/llms.txt
-- i18next (Translations, internationalization)
-- Vite-PWA
+- Paraglide JS - https://paraglidejs.com/astro
 - Swiper JS (for main swipeable view)
 
 ## Quick Start
