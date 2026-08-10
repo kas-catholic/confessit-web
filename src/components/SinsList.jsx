@@ -4,7 +4,6 @@ import SinListItem from "@components/SinListItem";
 import { m } from "../paraglide/messages.js";
 import { getLocale } from "../paraglide/runtime.js";
 import { useState } from "react";
-import { buildMarkdown, downloadFile, copyToClipboard } from "@utils/export.js";
 
 const SinsList = ({
   sinsList,
@@ -12,6 +11,8 @@ const SinsList = ({
   onRemoveSinItem,
   onFinishConfession,
   onClearAllData,
+  onDownloadSins,
+  onCopySins,
   lastConfessionDate,
 }) => {
   const locale = getLocale();
@@ -36,14 +37,8 @@ const SinsList = ({
     />
   ));
 
-  const handleExportText = () => {
-    const md = buildMarkdown(sinsList, (key) => m[key]());
-    downloadFile(md, "confession.md");
-  };
-
   const handleCopyToClipboard = async () => {
-    const md = buildMarkdown(sinsList, (key) => m[key]());
-    const ok = await copyToClipboard(md);
+    const ok = await onCopySins();
 
     showToastMessage(
       ok
@@ -120,7 +115,7 @@ const SinsList = ({
                   <button
                     className="flex w-full px-4 py-2 text-left text-base-content hover:bg-base-200 cursor-pointer"
                     onClick={() => {
-                      handleExportText();
+                      onDownloadSins();
                       setShowExportOptions(false);
                     }}
                   >
