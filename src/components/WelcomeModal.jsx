@@ -9,8 +9,7 @@ const WelcomeModal = () => {
   useEffect(() => {
     const hasSeenWelcome = localStorage.getItem("confessit.welcome");
     if (!hasSeenWelcome) {
-      // eslint-disable-next-line no-undef
-      WelcomeModalId.showModal();
+      document.getElementById("WelcomeModalId")?.showModal();
     }
   }, []);
 
