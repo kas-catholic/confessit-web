@@ -1,5 +1,6 @@
 import { DragDropProvider } from "@dnd-kit/react";
 import { move } from "@dnd-kit/helpers";
+import { ChevronDownIcon } from "@heroicons/react/16/solid";
 import SinListItem from "@components/SinListItem";
 import { m } from "../paraglide/messages.js";
 import { getLocale } from "../paraglide/runtime.js";
@@ -17,8 +18,6 @@ const SinsList = ({
 }) => {
   const locale = getLocale();
   const [showExportOptions, setShowExportOptions] = useState(false);
-  const [toastMessage, setToastMessage] = useState("");
-  const [showToast, setShowToast] = useState(false);
 
   const handleDragEnd = (event) => {
     const next = move(sinsList, event);
@@ -36,24 +35,6 @@ const SinsList = ({
       index={index}
     />
   ));
-
-  const handleCopyToClipboard = async () => {
-    const ok = await onCopySins();
-
-    showToastMessage(
-      ok
-        ? m["sins_list.copied_to_clipboard"]()
-        : m["sins_list.failed_to_copy"](),
-    );
-  };
-
-  const showToastMessage = (message) => {
-    setToastMessage(message);
-    setShowToast(true);
-    setTimeout(() => {
-      setShowToast(false);
-    }, 3000);
-  };
 
   return (
     <DragDropProvider onDragEnd={handleDragEnd}>
@@ -93,20 +74,7 @@ const SinsList = ({
               onClick={() => setShowExportOptions(!showExportOptions)}
             >
               {m["sins_list.export"]()}
-              <svg
-                className="ml-2 h-4 w-4"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d={showExportOptions ? "M18 9l-3 3-3-3" : "M9 15l3-3 3 3"}
-                />
-              </svg>
+              <ChevronDownIcon className="ml-2 h-4 w-4" />
             </button>
 
             {showExportOptions && (
@@ -124,7 +92,7 @@ const SinsList = ({
                   <button
                     className="flex w-full px-4 py-2 text-left text-base-content hover:bg-base-200 cursor-pointer"
                     onClick={() => {
-                      handleCopyToClipboard();
+                      onCopySins();
                       setShowExportOptions(false);
                     }}
                   >
@@ -135,12 +103,6 @@ const SinsList = ({
             )}
           </div>
         </div>
-
-        {showToast && (
-          <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-base-200 text-base-content px-4 py-2 rounded-md shadow-lg z-50">
-            {toastMessage}
-          </div>
-        )}
       </div>
     </DragDropProvider>
   );
