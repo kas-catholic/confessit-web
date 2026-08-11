@@ -6,4 +6,4 @@ export interface Props {
 const { key } = Astro.props;
 ---
 
-<Fragment set:html={m[key]()} />
+<Fragment set:html={(m as unknown as Record<string, () => string>)[key]()} />
