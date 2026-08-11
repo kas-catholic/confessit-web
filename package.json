@@ -13,12 +13,6 @@
     "check": "astro check",
     "prepare": "husky"
   },
-  "eslintConfig": {
-    "extends": "react-app",
-    "rules": {
-      "jsx-a11y/anchor-has-content": "off"
-    }
-  },
   "dependencies": {
     "@astrojs/react": "^6.0.2",
     "@dnd-kit/helpers": "^0.5.0",
@@ -53,11 +47,6 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
-  },
-  "jest": {
-    "transformIgnorePatterns": [
-      "/node_modules/(?!(swiper|ssr-window|dom7)/)"
-    ]
   },
   "allowScripts": {
     "esbuild@0.25.12": true,
