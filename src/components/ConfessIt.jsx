@@ -18,6 +18,7 @@ import WelcomeModal from "@components/WelcomeModal";
 const ConfessIt = () => {
   const [sinsList, setSinsList] = useState([]);
   const [lastConfessionDate, setLastConfessionDate] = useState(null);
+  const [toastMessage, setToastMessage] = useState(null);
 
   const hasHydrated = useRef(false);
 
@@ -126,11 +127,24 @@ const ConfessIt = () => {
     downloadFile(markdown, "confession.md");
   }, [sinsList]);
 
+  const showToast = useCallback((message) => {
+    setToastMessage(message);
+    setTimeout(() => {
+      setToastMessage(null);
+    }, 3000);
+  }, []);
+
   const handleCopySins = useCallback(async () => {
     const markdown = buildMarkdown(sinsList, (key) => m[key]());
 
-    return await copyToClipboard(markdown);
-  }, [sinsList]);
+    const ok = await copyToClipboard(markdown);
+
+    showToast(
+      ok
+        ? m["sins_list.copied_to_clipboard"]()
+        : m["sins_list.failed_to_copy"](),
+    );
+  }, [sinsList, showToast]);
 
   return (
     <div className="w-full h-full">
@@ -180,6 +194,11 @@ const ConfessIt = () => {
       </Swiper>
       <AddSinModal addCustomSin={addCustomSin} />
       <WelcomeModal />
+      {toastMessage && (
+        <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-base-200 text-base-content px-4 py-2 rounded-md shadow-lg z-50">
+          {toastMessage}
+        </div>
+      )}
     </div>
   );
 };
